@@ -1,0 +1,100 @@
+spriteTypes = {
+
+ #(UK#
+ 
+    #(British mobile infantry vehicle#
+        SpriteType = {
+            name = "GFX_ENG_mechanised_infantry2_medium"
+            texturefile = "gfx/interface/technologies/tfv_shared2_mechanized_equipment_2.dds"
+         }
+	#)#
+
+ #)#			
+
+ #(Canada#
+ 
+    #(Canadian infantry weapon#
+		SpriteType = {
+            name = "GFX_CAN_improved_infantry_weapons_medium"
+            texturefile = "gfx/interface/technologies/ENG_infantry_equipment_2.dds"
+         }
+
+        SpriteType = {
+            name = "GFX_CAN_advanced_infantry_weapons_medium"
+            texturefile = "gfx/interface/technologies/ENG_infantry_equipment_3.dds"
+         }
+	#)#
+			
+    #(Canadian mobile infantry vehicle#
+        SpriteType = {
+            name = "GFX_CAN_mechanised_infantry3_medium"
+            texturefile = "gfx/interface/technologies/CAN_mechanized_equipment_3.dds"
+         }
+	#)#
+
+ #)#			
+
+ #(Australia#
+ 		
+    #(Australian infantry weapon#		 
+        SpriteType = { 
+	        name = "GFX_AST_infantry_weapons1_medium" 
+	    	texturefile = "gfx/interface/technologies/AST_infantry_equipment_1.dds" 
+	     }
+	#)#
+	
+    #(Australian mobile infantry vehicle#
+        SpriteType = {
+            name = "GFX_AST_mechanised_infantry2_medium"
+            texturefile = "gfx/interface/technologies/tfv_shared2_mechanized_equipment_2.dds"
+         }
+	#)#
+
+ #)#
+
+ #(New Zealand#
+ 			
+    #(New Zealand mobile infantry vehicle#
+        SpriteType = {
+            name = "GFX_NZL_mechanised_infantry2_medium"
+            texturefile = "gfx/interface/technologies/tfv_shared2_mechanized_equipment_2.dds"
+         }
+	#)#
+
+ #)#
+
+ #(South Africa#
+ 			
+	#(South African mobile infantry vehicle#
+        SpriteType = {
+            name = "GFX_SAF_mechanised_infantry2_medium"
+            texturefile = "gfx/interface/technologies/tfv_shared2_mechanized_equipment_2.dds"
+         }
+	#)#
+
+ #)#
+
+ #(India#
+ 			
+    #(Indian mobile infantry vehicle#
+        SpriteType = {
+            name = "GFX_RAJ_mechanised_infantry2_medium"
+            texturefile = "gfx/interface/technologies/tfv_shared2_mechanized_equipment_2.dds"
+         }
+	#)#
+
+ #)#
+
+ #(Mexico#
+ 	
+	#(Mexican great war tank#
+        SpriteType = {
+            name = "GFX_MEX_gwtank_medium"
+            texturefile = "gfx/interface/technologies/mex_gwtank.dds"
+         } 
+	#)#
+
+ #)#
+
+ 
+ }

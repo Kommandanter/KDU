@@ -1,0 +1,361 @@
+﻿l_english:
+
+ #German carrier-based aircraft
+ GER_cv_fighter_equipment_0:0 "Heinkel HD 23"
+ GER_cv_fighter_equipment_0_short:0 "HD 23"
+ GER_cv_CAS_equipment_2:0 "Junkers Ju 87 D-4"
+ GER_cv_CAS_equipment_2_short:0 "Ju 87 D-4"
+ GER_nav_bomber_equipment_1:0 "Heinkel He 115"
+ GER_nav_bomber_equipment_1_short:0 "He 115"
+ GER_nav_bomber_equipment_2:0 "Blohm & Voss BV 138"
+ GER_nav_bomber_equipment_2_short:0 "BV 138"
+ GER_nav_bomber_equipment_3:0 "Junkers Ju 290 A-2"
+ GER_nav_bomber_equipment_3_short:0 "Ju 290 A-2"
+ 
+ #German jet
+ GER_jet_fighter_equipment_2:0 "Messerschmitt Me P.1101"
+ GER_jet_fighter_equipment_2_short:0 "Me P.1101"
+ GER_jet_tac_bomber_equipment_1:0 "Arado Ar 234 'Blitz'"
+ GER_jet_tac_bomber_equipment_1_short:0 "Ar 234 'Blitz'"
+ GER_jet_tac_bomber_equipment_2:0 "Heinkel He 343"
+ GER_jet_tac_bomber_equipment_2_short:0 "He 343"
+ GER_jet_strat_bomber_equipment_1:0 "Junkers Ju EF 132"
+ GER_jet_strat_bomber_equipment_1_short:0 "Ju EF 132"
+ 
+ #German scout plane
+ GER_scout_plane_equipment_1:0 "Henschel Hs 126"
+ GER_scout_plane_equipment_1_short:0 "Hs 126"
+ 
+ #USSR aircraft
+ SOV_CAS_equipment_1:0 "Sukhoi Su-2"
+ SOV_CAS_equipment_1_short:0 "Su-2"
+ SOV_heavy_fighter_equipment_3:0 "Polikarpov TIS"
+ SOV_heavy_fighter_equipment_3_short:0 "TIS"
+ SOV_strat_bomber_equipment_2:0 "Yermolayev Yer-2"
+ SOV_strat_bomber_equipment_2_short:0 "Yer-2"
+ 
+ #USSR jet
+ SOV_jet_tac_bomber_equipment_2:0 "Ilyushin Il-30"
+ SOV_jet_tac_bomber_equipment_2_short:0 "Il-30"
+ SOV_jet_strat_bomber_equipment_1:0 "Tupolev Tu-16"
+ SOV_jet_strat_bomber_equipment_1_short:0 "Tu-16"
+ 
+ #USSR scout plane
+ SOV_scout_plane_equipment_1:0 "Kharkov R-10"
+ SOV_scout_plane_equipment_1_short:0 "R-10"
+ SOV_scout_plane_equipment_2:0 "Tupolev Tu-6"
+ SOV_scout_plane_equipment_2_short:0 "Tu-6"
+ 
+ #USSR rocket interceptor
+ SOV_rocket_interceptor_equipment_1:0 "Bereznyak-Isayev BI-1"
+ SOV_rocket_interceptor_equipment_1_short:0 "BI-1" 
+ SOV_rocket_interceptor_equipment_2:0 "Polikarpov Malyutka"
+ SOV_rocket_interceptor_equipment_2_short:0 "Malyutka"
+ SOV_rocket_interceptor_equipment_3:0 "Mikoyan-Guerevich I-270"
+ SOV_rocket_interceptor_equipment_3_short:0 "I-270"
+ 
+ #USA carrier-based aircraft
+ USA_cv_nav_bomber_equipment_3:0 "Consolidated TBY Sea Wolf"
+ USA_cv_nav_bomber_equipment_3_short:0 "TBY Sea Wolf"
+ 
+ #USA jet
+ USA_jet_tac_bomber_equipment_1:0 "Curtiss XA-43"
+ USA_jet_tac_bomber_equipment_1_short:0 "XA-43"
+ 
+ #USA rocket interceptor
+ USA_rocket_interceptor_equipment_1:0 "Northrop MX-324"
+ USA_rocket_interceptor_equipment_1_short:0 "MX-324" 
+ USA_rocket_interceptor_equipment_2:0 "Northrop XP-79"
+ USA_rocket_interceptor_equipment_2_short:0 "XP-79" 
+ USA_rocket_interceptor_equipment_3:0 "Republic XF-91 Thunderceptor"
+ USA_rocket_interceptor_equipment_3_short:0 "XF-91 Thunderceptor" 
+ 
+ #British rocket interceptor
+ ENG_rocket_interceptor_equipment_2:0 "Hawker P.1072"
+ ENG_rocket_interceptor_equipment_2_short:0 "Hawker P.1072"  
+ 
+ #Commonwealth rocket interceptor
+ CAN_rocket_interceptor_equipment_2:0 "Hawker P.1072"
+ CAN_rocket_interceptor_equipment_2_short:0 "Hawker P.1072" 
+ AST_rocket_interceptor_equipment_2:0 "Hawker P.1072"
+ AST_rocket_interceptor_equipment_2_short:0 "Hawker P.1072"
+ NZL_rocket_interceptor_equipment_2:0 "Hawker P.1072"
+ NZL_rocket_interceptor_equipment_2_short:0 "Hawker P.1072"
+ SAF_rocket_interceptor_equipment_2:0 "Hawker P.1072"
+ SAF_rocket_interceptor_equipment_2_short:0 "Hawker P.1072"
+ RAJ_rocket_interceptor_equipment_2:0 "Hawker P.1072"
+ RAJ_rocket_interceptor_equipment_2_short:0 "Hawker P.1072" 
+ 
+ #Commonwealth transport
+ CAN_transport_plane_equipment_1:0 "Bristol Bombay"
+ AST_transport_plane_equipment_1:0 "Bristol Bombay"
+ NZL_transport_plane_equipment_1:0 "Bristol Bombay"
+ SAF_transport_plane_equipment_1:0 "Bristol Bombay"
+ RAJ_transport_plane_equipment_1:0 "Bristol Bombay"
+ 
+ #Australian aircraft
+ AST_CAS_equipment_3:0 "Bristol Beaufighter IC"
+ AST_CAS_equipment_3_short:0 "Beaufighter IC"
+ AST_fighter_equipment_2:0 "CAC CA-15 Kangaroo"
+ AST_fighter_equipment_2_short:0 "CAC Kangaroo"
+ AST_fighter_equipment_3:0 "CAC CA-17 Mustang"
+ AST_fighter_equipment_3_short:0 "CAC Mustang"
+ 
+ #Japanese jet 
+ JAP_jet_tac_bomber_equipment_1:0 "Yokosuka R2Y2 Keiun-Kai"
+ JAP_jet_tac_bomber_equipment_1_short:0 "R2Y2 Keiun-Kai"
+ JAP_jet_tac_bomber_equipment_2:0 "Yokosuka Tenga"
+ JAP_jet_tac_bomber_equipment_2_short:0 "Tenga"
+ 
+ #Japanese rocket interceptor
+ JAP_rocket_interceptor_equipment_1:0 "Mitsubishi J8M Shusui"
+ JAP_rocket_interceptor_equipment_1_short:0 "J8M Shusui" 
+ JAP_rocket_interceptor_equipment_2:0 "Mitsubishi Ki-202 Shusui-Kai"
+ JAP_rocket_interceptor_equipment_2_short:0 "Ki-202 Shusui-Kai" 
+ JAP_rocket_interceptor_equipment_3:0 "Mizuno Shinryu II"
+ JAP_rocket_interceptor_equipment_3_short:0 "Shinryu II" 
+
+ #Italian carrier-based aircraft
+ ITA_cv_fighter_equipment_1:0 "IMAN Ro.51/1"
+ ITA_cv_fighter_equipment_1_short:0 "Ro.51/1"
+ ITA_cv_fighter_equipment_2:0 "Fiat G.50 Naval Freccia"
+ ITA_cv_fighter_equipment_2_short:0 "G.50 Naval Freccia"
+ 
+ #French jet
+ FRA_jet_fighter_equipment_2:0 "Dassault MD.452 Mystère"
+ FRA_jet_fighter_equipment_2_short:0 "Mystère"
+ FRA_jet_tac_bomber_equipment_1:0 "SNCASO SO.4000 Vautour"
+ FRA_jet_tac_bomber_equipment_1_short:0 "Vautour"
+ FRA_jet_tac_bomber_equipment_2:0 "SNCASO SO.4050 Vautour II"
+ FRA_jet_tac_bomber_equipment_2_short:0 "Vautour II"
+ 
+ #French rocket interceptor
+ FRA_rocket_interceptor_equipment_2:0 "SNCASO SO.6020 Espadon"
+ FRA_rocket_interceptor_equipment_2_short:0 "SO.6020 Espadon"
+ FRA_rocket_interceptor_equipment_3:0 "SNCASO SO.6025"
+ FRA_rocket_interceptor_equipment_3_short:0 "SO.6025"
+ 
+ #French aircraft
+ FRA_CAS_equipment_2:0 "Loire-Nieuport LN.40"
+ FRA_CAS_equipment_2_short:0 "LN.40"
+ 
+ #Polish jet
+ POL_jet_fighter_equipment_2:0 "PZL Mielec Lim-1"
+ POL_jet_fighter_equipment_2_short:0 "Lim-1"
+ 
+ #Polish transport
+ POL_transport_plane_equipment_1:0 "PZL.44 Wicher"
+ 
+ #Romania aircraft
+ ROM_CAS_equipment_1:0 "IAR 39"
+ ROM_CAS_equipment_1_short:0 "IAR 39"
+ ROM_CAS_equipment_3:0 "IAR 47"
+ ROM_CAS_equipment_3_short:0 "IAR 47"
+ 
+ ROM_fighter_equipment_1:0 "IAR 16"
+ ROM_fighter_equipment_1_short:0 "IAR 16"
+ ROM_fighter_equipment_3:0 "IAR 82"
+ ROM_fighter_equipment_3_short:0 "IAR 82"
+ 
+ ROM_tac_bomber_equipment_1:1 "IAR 79"
+ ROM_tac_bomber_equipment_1_short:1 "IAR 79"
+ 
+ ROM_nav_bomber_equipment_1:1 "SET 7H"
+ ROM_nav_bomber_equipment_1_short:1 "SET 7H"
+ 
+ #Hungarian aircraft
+ HUN_heavy_fighter_equipment_1:0 "RMI-2 X/G"
+ HUN_heavy_fighter_equipment_1_short:0 "RMI-2 X/G"
+ HUN_heavy_fighter_equipment_2:1 "Messerschmitt Me 210 Ca-1"
+ HUN_heavy_fighter_equipment_2_short:1 "Me 210 Ca-1"
+ 
+ HUN_CAS_equipment_1:1 "Weiss WM-21 Sólyom"
+ HUN_CAS_equipment_1_short:0 "WM-21"
+ HUN_CAS_equipment_2:0 "Messerschmitt Me 210 Ca-1 /40mm"
+ HUN_CAS_equipment_2_short:0 "Me 210 Ca-1 /40mm"
+
+ HUN_strat_bomber_equipment_1:0 "RMI-5 X/U"
+ HUN_strat_bomber_equipment_1_short:0 "RMI-5 X/U"
+ HUN_strat_bomber_equipment_2:0 "RMI-12 Z/G"
+ HUN_strat_bomber_equipment_2_short:0 "RMI-12 Z/G"
+ HUN_strat_bomber_equipment_3:0 "RMI-15 X/U"
+ HUN_strat_bomber_equipment_3_short:0 "RMI-15 X/U"
+
+ HUN_nav_bomber_equipment_1:0 "RMI-1 X/H"
+ HUN_nav_bomber_equipment_1_short:0 "RMI-1 X/H"
+ 
+ HUN_tac_bomber_equipment_0:0 "Weiss WM-16 Budapest"
+ HUN_tac_bomber_equipment_0_short:0 "WM-16"
+ HUN_tac_bomber_equipment_1:0 "Weiss WM-37"
+ HUN_tac_bomber_equipment_1_short:0 "WM-37"
+ HUN_tac_bomber_equipment_2:0 "RMI-13 X/H"
+ HUN_tac_bomber_equipment_2_short:0 "RMI-13 X/H"
+ HUN_tac_bomber_equipment_3:0 "RMI-16 Z/H"
+ HUN_tac_bomber_equipment_3_short:0 "RMI-16 Z/H"
+ 
+ #Yugoslavian aircraft
+ YUG_CAS_equipment_3:0 "Ikarus SOKO 522"
+ YUG_CAS_equipment_3_short:0 "SOKO 522" 
+ YUG_nav_bomber_equipment_3:0 "Ikarus 214PP"
+ YUG_nav_bomber_equipment_3_short:0 "Ikarus 214PP"
+ YUG_tac_bomber_equipment_0:1 "Potez 25"
+ YUG_tac_bomber_equipment_0_short:1 "Potez 25"
+ YUG_tac_bomber_equipment_1:1 "Ikarus B-4" 
+ 
+ #Czechoslovakian aircraft 
+ CZE_nav_bomber_equipment_1:0 "Letov S-328V"
+ CZE_nav_bomber_equipment_1_short:0 "Letov S-328V"
+ 
+ #Czechoslovakian jet
+ CZE_jet_fighter_equipment_2:0 "Avia S-105"
+ CZE_jet_fighter_equipment_2_short:0 "S-105"
+ CZE_jet_tac_bomber_equipment_1:0 "Avia B-228"
+ CZE_jet_tac_bomber_equipment_1_short:0 "B-228"
+ 
+ #Czechoslovakian transport
+ CZE_transport_plane_equipment_1:0 "Avia 51"
+
+ #Dutch aircraft 
+ HOL_fighter_equipment_3:0 "Fokker D.XXV"
+ HOL_fighter_equipment_3_short:0 "Fokker D.XXV"
+ HOL_CAS_equipment_1:0 "Fokker C.X"
+ HOL_CAS_equipment_1_short:0 "Fokker C.X"
+ HOL_CAS_equipment_2:0 "Fokker C.X"
+ HOL_CAS_equipment_2_short:0 "Fokker C.XV"
+ HOL_CAS_equipment_3:0 "Fokker C.XVII"
+ HOL_CAS_equipment_3_short:0 "Fokker C.XVII"
+ HOL_nav_bomber_equipment_3:0 "Fokker T.XI"
+ HOL_nav_bomber_equipment_3_short:0 "Fokker T.XI"
+ HOL_heavy_fighter_equipment_2:0 "Fokker D.XXIII"
+ HOL_heavy_fighter_equipment_2_short:0 "Fokker D.XXIII"
+ HOL_heavy_fighter_equipment_3:0 "Fokker D.XXX"
+ HOL_heavy_fighter_equipment_3_short:0 "Fokker D.XXX"
+ HOL_tac_bomber_equipment_3:0 "Fokker T.XIII"
+ HOL_tac_bomber_equipment_3_short:0 "Fokker T.XIII"
+ HOL_strat_bomber_equipment_1:0 "Fokker T.XX"
+ HOL_strat_bomber_equipment_1_short:0 "Fokker T.XX"
+ HOL_strat_bomber_equipment_2:0 "Fokker T.XXII"
+ HOL_strat_bomber_equipment_2_short:0 "Fokker T.XXII"
+ HOL_strat_bomber_equipment_3:0 "Fokker T.XXV"
+ HOL_strat_bomber_equipment_3_short:0 "Fokker T.XXV"
+ 
+ #Dutch transport
+ HOL_transport_plane_equipment_1:0 "Fokker F.XVIII"
+ 
+ #Mexican aircraft
+ MEX_fighter_equipment_0:0 "TNCA 'Tololoche' 3-E-130"
+ MEX_fighter_equipment_0_short:0 "Tololoche" 
+ MEX_fighter_equipment_1:0 "Mariscraft MA-260"
+ MEX_fighter_equipment_1_short:0 "MA-260"
+ MEX_fighter_equipment_2:0 "Fierro Teziutlán II"
+ MEX_fighter_equipment_2_short:0 "Teziutlán II"
+ MEX_fighter_equipment_3:0 "TNCA Huitzilopochtli"
+ MEX_fighter_equipment_3_short:0 "Huitzilopochtli"
+ MEX_CAS_equipment_1:0 "Spartan 'Zeus' 8W"
+ MEX_CAS_equipment_1_short:0 "Zeus"
+ MEX_CAS_equipment_2:0 "Fierro Teziutlán IIB"
+ MEX_CAS_equipment_2_short:0 "Teziutlán IIB"
+ MEX_CAS_equipment_3:0 "TNCA Tonatiuh"
+ MEX_CAS_equipment_3_short:0 "Tonatiuh"
+ MEX_nav_bomber_equipment_1:0 "Mariscraft MA-260T"
+ MEX_nav_bomber_equipment_1_short:0 "MA-260T"
+ MEX_nav_bomber_equipment_2:0 "TNCA Chalchiuhtlicue"
+ MEX_nav_bomber_equipment_2_short:0 "Chalchiuhtlicue"
+ MEX_nav_bomber_equipment_3:0 "TNCA Tlaloc"
+ MEX_nav_bomber_equipment_3_short:0 "Tlaloc"
+ MEX_heavy_fighter_equipment_1:0 "TNCA Ehecatl"
+ MEX_heavy_fighter_equipment_1_short:0 "Ehecatl"
+ MEX_heavy_fighter_equipment_2:0 "TCNA Xolotl"
+ MEX_heavy_fighter_equipment_2_short:0 "Xolotl"
+ MEX_heavy_fighter_equipment_3:0 "TCNA Xipe-Totec"
+ MEX_heavy_fighter_equipment_3_short:0 "Xipe-Totec"
+ MEX_tac_bomber_equipment_0:0 "TNCA 'Azcárate' O-E-1"
+ MEX_tac_bomber_equipment_0_short:0 "Azcárate"
+ MEX_tac_bomber_equipment_1:0 "TNCA Tepeyollotl"
+ MEX_tac_bomber_equipment_1_short:0 "Tepeyollotl"
+ MEX_tac_bomber_equipment_2:0 "TNCA Chantico"
+ MEX_tac_bomber_equipment_2_short:0 "Chantico"
+ MEX_tac_bomber_equipment_3:0 "TNCA Mictlantecuhtli"
+ MEX_tac_bomber_equipment_3_short:0 "Mictlantecuhtli"
+ MEX_strat_bomber_equipment_1:0 "TNCA Tezcatlipoca"
+ MEX_strat_bomber_equipment_1_short:0 "Tezcatlipoca"
+ MEX_strat_bomber_equipment_2:0 "TNCA Xiuhtecuhtli"
+ MEX_strat_bomber_equipment_2_short:0 "Xiuhtecuhtli"
+ MEX_strat_bomber_equipment_3:0 "TNCA Mictecacihuatl"
+ MEX_strat_bomber_equipment_3_short:0 "Mictecacihuatl"
+ 
+ #Mexican carrier-based aircraft
+ MEX_cv_fighter_equipment_0:0 "TNCA 'Tololoche' 3-E-130 (p.)"
+ MEX_cv_fighter_equipment_0_short:0 "Tololoche (p.)" 
+ MEX_cv_fighter_equipment_1:0 "Mariscraft MA-260 (p.)"
+ MEX_cv_fighter_equipment_1_short:0 "MA-260 (p.)"
+ MEX_cv_fighter_equipment_2:0 "Fierro Teziutlán II (p.)"
+ MEX_cv_fighter_equipment_2_short:0 "Teziutlán II (p.)"
+ MEX_cv_fighter_equipment_3:0 "TNCA Huitzilopochtli (p.)"
+ MEX_cv_fighter_equipment_3_short:0 "Huitzilopochtli (p.)"
+ MEX_cv_CAS_equipment_1:0 "Spartan 'Zeus' 8W (p.)"
+ MEX_cv_CAS_equipment_1_short:0 "Zeus (p.)"
+ MEX_cv_CAS_equipment_2:0 "Fierro Teziutlán IIB (p.)"
+ MEX_cv_CAS_equipment_2_short:0 "Teziutlán IIB (p.)"
+ MEX_cv_CAS_equipment_3:0 "TNCA Tonatiuh (p.)"
+ MEX_cv_CAS_equipment_3_short:0 "Tonatiuh (p.)"
+ MEX_cv_nav_bomber_equipment_1:0 "Mariscraft MA-260T (p.)"
+ MEX_cv_nav_bomber_equipment_1_short:0 "MA-260T (p.)"
+ MEX_cv_nav_bomber_equipment_2:0 "TNCA Chalchiuhtlicue (p.)"
+ MEX_cv_nav_bomber_equipment_2_short:0 "Chalchiuhtlicue (p.)"
+ MEX_cv_nav_bomber_equipment_3:0 "TNCA Tlaloc (p.)"
+ MEX_cv_nav_bomber_equipment_3_short:0 "Tlaloc (p.)"
+ 
+ #Swedish aircraft
+ SWE_fighter_equipment_0:0 "ASJA J 6 Jaktfalken"
+ SWE_fighter_equipment_0_short:0 "J 6 Jaktfalken" 
+ SWE_fighter_equipment_1:0 "Seversky J 9"
+ SWE_fighter_equipment_1_short:0 "J 9"
+ SWE_fighter_equipment_2:0 "FFVS J 22"
+ SWE_fighter_equipment_2_short:0 "J 22"
+ SWE_fighter_equipment_3:0 "SAAB J 27"
+ SWE_fighter_equipment_3_short:0 "J 27"
+ SWE_CAS_equipment_1:0 "SAAB B 5"
+ SWE_CAS_equipment_1_short:0 "B 5"
+ SWE_CAS_equipment_2:0 "SAAB B 17"
+ SWE_CAS_equipment_2_short:0 "B 17"
+ SWE_CAS_equipment_3:0 "SAAB A 21"
+ SWE_CAS_equipment_3_short:0 "A 21"
+ SWE_nav_bomber_equipment_1:0 "Heinkel T 2"
+ SWE_nav_bomber_equipment_1_short:0 "T 2"
+ SWE_nav_bomber_equipment_2:0 "SAAB B 17BS"
+ SWE_nav_bomber_equipment_2_short:0 "B 17BS"
+ SWE_nav_bomber_equipment_3:0 "SAAB T 18B"
+ SWE_nav_bomber_equipment_3_short:0 "T 18B"
+ SWE_heavy_fighter_equipment_1:0 "Fokker B/S 26"
+ SWE_heavy_fighter_equipment_1_short:0 "B/S 26"
+ SWE_heavy_fighter_equipment_2:0 "SAAB J 23"
+ SWE_heavy_fighter_equipment_2_short:0 "J 23"
+ SWE_heavy_fighter_equipment_3:0 "SAAB J 24"
+ SWE_heavy_fighter_equipment_3_short:0 "J 24"
+ SWE_tac_bomber_equipment_0:0 "Fiat B1/2"
+ SWE_tac_bomber_equipment_0_short:0 "B 1/2"
+ SWE_tac_bomber_equipment_1:0 "Junkers B 3"
+ SWE_tac_bomber_equipment_1_short:0 "B 3"
+ SWE_tac_bomber_equipment_2:0 "SAAB B 18A"
+ SWE_tac_bomber_equipment_2_short:0 "B 18A"
+ SWE_tac_bomber_equipment_3:0 "SAAB B 18B"
+ SWE_tac_bomber_equipment_3_short:0 "B 18B"
+ SWE_strat_bomber_equipment_1:0 "SAAB B 40"
+ SWE_strat_bomber_equipment_1_short:0 "B 40"
+ SWE_strat_bomber_equipment_2:0 "SAAB B 41"
+ SWE_strat_bomber_equipment_2_short:0 "B 41"
+ SWE_strat_bomber_equipment_3:0 "SAAB B 42"
+ SWE_strat_bomber_equipment_3_short:0 "B 42"
+ 
+ #Swedish jet
+ SWE_jet_fighter_equipment_1:0 "SAAB J 21R"
+ SWE_jet_fighter_equipment_1_short:0 "J 21R"
+ SWE_jet_fighter_equipment_2:0 "SAAB J 29 Flygande tunnan"
+ SWE_jet_fighter_equipment_2_short:0 "J 29 Flygande tunnan"
+ SWE_jet_tac_bomber_equipment_1:0 "SAAB B 18R"
+ SWE_jet_tac_bomber_equipment_1_short:0 "B 18R"
+ SWE_jet_tac_bomber_equipment_2:0 "SAAB A 32 Lansen"
+ SWE_jet_tac_bomber_equipment_2_short:0 "A 32 Lansen"
+ SWE_jet_strat_bomber_equipment_1:0 "SAAB B 36 Vargen"
+ SWE_jet_strat_bomber_equipment_1_short:0 "B 36 Vargen"

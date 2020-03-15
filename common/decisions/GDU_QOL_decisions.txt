@@ -1,0 +1,153 @@
+
+
+	GDU_automatic_unit_deployment = {
+
+		ENG_HomeDefenseArmy_Deployment = {
+
+			icon = GFX_decision_deploy
+			
+			ai_will_do = { factor = 0 }
+			
+			cost = 0
+			fire_only_once = yes						
+			available = { 		
+				date > 1938.12.1
+				date < 1939.5.1 
+			}
+			visible = { 
+				tag = ENG
+				date > 1938.5.1
+			}
+			
+			complete_effect = {
+				ENG = {		
+					load_oob = "ENG_HomeDefense_Deployment"
+				}
+			}
+		}
+		
+		ENG_Mediterranean_Deployment = {
+
+			icon = GFX_decision_deploy
+
+			ai_will_do = { factor = 0 }
+			
+			cost = 0
+			fire_only_once = yes				
+			available = { 		
+				date > 1938.12.1
+				date < 1939.5.1 
+			}			
+			
+			visible = { 
+				tag = ENG
+				date > 1938.5.1
+			}
+			
+			complete_effect = {
+				ENG = {		
+					load_oob = "ENG_MedGarrison_Deployment"
+				}
+			}
+		}
+		
+		ENG_EastAfrican_Deployment = {
+
+			icon = GFX_decision_deploy
+
+			ai_will_do = { factor = 0 }
+			
+			cost = 0
+			fire_only_once = yes				
+			available = { 		
+				date > 1938.12.1
+				date < 1939.5.1 
+			}				
+			
+			visible = { 
+				tag = ENG
+				date > 1938.5.1
+			}
+			
+			complete_effect = {
+				ENG = {		
+					load_oob = "ENG_EastAfrican_Deployment"
+				}
+			}
+		}
+		
+		USA_Pacific_Deployment = {
+
+			icon = GFX_decision_deploy
+
+			ai_will_do = { factor = 0 }
+			
+			cost = 0
+			fire_only_once = yes
+			available = { 		
+				date > 1940.1.1
+				date < 1940.10.1 
+			}				
+			
+			visible = { 
+				tag = USA
+				date > 1939.7.1
+			}
+			
+			complete_effect = {
+				USA = {		
+					load_oob = "USA_PacificGarrison_Deployment"
+				}
+			}
+		}
+		
+		ITA_Mediterranean_Deployment = {
+			
+			icon = GFX_decision_deploy
+			
+			ai_will_do = { factor = 0 }
+			
+			cost = 0
+			fire_only_once = yes				
+			available = { 		
+				date > 1938.12.1
+				date < 1939.5.1 
+			}				
+			
+			visible = { 
+				tag = ITA
+				date > 1938.5.1
+			}
+			
+			complete_effect = {
+				ITA = {		
+					load_oob = "ITA_MedGarrison_Deployment"
+				}
+			}
+		}
+		ITA_EastAfrican_Deployment = {
+
+			icon = GFX_decision_deploy
+
+			ai_will_do = { factor = 0 }
+			
+			cost = 0
+			fire_only_once = yes				
+			available = { 		
+				date > 1938.12.1
+				date < 1939.5.1 
+			}				
+			
+			visible = { 
+				tag = ITA
+				date > 1938.5.1
+
+			}
+			
+			complete_effect = {
+				ITA = {		
+					load_oob = "ITA_Ethiopian_Deployment"
+				}
+			}
+		}
+	}

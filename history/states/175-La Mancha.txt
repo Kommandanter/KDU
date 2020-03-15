@@ -1,0 +1,39 @@
+
+state={
+	id=175
+	name="STATE_175"
+	manpower = 848903
+	
+	state_category = town
+
+	history={
+		owner = SPR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 6
+		}
+		victory_points = { 888 1 }
+		victory_points = { 942 1 }
+		victory_points = { 3891 1 }
+		victory_points = { 3945 1 }
+		victory_points = { 3953 1 }
+		victory_points = { 6800 1 }
+		victory_points = { 6832 1 }
+		victory_points = { 6879 1 }
+		victory_points = { 6896 1 }
+		victory_points = { 9757 1 }
+		victory_points = { 9778 1 }
+		victory_points = { 9828 1 }
+		victory_points = { 9852 1 }
+		victory_points = { 9881 1 }
+		victory_points = { 11742 1 }
+		victory_points = { 11812 1 }
+		victory_points = { 11863 1 }
+		victory_points = { 12081 1 }
+		add_core_of = SPR
+	}
+
+	provinces={
+		888 942 3891 3945 3953 6800 6832 6879 6896 9757 9778 9828 9852 9881 11742 11812 11863 12081 
+	}
+}

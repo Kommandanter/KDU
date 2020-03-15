@@ -1,0 +1,618 @@
+guiTypes = {
+	containerWindowType = {
+		name = "host_container"
+		position = { x = -74 y = -300 }
+		Orientation = LOWER_RIGHT
+
+		iconType = {
+			name = "icon"
+			position = { x = 40 y = 45 }
+			quadTextureSprite ="GFX_host_box"
+			orientation = "CENTER"
+			centerPosition = yes
+		}
+
+		buttonType = {
+			name ="host_options_icon"
+			spriteType = "GFX_Host_Options_icon"
+			position = { x= 9 y = 9 }
+			shortcut = "ctrl+k"
+
+			pdx_tooltip = "HOST_TOOLTIP"
+			pdx_tooltip_delayed = "HOST_TOOLTIP_DELAYED"
+		}
+	}
+
+	containerWindowType = {
+		name = "host_options_container"
+		position = { x = 0 y = 5% }
+		size = { width=1200 height=90% }
+		Orientation = UPPER_LEFT
+
+		fade_time = 300
+		fade_type = linear
+		moveable = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_bg"
+		}
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_focus_bg"
+		}
+
+		instantTextboxType = {
+			name = "host_options_headline"
+			position = {x=500 y=30}
+			font = "hoi_36header"
+			text = "Host Options"
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "host_country"
+			position = {x=500 y=100}
+			font = "hoi_20b"
+			text = "Host Country"
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "host_name"
+			position = { x = 500 y = 190 }
+			font = "cg_18b"
+			format = centre
+			text = "[game_host.GetNameDefCap]"
+		}
+
+		buttonType = {
+			name = "host_flag"
+			position = { x = 560 y = 125 }
+			quadTextureSprite ="GFX_shield_medium"
+			orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name = "host_flag_border"
+			quadTextureSprite = "GFX_large_flag_frame"
+			position = { x = 555 y = 125 }
+			orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "chinese_faction"
+			position = { x = 15 y = 215 }
+			font = "hoi_20b"
+			format = centre
+			text = "China"
+		}
+
+		instantTextboxType = {
+			name = "soviet_faction"
+			position = { x = 165 y = 215 }
+			font = "hoi_20b"
+			format = centre
+			text = "Comintern"
+		}
+
+		instantTextboxType = {
+			name = "allies_faction"
+			position = { x = 375 y = 215 }
+			font = "hoi_20b"
+			format = centre
+			text = "Allies"
+		}
+
+		instantTextboxType = {
+			name = "axis_faction"
+			position = { x = 645 y = 215 }
+			font = "hoi_20b"
+			format = centre
+			text = "Axis"
+		}
+
+		instantTextboxType = {
+			name = "neutrality_faction"
+			position = { x = 915 y = 215 }
+			font = "hoi_20b"
+			format = centre
+			text = "Neutral"
+		}
+
+		### GENERAL OPTIONS ###
+
+			instantTextboxType = {
+				name = "general_options_title"
+				position = { x = -430 y = -370 }
+				font = "hoi_20b"
+				format = centre
+				text = "General Options"
+				orientation = LOWER_RIGHT
+			}
+
+			buttonType = {
+				name = "general_option_1"
+				position = { x = -500 y = -329 }
+				spriteType = "GFX_HOE_button"
+				font = "cg_18b"
+				text = "Add 1 tension"
+				orientation = LOWER_RIGHT
+			}
+
+			buttonType = {
+				name = "general_option_2"
+				position = { x = -500 y = -294 } #+35y
+				spriteType = "GFX_HOE_button"
+				font = "cg_18b"
+				text = "Add 5 tension"
+				orientation = LOWER_RIGHT
+			}
+
+			buttonType = {
+				name = "general_option_3"
+				position = { x = -500 y = -259 }
+				spriteType = "GFX_HOE_button"
+				font = "cg_18b"
+				text = "Add -1 tension"
+				orientation = LOWER_RIGHT
+			}
+
+			buttonType = {
+				name = "general_option_4"
+				position = { x = -500 y = -224 }
+				spriteType = "GFX_HOE_button"
+				font = "cg_18b"
+				text = "Add -5 tension"
+				orientation = LOWER_RIGHT
+			}
+
+			buttonType = {
+				name = "general_option_5"
+				position = { x = -500 y = -189 }
+				spriteType = "GFX_HOE_button"
+				font = "cg_18b"
+				text = "SCW Currently On"
+				orientation = LOWER_RIGHT
+			}
+
+			buttonType = {
+				name = "general_option_6"
+				position = { x = -500 y = -189 }
+				spriteType = "GFX_HOE_button"
+				font = "cg_18b"
+				text = "SCW Currently Off"
+				orientation = LOWER_RIGHT
+			}
+
+			buttonType = {
+				name = "general_option_7"
+				position = { x = -500 y = -154 }
+				spriteType = "GFX_HOE_button"
+				font = "cg_18b"
+				text = "Meme Focuses Off"
+				orientation = LOWER_RIGHT
+			}
+
+			buttonType = {
+				name = "general_option_8"
+				position = { x = -500 y = -154 }
+				spriteType = "GFX_HOE_button"
+				font = "cg_18b"
+				text = "Meme Focuses On"
+				orientation = LOWER_RIGHT
+			}
+
+			buttonType = {
+				name = "general_option_20"
+				position = { x = -320 y = -294 }#+180x
+				spriteType = "GFX_HOE_button"
+				font = "cg_18b"
+				text = "Refresh Teams"
+				orientation = LOWER_RIGHT
+			}
+
+			buttonType = {
+				name = "general_option_21"
+				position = { x = -320 y = -331 }#+180x
+				spriteType = "GFX_HOE_button"
+				font = "cg_18b"
+				text = "Show Help"
+				orientation = LOWER_RIGHT
+			}
+
+
+
+
+		buttonType = {
+			name = "close_button"
+			position = { x = -45 y = 13 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ctrl+k"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		containerWindowType = {
+			name = "chinese_countries_player_list"
+			position = { x = 20 y = -10 }
+			size = { width = 1000 height = 223 }
+			margin = { top = 4 left = 4 bottom = 4 right = 4 }
+
+			# gridboxtype of members
+			gridboxtype = {
+				name = "chinese_countries_player_list_gridbox"
+				position = { x = 0 y = 0 }
+				size = { width = 120 height = 100 }
+				slotsize = { width = 120 height = 100 }
+				max_slots_horizontal = 1
+				add_horizontal = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "communism_player_list"
+			position = { x = 170 y = -10 }
+			size = { width = 1000 height = 223 }
+			margin = { top = 4 left = 4 bottom = 4 right = 4 }
+
+			# gridboxtype of members
+			gridboxtype = {
+				name = "communist_player_list_gridbox"
+				position = { x = 0 y = 0 }
+				size = { width = 120 height = 100 }
+				slotsize = { width = 120 height = 100 }
+				max_slots_horizontal = 1
+				add_horizontal = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "democratic_player_list"
+			position = { x = 320 y = -10 }
+			size = { width = 1000 height = 223 }
+			margin = { top = 4 left = 4 bottom = 4 right = 4 }
+
+			# gridboxtype of members
+			gridboxtype = {
+				name = "democratic_player_list_gridbox"
+				position = { x = 0 y = 0 }
+				size = { width = 120 height = 100 }
+				slotsize = { width = 120 height = 100 }
+				max_slots_horizontal = 2
+				add_horizontal = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "fascism_player_list"
+			position = { x = 590 y = -10 }
+			size = { width = 1000 height = 223 }
+			margin = { top = 4 left = 4 bottom = 4 right = 4 }
+
+			# gridboxtype of members
+			gridboxtype = {
+				name = "fascism_player_list_gridbox"
+				position = { x = 0 y = 0 }
+				size = { width = 120 height = 100 }
+				slotsize = { width = 120 height = 100 }
+				max_slots_horizontal = 2
+				add_horizontal = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "neutral_player_list"
+			position = { x = 860 y = -10 }
+			size = { width = 1000 height = 223 }
+			margin = { top = 4 left = 4 bottom = 4 right = 4 }
+
+			# gridboxtype of members
+			gridboxtype = {
+				name = "neutral_player_list_gridbox"
+				position = { x = 0 y = 0 }
+				size = { width = 120 height = 100 }
+				slotsize = { width = 120 height = 100 }
+				max_slots_horizontal = 2
+				add_horizontal = yes
+			}
+		}
+
+		instantTextboxType = {
+			name = "country_options_title"
+			position = { x = 300 y = -370 }
+			font = "hoi_20b"
+			format = center
+			orientation = LOWER_LEFT
+			text = "Country Options"
+		}
+
+		instantTextboxType = {
+			name = "country_options_title_secondary"
+			position = { x = 300 y = -230 }
+			font = "cg_18b"
+			format = center
+			orientation = LOWER_LEFT
+			text = "Click on a flag to get started!"
+		}
+
+		iconType = {
+			name = "selected_player_flag"
+			position = { x = 145 y = -331 }
+			orientation = LOWER_LEFT
+			spriteType = "GFX_shield_medium"
+		}
+
+		iconType = {
+			name = "selected_player_flag_border"
+			quadTextureSprite = "GFX_large_flag_frame"
+			position = { x = 140 y = -331 }
+			orientation = LOWER_LEFT
+			alwaystransparent = yes
+		}
+
+
+
+		buttonType = {
+			name = "option_1"
+			position = { x = 250 y = -332 }
+			spriteType = "GFX_theater_group_assign_btn"
+			font = "hoi_20b"
+			orientation = LOWER_LEFT
+			text = "Move to Chinese Faction"
+		}
+
+		buttonType = {
+			name = "option_2"
+			position = { x = 250 y = -299 }
+			orientation = LOWER_LEFT
+			spriteType = "GFX_theater_group_assign_btn"
+			font = "hoi_20b"
+			text = "Move to Comintern"
+		}
+
+		buttonType = {
+			name = "option_3"
+			position = { x = 250 y = -267 }
+			orientation = LOWER_LEFT
+			spriteType = "GFX_theater_group_assign_btn"
+			font = "hoi_20b"
+			text = "Move to Allies"
+		}
+
+		buttonType = {
+			name = "option_4"
+			position = { x = 250 y = -235 }
+			orientation = LOWER_LEFT
+			spriteType = "GFX_theater_group_assign_btn"
+			font = "hoi_20b"
+			text = "Move to Axis"
+		}
+
+		buttonType = {
+			name = "option_5"
+			position = { x = 250 y = -203 }
+			orientation = LOWER_LEFT
+			spriteType = "GFX_theater_group_assign_btn"
+			font = "hoi_20b"
+			text = "Move to Neutral"
+		}
+
+		buttonType = {
+			name = "option_6"
+			position = { x = 250 y = -171 }
+			orientation = LOWER_LEFT
+			spriteType = "GFX_theater_group_assign_btn"
+			font = "hoi_20b"
+			text = "Select as Country to Move"
+		}
+
+		buttonType = {
+			name = "player_flag_selected_country_to_switch"
+			position = { x = 260 y = -450 }
+			orientation = LOWER_LEFT
+			spriteType = "GFX_shield_medium"
+
+			pdx_tooltip = "HOE_UNSET_COUNTRY_TT"
+		}
+
+		iconType = {
+			name = "player_flag_border_1"
+			quadTextureSprite = "GFX_large_flag_frame"
+			position = { x = 255 y = -450 }
+			orientation = LOWER_LEFT
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "player_flag_selected_country_to_switch_to"
+			position = { x = 460 y = -450 }
+			orientation = LOWER_LEFT
+			spriteType = "GFX_shield_medium"
+
+			pdx_tooltip = "HOE_SET_AND_UNSET_COUNTRY_TT"
+		}
+
+		iconType = {
+			name = "player_flag_border_2"
+			quadTextureSprite = "GFX_large_flag_frame"
+			position = { x = 455 y = -450 }
+			orientation = LOWER_LEFT
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "arrow"
+			position = { x = 385 y = -437 }
+			orientation = LOWER_LEFT
+			spriteType = "GFX_floating_arrows"
+			frame = 2
+			pdx_tooltip = "CLICK_ME_TT"
+		}
+	}
+
+	containerWindowType = {
+		name = "country_switcher_container"
+		position = { x = 1190 y =-145% }
+		size = { width = 0 height = 100% }
+		Orientation = LOWER_LEFT
+
+		containerWindowType = {
+			name = "ai_countries_list"
+			position = { x = 0 y = 0 }
+			size = { width = 400 height = 90% }
+			verticalScrollbar = "right_vertical_slider"
+			orientation = CENTER
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_bg"
+			}
+
+			# gridboxtype of members
+			gridboxtype = {
+				name = "ai_countries_list_gridbox"
+				position = { x = 0 y = -308 }
+				size = { width = 90 height = 60 }
+				slotsize = { width = 90 height = 60 }
+				max_slots_vertical = 50
+				max_slots_horizontal = 4
+			}
+		}
+	}
+
+	#containerWindowType = {
+	#	name = "country_switcher_country_to_switch_to_container"
+	#	position = { x = 1390 y = 620 }
+	#	size = { width = 500 height = 500 }
+	#	verticalScrollbar = "right_vertical_slider"
+#
+	#	background = {
+	#		name = "Background"
+	#		quadTextureSprite ="GFX_tiled_bg"
+	#	}
+	#}
+
+	containerWindowType = {
+		name = "chinese_countries_player_list_entry"
+		position = { x = 50 y = 250 }
+		size = { width = 600 height = 41 }
+
+		buttonType = {
+			name = "player_flag"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_shield_medium"
+			pdx_tooltip = "CLICK_ME_COUNTRY_OPTIONS_TT"
+		}
+
+		iconType = {
+			name = "player_flag_border"
+			quadTextureSprite = "GFX_large_flag_frame"
+			position = { x = -5 y = 0 }
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "democratic_player_list_entry"
+		position = { x = 50 y = 250 }
+		size = { width = 600 height = 41 }
+
+		buttonType = {
+			name = "player_flag"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_shield_medium"
+			pdx_tooltip = "CLICK_ME_COUNTRY_OPTIONS_TT"
+		}
+
+		iconType = {
+			name = "player_flag_border"
+			quadTextureSprite = "GFX_large_flag_frame"
+			position = { x = -5 y = 0 }
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "communism_player_list_entry"
+		position = { x = 50 y = 250 }
+		size = { width = 600 height = 41 }
+
+		buttonType = {
+			name = "player_flag"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_shield_medium"
+			pdx_tooltip = "CLICK_ME_COUNTRY_OPTIONS_TT"
+		}
+
+		iconType = {
+			name = "player_flag_border"
+			quadTextureSprite = "GFX_large_flag_frame"
+			position = { x = -5 y = 0 }
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "fascism_player_list_entry"
+		position = { x = 50 y = 250 }
+		size = { width = 600 height = 41 }
+
+		buttonType = {
+			name = "player_flag"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_shield_medium"
+			pdx_tooltip = "CLICK_ME_COUNTRY_OPTIONS_TT"
+		}
+
+		iconType = {
+			name = "player_flag_border"
+			quadTextureSprite = "GFX_large_flag_frame"
+			position = { x = -5 y = 0 }
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "neutral_player_list_entry"
+		position = { x = 50 y = 250 }
+		size = { width = 600 height = 41 }
+
+		buttonType = {
+			name = "player_flag"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_shield_medium"
+			pdx_tooltip = "CLICK_ME_COUNTRY_OPTIONS_TT"
+		}
+
+		iconType = {
+			name = "player_flag_border"
+			quadTextureSprite = "GFX_large_flag_frame"
+			position = { x = -5 y = 0 }
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "ai_countries_list_entry"
+		position = { x = 22 y = 20 }
+		size = { width = 600 height = 60 }
+
+		buttonType = {
+			name = "player_flag_ai"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_shield_medium"
+		}
+
+		iconType = {
+			name = "player_flag_ai_border"
+			quadTextureSprite = "GFX_large_flag_frame"
+			position = { x = -5 y = 0 }
+			alwaystransparent = yes
+		}
+	}
+}

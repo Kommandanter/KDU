@@ -1,0 +1,39 @@
+
+state={
+	id=172
+	name="STATE_172"
+	manpower = 1794880
+	
+	state_category = city
+	
+	resources={
+		steel=8 # was: 12
+	}
+
+	history={
+		owner = SPR
+#		victory_points = {
+#			740 3 
+#		}
+		buildings = {
+			infrastructure = 6
+			
+		}
+		victory_points = { 738 1 } 
+		victory_points = { 740 1 } 
+		victory_points = { 932 1 } 
+		victory_points = { 3735 1 } 
+		victory_points = { 3737 1 } 
+		victory_points = { 3931 1 } 
+		victory_points = { 3933 1 } 
+		victory_points = { 6756 1 } 
+		victory_points = { 9703 1 } 
+		victory_points = { 9857 1 } 
+		victory_points = { 11688 1 } 
+		add_core_of = SPR
+	}
+
+	provinces={
+		738 740 932 3735 3737 3931 3933 6756 9703 9857 11688 
+	}
+}
