@@ -5,7 +5,7 @@ tags={
 	"Graphics"
 }
 name="Kommandanter's GDU: Multiplayer Balance Mod (BETA 1.0.1)"
-picture="WARISHELL.jpg"
+thumbnail="WARISHELL.jpg"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="history/units"
