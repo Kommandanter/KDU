@@ -240,13 +240,13 @@ guiTypes = {
 					pdx_tooltip = "GARRISON_CONF_AIRBASE"
 				}
 				
-				buttonType = {
-					name = "btn_setting_resistance" 
-					position = {x=175 y=31}	
-					spriteType = "GFX_garr_resistance"
-					clicksound = click_battleplan 
-					pdx_tooltip = "GARRISON_CONF_RESISTANCE"
-				}
+#				buttonType = {
+#					name = "btn_setting_resistance" 
+#					position = {x=175 y=31}	
+#					spriteType = "GFX_garr_resistance"
+#					clicksound = click_battleplan 
+#					pdx_tooltip = "GARRISON_CONF_RESISTANCE"
+#				}
 				
 				buttonType = {
 					name = "btn_setting_forts" 

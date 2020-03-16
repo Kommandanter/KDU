@@ -49,9 +49,9 @@ country_event = {
 						declare_war_on = {
 							target = NZL
 							type = annex_everything
-						}						
+						}
 					}
-					
+
 					17 = {
 						remove_building = {
 							type = infrastructure

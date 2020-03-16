@@ -86,8 +86,8 @@ NDefines.NCountry.NUM_DAYS_TO_FULLY_DELETE_STOCKPILED_EQUIPMENT = 9999
 NDefines.NCountry.MAX_INTELLIGENCE_AIR_DATA_DEVIATION = 0.6 
 NDefines.NCountry.MAX_INTELLIGENCE_MILITARY_DATA_DEVIATION = 0.6 
 NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.35 -- original 0.05 air supply?
-NDefines.NCountry.RESISTANCE_STRENGTH_FROM_VP = 0.00 -- This disables the resistance mechanic. It was 0.001 in vanilla. Resistance is a poorly implemented mechanic that causes undue stress and incurs heavy hidden, hard to calculate costs on a balance level. Instead, events are implemented into the mod that decrease Germany's/Jap's MP as if they were using suppression cavalry.
-NDefines.NCountry.RESISTANCE_STRENGTH_FROM_UNIT = 0.0 -- Removing resistance cancer from the game; this makes it impossible to look at resistance to see roughly how many units are in a state and whether it is defended.
+#NDefines.NCountry.RESISTANCE_STRENGTH_FROM_VP = 0.00 -- This disables the resistance mechanic. It was 0.001 in vanilla. Resistance is a poorly implemented mechanic that causes undue stress and incurs heavy hidden, hard to calculate costs on a balance level. Instead, events are implemented into the mod that decrease Germany's/Jap's MP as if they were using suppression cavalry.
+#NDefines.NCountry.RESISTANCE_STRENGTH_FROM_UNIT = 0.0 -- Removing resistance cancer from the game; this makes it impossible to look at resistance to see roughly how many units are in a state and whether it is defended.
 
 NDefines.NCountry.GIE_DIVISION_ATTACK_BONUS_AGAINST_OCCUPIER = 0.05 -- Attack bonus factor against whoever occupies your core territory.
 NDefines.NCountry.GIE_DIVISION_DEFENSE_BONUS_AGAINST_OCCUPIER = 0.05 -- Attack bonus factor against whoever occupies your core territory.
@@ -333,8 +333,8 @@ NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.60
 NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 12
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 72
 
-NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 0.0
-NDefines.NNavy.NAVAL_MINES_PLANTING_SPEED_MULT = 0.00001
+#NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 0.0
+#NDefines.NNavy.NAVAL_MINES_PLANTING_SPEED_MULT = 0.00001
 
 NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.01 -- (0.2 -> 0.01) -- SilentLegion#1356, MTG 
 NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.8 -- (0.2 -> 0.75) -- SilentLegion#1356, MTG 

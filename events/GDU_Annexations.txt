@@ -465,8 +465,7 @@ country_event = {
 	
 	immediate = {
 	    SOV = {
-	        puppet = DDR
-	        puppet = POL
+			puppet = POL
 	        puppet = CZE
 	        puppet = HUN
 	        puppet = ROM
@@ -475,8 +474,8 @@ country_event = {
 	        puppet = ALB
 	    }
 	    USA = {
-	        puppet = WGR
-	        puppet = ITA
+
+			puppet = ITA
 	    }
 	}
 	
