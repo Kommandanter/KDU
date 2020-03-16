@@ -22,9 +22,9 @@ guiTypes = {
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
 		position = { x=0 y =-2000 }
-		show_position = { x=0 y=-539 }
+		show_position = { x=-1000 y =100 }
 		animation_type = decelerated
-		animation_time = 1000
+		animation_time = 0
 		size = { width = 200 height = 500 }
 
 		iconType = {
@@ -50,10 +50,10 @@ guiTypes = {
 	### MAIN MENU PANEL (upperright)
 	containerWindowType = {
 		name ="mainmenu_panel_upperright"
-		position = { x=-6000 y = -3000 }
-		show_position = { x= 0 y =70 }
+		position = { x= 0 y= -3000 }
+		show_position = { x= 0 y =-100 }
 		animation_type = decelerated
-		animation_time = 3000
+		animation_time = 5000
 		size = { width = 256 height = 768 }
 		Orientation = upper_right
 
@@ -179,8 +179,8 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =70}
-		size = { width = 320 height = 300}
+		position = { x=0 y =440 }
+		size = { width = 1400 height = 150}
 		Orientation = CENTER
 		Origo = center
 		scale = 0.9
@@ -192,7 +192,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "single_player_button"
-			position = { x = 16 y = 18 }
+			position = { x = 200 y = 18 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "cg_18b"
 			text = "FE_SINGLE_PLAYER"
@@ -202,9 +202,9 @@ guiTypes = {
 
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 16 y = 58}
+			position = { x = 640 y =18}
 			quadTextureSprite ="GFX_main_lobby_button"
-			font = "cg_18b"
+			font = "hoi_tech22"
 			text = "FE_MULTI_PLAYER"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -224,7 +224,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 16 y = 98 }
+			position = { x = 1080 y = 18 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "OPTIONS"
 			buttonFont = "cg_18b"
@@ -234,7 +234,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "credits_button"
-			position = { x = 16 y = 138 }
+			position = { x = 640 y = 67}
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "FE_CREDITS"
 			buttonFont = "cg_18b"
@@ -244,15 +244,15 @@ guiTypes = {
 
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 16 y = 178 }
+			position = { x = 1080 y =100 }
 			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "FUCK!"
+			buttonText = "Nudgealiwuggles"
 			buttonFont = "cg_18b"
 		}
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 16 y = 270 }
+			position = { x = 640 y = 115 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "cg_18b"
 			text = "FE_EXIT"
@@ -263,7 +263,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "mainmenu_social_buttons"
-		position = { x=-50 y=30 }
+		position = { x=-50 y=300 }
 		size = { width = 240 height = 90 }
 		Orientation = center_down	
 		origo = center_down
@@ -320,14 +320,14 @@ guiTypes = {
 
 		ButtonType = {
 			name = "homepage_button"
-			position = { x=0 y=-355 }
+			position = { x=-420 y= -29 }
 			quadTextureSprite ="homepage"
 			clicksound = click_default
 			pdx_tooltip = "MENU_HOMEPAGE"
 		}
 		ButtonType = {
 			name = "forum_button"
-			position = { x=50 y=-355 }
+			position = { x=-300 y=-29}
 			quadTextureSprite ="forum"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FORUM"
@@ -335,7 +335,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "facebook_button"
-			position = { x=100 y=-355}
+			position = { x=-200 y=-29}
 			quadTextureSprite ="facebook"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FACEBOOK"
@@ -343,7 +343,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "twitter_button"
-			position = { x=150 y=-355}
+			position = { x=-520 y=-29 }
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
@@ -351,7 +351,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "privacy_policy_button"
-			position = { x=200 y=-355}
+			position = { x=-100 y=-29}
 			quadTextureSprite ="privacy"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_PRIVACY_POLICY"
