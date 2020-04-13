@@ -1748,7 +1748,7 @@ ideas = {
 	high_command = {
 	
 		george_patton_hc = { 
-		
+			ledger = army		
 			picture = george_patton 
 			
 			allowed = {
@@ -1764,7 +1764,7 @@ ideas = {
 		}
 		
 		courtney_hodges = {
-			
+			ledger = army
 			
 			allowed = {
 				original_tag = USA
@@ -1780,7 +1780,7 @@ ideas = {
 		}
 		
 		joseph_stilwell = {
-			
+			ledger = army
 			
 			allowed = {
 				original_tag = USA
@@ -1799,7 +1799,7 @@ ideas = {
 		}
 		
 		mark_clark = {
-			
+			ledger = army
 			
 			allowed = {
 				original_tag = USA
@@ -1815,7 +1815,7 @@ ideas = {
 		}	
 		
 		jimmy_doolittle = {
-			
+			ledger = air
 			
 			allowed = {
 				original_tag = USA
@@ -1831,7 +1831,7 @@ ideas = {
 		}
 		
 		john_cannon = {
-			
+			ledger = air
 			
 			allowed = {
 				original_tag = USA
@@ -1847,7 +1847,7 @@ ideas = {
 		}
 		
 		claire_lee_chennault = {
-			
+			ledger = air
 			
 			allowed = {
 				original_tag = USA
@@ -1863,7 +1863,7 @@ ideas = {
 		}
 		
 		raymond_spruance = {
-			
+			ledger = navy
 			
 			allowed = {
 				original_tag = USA
@@ -1879,7 +1879,7 @@ ideas = {
 		}
 		
 		frank_jack_fletcher = {
-			
+			ledger = air
 			
 			allowed = {
 				original_tag = USA
@@ -1895,7 +1895,7 @@ ideas = {
 		}
 		
 		thomas_kinkaid = {
-			
+			ledger = army
 			
 			allowed = {
 				original_tag = USA
@@ -2427,7 +2427,7 @@ ideas = {
 	
 	theorist = {
 		omar_bradley = {
-			
+			ledger = army
 			
 			allowed = {
 				original_tag = USA
@@ -2443,7 +2443,7 @@ ideas = {
 		}
 		
 		george_patton = {
-			
+			ledger = army
 			
 			allowed = {
 				original_tag = USA
@@ -2459,7 +2459,7 @@ ideas = {
 		}
 		
 		dewitt_clinton_ramsey = {
-			
+			ledger = navy
 			
 			allowed = {
 				original_tag = USA
@@ -2475,7 +2475,7 @@ ideas = {
 		}
 		
 		marc_mitscher = {
-			
+			ledger = navy
 			
 			allowed = {
 				original_tag = USA
@@ -2491,7 +2491,7 @@ ideas = {
 		}
 		
 		curtis_lemay = {
-			
+			ledger = air
 			
 			allowed = {
 				original_tag = USA
@@ -2511,7 +2511,7 @@ ideas = {
 		}
 		
 		harold_mcclelland = {
-			
+			ledger = air
 			
 			allowed = {
 				original_tag = USA
@@ -2532,7 +2532,7 @@ ideas = {
 		}
 		
 		robert_oppenheimer = {
-			
+			ledger = army
 			
 			allowed = {
 				original_tag = USA
@@ -2548,7 +2548,7 @@ ideas = {
 		}
 		
 		robert_goddard = {
-			
+			ledger = air
 			
 			allowed = {
 				original_tag = USA

@@ -735,7 +735,7 @@ ideas = {
 	theorist = {
 
 		ROM_gheorghe_potopeanu = {
-
+			ledger = army
 
 			allowed = {
 				original_tag = ROM
@@ -751,7 +751,7 @@ ideas = {
 		}
 
 		ROM_emanoil_ionescu = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = ROM
@@ -881,7 +881,7 @@ ideas = {
 	high_command = {
 	
 		gheorghe_potopeanu_hc = { 
-			
+			ledger = army
 		
 			allowed = { 
 				original_tag = ROM 
@@ -893,7 +893,7 @@ ideas = {
 		}
 
 		ROM_gheorghe_avramescu = {
-
+			ledger = army
 
 			allowed = {
 				original_tag = ROM
@@ -909,8 +909,7 @@ ideas = {
 		}
 
 		ROM_gheorghe_mihail = {
-
-
+			ledger = army
 			allowed = {
 				original_tag = ROM
 			}
@@ -925,7 +924,7 @@ ideas = {
 		}
 
 		ROM_paul_teodorescu = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = ROM
@@ -941,7 +940,7 @@ ideas = {
 		}
 
 		ROM_gheorghe_vasiliu = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = ROM

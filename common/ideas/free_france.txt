@@ -220,7 +220,7 @@ ideas = {
 	high_command = {
 		
 		FRA_FREE_adolphe_cise = { ##military medic
-			
+			ledger = army
 			
 			allowed = {
 				original_tag = FRF
@@ -239,7 +239,7 @@ ideas = {
 		}	
 		
 	    philippe_leclerc = {
-
+				ledger = army
 
 			allowed = {
 				original_tag = FRF
@@ -258,7 +258,7 @@ ideas = {
 		}
 
 		henri_giraud_hc = {
-
+			ledger = army
 			picture = henri_giraud
 
 			allowed = {
@@ -278,7 +278,7 @@ ideas = {
 		}
 
 		charles_de_gaulle_hc = { 
-		
+			ledger = army
 			picture = charles_de_gaulle
 			
 			allowed = {

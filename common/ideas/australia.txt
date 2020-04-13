@@ -540,7 +540,7 @@ ideas = {
 theorist = {
 
 	AST_norman_makin = {
-				
+		ledger = navy
 		picture = generic_political_advisor_europe_3
 
 		allowed = {
@@ -555,7 +555,7 @@ theorist = {
 	}
 
 	AST_james_fairbairn = {
-				
+		ledger = air				
 		picture = generic_political_advisor_europe_2
 			
 		allowed = {
@@ -570,7 +570,7 @@ theorist = {
 	}
 
 	AST_thomas_blamey = {
-				
+		ledger = army
 		picture = generic_political_advisor_europe_3
 			
 		allowed = {
@@ -588,7 +588,7 @@ theorist = {
 high_command = {
 
 	AST_tank_dude = { 
-		
+		ledger = army
 		picture = generic_army_europe_4
 		
 		allowed = { 
@@ -603,7 +603,7 @@ high_command = {
 	} 
 
 	AST_arthur_allen = {
-
+		ledger = army
 		picture = generic_army_europe_2
 		
 		allowed = {
@@ -618,7 +618,7 @@ high_command = {
 	}
 
 	AST_clive_caldwell = {
-
+		ledger = air
 		picture = generic_air_europe_1
 		
 		allowed = {
@@ -633,7 +633,7 @@ high_command = {
 	}
 
 	AST_john_collins = {
-
+		ledger = navy
 		picture = generic_navy_europe_1
 		
 		allowed = {
@@ -648,7 +648,7 @@ high_command = {
 	}
 
 	AST_edmund_herring = {
-
+		ledger = army
 		picture = generic_army_europe_1
 		
 		allowed = {
@@ -662,7 +662,7 @@ high_command = {
 		}
 	}
 	AST_arthur_drakeford = {
-
+		ledger = air
 		picture = generic_army_europe_4
 			
 		allowed = {
@@ -674,7 +674,7 @@ high_command = {
 		}
 
 	AST_cederic_hicks = {
-
+		ledger = army
 		picture = generic_army_europe_4
 		
 		allowed = {

@@ -1824,7 +1824,7 @@ ideas = {
 
 	theorist = {
 		von_braun = {
-
+			ledger = air
 			allowed = {
 				original_tag = GER
 			}
@@ -1837,7 +1837,7 @@ ideas = {
 		}
 
 		heisenberg = {
-
+			ledger = army
 
 			allowed = {
 				original_tag = GER
@@ -1851,7 +1851,7 @@ ideas = {
 		}
 
 		heinz_guderian = {
-
+			ledger = army
 
 			allowed = {
 				original_tag = GER
@@ -1866,7 +1866,7 @@ ideas = {
 		}
 
 		manstein = {
-
+			ledger = army
 
 			allowed = {
 				original_tag = GER
@@ -1883,7 +1883,7 @@ ideas = {
 		}
 
 		wolfram_von_richthofen = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = GER
@@ -1899,7 +1899,7 @@ ideas = {
 		}
 
 		walther_wever = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = GER
@@ -1913,7 +1913,7 @@ ideas = {
 		}
 
 		ernst_udet = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = GER
@@ -1927,7 +1927,7 @@ ideas = {
 		}
 
 		alfred_saalwachter = {
-
+			ledger = navy
 
 			allowed = {
 				original_tag = GER
@@ -1943,7 +1943,7 @@ ideas = {
 		}
 
 		otto_ciliax = {
-
+			ledger = navy
 
 			allowed = {
 				original_tag = GER
@@ -2102,7 +2102,7 @@ ideas = {
 	high_command = {
 
 		ferdinand_schorner = {
-
+			ledger = army
 
 			allowed = {
 				original_tag = GER
@@ -2116,7 +2116,7 @@ ideas = {
 		}
 
 		erwin_rommel = {
-
+			ledger = army
 
 			allowed = {
 				original_tag = GER
@@ -2133,7 +2133,7 @@ ideas = {
 		}
 
 		gerd_von_rundstedt = {
-
+			ledger = army
 
 			allowed = {
 				original_tag = GER
@@ -2147,7 +2147,7 @@ ideas = {
 		}
 
 		werner_von_fritsch = {
-
+			ledger = army
 
 			allowed = {
 				original_tag = GER
@@ -2161,7 +2161,7 @@ ideas = {
 		}
 
 		hugo_sperrle = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = GER
@@ -2178,7 +2178,7 @@ ideas = {
 		}
 
 		erhard_milch = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = GER
@@ -2192,7 +2192,7 @@ ideas = {
 		}
 
 		kurt_student = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = GER
@@ -2206,7 +2206,7 @@ ideas = {
 		}
 
 		erich_bey = {
-
+			ledger = navy
 
 			allowed = {
 				original_tag = GER
@@ -2220,7 +2220,7 @@ ideas = {
 		}
 
 		gunther_lutjens = {
-
+			ledger = navy
 
 			allowed = {
 				original_tag = GER
@@ -2234,7 +2234,7 @@ ideas = {
 		}
 
 		viktor_schutze = {
-
+			ledger = navy
 
 			allowed = {
 				original_tag = GER

@@ -1586,7 +1586,7 @@ ideas = {
 	high_command = {
 
 		generic_army_art = {
-			
+			ledger = army
 			allowed = {
 				OR = { original_tag = INS }
 			}
@@ -1595,7 +1595,7 @@ ideas = {
 		}
 		
 		generic_army_log = {
-
+			ledger = army
 			allowed = {
 				OR = { original_tag = INS }
 			}
@@ -1604,7 +1604,7 @@ ideas = {
 		}
 
 		generic_navy_fleet_log = {
-
+			ledger = navy
 			allowed = {
 				OR = { original_tag = INS }
 			}
@@ -1625,7 +1625,7 @@ ideas = {
 	theorist = {
 
 		generic_military_theorist = {
-			
+			ledger = army
 			allowed = {
 				OR = { original_tag = INS }
 			}
@@ -1638,7 +1638,7 @@ ideas = {
 		}
 	
 		generic_naval_theorist = {
-			
+			ledger = navy
 			allowed = {
 				OR = { original_tag = INS }
 			}
@@ -1651,7 +1651,7 @@ ideas = {
 		}
 
 		generic_air_warfare_theorist = {
-			
+			ledger = air
 			allowed = {
 				OR = { original_tag = INS }
 			}

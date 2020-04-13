@@ -1686,6 +1686,7 @@ ideas = {
 	high_command = {
 
 		ivan_konev = {
+			ledger = army
 			#Also unit leader: 408
 
 			allowed = {
@@ -1701,6 +1702,7 @@ ideas = {
 		}
 
 		aleksandr_vasilevsky = {
+			ledger = army
 			#Also unit leader: 407
 
 			allowed = {
@@ -1716,6 +1718,7 @@ ideas = {
 		}
 
 		konstantin_rokossovsky = {
+			ledger = army
 			#Also unit leader: 402
 
 			allowed = {
@@ -1750,7 +1753,7 @@ ideas = {
 		
 
 		pavel_zhigarev = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = SOV
@@ -1765,7 +1768,7 @@ ideas = {
 		}
 
 		sergei_khudyakov = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = SOV
@@ -1787,7 +1790,7 @@ ideas = {
 		}
 
 		stepan_krasovsky = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = SOV
@@ -1802,6 +1805,7 @@ ideas = {
 		}
 
 		vladimir_kasatonov = {
+			ledger = navy
 			#Also unit leader: 403
 
 			allowed = {
@@ -1832,6 +1836,7 @@ ideas = {
 		}
 
 		gordey_levchenko = {
+			ledger = navy
 			#Also unit leader: 406
 
 			allowed = {
@@ -1863,6 +1868,7 @@ ideas = {
 		}
 
 		arseniy_golovko = {
+			ledger = army
 			#Also unit leader: 409
 
 			allowed = {
@@ -2325,7 +2331,7 @@ ideas = {
 
 
 		mikhail_tukhachevsky = {
-
+			ledger = army
 
 			allowed = {
 				original_tag = SOV
@@ -2347,7 +2353,7 @@ ideas = {
 		}
 
 		boris_shaposhnikov = {
-
+			ledger = army
 
 			allowed = {
 				original_tag = SOV
@@ -2363,7 +2369,7 @@ ideas = {
 		}
 
 		georgy_zhukov = {
-
+			ledger = army
 
 			allowed = {
 				original_tag = SOV # Unlocked via focus
@@ -2385,7 +2391,7 @@ ideas = {
 		
 
 		sergey_gorshkov = {
-
+			ledger = navy
 
 			allowed = {
 				original_tag = SOV
@@ -2402,7 +2408,7 @@ ideas = {
 		}
 
 		vladimir_tributs = {
-
+			ledger = navy
 
 			allowed = {
 				original_tag = SOV
@@ -2418,7 +2424,7 @@ ideas = {
 		}
 
 		sergei_rudenko = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = SOV
@@ -2435,7 +2441,7 @@ ideas = {
 		}
 
 		alexander_golovanov = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = SOV
@@ -2451,7 +2457,7 @@ ideas = {
 		}
 
 		igor_kurchatov = {
-
+			ledger = army
 
 			allowed = {
 				original_tag = SOV
@@ -2467,7 +2473,7 @@ ideas = {
 		}
 
 		sergei_korolev = {
-
+			ledger = air
 
 			allowed = {
 				original_tag = SOV

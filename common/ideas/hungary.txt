@@ -482,7 +482,7 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 	high_command = {
 
 		HUN_gusztav_jany = {
-			
+			ledger = army			
 			picture = generic_army_europe_3
 
 			allowed = {
@@ -499,7 +499,7 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 		}
 	
 		HUN_dezso_laszlo = {
-			
+			ledger = army			
 			picture = generic_army_europe_2			
 			allowed = {
 				original_tag = HUN
@@ -515,7 +515,7 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 		}
 	
 		HUN_jeno_ratz = {
-			
+			ledger = air			
 			picture = generic_air_europe_3
 
 			allowed = {
@@ -530,7 +530,7 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 		}
 
 		HUN_henrik_werth = {
-
+			ledger = army
 			picture = generic_army_europe_1
 
 			allowed = {
@@ -545,7 +545,7 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 		}
 		
 		HUN_shvoy_kalman2 = {
-
+			ledger = army
 			picture = generic_army_europe_1
 
 			allowed = {
@@ -564,7 +564,7 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 	
 	theorist = {
 		HUN_shvoy_kalman = {
-		
+			ledger = army
 			picture = generic_army_europe_2
 
 			allowed = {
@@ -579,7 +579,7 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 		}
 		
 		HUN_gyorgy_jendrassik = {
-
+			ledger = air
 			picture = generic_air_europe_2
 			
 			allowed = {

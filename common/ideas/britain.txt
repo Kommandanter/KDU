@@ -2085,7 +2085,7 @@ ideas = {
 	high_command = {
 	
 		ENG_jfc_fuller_a = {
-			
+			ledger = army
 			picture = ENG_jfc_fuller 
 
 			available = {
@@ -2105,7 +2105,7 @@ ideas = {
 		}
 
 		archibald_wavell = {
-			
+			ledger = army
 			allowed = {
 				original_tag = ENG
 			}
@@ -2121,7 +2121,7 @@ ideas = {
 		}
 		
 		claude_auchinleck = {
-			
+			ledger = army
 			allowed = {
 				original_tag = ENG
 			}
@@ -2136,7 +2136,7 @@ ideas = {
 		}
 		
 		kenneth_anderson = {
-			
+			ledger = army
 			allowed = {
 				original_tag = ENG
 			}
@@ -2151,7 +2151,7 @@ ideas = {
 		}
 	
 		sholto_douglas = {
-			
+			ledger = air
 			allowed = {
 				original_tag = ENG
 			}
@@ -2166,7 +2166,7 @@ ideas = {
 		}
 		
 		trafford_leigh_mallory = {
-			
+			ledger = air
 			allowed = {
 				original_tag = ENG
 			}
@@ -2181,7 +2181,7 @@ ideas = {
 		}
 		
 		arthur_harris_highcommand = {
-		
+			ledger = air		
 			available = {
 				has_completed_focus = bomber_command_focus
 			}
@@ -2194,7 +2194,7 @@ ideas = {
 		}
 		###FUCKING YEET
 		frederick_bowhill = {
-			
+			ledger = navy
 			allowed = {
 				original_tag = ENG
 			}
@@ -2209,7 +2209,7 @@ ideas = {
 		}	
 		
 		louis_mountbatten = {
-			
+			ledger = army
 			allowed = {
 				original_tag = ENG
 			}
@@ -2225,7 +2225,7 @@ ideas = {
 		}
 		
 		henry_harwood = {
-			
+			ledger = navy
 			allowed = {
 				original_tag = ENG
 			}
@@ -2240,7 +2240,7 @@ ideas = {
 		}
 		
 		max_horton = {
-			
+			ledger = navy
 			allowed = {
 				original_tag = ENG
 			}
@@ -2255,7 +2255,7 @@ ideas = {
 		}		
 
 		ENG_david_stirling = {
-
+			ledger = army
 			available = {
 				has_completed_focus = ENG_special_air_service
 			}
@@ -2724,7 +2724,7 @@ ideas = {
 	theorist = {
 	
 		bernard_montgomery = {
-			
+			ledger = army
 			allowed = {
 				original_tag = ENG
 			}
@@ -2742,7 +2742,7 @@ ideas = {
 		}
 		
 		harold_alexander = {
-			
+			ledger = army
 			allowed = {
 				original_tag = ENG
 			}
@@ -2759,7 +2759,7 @@ ideas = {
 
 		
 		tom_phillips = {
-			
+			ledger = army
 			allowed = {
 				original_tag = ENG
 			}
@@ -2774,7 +2774,7 @@ ideas = {
 		}
 		
 		hugh_dowding = {
-			
+			ledger = air
 			allowed = {
 				original_tag = ENG
 			}
@@ -2789,7 +2789,7 @@ ideas = {
 		}
 		
 		arthur_harris = {
-			
+			ledger = air
 			allowed = {
 				original_tag = ENG
 			}
@@ -2804,7 +2804,7 @@ ideas = {
 		}
 		
 		james_chadwick = {
-			
+			ledger = army
 			allowed = {
 				original_tag = ENG
 			}
@@ -2819,7 +2819,7 @@ ideas = {
 		}
 		
 		frank_whittle = {
-			
+			ledger = air
 			allowed = {
 				original_tag = ENG
 			}

@@ -1664,8 +1664,7 @@ ideas = {
 	high_command = {
 		
 		hitoshi_imamura = {
-			
-			
+			ledger = army
 			allowed = {
 				original_tag = JAP
 			}
@@ -1680,8 +1679,7 @@ ideas = {
 		}
 		
 		yasuji_okamura = {
-			
-			
+			ledger = army
 			allowed = {
 				original_tag = JAP
 			}
@@ -1702,7 +1700,7 @@ ideas = {
 		}
 		
 		tomoyuki_yamashita_HC = {
-		
+			ledger = army
 			picture = tomoyuki_yamashita 
 			
 			allowed = { 
@@ -1720,8 +1718,7 @@ ideas = {
 		}
 		
 		shunroku_hata = {
-			
-			
+			ledger = army
 			allowed = {
 				original_tag = JAP
 			}
@@ -1736,7 +1733,7 @@ ideas = {
 		}
 
 		takeichi_nichi = { 
-		
+			ledger = army
 			picture = generic_army_asia_2 
 			
 			allowed = { 
@@ -1753,8 +1750,7 @@ ideas = {
 		}
 		
 		mitsuo_fuchida = {
-			
-			
+			ledger = air
 			allowed = {
 				original_tag = JAP
 			}
@@ -1769,8 +1765,7 @@ ideas = {
 		}
 		
 		nishizo_tsukahara = {
-			
-			
+			ledger = navy
 			allowed = {
 				original_tag = JAP
 			}
@@ -1785,7 +1780,7 @@ ideas = {
 		}
 		
 		tateo_kato = {
-			
+			ledger = air
 			
 			allowed = {
 				original_tag = JAP
@@ -1801,7 +1796,7 @@ ideas = {
 		}	
 		
 		soemu_toyoda = {
-			
+			ledger = navy
 			
 			allowed = {
 				original_tag = JAP
@@ -1817,8 +1812,7 @@ ideas = {
 		}
 		
 		matome_ugaki = {
-			
-			
+			ledger = navy
 			allowed = {
 				original_tag = JAP
 			}
@@ -1833,8 +1827,7 @@ ideas = {
 		}
 		
 		chuichi_nagumo = {
-			
-			
+			ledger = air
 			allowed = {
 				original_tag = JAP
 			}
@@ -2191,7 +2184,7 @@ ideas = {
 	theorist = {
 		
 		tomoyuki_yamashita = {
-						
+			ledger = army
 			allowed = {
 				original_tag = JAP
 			}
@@ -2206,7 +2199,7 @@ ideas = {
 		}
 		
 		hisaichi_terauchi = {
-						
+			ledger = army
 			allowed = {
 				original_tag = JAP
 			}
@@ -2219,7 +2212,7 @@ ideas = {
 		}
 		
 		isoroku_yamamoto = {
-						
+			ledger = navy
 			allowed = {
 				original_tag = JAP
 			}
@@ -2234,7 +2227,7 @@ ideas = {
 		}
 		
 		minoru_genda = {
-						
+			ledger = navy
 			allowed = {
 				original_tag = JAP
 			}
@@ -2247,7 +2240,7 @@ ideas = {
 		}
 		
 		yoshitoshi_tokugawa = {
-						
+			ledger = air
 			allowed = {
 				original_tag = JAP
 			}
@@ -2262,7 +2255,7 @@ ideas = {
 		}
 		
 		hino_kumazo = {
-						
+			ledger = air
 			allowed = {
 				original_tag = JAP
 			}	
@@ -2275,7 +2268,7 @@ ideas = {
 		}
 		
 		yoshio_nishina = {
-			
+			ledger = army
 			
 			allowed = {
 				original_tag = JAP
@@ -2291,7 +2284,7 @@ ideas = {
 		}
 		
 		hideo_itokawa = {
-			
+			ledger = air
 			
 			allowed = {
 				original_tag = JAP

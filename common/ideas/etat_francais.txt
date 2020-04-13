@@ -321,7 +321,7 @@ ideas = {
 	theorist = {
 
 		EFR_pierre_hering = {
-
+			ledger = army
 			allowed = {
 				original_tag = EFR
 			}
@@ -347,7 +347,7 @@ ideas = {
 		}
 
 		EFR_paul_gastin = {
-
+			ledger = air
 			picture = generic_air_europe_1
 
 			allowed = {
@@ -364,7 +364,7 @@ ideas = {
 
 	high_command = {
 		EFR_henri_bineau = { ###Henri Bineau Vichyste jusqu'auboutistes
-
+			ledger = army
 			allowed = {
 				original_tag = EFR
 			}
@@ -378,7 +378,7 @@ ideas = {
 			}
 		}
 		EFR_emile_mollard = { ###should change side and bring equipment at some point. Chief of the « Conservation du Matériel » ou CDM qui veut aussi dire « Camouflage du Matériel ». to cheat on the armistice treaty.
-
+			ledger = army
 			allowed = {
 				original_tag = EFR
 			}
