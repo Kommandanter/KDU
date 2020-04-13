@@ -193,8 +193,7 @@ tank_manufacturer = {
 			}
 
 			equipment_bonus = {
-				medium_tank_equipment = {
-					reliability = 0.25
+				medium_armor = {
 					soft_attack = 0.1
 				}
 				medium_tank_destroyer_equipment = {

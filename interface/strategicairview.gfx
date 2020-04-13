@@ -458,7 +458,6 @@ spriteTypes = {
 		name = "GFX_strategicair_linechart"
 		size = {x=224 y=150}
 		linewidth = 2
-		scale = 1.5
 	}
 
 	textSpriteType = {

@@ -1599,8 +1599,6 @@ CAN = {
 		"Martínez del Río" Mejía Miramón Múzquiz Obregón Pedraza Pimentel Reyes "Rincón Gallardo" Robles
 		Ruíz Salas Sánchez "Sarmaniego del Castillo" "Vázquez de la Cadena" Villa Woll Zapata Zaragoza Zuloaga		
 	}
-	callsigns = { }
-}
 
 COS = {
 	male = {

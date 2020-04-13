@@ -90,7 +90,7 @@ guiTypes = {
 			tooltip = "EFFECT_OF_OUR_AIR_SUPERIORITY_ON_NAVAL_SUPREMACY"
 		}
 
-		iconType = {
+#		iconType = {
 #			name = "mine_icon"
 #			spriteType = "GFX_naval_region_window_mine_icon"
 #			position = {x=100 y=98}
@@ -246,7 +246,6 @@ guiTypes = {
 				position = { x = 25 y = 7 }
 				spriteType = "GFX_naval_access_rule_highlight"
 				alwaystransparent = yes
-			}			
-		}	
-	}
+			}
+		}
 }

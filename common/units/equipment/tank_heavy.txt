@@ -89,8 +89,7 @@ equipments = {
 	heavy_tank_equipment_3 = {
 		year = 1943
 
-		archetype = heavy_tank_equipment
-		parent = heavy_tank_equipment_2
+		is_archetype = no
 		priority = 90
 		visual_level = 2
 		is_convertable = yes
@@ -123,7 +122,7 @@ equipments = {
 		is_convertable = yes
 		picture = archetype_heavy_tank_equipment		
 		is_buildable = no
-		family = heavy_tank_equipment
+		family = heavy_tank_artillery_equipment
 		type = {
 			armor
 			artillery
@@ -171,7 +170,7 @@ equipments = {
 		family = heavy_tank_equipment_1
 		can_convert_from = { 
 			heavy_tank_equipment_1
-			ifu_heavy_tank_equipment_1 
+			heavy_tank_artillery_equipment_1
 		}
 		priority = 100
 		visual_level = 0
@@ -185,7 +184,7 @@ equipments = {
 		family = heavy_tank_artillery_equipment_2
 		can_convert_from = { 
 			heavy_tank_equipment_1 
-			heavy_tank_equipment_2
+			heavy_tank_artillery_equipment_1
 #			ifu_heavy_tank_equipment_1 
 #			ifu_heavy_tank_equipment_2
 		}
@@ -219,8 +218,8 @@ equipments = {
 		parent = heavy_tank_artillery_equipment_2
 		family = heavy_tank_artillery_equipment_3
 		can_convert_from = { 
-			heavy_tank_equipment_2
 			heavy_tank_equipment_3
+			heavy_tank_artillery_equipment_2
 #			ifu_heavy_tank_equipment_2
 #			ifu_heavy_tank_equipment_3
 		}
@@ -254,7 +253,7 @@ equipments = {
 		is_convertable = yes
 		picture = archetype_heavy_tank_equipment		
 		is_buildable = no
-		family = heavy_tank_equipment
+		family = heavy_tank_destroyer_equipment
 		type = {
 			armor
 			anti_tank
@@ -312,10 +311,11 @@ equipments = {
 
 		archetype = heavy_tank_destroyer_equipment
 		parent = heavy_tank_destroyer_equipment_1
-		family = heavy_tank_equipment_2
+		family = heavy_tank_destroyer_equipment_2
+
 		can_convert_from = { 
 			heavy_tank_equipment_1
-			heavy_tank_equipment_2
+			heavy_tank_destroyer_equipment_1
 #			ifu_heavy_tank_equipment_1
 #			ifu_heavy_tank_equipment_2
 		}
@@ -349,9 +349,9 @@ equipments = {
 
 		archetype = heavy_tank_destroyer_equipment
 		parent = heavy_tank_destroyer_equipment_2
-		family = heavy_tank_equipment_3
+		family = heavy_tank_destroyer_equipment_3
 		can_convert_from = { 
-			heavy_tank_equipment_2
+			heavy_tank_destroyer_equipment_2
 			heavy_tank_equipment_3
 #			ifu_heavy_tank_equipment_2
 #			ifu_heavy_tank_equipment_3
@@ -451,7 +451,7 @@ equipments = {
 		family = heavy_tank_aa_equipment_2
 		can_convert_from = { 
 			heavy_tank_equipment_1
-			heavy_tank_equipment_2
+			heavy_tank_aa_equipment_1
 #			ifu_heavy_tank_equipment_1
 #			ifu_heavy_tank_equipment_2
 		}
@@ -485,12 +485,12 @@ equipments = {
 
 		archetype = heavy_tank_aa_equipment
 		parent = heavy_tank_aa_equipment_2
-		family = heavy_tank_equipment_3
+		family = heavy_tank_aa_equipment_3
 		can_convert_from = { 
-			heavy_tank_equipment_2
-			heavy_tank_equipment_3
-			ifu_heavy_tank_equipment_2
-			ifu_heavy_tank_equipment_3
+			heavy_tank_aa_equipment_2
+			heavy_tank_equipment_1
+#			ifu_heavy_tank_equipment_2
+#			ifu_heavy_tank_equipment_3
 		}
 		priority = 110
 		visual_level = 2

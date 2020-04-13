@@ -1,5 +1,4 @@
 focus_tree = {
-	id = canadian_focus
 
 	country = {
 		factor = 0

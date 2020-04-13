@@ -416,7 +416,7 @@ governments_in_exile = {
 					add_legitimacy = 10
 				}
 			}
-			custom_effect_tooltip = HOL_request_equipment_tt_2
+			custom_effect_tooltip = request_equipment_tt_2
 			FROM = {
 				country_event = { id = mtg_exile_government.3 hours = 6 }
 			}

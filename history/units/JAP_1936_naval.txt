@@ -13,7 +13,7 @@ units = {
 			location = 1092  #Yokosuka
 			#Dai 1 Sentai
 			ship = { name = "Nagato"  pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "BB1" } } }
-			ship = { name = "Haruna" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "BB1"} } }
+			ship = { name = "Haruna" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "BB2"} } }
 			ship = { name = "Fuso" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "BB1"} } }
 			ship = { name = "Yamashiro" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "BB1"} } }
 			#Dai 8 Sentai
@@ -396,6 +396,18 @@ instant_effect =
 			progress = 0.4
 			amount = 1
 		}
+
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_heavy_1
+				creator = "JAP"
+				version_name = "BB2"
+			}
+			requested_factories = 1
+			progress = 0.4
+			amount = 1
+		}
+
 		# CV (x1): "Soryu"
 		add_equipment_production = {				
 			equipment = {

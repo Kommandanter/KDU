@@ -4,7 +4,6 @@ guiTypes = {
 		backGround =""
 		position = { x=5 y=100 }
 		size = { x=473 y=400 }
-		moveable = yes
 		orientation="UPPER_LEFT"
 		
 		# Console list of entries
@@ -31,7 +30,7 @@ guiTypes = {
 			size = { x=500 y=40 }
 			text = " "
 			orientation = "UPPER_LEFT"
-			instantTextBoxType = yes
+			instantTextBoxType = no
 			cursor = { x = 0 y = 8 }
 		}
 

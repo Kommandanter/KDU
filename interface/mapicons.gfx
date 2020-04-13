@@ -492,16 +492,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/mapicons/mapicon_naval_mission_convoy_escort.dds"
 		noOfFrames = 2
 	}
-	spriteType = {
-		name = "GFX_mapicon_naval_mission_mines_planting"
-		texturefile = "gfx/interface/mapicons/mapicon_naval_mission_mines_planting.dds"
-		noOfFrames = 2
-	}
-	spriteType = {
-		name = "GFX_mapicon_naval_mission_mines_sweeping"
-		texturefile = "gfx/interface/mapicons/mapicon_naval_mission_mines_sweeping.dds"
-		noOfFrames = 2
-	}
+	#spriteType = {
+	#	name = "GFX_mapicon_naval_mission_mines_planting"
+	#	texturefile = "gfx/interface/mapicons/mapicon_naval_mission_mines_planting.dds"
+	#	noOfFrames = 2
+	#}
+	#spriteType = {
+	#	name = "GFX_mapicon_naval_mission_mines_sweeping"
+	#	texturefile = "gfx/interface/mapicons/mapicon_naval_mission_mines_sweeping.dds"
+	#	noOfFrames = 2
+	#}
 	spriteType = {
 		name = "GFX_mapicon_naval_invasion_support"
 		texturefile = "gfx/interface/mapicons/mapicon_naval_mission_naval_invasion_support.dds"
@@ -622,22 +622,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/onmap_attrition.dds"
 	}	
 
-	spriteType = {
-		name = "GFX_naval_mine_icon"
-		texturefile = "gfx/interface/naval_mine_icon.dds"
-	}	
-
-	progressbartype = {
-		name = "GFX_naval_mine_progress_positive"
-		color = { 0.0 0.5 0.0 }
-		colortwo = { 1.0 0.0 0.0 }
-		textureFile1 = "gfx//interface//naval_mine_progress_good.dds"
-		textureFile2 = "gfx//interface//naval_mine_progress_bg.dds"
-		size = { x = 40 y = 7 }
-		effectFile = "gfx//FX//progress.lua"
-		horizontal = yes
-		steps = 1000000
-	}
+	#spriteType = {
+	#	name = "GFX_naval_mine_icon"
+	#	texturefile = "gfx/interface/naval_mine_icon.dds"
+	#}	
+	#
+	#progressbartype = {
+	#	name = "GFX_naval_mine_progress_positive"
+	#	color = { 0.0 0.5 0.0 }
+	#	colortwo = { 1.0 0.0 0.0 }
+	#	textureFile1 = "gfx//interface//naval_mine_progress_good.dds"
+	#	textureFile2 = "gfx//interface//naval_mine_progress_bg.dds"
+	#	size = { x = 40 y = 7 }
+	#	effectFile = "gfx//FX//progress.lua"
+	#	horizontal = yes
+	#	steps = 1000000
+	#}
 
 	progressbartype = {
 		name = "GFX_naval_mine_progress_negative"

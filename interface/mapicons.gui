@@ -1353,28 +1353,28 @@ guiTypes = {
 	}
 
 	#### NAVAL MINES
-	containerWindowType = {
-		name = "naval_mines_map_icon"
-		position = { x=0 y=-28 } # Pos is attached to "naval_mission_mapicon" 
-		size = { width=71 height=22 }
-		orientation = upper_left
-
-		iconType ={
-			name ="icon"
-			spriteType = "GFX_naval_mine_icon"
-			position = { x=0 y=0 }
-		}
-		iconType ={
-			name ="progress_good"
-			spriteType = "GFX_naval_mine_progress_positive"
-			position = { x=30 y=0 }
-		}
-		iconType ={
-			name ="progress_bad"
-			spriteType = "GFX_naval_mine_progress_negative"
-			position = { x=30 y=7 }
-		}
-	}
+	#containerWindowType = {
+	#	name = "naval_mines_map_icon"
+	#	position = { x=0 y=-28 } # Pos is attached to "naval_mission_mapicon" 
+	#	size = { width=71 height=22 }
+	#	orientation = upper_left
+	#
+	#	iconType ={
+	#		name ="icon"
+	#		spriteType = "GFX_naval_mine_icon"
+	#		position = { x=0 y=0 }
+	#	}
+	#	iconType ={
+	#		name ="progress_good"
+	#		spriteType = "GFX_naval_mine_progress_positive"
+	#		position = { x=30 y=0 }
+	#	}
+	#	iconType ={
+	#		name ="progress_bad"
+	#		spriteType = "GFX_naval_mine_progress_negative"
+	#		position = { x=30 y=7 }
+	#	}
+	#}
 
 	#### SUPPLY MAP ICON
 	containerWindowType = {

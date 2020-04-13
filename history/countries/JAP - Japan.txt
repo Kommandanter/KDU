@@ -229,10 +229,10 @@ if = {
 	#complete_national_focus = extra_tech_focus
 	#complete_national_focus = industrial_effort_focus
 	#complete_national_focus = industrial_effort_focus2
-	declare_war_on = {
-		target = CHI
-		type = annex_everything
-	}
+#	declare_war_on = {
+#		target = CHI
+#		type = annex_everything
+#	}
 	#declare_war_on = {
 	#	target = GXC
 	#	type = puppet_focus
@@ -1046,7 +1046,19 @@ if = {
 				fixed_ship_engine_slot = sub_ship_engine_1
 				rear_1_custom_slot = ship_torpedo_sub_1
 			}
+		}
+		create_equipment_variant = {
+			name = "SS1B"
+			type = ship_hull_submarine_1
+			name_group = JAP_SS_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_torpedo_slot = ship_torpedo_sub_2
+				fixed_ship_engine_slot = sub_ship_engine_1
+				rear_1_custom_slot = ship_torpedo_sub_1
+			}
 		}	
+
 
 }
 

@@ -714,23 +714,23 @@ ideas = {
 			
 		}
 
-		GDU_hitlerjugend = {
-			removal_cost = -1
-			allowed = {
-				always = no # Unlocked via focus
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = GDU_hitlerjugend
-			
-			modifier = {
-				conscription = 0.005
-			}
-		}
-	
+#		GDU_hitlerjugend = {
+#			removal_cost = -1
+#			allowed = {
+#				always = no # Unlocked via focus
+#			}
+#
+#			allowed_civil_war = {
+#				always = yes
+#			}
+#
+#			picture = GDU_hitlerjugend
+#			
+#			modifier = {
+#				conscription = 0.005
+#			}
+#		}
+#	
 		alli_phoney_war = {
 			
 			allowed = { 
