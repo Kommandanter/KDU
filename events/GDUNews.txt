@@ -38,7 +38,7 @@ news_event = {
 		name = gdunews.1.b
 		trigger = {
 			OR = { 
-				tag = IRE 
+				#tag = IRE 
 				tag = HOL
 				tag = ENG
 				is_in_faction_with = ENG 
@@ -65,7 +65,7 @@ news_event = {
 				tag = USA 
 				tag = SOV
 				tag = FRA
-				tag = IRE 
+				#tag = IRE 
 				tag = HOL
 				tag = POL
 			}
@@ -77,9 +77,8 @@ news_event = {
 	}
 }
 ### Note, in order not to have to cut on loc, these news events will be country events.
-country_event = {  ### Katyn Massacre 
+country_event = { ### Katyn Massacre 
 	id = gdunews.2002
-	hidden = yes 
 	fire_only_once = yes 
 	trigger = {
 		date > 1940.4.2
@@ -91,9 +90,7 @@ country_event = {  ### Katyn Massacre
 		every_country = {
 			if = {
 				limit = {
-					NOT = {
-						has_country_flag = no_news
-					}
+					has_country_flag = no_news
 				}
 				country_event = {
 					id = gdunews.2
@@ -101,7 +98,7 @@ country_event = {  ### Katyn Massacre
 			}
 		}
 	}
-}	
+}
 country_event = {  ### Katyn Massacre 
 	id = gdunews.2
 	title = gdunews.2.t
@@ -153,17 +150,15 @@ country_event = {  ### The Pilecki Report   [The Holocaust]
 		every_country = {
 			if = {
 				limit = {
-					NOT = {
 						has_country_flag = no_news
 					}
-				}
 				country_event = {
 					id = gdunews.3
 				}
 			}
 		}
 	}
-}	
+}
 country_event = {  ### The Pilecki Report   [The Holocaust]
 	id = gdunews.3
 	title = gdunews.3.t
@@ -185,7 +180,7 @@ country_event = {  ### The Pilecki Report   [The Holocaust]
 	option = {
 		name = gdunews.3.cro
 		trigger = { 
-			tag = CRO
+			#tag = CRO
 		}
 	}
 	option = {
@@ -199,7 +194,7 @@ country_event = {  ### The Pilecki Report   [The Holocaust]
 		trigger = { 
 			NOT = {
 				tag = GER
-				tag = CRO 
+				#tag = CRO 
 				tag = ROM
 			}
 			OR = {
@@ -214,7 +209,7 @@ country_event = {  ### The Pilecki Report   [The Holocaust]
 			NOT = {
 				tag = POL 
 				tag = GER 
-				tag = CRO 
+				#tag = CRO 
 				tag = ROM
 				has_government = fascism
 				is_in_faction_with = GER
@@ -236,9 +231,7 @@ country_event = {  ### Warsaw Ghetto Uprising
 		every_country = {
 			if = {
 				limit = {
-					NOT = {
-						has_country_flag = no_news
-					}
+					has_country_flag = no_news
 				}
 				country_event = {
 					id = gdunews.4
@@ -289,10 +282,8 @@ country_event = {  ### Warsaw Uprising
 		every_country = {
 			if = {
 				limit = {
-					NOT = {
 						has_country_flag = no_news
 					}
-				}
 				country_event = {
 					id = gdunews.5
 				}
@@ -379,7 +370,7 @@ news_event = {
 	}
 }
 
-news_event = {  
+news_event = {
 	id = gdunews.7
 	title = gdunews.7.t
 	desc = gdunews.7.d
@@ -389,9 +380,7 @@ news_event = {
 	major = yes 
 	
 	fire_only_once = yes 
-	
-	is_triggered_only = yes 
-	
+
 	option = {
 		name = gdunews.7.sov 
 		trigger = { 
@@ -414,24 +403,3 @@ news_event = {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

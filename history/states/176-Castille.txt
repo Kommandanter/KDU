@@ -12,35 +12,12 @@ state={
 			infrastructure = 6
 			industrial_complex = 2
 		}
-#		victory_points = {
-#			885 3 
-#		}
-#		victory_points = {
-#			11825 3 
-#		}
-		victory_points = { 857 1 }
-		victory_points = { 884 1 }
-		victory_points = { 885 1 }
-		victory_points = { 903 1 }
-		victory_points = { 3820 1 }
-		victory_points = { 3859 1 }
-		victory_points = { 3887 1 }
-		victory_points = { 3902 1 }
-		victory_points = { 6903 1 }
-		victory_points = { 6936 1 }
-		victory_points = { 9700 1 }
-		victory_points = { 9800 1 }
-		victory_points = { 9827 1 }
-		victory_points = { 9846 1 }
-		victory_points = { 9870 1 }
-		victory_points = { 9872 1 }
-		victory_points = { 11684 1 }
-		victory_points = { 11766 1 }
-		victory_points = { 11806 1 }
-		victory_points = { 11809 1 }
-		victory_points = { 11825 1 }
-		victory_points = { 11852 1 }
-		victory_points = { 11854 1 }
+		victory_points = {
+			885 5
+		}
+		victory_points = {
+			11825 6
+		}
 		add_core_of = SPR
 	}
 

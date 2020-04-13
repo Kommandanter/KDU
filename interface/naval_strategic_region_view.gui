@@ -24,6 +24,7 @@ guiTypes = {
 		animation_time = 300
 		orientation = lower_left
 		size = { width=438 height=280 }
+		moveable = yes
 		
 		background = {
 			name = "Background"		

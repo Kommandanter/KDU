@@ -2408,9 +2408,7 @@ ideas = {
 			research_bonus = {
 				air_equipment = 0.15
 			}
-			
-			traits = { de_havilland_aircraft_manufacturer }
-			
+
 			modifier = {
 			}
 		}
@@ -2563,7 +2561,6 @@ ideas = {
 					original_TAG = NZL 
 					original_TAG = AST 
 					original_TAG = HOL
-					original_TAG = IRE 
 				}
 			}
 			available = {
@@ -2603,7 +2600,6 @@ ideas = {
 					original_TAG = NZL 
 					original_TAG = AST 
 					original_TAG = HOL
-					original_TAG = IRE 
 				}
 			}
 			research_bonus = {
@@ -2641,7 +2637,6 @@ ideas = {
 					original_TAG = NZL 
 					original_TAG = AST 
 					original_TAG = HOL
-					original_TAG = IRE 
 				}
 			}
 			available = {
@@ -2685,7 +2680,6 @@ ideas = {
 					original_TAG = NZL 
 					original_TAG = AST 
 					original_TAG = HOL
-					original_TAG = IRE 
 				}
 			}
 			research_bonus = {
@@ -2727,7 +2721,7 @@ ideas = {
 		}
 	}
 	
-	theorist = {	
+	theorist = {
 	
 		bernard_montgomery = {
 			
@@ -2845,7 +2839,6 @@ ideas = {
 
 
 	}
-
 
 }
 

@@ -3,7 +3,7 @@ state={
 	id=42
 	name="STATE_42"
 	resources={
-		steel=100.000
+		steel=120.000
 		aluminium=24.000
 	}
 

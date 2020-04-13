@@ -6,7 +6,7 @@ state={
 	resources={
 		aluminium=4
 		chromium=10
-		steel=3
+		steel=10
 		oil=2
 	}
 	
@@ -25,9 +25,9 @@ state={
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 2 
+			industrial_complex = 2
 			dockyard = 1
-			air_base = 3
+			air_base = 6
 			11767 = {
 				naval_base = 3
 			}

@@ -6,11 +6,11 @@ state={
 	
 	state_category = town
 	
-	resources={
-	}
+	#resources={
+	#}
 	history={
 		#owner = AFG
-		add_core_of = AFG
+		#add_core_of = AFG
 		buildings = {
 			infrastructure = 2
 		}

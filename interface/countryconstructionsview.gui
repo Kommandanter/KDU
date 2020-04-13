@@ -6,7 +6,7 @@ guiTypes = {
 		show_position = { x=-9 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300	
+		animation_time = 200	
 		size = { width=550 height=100%% }
 		clipping = no
 		
@@ -50,17 +50,17 @@ guiTypes = {
 			size = { width = 100% height = 80% }
 			verticalScrollbar = "right_vertical_slider"
 			
-			#background = {
-			#	name = "Background"
-			#	spriteType ="GFX_production_win_top"
-			#}
+			background = {
+				name = "Background"
+				spriteType ="GFX_production_win_top"
+			}
 
 			iconType = {
 				name = "civilian_factory_icon"
 				position = { x = -11 y = 29 }
 				spriteType = "GFX_non_available_factory_icon"
 			}
-			
+
 			
 			instantTextboxType = {
 				name = "available_factories_value"
@@ -213,16 +213,16 @@ guiTypes = {
 				format = "UPPER_LEFT"
 			}	
 		}
-		
+
 		containerWindowType = {
 			name = "possible_constructions"
 			position = { x = 438 y = 48 }
 			size = { width = 104 height = 585 }
 			
-#			background = {
-#				name = "Background"
-#				quadTextureSprite ="GFX_tiled_plain_bg_small"
-#			}
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_plain_bg_small"
+			}
 
 			iconType = {
 				name = "constructions_bg1"
@@ -235,7 +235,7 @@ guiTypes = {
 				position = { x = 0 y = 205 }
 				quadTextureSprite = "GFX_constructions_bg2"
 			}
-			
+
 			iconType = {
 				name = "constructions_bg3"
 				position = { x = 0 y = 405 }
@@ -341,15 +341,14 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 
-#		iconType ={
-#			name ="tutorial_glow"
-#			spriteType = "GFX_tutorial_building_icon_glow"
-#			position = { x= 491 y = 244 }
-#			Orientation = "UPPER_LEFT"
-#			hide = yes
-#		}
-#	}
-#
+		iconType ={
+			name ="tutorial_glow"
+			spriteType = "GFX_tutorial_building_icon_glow"
+			position = { x= 491 y = 244 }
+			Orientation = "UPPER_LEFT"
+			hide = yes
+		}
+	}
 
 	containerWindowType = {
 		name = "start_construction_entry"
@@ -418,13 +417,13 @@ guiTypes = {
 			vertical_alignment = center
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "picture"
 			position = { x = 172 y = 5 }
 			spriteType = "GFX_buildings_strip"
 		}
-		
+
 		iconType = {
 			name = "overlay"
 			position = { x = 172 y = 5 }
@@ -432,13 +431,13 @@ guiTypes = {
 			frame = 2
 			allwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "progress"
 			spriteType = "GFX_construction_progressbar"
 			position = { x= 249 y = 36 }
 		}
-		
+
 		instantTextboxType = {
 			name = "queued"
 			position = { x = 192 y = 29 }
@@ -450,7 +449,7 @@ guiTypes = {
 			format = right
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "repair"
 			spriteType = "GFX_building_repair"
@@ -462,18 +461,18 @@ guiTypes = {
 			spriteType = "GFX_ongoing_contruction_anim"
 			position = { x = 254 y = 9 }
 		}
-		
+
 		instantTextboxType = {
 			name = "factories"
 			position = { x = 254 y = 9 }
 			textureFile = ""
-			font = "hoi_18b"
+			font = "cg_18b"
 			text = "-"
 			maxWidth = 50
 			maxHeight = 20
 			format = center
 		}
-	
+
 		buttonType = {
 			name = "increase_priority"
 			position = { x=318 y=14 }
@@ -482,7 +481,7 @@ guiTypes = {
 			pdx_tooltip_delayed = "PRODUCTION_PRIORITY_DELAYED"
 			clicksound = click_default
 		}
-		
+
 		buttonType = {
 			name = "decrease_priority"
 			position = { x=341 y=14	 }
@@ -491,7 +490,7 @@ guiTypes = {
 			pdx_tooltip_delayed = "PRODUCTION_PRIORITY_DELAYED"
 			clicksound = click_default
 		}
-		
+
 		buttonType = {
 			name = "increase_amount"
 			quadTextureSprite ="GFX_zoom_in"
@@ -501,7 +500,7 @@ guiTypes = {
 			scale = 0.9
 			clicksound = click_default
 		}
-		
+
 		buttonType = {
 			name = "decrease_amount"
 			quadTextureSprite ="GFX_zoom_out"
@@ -509,15 +508,15 @@ guiTypes = {
 			scale = 0.9	
 			clicksound = click_default		
 		}
-		
+
 		buttonType = {
 			name = "close_production_line"
 			position = { x=370 y=14	 }
 			quadTextureSprite = "GFX_closebutton_small"
 			clicksound = click_default
-		}		
+		}
 	}
-	
+
 	containerWindowType = {
 		name = "static_consumer_goods_entry"
 		position = { x=0 y=0 }
@@ -528,7 +527,7 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_construction_special_entry_bg"
 		}
-		
+
 		instantTextboxType = {
 			name = "name"
 			position = { x = 20 y = 16 }
@@ -540,33 +539,33 @@ guiTypes = {
 			maxHeight = 20
 			format = left
 			vertical_alignment = center 
-			
+
 			allwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "picture"
 			position = { x = 210 y = 26 }
 			spriteType = "GFX_consumer_goods_icon"
 			centerposition = yes
-			
+
 			allwaystransparent = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "factories"
 			position = { x = 254 y = 17 }
 			textureFile = ""
-			font = "hoi_18b"
+			font = "cg_18b"
 			text = "-"
 			maxWidth = 50
 			maxHeight = 20
 			format = center
-			
+
 			allwaystransparent = yes
-		}		
+		}
 	}
-	
+
 	containerWindowType = {
 		name = "static_traded_factories_entry"
 		position = { x=0 y=0 }
@@ -577,7 +576,7 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_construction_special_entry_bg"
 		}
-		
+
 		instantTextboxType = {
 			name = "name"
 			position = { x = 20 y = 16 }
@@ -588,10 +587,10 @@ guiTypes = {
 			maxWidth = 250
 			maxHeight = 20
 			format = left
-			
+
 			allwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "picture"
 			position = { x = 210 y = 25 }
@@ -600,19 +599,19 @@ guiTypes = {
 			
 			allwaystransparent = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "factories"
 			position = { x = 254 y = 17 }
 			textureFile = ""
-			font = "hoi_18b"
+			font = "cg_18b"
 			text = "-"
 			maxWidth = 50
 			maxHeight = 20
 			format = center
-			
+
 			allwaystransparent = yes
-		}		
+		}
 	}
 
 	containerWindowType = {
@@ -625,7 +624,7 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_construction_special_entry_bg"
 		}
-		
+
 		instantTextboxType = {
 			name = "name"
 			position = { x = 20 y = 16 }
@@ -653,14 +652,14 @@ guiTypes = {
 			name = "factories"
 			position = { x = 254 y = 17 }
 			textureFile = ""
-			font = "hoi_18b"
+			font = "cg_18b"
 			text = "-"
 			maxWidth = 50
 			maxHeight = 20
 			format = center
-			
+
 			allwaystransparent = yes
-		}		
+		}
 	}
 }
-}
+

@@ -110,7 +110,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "NZL"
 		}
-		requested_factories = 1
+		requested_factories = 2
 		progress = 0.62
 		efficiency = 100
 	}
@@ -128,7 +128,7 @@ instant_effect = {
 			type = artillery_equipment_1
 			creator = "NZL" 
 		}
-		requested_factories = 1
+		requested_factories = 2
 		progress = 0.3
 		efficiency = 50
 	}		
@@ -137,8 +137,8 @@ instant_effect = {
 			type = support_equipment_1
 			creator = "NZL" 
 		}
-		requested_factories = 4
+		requested_factories = 2
 		progress = 0.3
-		efficiency = 50
+		efficiency = 30
 	}		
 }

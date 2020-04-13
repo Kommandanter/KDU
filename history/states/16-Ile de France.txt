@@ -4,7 +4,7 @@ state={
 	name="STATE_16"
 	manpower = 7038500
 	
-	state_category = metropolis
+	state_category = megalopolis
 	
 
 	history={
@@ -13,11 +13,11 @@ state={
 			11506 50 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 8
 			arms_factory = 6
 			industrial_complex = 11
 			anti_air_building = 3
-			air_base = 5
+			air_base = 20
 		}
 		add_core_of = FRA
 		1939.1.1 = {

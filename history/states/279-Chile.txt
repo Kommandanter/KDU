@@ -9,7 +9,7 @@ state={
 
 	history={
 		#owner = CHL
-		add_core_of = CHL
+		#add_core_of = CHL
 	}
 
 	provinces={

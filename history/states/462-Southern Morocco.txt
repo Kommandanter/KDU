@@ -10,7 +10,8 @@ state={
 		owner = FRA
 		buildings = {
 			infrastructure = 4
-			air_base = 10
+			air_base = 8
+			naval_base = 3
 		}
 	}
 

@@ -136,7 +136,14 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-
+			swap_ideas = {
+				add_idea = RAJ_marginalized_muslim_community_angry
+				remove_idea = RAJ_marginalized_muslim_community
+			}
+			add_autonomy_ratio = {
+				value =	0.05
+				localization = RAJ_cripps_mission
+		 	}
 		}
 
 		completion_reward = {
@@ -1436,7 +1443,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_the_smiling_buddha
-				bonus = 1.50
+				bonus = 2.5
 				uses = 1
 				category = nuclear
 			}
@@ -1638,7 +1645,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_industrial_expansion
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 20
@@ -1649,7 +1656,7 @@ focus_tree = {
 		}
 
 		available = {
-			controls_state = 1014
+
 		}
 
 		bypass = {
@@ -1692,17 +1699,12 @@ focus_tree = {
 		available = {
 
 		}
-
-		bypass = {
-
-		}
-
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		available_if_capitulated = no
 
 		complete_tooltip = {
-
+			add_research_slot = 1
 		}
 
 		completion_reward = {
@@ -2450,7 +2452,6 @@ focus_tree = {
 				localization = RAJ_strengthen_ties_with_british_investors
 			}
 			random_owned_controlled_state = {
-				prioritize = {  }
 				limit = {
 					free_building_slots = {
 						building = arms_factory

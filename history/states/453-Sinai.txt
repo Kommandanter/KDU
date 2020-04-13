@@ -17,10 +17,10 @@ state={
 			9947 15
 		}
 		victory_points = {
-			10099 1
+			10099 5
 		}
 		victory_points = {
-			4115 1
+			4115 5
 		}
 		victory_points = {
 			1015 15
@@ -32,7 +32,7 @@ state={
 				naval_base = 2
 			}
 			10099 = {
-				naval_base = 1
+				naval_base = 3
 			}
 			9947 = {
 				naval_base = 10

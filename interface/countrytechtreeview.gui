@@ -388,7 +388,7 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 
-#				instantTextBoxType = {
+				instantTextBoxType = {
 #					name = "support_year5"
 #					position = { x = 370 y = 50 }
 #					font = "hoi_36header"
@@ -5391,4 +5391,5 @@ guiTypes = {
 		position = { x=0 y=0 }
 		size = { width=1 height=1 }
 	}	
+}
 }

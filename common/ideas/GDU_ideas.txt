@@ -1321,13 +1321,13 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
-				experience_gain_battleship_training_factor = 10.0
-				experience_gain_submarine_training_factor = 10.0
-				experience_gain_battle_cruiser_training_factor = 10.0
+				#experience_gain_battleship_training_factor = 10.0
+				#experience_gain_submarine_training_factor = 10.0
+				#experience_gain_battle_cruiser_training_factor = 10.0
 				experience_gain_destroyer_training_factor = 10.0
-				experience_gain_carrier_training_factor = 10.0
-				experience_gain_heavy_cruiser_training_factor = 10.0
-				experience_gain_light_cruiser_training_factor = 10.0
+				#experience_gain_carrier_training_factor = 10.0
+				#experience_gain_heavy_cruiser_training_factor = 10.0
+				#experience_gain_light_cruiser_training_factor = 10.0
 				training_time_factor = -0.45
 			}
 		}
@@ -1348,30 +1348,8 @@ ideas = {
 			production_speed_arms_factory_factor = -1.00
 		    production_speed_industrial_complex_factor = -0.15
 		    production_speed_infrastructure_factor = -0.15
-            production_speed_synthetic_refinery_factor = -0.15			
+			production_speed_synthetic_refinery_factor = -0.15
 			}
 		}
-		
-	czech_set_amount_artillery = {
-			
-			
-			allowed = {
-				always = no
-			}
-
-			
-			
-			
-			removal_cost = -1
-	
-			modifier = {
-			industrial_capacity_factory = -1.5
-				
-		
-			}
-		}
-
-
-		
 	}
 }

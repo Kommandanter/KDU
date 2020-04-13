@@ -12,17 +12,17 @@ state={
 			industrial_complex = 1
 			infrastructure = 5
 			dockyard = 1
-			air_base = 3
+			air_base = 6
 			3686 = {
-				naval_base = 7
-				coastal_bunker = 4
+				naval_base = 9
+				coastal_bunker = 7
 				bunker = 5
 
 			}
 			9680 = {
 				naval_base = 2
-				coastal_bunker = 4
-
+				coastal_bunker = 6
+				bunker = 5
 			}
 
 		}

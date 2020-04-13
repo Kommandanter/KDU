@@ -7,7 +7,7 @@ state={
 	state_category = town
 	
 	resources={
-		oil=10
+		oil=20
 	}
 
 	history={
@@ -16,13 +16,13 @@ state={
 			2097 5
 		}
 		victory_points = {
-			2089 1 
+			2089 5
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			air_base = 9
 			2089 = {
-				naval_base = 1
+				naval_base = 3
 			}
 		}
 		add_core_of = ENG

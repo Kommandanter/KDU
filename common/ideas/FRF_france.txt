@@ -1143,7 +1143,6 @@ ideas = {
 
 			research_bonus = {
 				motorized_equipment = 0.15
-				mechanized_equipment = 0.10
 			}
 
 			traits = { motorized_equipment_manufacturer }

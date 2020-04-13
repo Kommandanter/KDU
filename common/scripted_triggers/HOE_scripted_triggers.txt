@@ -1,16 +1,16 @@
 # Is in faction with or has ideology or has flag
 
-is_ching_chong = {
-	OR = {
-		AND = {
-			CHI = { is_subject = no }
-			is_in_faction_with = CHI
-		}
-		is_independent_china_or_warlord = yes
-		has_country_flag = switched_to_ching_chong_team
-	}
-	NOT = { has_country_flag = switched_off_ching_chong_team }
-}
+#is_ching_chong = {
+#	OR = {
+#		AND = {
+#			CHI = { is_subject = no }
+#			is_in_faction_with = CHI
+#		}
+#		is_independent_china_or_warlord = yes
+#		has_country_flag = switched_to_ching_chong_team
+#	}
+#	NOT = { has_country_flag = switched_off_ching_chong_team }
+#}
 
 is_allied_with_axis = {
 	OR = {

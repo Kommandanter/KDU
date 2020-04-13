@@ -14,7 +14,7 @@ state=
 			air_base = 3
 			12003 = {
 				naval_base = 3
-				coastal_bunker = 1
+				coastal_bunker = 3
 			}
 		}
 	}

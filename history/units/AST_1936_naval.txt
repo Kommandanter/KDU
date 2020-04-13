@@ -17,7 +17,7 @@
 			ship = { name = "HMAS Voyager" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "ASW DD1" } } }
 			ship = { name = "HMAS Waterhen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "ASW DD1" } } }
 			ship = { name = "HMAS Stuart" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "ASW DD1" } } }
-		}				
+		}
 	}
 	
 	##### NAVAL UNITS #####

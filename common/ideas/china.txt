@@ -14,11 +14,6 @@ ideas = {
 			allowed_civil_war = {
 				always = no
 			}
-			
-			modifier = {
-				production_cost_max_ship_hull_submarine = 50.0
-			}
-			
 		}
 	
 		lure_them_in = {
@@ -1169,31 +1164,5 @@ ideas = {
 		}
 	}
 
-	industrial_concern = {
-
-		CHI_mining_commission = {
-
-			picture = generic_industrial_concern_3		
-			
-			available = {
-				has_completed_focus = CHI_mining_commission
-			}
-
-			allowed = {
-				has_dlc = "Waking the Tiger"
-				original_tag = CHI
-			}
-
-			cost = 0
-			
-			ai_will_do = {
-				factor = 1
-			}
-
-			modifier = {
-				local_resources_factor = 0.1
-			}
-		}
-	}
 
 }

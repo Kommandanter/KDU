@@ -17,8 +17,8 @@ focus_tree = {
 		#}
 	}
 
-	default = no
 
+	
 #	focus = {
 #		id = NZL_
 #		icon = GFX_
@@ -1151,11 +1151,11 @@ focus_tree = {
 			}
 		}
 
-		available {
+		available = {
 
 		}
 
-		bypass = 1
+		bypass = {
 
 		}
 
@@ -2163,7 +2163,5 @@ focus_tree = {
 				technology = modern_rubber_processing
 			}
 		}
-	}	
-	
-	
+	}
 }

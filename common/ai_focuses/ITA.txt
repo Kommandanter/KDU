@@ -22,7 +22,6 @@ ai_historical_focus_list_ITA = {
 		ITA_submarine_effort 
 		ITA_italian_highways 
 		ITA_carrier_effort 
-		ITA_romania_friend  
 		ITA_bomber_effort 
 		ITA_greece_war_goal  
 		ITA_german_rd_treaty 

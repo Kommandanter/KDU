@@ -6,10 +6,6 @@ state={
 	
 	
 	state_category = wasteland
-	
-	
-	
-
 	history={
 		#owner = SIK
 		#add_core_of = SIK

@@ -1468,7 +1468,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = MEX_focus_nationalize_the_oil_fields
+		id = #MEX_focus_nationalize_the_oil_fields
 		icon = GFX_goal_generic_construction
 		x = 0
 		y = 0

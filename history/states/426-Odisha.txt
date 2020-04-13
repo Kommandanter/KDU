@@ -8,7 +8,7 @@ state={
 	
 	resources={
 		chromium=36
-		aluminium=4
+		aluminium=40
 	}
 
 	history={

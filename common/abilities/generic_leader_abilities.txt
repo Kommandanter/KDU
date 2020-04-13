@@ -1,4 +1,4 @@
-#ability = {		##### KOMMANDANTER ####
+ability = {		##### KOMMANDANTER ####
 #	force_attack = {
 #		name = ABILITY_FORCE_ATTACK
 #		desc = ABILITY_FORCE_ATTACK_DESC
@@ -161,67 +161,67 @@
 #		}
 #	}
 #
-#	glider_planes = {
-#		name = ABILITY_GLIDER_PLANES_ARTILLERY
-#		desc = ABILITY_GLIDER_PLANES_ARTILLERY_DESC
-#
-#		type = army_leader
-#
-#		allowed = {
-#			has_ability = glider_planes
-#			is_border_war = no
-#		}
-#
-#		unit_modifiers = {
-#			paratrooper_count_per_plane = 1.0
-#			paradrop_organization_factor = 2.0
-#			paratrooper_aa_defense = 0.5
-#		}
-#
-#		cost = 0.1
-#		duration = 168
-#	}
-#
-#	probing_attack = {
-#		name = ABILITY_PROBING_ATTACK
-#		desc = ABILITY_PROBING_ATTACK_DESC
-#
-#		type = army_leader
-#
-#		allowed = {
-#			has_ability = probing_attack
-#			is_border_war = no
-#		}
-#
-#		unit_modifiers = {
-#			dont_lose_dig_in_on_attack = 1.0
-#			offence = -0.05
-#		}
-#
-#		cancelable = yes
-#		cost = 0.1
-#		duration = -1
-#	}
-#
-#	extra_suplies = {
-#		name = ABILITY_EXTRA_SUPLIES
-#		desc = ABILITY_EXTRA_SUPLIES_DESC
-#
-#		type = army_leader
-#
-#		allowed = {
-#			has_ability = extra_suplies
-#			is_border_war = no
-#		}
-#
-#		unit_modifiers = {
-#			supply_consumption_factor = -0.025
-#		}
-#
-#		cost = 0.1
-#		duration = 168
-#		cooldown = 8760
-#	}
+	glider_planes = {
+		name = ABILITY_GLIDER_PLANES_ARTILLERY
+		desc = ABILITY_GLIDER_PLANES_ARTILLERY_DESC
+
+		type = army_leader
+
+		allowed = {
+			has_ability = glider_planes
+			is_border_war = no
+		}
+
+		unit_modifiers = {
+			paratrooper_count_per_plane = 1.0
+			paradrop_organization_factor = 2.0
+			paratrooper_aa_defense = 0.5
+		}
+
+		cost = 0.1
+		duration = 168
+	}
+
+	probing_attack = {
+		name = ABILITY_PROBING_ATTACK
+		desc = ABILITY_PROBING_ATTACK_DESC
+
+		type = army_leader
+
+		allowed = {
+			has_ability = probing_attack
+			is_border_war = no
+		}
+
+		unit_modifiers = {
+			dont_lose_dig_in_on_attack = 1.0
+			offence = -0.05
+		}
+
+		cancelable = yes
+		cost = 0.1
+		duration = -1
+	}
+
+	extra_suplies = {
+		name = ABILITY_EXTRA_SUPLIES
+		desc = ABILITY_EXTRA_SUPLIES_DESC
+
+		type = army_leader
+
+		allowed = {
+			has_ability = extra_suplies
+			is_border_war = no
+		}
+
+		unit_modifiers = {
+			supply_consumption_factor = -0.025
+		}
+
+		cost = 0.1
+		duration = 168
+		cooldown = 8760
+	}
 #
 #	requisition_winter_gear = {
 #		name = ABILITY_REQUISITION_WINTER_GEAR
@@ -259,3 +259,4 @@
 #	}
 #}
 #
+}

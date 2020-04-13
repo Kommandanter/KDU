@@ -7,7 +7,7 @@ state={
 	state_category = metropolis
 	
 	resources={
-		rubber=49
+		rubber=80
 		tungsten=16
 	}
 
@@ -26,7 +26,7 @@ state={
 			7408 15 
 		}
 		victory_points = {
-			10438 1 
+			10438 5
 		}
 		add_core_of = SIA
 	}

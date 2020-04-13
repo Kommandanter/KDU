@@ -316,9 +316,6 @@ equipment_modules = {
 			hg_armor_piercing = 11
 			surface_visibility = 15
 		}
-		build_cost_resources = {
-			steel = 0.5
-		}
 		can_convert_from = {
 			module_category = ship_light_battery
 			convert_cost_ic = 400
@@ -348,9 +345,6 @@ equipment_modules = {
 			hg_armor_piercing = 12
 			surface_visibility = 15			
 		}
-		build_cost_resources = {
-			steel = 0.5
-		}
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 400
@@ -378,22 +372,15 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 13
-			surface_visibility = 15			
-		}
-		build_cost_resources = {
-			steel = 0.5
+			surface_visibility = 15
 		}
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 500
-			convert_cost_resources = {
-			}
 		}
 		can_convert_from = {
 			module = ship_medium_battery_2
 			convert_cost_ic = 350
-			convert_cost_resources = {
-			}
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
@@ -416,14 +403,9 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 14
 		}
-		build_cost_resources = {
-			steel = 0.5
-		}
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 600
-			convert_cost_resources = {
-			}
 		}
 		can_convert_from = {
 			module = ship_medium_battery_3
@@ -474,8 +456,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 400
-			convert_cost_resources = {
-			}
 		}
 		can_convert_from = {
 			module = ship_light_medium_battery_1
@@ -506,8 +486,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 500
-			convert_cost_resources = {
-			}
 		}
 		can_convert_from = {
 			module = ship_light_medium_battery_2
@@ -538,8 +516,6 @@ equipment_modules = {
 		can_convert_from = {
 			module_category = ship_medium_battery
 			convert_cost_ic = 600
-			convert_cost_resources = {
-			}
 		}
 		can_convert_from = {
 			module = ship_light_medium_battery_3
@@ -1496,14 +1472,10 @@ equipment_modules = {
 		}
 		 
 		dismantle_cost_ic = 60
-		dismantle_cost_resources = {
-		}
 
 		can_convert_from = {
 			module_category = ship_torpedo
 			convert_cost_ic = 60
-			convert_cost_resources = {
-			}
 		}
 		critical_parts = { damaged_torpedoes }
 	}
@@ -1630,35 +1602,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_torpedoes }
 	}
-
-
-#   # ### #  # ###     #    ##  #   # ### ###  
-## ##  #  ## # #       #   #  #  # #  #   #  # 
-# # #  #  # ## ##      #   ####   #   ##  ###  
-#   #  #  #  # #       #   #  #   #   #   #  # 
-#   # ### #  # ###     ### #  #   #   ### #  # 
-
-
-
-
-
-#   # ### #  # ###      ## #   # ### ### ###  ### ###  
-## ##  #  ## # #       #   #   # #   #   #  # #   #  # 
-# # #  #  # ## ##       #  # # # ##  ##  ###  ##  ###  
-#   #  #  #  # #         # # # # #   #   #    #   #  # 
-#   # ### #  # ###     ##   # #  ### ### #    ### #  # 
-
-
-
-
-
-###  ### ###  ### #  #      ##  #  #  ##  ###   ##  ### 
-#  # #   #  #  #  #  #     #  # #  # #  # #  # #    #   
-#  # ##  ###   #  ####     #    #### #### ###  # ## ##  
-#  # #   #     #  #  #     #  # #  # #  # #  # #  # #   
-###  ### #     #  #  #      ##  #  # #  # #  #  ##  ### 
-
-
 
 	ship_depth_charge_1 = {
 		category = ship_depth_charge

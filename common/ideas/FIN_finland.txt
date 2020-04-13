@@ -95,6 +95,5 @@ ideas = {
 				communism_drift = -0.15
 			}
 		}
-        
 	}
 }

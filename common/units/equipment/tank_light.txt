@@ -56,9 +56,6 @@ equipments = {
 		visual_level = 0
 		type = armor
 
-		upgrades = {  # no upgrades for GW tank :'(
-		}
-
 		#Misc Abilities
 		maximum_speed = 5
 		reliability = 0.8

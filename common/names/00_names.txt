@@ -1579,7 +1579,7 @@ CAN = {
 	callsigns = { }
 }
 
-MEX = {
+#MEX = {
 	male = {
 		names = { 
 			David Adrián Agustín Álvaro Anastasio Andrés Ángel Antonio Bernardo Emiliano Emilio

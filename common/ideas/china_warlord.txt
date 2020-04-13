@@ -21,7 +21,6 @@ ideas = {
 
 			picture = generic_disjointed_gov
 
-			allowed = {  }
 
 			removal_cost = -1
 
@@ -35,7 +34,6 @@ ideas = {
 			
 			picture = generic_disjointed_gov
 
-			allowed = {  }
 
 			removal_cost = -1
 

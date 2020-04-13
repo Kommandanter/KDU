@@ -43,14 +43,14 @@ spriteTypes = {
 		name = "GFX_victorypoint_stateview_bg"
 		textureFile = "gfx/interface/victorypoint_stateview_bg.dds"
 	}
-#	spriteType = {
-#		name = "GFX_stateview_resistance_button"
-#		textureFile = "gfx/interface/stateview_resistance_button.dds"
-#	}
-#	spriteType = {
-#		name = "GFX_resistance_icon"
-#		textureFile = "gfx/interface/resistance_icon.dds"
-#	}
+	spriteType = {
+		name = "GFX_stateview_resistance_button"
+		textureFile = "gfx/interface/stateview_resistance_button.dds"
+	}
+	spriteType = {
+		name = "GFX_resistance_icon"
+		textureFile = "gfx/interface/resistance_icon.dds"
+	}
 
 	spriteType = {
 		name = "GFX_population_icon"
@@ -524,5 +524,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_nuke_button"
 		textureFile = "gfx/interface/stateview_nuke_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_modifiers_sabotaged_resource"
+		textureFile = "gfx/interface/occupation/sabotaged_resource.dds"
 	}
 }

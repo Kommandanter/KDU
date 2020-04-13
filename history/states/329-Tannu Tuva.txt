@@ -5,7 +5,7 @@ state={
 	manpower = 150000
 	resources={
 
-		chromium=6
+		steel=8
 
 	}
 	

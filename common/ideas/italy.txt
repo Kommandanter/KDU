@@ -86,8 +86,6 @@ ideas = {
 
 			research_bonus = {
 				land_doctrine = 0.05
-			}
-			research_bonus = {
 				air_doctrine = 0.05
 			}
 		}
@@ -670,7 +668,6 @@ ideas = {
 				}
 			}
 		}
-	}
 	
 	
 	
@@ -704,7 +701,6 @@ ideas = {
 			
 			research_bonus = {
 				motorized_equipment = 0.15
-				mechanized_equipment = 0.10
 			}
 
 			traits = { motorized_equipment_manufacturer }
@@ -1031,4 +1027,5 @@ ideas = {
 			traits = { rocket_scientist }
 		}
 	}
+}
 }

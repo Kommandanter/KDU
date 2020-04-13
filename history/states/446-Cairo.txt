@@ -2,7 +2,7 @@ state={
 	id=446
 	name="STATE_446"
 	resources={
-		oil=10.000
+		oil=5.000
 	}
 
 	history={

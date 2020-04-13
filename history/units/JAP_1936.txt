@@ -357,21 +357,6 @@ air_wings = {
 	### IJA Air Forces ###
 	# 1 Hikodan -- Tokyo
 	609 = { 
-		# 1 Hiko Rentai -- Kawasaki Ki-10
-		fighter_equipment_1 = {
-			owner = "JAP" 
-			amount = 100
-		}
-		# 1 Hiko Rentai -- Kawasaki Ki-10
-		fighter_equipment_1 = {
-			owner = "JAP" 
-			amount = 100
-		}
-		# 1 Hiko Rentai -- Kawasaki Ki-10
-		fighter_equipment_1 = {
-			owner = "JAP" 
-			amount = 100
-		}
 		# 16 Hiko Rentai -- Kawasaki Ki-10
 		fighter_equipment_1 = {
 			owner = "JAP" 
@@ -388,10 +373,6 @@ air_wings = {
 			amount = 100
 		}
 		# 6 Hiko Rentai -- Mitsubishi Ki-2
-		CAS_equipment_1 =  {
-			owner = "JAP" 
-			amount = 100
-		}
 		CAS_equipment_1 =  {
 			owner = "JAP" 
 			amount = 100
@@ -417,7 +398,11 @@ air_wings = {
 	529 = {
 		# Kizarazu Kokutai -- Aichi D1A2
 		# Kanoya Kokutai -- Aichi D1A2
-		cv_fighter_equipment_0 = {
+		cv_fighter_equipment_1 = {
+			owner = "JAP" 
+			amount = 100
+		}
+		cv_nav_bomber_equipment_1 = {
 			owner = "JAP" 
 			amount = 100
 		}
@@ -427,7 +412,7 @@ air_wings = {
 		}
 		cv_CAS_equipment_1 = {
 			owner = "JAP" 
-			amount = 30
+			amount = 100
 		}
 	 }
 
@@ -447,7 +432,7 @@ instant_effect =
 			type = infantry_equipment_1
 			creator = "JAP"
 		}
-		requested_factories = 8
+		requested_factories = 6
 		progress = 0.1
 		efficiency = 50
 	}
@@ -458,7 +443,7 @@ instant_effect =
 		}
 		requested_factories = 7
 		progress = 0.4
-		efficiency = 50
+		efficiency = 30
 	}
 
 	add_equipment_production = {
@@ -466,7 +451,7 @@ instant_effect =
 			type = support_equipment_1
 			creator = "JAP" 
 		}
-		requested_factories = 3
+		requested_factories = 4
 		progress = 0.3
 		efficiency = 50
 	}
@@ -488,7 +473,7 @@ instant_effect =
 		}
 		requested_factories = 1
 		progress = 0.2
-		efficiency = 50
+		efficiency = 10
 	}
 	
 	add_equipment_production = {
@@ -496,9 +481,9 @@ instant_effect =
 			type = anti_air_equipment_1
 			creator = "JAP"
 		}
-		requested_factories = 1
+		requested_factories = 2
 		progress = 0.3
-		efficiency = 50
+		efficiency = 30
 	}	
 	
 	add_equipment_production = {
@@ -506,9 +491,9 @@ instant_effect =
 			type = fighter_equipment_1
 			creator = "JAP"
 		}
-		requested_factories = 2
+		requested_factories = 3
 		progress = 0.15
-		efficiency = 50
+		efficiency = 33
 	}
 
 	add_equipment_production = {
@@ -518,7 +503,7 @@ instant_effect =
 		}
 		requested_factories = 1
 		progress = 0.2
-		efficiency = 50
+		efficiency = 100
 	}
 	
 	add_equipment_production = {
@@ -528,7 +513,7 @@ instant_effect =
 		}
 		requested_factories = 1
 		progress = 0.2
-		efficiency = 50
+		efficiency = 100
 	}
 	
 	add_equipment_production = {
@@ -558,9 +543,7 @@ instant_effect =
 		}
 		requested_factories = 1
 		progress = 0.2
-		efficiency = 50
+		efficiency = 80
 	}
-	
-		
 
 }

@@ -13,32 +13,9 @@ state={
 
 	history={
 		owner = SPR
-#		victory_points = {
-#			3816 1 
-#		}
-		victory_points = { 790 1 }
-		victory_points = { 798 1 }
-		victory_points = { 813 1 }
-		victory_points = { 871 1 }
-		victory_points = { 899 1 }
-		victory_points = { 915 1 }
-		victory_points = { 948 1 }
-		victory_points = { 3816 1 }
-		victory_points = { 3909 1 }
-		victory_points = { 3954 1 }
-		victory_points = { 6878 1 }
-		victory_points = { 6901 1 }
-		victory_points = { 7213 1 }
-		victory_points = { 9812 1 }
-		victory_points = { 9813 1 }
-		victory_points = { 9840 1 }
-		victory_points = { 9842 1 }
-		victory_points = { 11737 1 }
-		victory_points = { 11793 1 }
-		victory_points = { 11819 1 }
-		victory_points = { 11821 1 }
-		victory_points = { 11838 1 }
-
+		victory_points = {
+			3816 15
+		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1

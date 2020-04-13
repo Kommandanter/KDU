@@ -1212,7 +1212,6 @@ equipments = {
 			front_1_custom_slot = ship_anti_air_1
 			fixed_ship_battery_slot = ship_heavy_battery_1
 			fixed_ship_secondaries_slot = ship_secondaries_1
-			rear_1_custom_slot = ship_torpedo
 		}
 	}
 	ship_hull_cruiser_coastal_defense_ship = {
@@ -1248,7 +1247,8 @@ equipments = {
 				allowed_module_categories = {
 					ship_airplane_launcher
 					ship_torpedo
-					ship_medium_battery				}
+					ship_medium_battery
+				}
 			}
 			
 			mid_1_custom_slot = {
@@ -1256,7 +1256,8 @@ equipments = {
 				allowed_module_categories = {
 					ship_airplane_launcher
 					ship_torpedo
-					ship_medium_battery				}
+					ship_medium_battery				
+				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {

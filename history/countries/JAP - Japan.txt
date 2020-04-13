@@ -220,15 +220,15 @@ if = {
 		closed_economy
 	}
 
-	unlock_national_focus = test_the_chinese_focus
-	complete_national_focus = naval_expansion_focus
-	complete_national_focus = advanced_torpedoes_focus
-	complete_national_focus = spiritual_mobilization_focus
-	complete_national_focus = warrior_traditions_focus
-	complete_national_focus = student_movement_focus
-	complete_national_focus = extra_tech_focus
-	complete_national_focus = industrial_effort_focus
-	complete_national_focus = industrial_effort_focus2
+	#unlock_national_focus = test_the_chinese_focus
+	#complete_national_focus = naval_expansion_focus
+	#complete_national_focus = advanced_torpedoes_focus
+	#complete_national_focus = spiritual_mobilization_focus
+	#complete_national_focus = warrior_traditions_focus
+	#complete_national_focus = student_movement_focus
+	#complete_national_focus = extra_tech_focus
+	#complete_national_focus = industrial_effort_focus
+	#complete_national_focus = industrial_effort_focus2
 	declare_war_on = {
 		target = CHI
 		type = annex_everything
@@ -384,7 +384,7 @@ set_popularities = {
 create_faction = "Daitoa Kyoeiken"
 add_to_faction = MAN
 
-add_to_faction = MEN
+#add_to_faction = MEN
 
 
 1939.1.1 = {

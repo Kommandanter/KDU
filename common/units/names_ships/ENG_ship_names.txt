@@ -350,7 +350,6 @@ ENG_COUNTIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
 	}
 
 	type = ship
@@ -368,7 +367,6 @@ ENG_CITIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
 	}
 
 	type = ship
@@ -408,13 +406,12 @@ ENG_DD_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
 	}
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
 
-	prefix = "WLNS "							
+	prefix = "HMS "							
 	fallback_name = "Destroyer %s"					
 
 	unique = {											
@@ -466,13 +463,12 @@ ENG_DE_COMMUNISM = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
 	}
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
 
-	prefix = "WLNS "							
+	prefix = "HMS "							
 	fallback_name = "Destroyer Escort %s"					
 
 	unique = {											
@@ -504,13 +500,12 @@ ENG_CL_COMMUNISM = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
 	}
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
-	prefix = "WLNS "							
+	prefix = "HMS "							
 	fallback_name = "Light Cruiser %s"
 
 	unique = {
@@ -535,13 +530,12 @@ ENG_CLAA_COMMUNISM = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
 	}
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
-	prefix = "WLNS "							
+	prefix = "HMS "							
 	fallback_name = "Light Cruiser (AA) %s"
 
 	unique = {
@@ -562,7 +556,6 @@ ENG_CA_COMMUNISM = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
 	}
 
 	type = ship

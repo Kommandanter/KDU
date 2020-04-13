@@ -9,19 +9,19 @@ state={
 	resources={
 		steel= 35
 		tungsten=40
-		chromium=53
+		chromium=70
 	}
 
 	history={
 		owner = SAF
 		buildings = {
-			infrastructure = 4
+			infrastructure = 7
 			arms_factory = 2
 			industrial_complex = 4
 			air_base = 3
 		}
 		victory_points = {
-			10400 10
+			10400 20
 		}
 		add_core_of = SAF
 	}

@@ -577,7 +577,7 @@ on_daily = {
 			}						
 						
 			if = {						
-				limit = {					
+				limit = {
 					ships_in_area = {				
 						type = carrier			
 						area = 81		# Coral Sea
@@ -4656,13 +4656,13 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 						284 = { is_core_of = AST }
 						NOT = { JAP = { has_idea = JAP_NZL_resources } }
 						OR = { 
-							284 = { is_controlled_by = JAP } 
+							284 = { is_controlled_by = JAP }
 							284 = { is_controlled_by = MAN }
-							284 = { is_controlled_by = SIA } 
+							284 = { is_controlled_by = SIA }
 						}
 					}
 				}
-				
+
 				JAP = {
 					add_ideas = JAP_NZL_resources
 					add_timed_idea = { idea = JAP_triumph_NZL_idea days = 730 } 
@@ -4745,7 +4745,7 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 						}
 					}
 				}
-				
+
 				JAP = {
 					add_ideas = JAP_RAJ_resources
 					add_timed_idea = { idea = JAP_triumph_RAJ_idea days = 730 } 

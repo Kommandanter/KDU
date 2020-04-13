@@ -13,10 +13,10 @@ spriteTypes = {
 		noOfFrames = 12
 		loadType = "INGAME"
 		transparencecheck = yes
-		animation_rate_fps = 24
+		animation_rate_fps = 20
 		looping = yes
 		pause_on_loop = 0.0
-		allwaystransparent = yes		
+		allwaystransparent = yes
 	}
 
 	spriteType = {
@@ -123,19 +123,19 @@ spriteTypes = {
 		name = "GFX_building_repair"
 		texturefile = "gfx/interface/building_repair.dds"
 		noOfFrames = 2
-		animation_rate_fps = 1.5
+		animation_rate_fps = 1
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
 		allwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
-	}	
-	
+	}
+
 	frameAnimatedSpriteType = {
 		name = "GFX_construction_glow_overlay"
 		texturefile = "gfx//interface//tutorial//construction_glow_overlay.dds"
 		noOfFrames = 2
-		animation_rate_fps = 1.5
+		animation_rate_fps = 2
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
@@ -164,24 +164,24 @@ spriteTypes = {
 		size = { x = 60 y = 8 }
 		effectFile = "gfx/FX/progress_startend.lua"
 	}
-	
+
 	frameAnimatedSpriteType = {
 		name = "GFX_tutorial_building_icon_glow"
 		texturefile = "gfx//interface//tutorial//building_icon_glow.dds"
 		noOfFrames = 2
-		animation_rate_fps = 1.5
+		animation_rate_fps = 1
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
 		allwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
-	}		
-	
+	}
+
 	frameAnimatedSpriteType = {
 		name = "GFX_production_lines_icon_glow"
 		texturefile = "gfx//interface//tutorial//production_lines_icon_glow.dds"
 		noOfFrames = 2
-		animation_rate_fps = 1.5
+		animation_rate_fps = 2
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
@@ -193,7 +193,7 @@ spriteTypes = {
 		name = "GFX_production_navy_icon_glow"
 		texturefile = "gfx//interface//tutorial//production_navy_icon_glow.dds"
 		noOfFrames = 2
-		animation_rate_fps = 1.5
+		animation_rate_fps = 3
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
@@ -205,5 +205,4 @@ spriteTypes = {
 		name = "GFX_backhoe_icon_small"
 		textureFile = "gfx/interface/backhoe_icon_small.dds"
 	}
-	
 }

@@ -393,7 +393,7 @@ instant_effect =
 				version_name = "Kongo Class"
 			}
 			requested_factories = 1
-			progress = 0.2
+			progress = 0.4
 			amount = 1
 		}
 		# CV (x1): "Soryu"
@@ -403,8 +403,8 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "CV2"
 			}
-			requested_factories = 1
-			progress = 0.66
+			requested_factories = 4
+			progress = 0.4
 
 			amount = 1
 		}
@@ -415,7 +415,7 @@ instant_effect =
 				version_name = "CV1"
 			}
 			requested_factories = 1
-			progress = 0.15
+			progress = 0.30
 
 			amount = 1
 		}
@@ -426,8 +426,8 @@ instant_effect =
 				creator = "JAP" 
 				version_name = "CA2"
 			}
-			requested_factories = 1
-			progress = 0.2
+			requested_factories = 4
+			progress = 0.4
 			amount = 1
 		}		
 		# CL(CM) (x1): "Okinoshima"
@@ -489,7 +489,7 @@ instant_effect =
 				version_name = "ASW DD1"
 			}
 			requested_factories = 1
-			progress = 0.3
+			progress = 0.4
 			amount = 1
 		}		
 		# SS (x4): "I-172" "I-73" "I-174" "I-175"

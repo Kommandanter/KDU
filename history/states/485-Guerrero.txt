@@ -7,14 +7,14 @@ state={
 	state_category = rural
 
 	history={
-		#owner = MEX
+		#owner = #MEX
 		buildings = {
 			infrastructure = 3
 			8032 = {
 				naval_base = 3
 			}
 		}
-#		add_core_of = MEX
+#		add_core_of = #MEX
 	}
 
 	provinces={

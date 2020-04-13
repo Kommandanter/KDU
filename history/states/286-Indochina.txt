@@ -2,13 +2,13 @@ state={
 	id=286
 	name="STATE_286"
 	resources={
-		rubber=44.000
+		rubber=66.000
 	}
 
 	history={
 		owner = FRA
 		victory_points = {
-			4401 3 
+			4401 6
 		}
 		buildings = {
 			infrastructure = 2

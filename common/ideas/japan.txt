@@ -6,7 +6,7 @@ ideas = {
 			
 	
 		# POLITICAL
-		student_mobilization_idea = {
+	student_mobilization_idea = {
 			
 			
 			allowed = {
@@ -26,26 +26,24 @@ ideas = {
 			research_bonus = {
 				land_doctrine = 0.05
 			}
+	}
+		
+	spiritual_mobilization_idea = {
+					
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
 		}
 		
-		spiritual_mobilization_idea = {
-					
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = generic_manpower_bonus
-			
-			modifier = {
-				conscription = 0.025
-			}
+		removal_cost = -1
+		picture = generic_manpower_bonus
+		
+		modifier = {
+			conscription = 0.025
 		}
+	}
 
 		the_long_lance = {
 			allowed = {
@@ -1228,321 +1226,6 @@ ideas = {
 			}
 		}
 
-		JAP_intervene_in_china_1 = {
-			
-			name = JAP_intervene_in_china
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = jap_intervene_in_china
-			
-			targeted_modifier = {
-				tag = CHI
-				attack_bonus_against = -0.05
-				defense_bonus_against = -0.05
-			}
-
-			targeted_modifier = {
-				tag = PRC
-				attack_bonus_against = -0.05
-				defense_bonus_against = -0.05
-			}
-
-			targeted_modifier = {
-				tag = SHX
-				attack_bonus_against = -0.05
-				defense_bonus_against = -0.05
-			}
-
-			targeted_modifier = {
-				tag = XSM
-				attack_bonus_against = -0.05
-				defense_bonus_against = -0.05
-			}
-
-			targeted_modifier = {
-				tag = YUN
-				attack_bonus_against = -0.05
-				defense_bonus_against = -0.05
-			}
-
-			targeted_modifier = {
-				tag = GXC
-				attack_bonus_against = -0.05
-				defense_bonus_against = -0.05
-			}
-
-			targeted_modifier = {
-				tag = SIK
-				attack_bonus_against = -0.05
-				defense_bonus_against = -0.05
-			}
-		}
-
-		JAP_intervene_in_china_2 = {
-			
-			name = JAP_intervene_in_china
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = jap_intervene_in_china
-			
-			targeted_modifier = {
-				tag = CHI
-				attack_bonus_against = -0.1
-				defense_bonus_against = -0.10
-			}
-
-			targeted_modifier = {
-				tag = PRC
-				attack_bonus_against = -0.1
-				defense_bonus_against = -0.10
-			}
-
-			targeted_modifier = {
-				tag = SHX
-				attack_bonus_against = -0.1
-				defense_bonus_against = -0.10
-			}
-
-			targeted_modifier = {
-				tag = XSM
-				attack_bonus_against = -0.1
-				defense_bonus_against = -0.10
-			}
-
-			targeted_modifier = {
-				tag = YUN
-				attack_bonus_against = -0.1
-				defense_bonus_against = -0.10
-			}
-
-			targeted_modifier = {
-				tag = GXC
-				attack_bonus_against = -0.1
-				defense_bonus_against = -0.10
-			}
-
-			targeted_modifier = {
-				tag = SIK
-				attack_bonus_against = -0.1
-				defense_bonus_against = -0.1
-			}
-		}
-
-		JAP_intervene_in_china_3 = {
-			
-			name = JAP_intervene_in_china
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = jap_intervene_in_china
-			
-			targeted_modifier = {
-				tag = CHI
-				attack_bonus_against = -0.2
-				defense_bonus_against = -0.15
-			}
-
-			targeted_modifier = {
-				tag = PRC
-				attack_bonus_against = -0.2
-				defense_bonus_against = -0.15
-			}
-
-			targeted_modifier = {
-				tag = SHX
-				attack_bonus_against = -0.2
-				defense_bonus_against = -0.15
-			}
-
-			targeted_modifier = {
-				tag = XSM
-				attack_bonus_against = -0.2
-				defense_bonus_against = -0.15
-			}
-
-			targeted_modifier = {
-				tag = YUN
-				attack_bonus_against = -0.2
-				defense_bonus_against = -0.15
-			}
-
-			targeted_modifier = {
-				tag = GXC
-				attack_bonus_against = -0.2
-				defense_bonus_against = -0.15
-			}
-
-			targeted_modifier = {
-				tag = SIK
-				attack_bonus_against = -0.2
-				defense_bonus_against = -0.15
-			}
-		}
-
-		JAP_intervene_in_china_4 = {
-			
-			name = JAP_intervene_in_china
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = jap_intervene_in_china
-			
-			targeted_modifier = {
-				tag = CHI
-				attack_bonus_against = -0.3
-				defense_bonus_against = -0.20
-			}
-
-			targeted_modifier = {
-				tag = PRC
-				attack_bonus_against = -0.3
-				defense_bonus_against = -0.20
-			}
-
-			targeted_modifier = {
-				tag = SHX
-				attack_bonus_against = -0.3
-				defense_bonus_against = -0.20
-			}
-
-			targeted_modifier = {
-				tag = XSM
-				attack_bonus_against = -0.3
-				defense_bonus_against = -0.20
-			}
-
-			targeted_modifier = {
-				tag = YUN
-				attack_bonus_against = -0.3
-				defense_bonus_against = -0.20
-			}
-
-			targeted_modifier = {
-				tag = GXC
-				attack_bonus_against = -0.3
-				defense_bonus_against = -0.20
-			}
-
-			targeted_modifier = {
-				tag = SIK
-				attack_bonus_against = -0.3
-				defense_bonus_against = -0.2
-			}
-		}
-
-		JAP_intervene_in_china_5 = {
-			
-			name = JAP_intervene_in_china
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = jap_intervene_in_china
-			
-			targeted_modifier = {
-				tag = CHI
-				attack_bonus_against = -0.4
-				defense_bonus_against = -0.25
-			}
-
-			targeted_modifier = {
-				tag = PRC
-				attack_bonus_against = -0.4
-				defense_bonus_against = -0.25
-			}
-
-			targeted_modifier = {
-				tag = SHX
-				attack_bonus_against = -0.4
-				defense_bonus_against = -0.25
-			}
-
-			targeted_modifier = {
-				tag = XSM
-				attack_bonus_against = -0.4
-				defense_bonus_against = -0.25
-			}
-
-			targeted_modifier = {
-				tag = YUN
-				attack_bonus_against = -0.4
-				defense_bonus_against = -0.25
-			}
-
-			targeted_modifier = {
-				tag = GXC
-				attack_bonus_against = -0.4
-				defense_bonus_against = -0.25
-			}
-
-			targeted_modifier = {
-				tag = SIK
-				attack_bonus_against = -0.4
-				defense_bonus_against = -0.25
-			}
-		}
-
-		JAP_ichi_go = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = jap_ichi_go
-			
-			targeted_modifier = {
-				tag = CHI
-				attack_bonus_against = 0.2
-				defense_bonus_against = 0.05
-			}
-
 #			targeted_modifier = {
 #				tag = PRC
 #				attack_bonus_against = 0.2
@@ -1756,7 +1439,6 @@ ideas = {
 				}				
 			}
 		}
-	}
 	
 	
 	political_advisor = {
@@ -2475,7 +2157,7 @@ ideas = {
 					air_attack = 0.05
 				}
 			}
-		}	
+		}
 		yamato_army_arsenal = {
 		
 			picture = generic_motorized_equipment_manufacturer_3
@@ -2488,24 +2170,23 @@ ideas = {
 				original_tag = MAN	
 				}
 			}
-				
 			research_bonus = {
 				armor = 0.15
 			}
-			
+
 			equipment_bonus = {
-				amphibious_tank_equipment = {
-					reliability = 0.05
-					soft_attack = 0.5
-				}
-				light_tank_equipment = {
-					reliability = 0.1
-					soft_attack = 0.1
-					air_attack = 0.05
-				}
+			amphibious_tank_equipment = {
+				reliability = 0.05
+				soft_attack = 0.5
 			}
-		}	
-	}
+			light_tank_equipment = {
+				reliability = 0.1
+				soft_attack = 0.1
+				air_attack = 0.05
+			}
+			}
+		}
+		}
 	
 	theorist = {
 		
@@ -2624,5 +2305,5 @@ ideas = {
 			
 			traits = { rocket_scientist }
 		}
-	}	
+	}
 }

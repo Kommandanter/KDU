@@ -5,6 +5,9 @@ state=
 	manpower = 2830000
 	
 	state_category = town
+	resources={
+		steel=110.000
+	}
 	
 	history={
 		owner = CZE

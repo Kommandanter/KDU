@@ -12,30 +12,14 @@ state={
 
 	history={
 		owner = SPR
-#		victory_points = {
-#			9979 1 
-#		}
+		victory_points = {
+			9979 10
+		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
 			
 		}
-		victory_points = { 747 1 }
-		victory_points = { 1090 1 }
-		victory_points = { 1176 1 }
-		victory_points = { 1192 1 }
-		victory_points = { 4065 1 }
-		victory_points = { 4095 1 }
-		victory_points = { 7068 1 }
-		victory_points = { 7153 1 }
-		victory_points = { 7196 1 }
-		victory_points = { 7198 1 }
-		victory_points = { 9979 1 }
-		victory_points = { 10009 1 }
-		victory_points = { 10063 1 }
-		victory_points = { 11956 1 }
-		victory_points = { 12038 1 }
-		victory_points = { 12083 1 }
 
 		add_core_of = SPR
 	}

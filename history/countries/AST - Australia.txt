@@ -113,7 +113,7 @@ if = {
 		complete_national_focus = AST_expand_northern_presence
 		complete_national_focus = AST_standard_gauge_railway
 		complete_national_focus = AST_industries_assistance_corporation
-		complete_national_focus = AST_western_australian_government_railways
+		#complete_national_focus = AST_western_australian_government_railways
 		complete_national_focus = AST_south_australian_housing_trust
 
 		else = {

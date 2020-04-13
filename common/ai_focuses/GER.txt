@@ -32,7 +32,6 @@ ai_historical_focus_list_GER = {
 		GER_ussr_war_goal		
 		GER_west_wall		
 		GER_rocketry_focus
-		GER_japan_friend
 		GER_naval_air_effort
 		GER_naval_rearmament
 		GER_naval_effort

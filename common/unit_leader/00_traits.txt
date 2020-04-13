@@ -157,7 +157,7 @@ leader_traits = {
 			army_attack_factor = 0.05
 			out_of_supply_factor = 0.1
 			supply_consumption_factor = 0.04
-			encryption_factor = 0.1
+			#encryption_factor = 0.1
 			heat_attrition_factor = 0.02
 			winter_attrition_factor = 0.02
 			no_supply_grace = 5			
@@ -441,7 +441,7 @@ leader_traits = {
 		
 		field_marshal_modifier = {
 			land_reinforce_rate = 0.05
-			decryption_factor = 0.1
+			#decryption_factor = 0.1
 		}
 		
 		ai_will_do = {
@@ -517,7 +517,7 @@ leader_traits = {
 	trickster = { 
 		type = corps_commander
 		
-		cost = 500
+		#cost = 500
 		modifier = {
 			recon_factor = 0.25
 		}
@@ -885,7 +885,7 @@ leader_traits = {
 			}
 		}
 		cost = 700
-		enable_ability = siege_artillery
+		#enable_ability = siege_artillery
 		
 		ai_will_do = {
 			factor = 1
@@ -1375,15 +1375,14 @@ leader_traits = {
 
 	destroyer_leader = {
 		type = navy
-		modifier = {
-			#destroyer = {
-			#	units = {
-			#		attack = 0.1
-			#		defence = 0.1
-			#	}
-			#}
-			convoy_escort_efficiency = 0.1
-		}
+		#modifier = {
+		#	destroyer = {
+		#		units = {
+		#			attack = 0.1
+		#			defence = 0.1
+		#		}
+		#	}
+		#}
 		
 		sub_unit_modifiers = {
 			destroyer = {
@@ -2065,8 +2064,8 @@ leader_traits = {
 		}
 		
 		modifier = {
-			exiled_divisions_attack_factor = 0.05
-			exiled_divisions_defense_factor = 0.05
+			exiled_divisions_attack_factor = 0.1
+			exiled_divisions_defense_factor = 0.1
 	
 		}
 		

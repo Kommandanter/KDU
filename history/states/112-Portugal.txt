@@ -3,9 +3,9 @@ state={
 	id=112
 	name="STATE_112"
 	manpower = 1
-	resources={
-		tungsten=12 # was: 76
-	}
+	#resources={
+	#	tungsten=12 # was: 76
+	#}
 	
 	state_category = city
 
@@ -14,7 +14,7 @@ state={
 		victory_points = {
 			11805 30.0 
 		}
-		add_core_of = POR
+		#add_core_of = POR
 	}
 
 	provinces={

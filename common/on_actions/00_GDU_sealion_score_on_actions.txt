@@ -14,8 +14,8 @@ on_actions = {
             }
 		}
 	}
-    
-    on_daily = {
+
+	on_daily = {
 		effect = {
 		
 		

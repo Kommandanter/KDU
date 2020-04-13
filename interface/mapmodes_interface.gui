@@ -368,8 +368,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_mapmode_buttons_selected_small"
 			#shortcut = "y"
 			shortcut = "F9"
-			pdx_tooltip_anchor =
-			{
+			pdx_tooltip_anchor ={
 				x = -200
 				y = 200
 				relative = yes #It is default set to yes ( to the gui object )
@@ -404,7 +403,7 @@ guiTypes = {
 				y = 0
 				relative = yes #It is default set to yes ( to the gui object )
 			}			
-		}	
+		}
 
 		buttonType = {
 			name = "button_counters_color_mode"

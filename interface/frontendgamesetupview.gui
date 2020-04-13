@@ -2,8 +2,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name ="proxy_window"
-		position = { x=0 y =0}
-		size = { width=1 height = 1 }
+		position = { x=0 y =0}	
+		size = { width=1 height =1}
 	}
 
 	### bookmark entry
@@ -25,7 +25,7 @@ guiTypes = {
 			name = "icon"
 			spriteType = "GFX_select_date_1936"
 			position = { x = 27 y = 28 }
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -40,12 +40,12 @@ guiTypes = {
 			format = centre
 		}
 	}
-
+	
 	containerWindowType = {
 		name = "spirit_idea_entry"
 		size = { width=60 height=66 }
 		clipping = no
-
+		
 		iconType = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
@@ -58,12 +58,12 @@ guiTypes = {
 		name = "spirit_idea_entry_small"
 		size = { width=60 height=66 }
 		clipping = no
-
+		
 		iconType = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
 			orientation = "CENTER"
-			centerPosition = yes
+			position = { x = -20 y = -25 }
 			scale = 0.55
 		}
 	}
@@ -72,14 +72,14 @@ guiTypes = {
 		name = "spirit_modifier_entry"
 		size = { width=60 height=66 }
 		clipping = no
-
+		
 		iconType = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
 			orientation = "CENTER"
 			centerPosition = yes
 		}
-
+		
 		iconType = {
 			name = "flag"
 			position = { x = 2 y = 37 }
@@ -94,15 +94,15 @@ guiTypes = {
 		name = "spirit_modifier_entry_small"
 		size = { width=60 height=66 }
 		clipping = no
-
+		
 		iconType = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
 			orientation = "CENTER"
-			centerPosition = yes
+			position = { x = -15 y = -35 }
 			scale = 0.55
 		}
-
+		
 		iconType = {
 			name = "flag"
 			position = { x = 18 y = 35 }
@@ -110,12 +110,12 @@ guiTypes = {
 			orientation = "UPPER_LEFT"
 		}
 	}
-
+	
 	containerWindowType = {
 		name = "focus_entry"
-		size = { width=60 height=80 }
+		size = { width=60 height=80}
 		clipping = no
-
+		
 		iconType = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
@@ -123,11 +123,11 @@ guiTypes = {
 			centerPosition = yes
 		}
 	}
-
+	
 	### country entry
 	containerWindowType = {
 		name = "country_entry"
-
+			
 		buttonType = {
 			name = "country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
@@ -135,53 +135,54 @@ guiTypes = {
 			scale=0.75
 			clicksound = click_checkbox
 		}
-
+	
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
 			position = { x = 33 y = 186 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
-		}
+			alwaystransparent = yes
+		}		
 	
 		buttonType = {
 			name = "country"	
 			quadTextureSprite = "GFX_country_selection_entry"
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
-		}
+		}		
 		
 		instantTextBoxType = {
 			name = "country_name"
 			position = { x = 8 y = 247 }
-			font = "cg_18b"
+			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 131
 			maxHeight = 20
-			fixedsize = yes
-			format = center
+			fixedsize = yes	
+			format = center		
 			Orientation = "UPPER_LEFT"
 		}
 	}
-
+	
 	### country entry
 	containerWindowType = {
 		name = "country_entry_medium"
-
+				
+			
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
 			position = { x = 26 y = 22 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
-		}
+			alwaystransparent = yes
+		}		
 		
 		buttonType = {
-			name = "country"
+			name = "country"	
 			quadTextureSprite = "GFX_country_selection_minor_entry"
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
-		}
+		}		
 	}
 	
 	### country entry
@@ -193,17 +194,18 @@ guiTypes = {
 			quadTextureSprite ="GFX_flag_small2"
 			position = { x = 8 y = 7 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		buttonType = {
-			name = "country"
+			name = "country"	
 			quadTextureSprite = "GFX_mini_country_selector"
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
-		}
+		}		
 	}
-
+	
+	
 	### LOAD GAME
 	containerWindowType = {
 		name ="gamesetup_load"
@@ -214,25 +216,25 @@ guiTypes = {
 		size = { width = 420 height = 500}
 		Orientation = lower_left
 		origo = lower_left
-
+		
 		iconType = {
 			name ="menu"
 			spriteType = "GFX_load_save_top_screen"
 			position = { x= 0 y = 60 }
 			Orientation = "UPPER_LEFT"
 		}
-
+		
 		iconType = {
 			name ="menu_bottom"
 			spriteType = "GFX_load_save_bottom_screen"
 			position = { x= 0 y = 446 }
 			Orientation = "UPPER_LEFT"
-		}
-
+		}		
+		
 		instantTextBoxType = {
 			name = "saves_dirs"
 			position = { x = 10 y = 375 }
-			font = "cg_18b"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 4}
 			maxWidth = 120
 			maxHeight = 16	
@@ -240,13 +242,13 @@ guiTypes = {
 			fixedsize = yes
 			truncate = yes
 		}
-
+		
 		checkboxType = {
 			name = "localgames_tab"
 			position = { x = 30  y = 84 }
 			quadTextureSprite ="GFX_save_load_file_btn"
 			Orientation = "UPPER_LEFT"
-			clicksound = click_checkbox	
+			clicksound = click_checkbox			
 		}
 
 		checkboxType = {
@@ -256,11 +258,11 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			clicksound = click_checkbox
 		}
-
+		
 		instantTextBoxType = {
 			name = "localgames_label"
 			position = { x = 40 y = 91 }
-			font = "cg_18b"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "MENU_BAR_LOCALGAMES"	
 			maxWidth = 100
@@ -274,9 +276,9 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "cloudgames_label"
 			position = { x = 190 y = 91 }
-			font = "cg_18b"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
-			text = "MENU_BAR_CLOUDGAMES"
+			text = "MENU_BAR_CLOUDGAMES"	
 			maxWidth = 100
 			maxHeight = 20	
 			fixedsize = yes
@@ -284,22 +286,22 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			format = centre
 		}
-
+		
 		containerWindowType = {
 			name ="games"
-			position = { x = -1 y = 126 }
-			size = { width = 350 height = 415 }
+			position = { x = -1 y = 126 }	
+			size = { width = 350 height = 415}
 			verticalScrollbar = "right_vertical_slider"
 			vertical_scroll_step = 5
-
+			
 			background = {
-				name = "Background"
+				name = "Background"		
 				quadTextureSprite ="GFX_no_frame_special_bg"
 			}
-
+			
 			gridBoxType = {
 				name = "games_grid"
-				position = { x=14 y =10 }
+				position = { x=14 y =10}
 				size = { width =280 height = 100%% }
 				slotsize = { width = 280 height = 55 }
 				format = "UPPER_LEFT"
@@ -310,30 +312,30 @@ guiTypes = {
 
 	containerWindowType = {
 		name ="gamesetup_ironman_save"
-		position = { x=-210 y =-250 }
+		position = { x=-210 y =-250 }	
 		size = { width = 420 height = 500}
 		Orientation = center
-
+		
 		iconType={
 			name ="menu"
 			spriteType = "GFX_load_save_top_screen"
 			position = { x= 76 y = 60 }
 			Orientation = "UPPER_LEFT"
 		}
-
+		
 		iconType={
 			name ="menu_bottom"
 			spriteType = "GFX_load_save_bottom_screen"
 			position = { x= 76 y = 466 }
 			Orientation = "UPPER_LEFT"
 		}
-
+			
 		instantTextBoxType={
 			name = "saves_dirs"
 			position = { x = 10 y = 375 }
 			textureFile = ""
-			font = "cg_18b"
-			borderSize = {x = 0 y = 4 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 4}
 			text = ""	
 			maxWidth = 120
 			maxHeight = 16	
@@ -341,11 +343,11 @@ guiTypes = {
 			fixedsize = yes
 			truncate = yes
 		}
-
+		
 		instantTextBoxType={
 			position = { x = 275 y = 379 }
 			name = "disk_quota"
-			font = "cg_18b"
+			font = "hoi_20bs"
 			borderSize = { x = 8 y = 0 }	
 			maxWidth = 188
 			maxHeight = 18
@@ -353,31 +355,31 @@ guiTypes = {
 			orientation = "UPPER_LEFT"
 			format = centre
 		}
-
+		
 		containerWindowType = {
 			name ="local_remote"
-			position = { x = 75 y = 146 }
-			size = { width = 350 height = 40 }
+			position = { x = 75 y = 146 }	
+			size = { width = 350 height = 40}
 			verticalScrollbar = "right_vertical_slider"
-
+			
 			background = {
-				name = "Background"
+				name = "Background"		
 				quadTextureSprite ="GFX_no_frame_special_bg"
 			}
 		}
-
+		
 		containerWindowType = {
 			name ="games"
-			position = { x = 75 y = 166 }
-			size = { width = 350 height = 300 }
+			position = { x = 75 y = 166 }	
+			size = { width = 350 height = 300}
 			verticalScrollbar = "right_vertical_slider"
 			vertical_scroll_step = 5
-
+			
 			background = {
-				name = "Background"
+				name = "Background"		
 				quadTextureSprite ="GFX_no_frame_special_bg"
 			}
-
+			
 			gridBoxType = {
 				name = "games_grid"
 				position = { x=13 y =0}
@@ -387,7 +389,7 @@ guiTypes = {
 				max_slots_horizontal = 1
 			}
 		}
-
+		
 		checkboxType = {
 			name = "localgames_tab"
 			position = { x = 105  y = 124 }
@@ -401,12 +403,12 @@ guiTypes = {
 			quadTextureSprite ="GFX_save_load_file_btn"
 			Orientation = "UPPER_LEFT"
 		}
-
+		
 		instantTextBoxType = {
 			name = "localgames_label"
 			position = { x = 115 y = 131 }
 			textureFile = ""
-			font = "cg_18b"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "MENU_BAR_LOCALGAMES"	
 			maxWidth = 100
@@ -421,7 +423,7 @@ guiTypes = {
 			name = "cloudgames_label"
 			position = { x = 269 y = 131 }
 			textureFile = ""
-			font = "cg_18b"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "MENU_BAR_CLOUDGAMES"	
 			maxWidth = 100
@@ -431,12 +433,12 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			format = centre
 		}
-
-		instantTextBoxType = {
+		
+				instantTextBoxType = {
 			name = "menu_label"
 			position = { x = 145 y = 85 }
 			textureFile = ""
-			font = "cg_18b"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = "MENU_BAR_IRONMAN_SAVE"
 			maxWidth = 200
@@ -452,11 +454,11 @@ guiTypes = {
 			spriteType = "GFX_ironman_icon"
 			position = { x = 120 y = 80 }
 		}
-
+		
 		instantTextBoxType={
 			position = {x = 145 y = 470 }
 			name = "filename_label"	
-			font = "cg_18b"
+			font = "hoi_16mbs"
 			borderSize = {x = 8 y = 0}	
 			maxWidth = 188
 			maxHeight = 18
@@ -464,35 +466,35 @@ guiTypes = {
 			orientation = "UPPER_LEFT"
 			format = centre
 		}
-
+		
 		editBoxType = {
 			position = { x = 115 y = 485 }
 			name = "game_name"
-			font = "cg_18b"
+			font = "hoi_16mbs"
 			borderSize = { x = 4 y = 8  }	
 			size = { x=262 y=42 }
-			text = ""
+			text = ""	
 			orientation = "UPPER_LEFT"
 		}
-
+		
 		buttonType = {
 			name = "back_button"
 			position = { x = 100 y = 523 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "BACK"
-			buttonFont = "info"
+			buttonFont = "hoi_20b"
 			Orientation = "UPPER_LEFT"
 			clicksound = click_close
 			oversound = ui_menu_over
 			shortcut = "ESCAPE"
 		}
-
+		
 		buttonType = {
 			name = "start_button"
 			position = { x = 245 y = 523 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "MENU_BAR_SAVE_PLAY"
-			buttonFont = "info"
+			buttonFont = "hoi_20b"
 			Orientation = "UPPER_LEFT"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -506,24 +508,24 @@ guiTypes = {
 		orientation = center
 		origo = center
 		moveable = yes
-
+		
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 120 y = 15 }
 			textureFile = ""
-			font = "cg_18b"
+			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			text = "FE_SELECT_SCENARIO"
 			maxWidth = 340
 			maxHeight = 30	
 			format = center
 		}
-
+		
 		background = {
 			name = "single_player_date_bg"		
 			quadTextureSprite ="GFX_select_date_bg"
 		}
-
+		
 		containerWindowType = {
 			name ="bookmarks"
 			position = { x = 43 y = 55 }
@@ -539,11 +541,11 @@ guiTypes = {
 				format = "UPPER_LEFT"
 			}
 		}
-
+		
 		instantTextBoxType = {
 			name = "history_title"
 			position = { x = 110 y = 275 }
-			font = "cg_18b"
+			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			text = "BM_HISTORY_TITLE"
 			maxWidth = 340
@@ -576,7 +578,7 @@ guiTypes = {
 			position = { x = 30 y = -57 }
 			quadTextureSprite ="GFX_button_221x34"	
 			buttonText = "BACK"
-			buttonFont = "cg_18b"
+			buttonFont = "hoi_18mbs"
 			Orientation = "LOWER_LEFT"
 			clicksound = click_close
 			oversound = ui_menu_over
@@ -588,7 +590,7 @@ guiTypes = {
 			position = { x = -252 y = -57 }
 			quadTextureSprite ="GFX_button_221x34"
 			buttonText = "FE_SELECT_SCENARIO"
-			buttonFont = "cg_18b"
+			buttonFont = "hoi_18mbs"
 			Orientation = "LOWER_RIGHT"
 			clicksound = click_ok
 			oversound = ui_menu_over
@@ -621,29 +623,29 @@ guiTypes = {
 			quadTextureSprite ="GFX_country_selection_bg"
 		}
 		
-		#ButtonType = {
-		#	name = "back_button"
-		#	position = { x = -158 y = -52 }
-		#	quadTextureSprite ="GFX_button_148x34"	
-		#	buttonText = "BACK"
-		#	buttonFont = "cg_18b"
-		#	Orientation = "CENTER_DOWN"
-		#	clicksound = click_close
-		#	oversound = ui_menu_over
-		#	shortcut = "ESCAPE"
-		#}
+		ButtonType = {
+			name = "back_button"
+			position = { x = -158 y = -52 }
+			quadTextureSprite ="GFX_button_148x34"	
+			buttonText = "BACK"
+			buttonFont = "hoi_18mbs"
+			Orientation = "CENTER_DOWN"
+			clicksound = click_close
+			oversound = ui_menu_over
+			shortcut = "ESCAPE"
+		}
 		
 		ButtonType = {
 			name = "select_button"
-			position = { x = -120 y = -52 }
-			quadTextureSprite ="GFX_button_261x34"
+			position = { x = 10 y = -52 }
+			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "FE_SELECT_COUNTRY"
-			buttonFont = "cg_18b"
+			buttonFont = "hoi_18mbs"
 			Orientation = "CENTER_DOWN"
 			clicksound = click_default
 			oversound = ui_menu_over
 			shortcut = "RETURN"
-		}
+		}			
 
 		containerWindowType = {
 			name ="countries"
@@ -712,9 +714,9 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "info_title"
 			position = { x = 10 y = 450 }
-			font = "hoi_24header"
+			font = "hoi4_typewriter22"
 			borderSize = {x = 0 y = 0}
-			text = "FE_COUNTRY_info_TITLE"
+			text = "FE_COUNTRY_INFO_TITLE"
 			maxWidth = 340
 			maxHeight = 30	
 			format = centre
@@ -727,7 +729,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "leader_label"
 				position = { x = 0 y = -5 }
-				font = "cg_18b"
+				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "LEADER"
 				maxWidth = 340
@@ -738,7 +740,7 @@ guiTypes = {
 				name = "leader"
 				position = { x = 0 y = 12 }
 				textureFile = ""
-				font = "cg_18b"
+				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 340
@@ -749,7 +751,7 @@ guiTypes = {
 				name = "ideology_label"
 				position = { x = 0 y = 35 }
 				textureFile = ""
-				font = "cg_18b"
+				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "IDEOLOGY"
 				maxWidth = 340
@@ -759,7 +761,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "ideology"
 				position = { x = 0 y = 52 }
-				font = "cg_18b"
+				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = left
@@ -768,7 +770,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "government_label"
 				position = { x = 0 y = 75 }
-				font = "cg_18b"
+				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "GOVERNMENT"
 				maxWidth = 340
@@ -778,7 +780,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "government"
 				position = { x = 0 y = 92 }
-				font = "cg_18b"
+				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "FE_INTERESTING_COUNTRIES"
 				maxWidth = 340
@@ -788,7 +790,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "elections_label"
 				position = { x = 0 y = 115 }
-				font = "cg_18b"
+				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "ELECTIONS"
 				maxWidth = 340
@@ -798,7 +800,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "elections"
 				position = { x = 0 y = 132 }
-				font = "cg_18b"
+				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = left
@@ -807,7 +809,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "party_label"
 				position = { x = 0 y = 155 }
-				font = "cg_18b"
+				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
 				maxWidth = 340
@@ -817,7 +819,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "party"
 				position = { x = 0 y = 172 }
-				font = "cg_18b"
+				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = left
@@ -827,7 +829,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "nation_title"
 			position = { x = 437 y = 429 }
-			font = "vic_36s"
+			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 340
 			maxHeight = 30	
@@ -846,12 +848,12 @@ guiTypes = {
 			}
 			
 			containerWindowType = {
-				name = "ideas"
+				name ="ideas"
 				position = { x = 90 y = 0 }
 				size = { width = 100%% height = 70 }
 				
 				gridboxType = {
-					name = "ideas_grid"
+					name ="ideas_grid"
 					position = { x = 0 y = 0 }
 					size = { width = 100% height = 70 }
 					slotsize = { width = 60 height = 66 }
@@ -877,22 +879,22 @@ guiTypes = {
 				}
 			}
 		}
-
+		
 		instantTextBoxType = {
 			name = "history_title"
 			position = { x = 830 y = 450 }
-			font = "hoi_30header"
+			font = "hoi4_typewriter22"
 			borderSize = {x = 0 y = 0}
 			text = "FE_COUNTRY_HISTORY_TITLE"
 			maxWidth = 340
 			maxHeight = 30	
 			format = centre
 		}
-
+		
 		instantTextBoxType = {
 			name = "history"
 			position = { x = 810 y = 490 }
-			font = "cg_18b"
+			font = "hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 380
 			maxHeight = 30	
@@ -911,7 +913,7 @@ guiTypes = {
 			spriteType = "SandboxFloaterBackground"
 			position = { x=0 y = 0}				
 		}
-
+			
 		instantTextBoxType = {
 			name = "important_message"
 			position = { x = 0 y = 20 }
@@ -936,12 +938,12 @@ guiTypes = {
 		origo = upper_right
 		show_sound = menu_open_window
 		hide_sound = menu_close_window
-
+		
 		background={
 			name ="background"
 			spriteType = "GFX_lobby_right_sidepanel_bg"
 		}
-
+		
 		iconType = {
 			name = "country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
@@ -1007,13 +1009,13 @@ guiTypes = {
 		}	
 		
 		containerWindowType = {
-			name = "info"
+			name = "info"				
 			position = { x = 30 y = 140 }
 			
 			instantTextBoxType = {
 				name = "leader_label"
 				position = { x = 0 y = 0 }
-				font = "cg_18b"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "LEADER"
 				maxWidth = 340
@@ -1023,7 +1025,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "leader"
 				position = { x = 60 y = 0 }
-				font = "cg_18b"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = right
@@ -1032,7 +1034,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "ideology_label"
 				position = { x = 0 y = 24 }
-				font = "cg_18b"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "IDEOLOGY"
 				maxWidth = 340
@@ -1042,7 +1044,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "ideology"
 				position = { x = 60 y = 24 }
-				font = "cg_18b"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = right
@@ -1051,7 +1053,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "government_label"
 				position = { x = 0 y = 48 }
-				font = "cg_18b"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				text = "GOVERNMENT"
 				maxWidth = 340
@@ -1062,7 +1064,7 @@ guiTypes = {
 				name = "government"
 				position = { x = 60 y = 48 }
 				textureFile = ""
-				font = "cg_18b"
+				font = "hoi_20bs"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = right
@@ -1072,8 +1074,8 @@ guiTypes = {
 				name = "elections_label"
 				position = { x = 0 y = 72 }
 				textureFile = ""
-				font = "cg_18b"
-				borderSize = {x = 0 y = 0 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
 				text = "POLITICS_NEXTELECTION"
 				maxWidth = 340
 				format = left
@@ -1083,8 +1085,8 @@ guiTypes = {
 				name = "elections"
 				position = { x = 60 y = 72 }
 				textureFile = ""
-				font = "cg_18b"
-				borderSize = {x = 0 y = 0 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
 				maxWidth = 340
 				format = right
 			}
@@ -1093,8 +1095,8 @@ guiTypes = {
 				name = "party_label"
 				position = { x = 0 y = 96 }
 				textureFile = ""
-				font = "cg_18b"
-				borderSize = {x = 0 y = 0 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
 				text = "RULING_PARTY"
 				maxWidth = 340
 				format = left
@@ -1104,8 +1106,8 @@ guiTypes = {
 				name = "party"
 				position = { x = 130 y = 96 }
 				textureFile = ""
-				font = "cg_18b"
-				borderSize = {x = 0 y = 0 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
 				maxWidth = 270
 				maxHeight = 20
 				fixedsize = yes
@@ -1116,12 +1118,12 @@ guiTypes = {
 
 	containerWindowType = {
 		name ="gamesetup_multiplayer_settings_window"
-		position = { x=0 y=196 }
-		show_position = { x=5 y =-261 }
+		position = { x=0 y=196}
+		show_position = { x=5 y =-261}
 		animation_type = decelerated
 		animation_time = 1000
 		
-		size = {width=484 height=97 }
+		size = {width=484 height=97}
 		orientation = lower_right
 		origo = lower_right
 	
@@ -1143,7 +1145,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "hotjoin_cb"
-			position = { x=365 y=49 }
+			position = { x=365 y=49}
 			quadTextureSprite ="GFX_generic_checkbox"	
 			clicksound = click_checkbox
 		}
@@ -1161,7 +1163,7 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "coop_cb"
-			position = { x=365 y=18 }
+			position = { x=365 y=18}
 			quadTextureSprite ="GFX_generic_checkbox"
 			clicksound = click_checkbox
 		}
@@ -1235,11 +1237,11 @@ guiTypes = {
 
 			buttonType = {
 				name = "close_button"
-				position = { x = 10 y = -39 }
+				position = { x = 10 y = -39}
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_LEFT"
 				buttonText = "CUSTOM_GAME_SETTINGS_BACK"
-				buttonFont = "cg_18b"
+				buttonFont = "hoi_18mbs"
 				clicksound = click_default
 			}
 
@@ -1249,7 +1251,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_RIGHT"
 				buttonText = "CUSTOM_GAME_SETTINGS_REVERT"
-				buttonFont = "cg_18b"
+				buttonFont = "hoi_18mbs"
 				clicksound = click_default
 			}
 
@@ -1259,7 +1261,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_RIGHT"
 				buttonText = "CUSTOM_GAME_SETTINGS_LOAD"
-				buttonFont = "cg_18b"
+				buttonFont = "hoi_18mbs"
 				clicksound = click_default
 			}
 
@@ -1269,7 +1271,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_RIGHT"
 				buttonText = "CUSTOM_GAME_SETTINGS_SAVE"
-				buttonFont = "cg_18b"
+				buttonFont = "hoi_18mbs"
 				clicksound = click_default
 			}
 		}
@@ -1306,7 +1308,7 @@ guiTypes = {
 		checkBoxType = {
 			name = "use_custom_settings_checkbox"
 			position = { x = -38 y = 7 }
-#			quadTextureSprite ="GFX_changed_slider_indicator"
+			quadTextureSprite ="GFX_changed_slider_indicator"
 			Orientation = "UPPER_RIGHT"
 			frame = 1
 			clicksound = click_checkbox
@@ -1339,7 +1341,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "custom_difficulty_name"
 			position = { x = 37 y = 10 }
-			font = "cg_18b"
+			font = "hoi_18mbs"
 			maxWidth = 270
 			maxHeight = 18
 			format = left
@@ -1369,21 +1371,21 @@ guiTypes = {
 				quadTextureSprite = "GFX_scroll_drager"
 				position = { x = 0 y = -2 }
 			}
-
+			
 			track = {
 				name = "Track"
 				quadTextureSprite = "GFX_scroll_track_horisontal"
 				position = { x = 0 y = 5 }
 				alwaystransparent = yes
 			}
-
+			
 			decreaseButton = {
 				name = "Decrease"
 				quadTextureSprite = "yearslider_leftbutton"
 				position = { x = 3 y = 1 }
 				clicksound = click_scroll
 			}
-
+			
 			increaseButton = {
 				name = "Increase"
 				quadTextureSprite = "yearslider_rightbutton"
@@ -1423,7 +1425,7 @@ guiTypes = {
 			name = "option_name"
 			position = { x = 4 y = 2 }
 			textureFile = ""
-			font = "cg_18b"
+			font = "hoi_16mbs"
 			maxWidth = 230
 			maxHeight = 16
 			borderSize = { x = 0 y = 0 }
@@ -1461,18 +1463,18 @@ guiTypes = {
 		instantTextboxType = {
 			name = "game_rule_name"
 			position = { x = 37 y = 10 }
-			font = "cg_18b"
+			font = "hoi_18mbs"
 			maxWidth = 270
 			maxHeight = 18
 			format = left
 			multiline = no
 		}
-
+		
 		dropDownBoxType = {
 			name = "game_rule_options_dropdown"
 			position = { x = 326 y = 4 }
 			size = { width = 300 height = 31 }
-
+			
 			containerWindowType = {
 				name = "current_option"
 				position = { x = 0 y = 0 }
@@ -1486,7 +1488,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "name_textbox"
 					position = { x = 15 y = 6 }
-					font = "cg_18b"
+					font = "hoi_18mbs"
 					fixedsize = yes
 					format = left
 					alwaystransparent = yes
@@ -1500,7 +1502,7 @@ guiTypes = {
 					alwaystransparent = yes
 				}
 			}
-
+			
 			expandButton = {
 				name = "expand_button"
 				position = { x = -28 y = 6 }
@@ -1509,7 +1511,7 @@ guiTypes = {
 				Orientation = "UPPER_RIGHT"
 				clicksound = click_default
 			}
-
+			
 			expandedWindow = {
 				name = "expanded_window"
 				position = { x = 0 y = -300 }
@@ -1520,13 +1522,13 @@ guiTypes = {
 				size = { width = 300 height = 300 }
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 7 bottom = 7 right = 6 }
-
+				
 				background = {
 					name = "background"
 					quadTextureSprite ="GFX_tiled_window_1b_thin_border"
 					position = { x = 0 y = 0 }
 				}
-
+				
 				gridBoxType = {
 					name = "options_grid"
 					position = { x = 8 y = 0 }
@@ -1538,7 +1540,7 @@ guiTypes = {
 			}
 		}
 	}
-
+	
 	containerWindowType = {
 		name = "game_rule_group_window"
 		size = { width = 636 height = 40 }
@@ -1552,15 +1554,15 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 	}
-
+	
 	containerWindowType = {
 		name ="gamesetup_gameplay_settings_window"
-		position = { x=0 y=196 }	
-		show_position = { x=5 y =-85 } 
+		position = { x=0 y=196}	
+		show_position = { x=5 y =-85}
 		animation_type = decelerated
 		animation_time = 1000
 		
-		size = {width=598 height=196 }
+		size = {width=598 height=196}
 		orientation = lower_right
 		origo = lower_right
 	
@@ -1569,229 +1571,230 @@ guiTypes = {
 			quadTextureSprite = "GFX_lobby_lower_right_sidepanel_bg"
 		}
 
-##		buttonType = {
-#			name = "custom_settings_btn"
-#			position = { x = 357 y = 12 }
-#			quadTextureSprite ="GFX_custom_set_button_2"	
-#			pdx_tooltip = FE_CUSTOM_DIFFUCULTY
-#		}
+		
+		buttonType = {
+			name = "custom_settings_btn"
+			position = { x = 357 y = 12 }
+			quadTextureSprite ="GFX_custom_set_button_2"	
+			pdx_tooltip = FE_CUSTOM_DIFFUCULTY
+		}
 
 		instantTextBoxType={
 			position = { x = 362 y = 18 }
 			name = "custom_text"
-			font = "cg_18b"
-			borderSize = {x = 0 y = 0 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}	
 			maxWidth = 230
 			maxHeight = 16
 			text = "FE_DIFFICULTY_CUSTOM_BTN"
 			format = centre
 			alwaystransparent = yes
 		}
-
+		
 		instantTextBoxType={
 			position = {x = 9 y = 12 }
 			name = "difficulty_text"
-			font = "cg_18b"
-			borderSize = {x = -100 y = 0 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
 			maxWidth = 348
 			maxHeight = 16
 			text = "FE_DIFFICULTY"
 			format = center
 		}
-
-		#checkboxType = {
-		#	name = "very_easy_cb"
-		#	position = { x=9 y=47}
-		#	quadTextureSprite ="GFX_difficulty_button_civilian"	
-		#	buttonText = "FE_DIFFICULTY_EASY"
-		#	buttonFont = "hoi_20b"
-		#	clicksound = click_checkbox
-		#}
-
-		#checkboxType = {
-		#	name = "easy_cb"
-		#	position = { x=125 y=47}
-		#	quadTextureSprite ="GFX_difficulty_button_recruit"	
-		#	buttonText = "FE_DIFFICULTY_EASY"
-		#	buttonFont = "hoi_20b"
-		#	clicksound = click_checkbox
-		#}
+		
+		checkboxType = {
+			name = "very_easy_cb"
+			position = { x=9 y=47}
+			quadTextureSprite ="GFX_difficulty_button_civilian"	
+			buttonText = "FE_DIFFICULTY_EASY"
+			buttonFont = "hoi_20b"
+			clicksound = click_checkbox
+		}
 
 		checkboxType = {
+			name = "easy_cb"
+			position = { x=125 y=47}
+			quadTextureSprite ="GFX_difficulty_button_recruit"	
+			buttonText = "FE_DIFFICULTY_EASY"
+			buttonFont = "hoi_20b"
+			clicksound = click_checkbox
+		}
+		
+		checkboxType = {
 			name = "normal_cb"
-			position = { x=130 y=47 }
+			position = { x=241 y=47}
 			quadTextureSprite ="GFX_difficulty_button_regular"	
 			clicksound = click_checkbox
 			buttonText = "FE_DIFFICULTY_NORMAL"
-			buttonFont = "cg_18b"
+			buttonFont = "hoi_20b"
+		}
+		
+		checkboxType = {
+			name = "hard_cb"
+			position = { x=357 y=47}
+			quadTextureSprite ="GFX_difficulty_button_veteran"
+			buttonText = "FE_DIFFICULTY_HARD"
+			buttonFont = "hoi_20b"
+			clicksound = click_checkbox
+		}
+		
+		checkboxType = {
+			name = "very_hard_cb"
+			position = { x=473 y=47}
+			quadTextureSprite ="GFX_difficulty_button_elite"
+			buttonText = "FE_DIFFICULTY_VERY_HARD"
+			buttonFont = "hoi_20b"
+			clicksound = click_checkbox
 		}
 
-		#checkboxType = {
-		#	name = "hard_cb"
-		#	position = { x=357 y=47}
-		#	quadTextureSprite ="GFX_difficulty_button_veteran"
-		#	buttonText = "FE_DIFFICULTY_HARD"
-		#	buttonFont = "hoi_20b"
-		#	clicksound = click_checkbox
-		#}
+		instantTextBoxType={
+			position = {x=18 y=53 }
+			name = "civilian_text"
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 115
+			maxHeight = 16
+			text = "FE_DIFFICULTY_VERY_EASY"
+			format = centre
+			alwaystransparent = yes
+		}
 
-		#checkboxType = {
-		#	name = "very_hard_cb"
-		#	position = { x=473 y=47}
-		#	quadTextureSprite ="GFX_difficulty_button_elite"
-		#	buttonText = "FE_DIFFICULTY_VERY_HARD"
-		#	buttonFont = "hoi_20b"
-		#	clicksound = click_checkbox
-		#}
-
-#		instantTextBoxType={
-#			position = {x=18 y=53 }
-#			name = "civilian_text"
-#			font = "hoi_20b"
-#			borderSize = {x = 0 y = 0}	
-#			maxWidth = 115
-#			maxHeight = 16
-#			text = "FE_DIFFICULTY_VERY_EASY"
-#			format = centre
-#			alwaystransparent = yes
-#		}
-#
-#		instantTextBoxType={
-#			position = {x=133 y=53 }
-#			name = "beginner_text"
-#			font = "hoi_20b"
-#			borderSize = {x = 0 y = 0}	
-#			maxWidth = 115
-#			maxHeight = 16
-#			text = "FE_DIFFICULTY_EASY"
-#			format = centre
-#			alwaystransparent = yes
-#		}
-
+		instantTextBoxType={
+			position = {x=133 y=53 }
+			name = "beginner_text"
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}	
+			maxWidth = 115
+			maxHeight = 16
+			text = "FE_DIFFICULTY_EASY"
+			format = centre
+			alwaystransparent = yes
+		}
+		
 		instantTextBoxType={
 			position = {x=250 y=53 }
 			name = "normal_text"
-			font = "cg_18b"
-			borderSize = {x = -110 y = 0 }	
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}	
 			maxWidth = 115
 			maxHeight = 16
 			text = "FE_DIFFICULTY_NORMAL"
 			format = centre
 			alwaystransparent = yes
 		}
-
-
-#		instantTextBoxType={
-#			position = {x=368 y=53 }
-#			name = "hard_text"
-#			font = "hoi_20b"
-#			borderSize = {x = 0 y = 0}
-#			maxWidth = 115
-#			maxHeight = 16
-#			text = "FE_DIFFICULTY_HARD"	
-#			format = centre
-#			alwaystransparent = yes
-#		}
-#		
-#		instantTextBoxType={
-#			position = {x=480 y=53 }
-#			name = "very_hard_text"
-#			font = "hoi_20b"
-#			borderSize = {x = 0 y = 0}
-#			maxWidth = 115
-#			maxHeight = 16
-#			text = "FE_DIFFICULTY_VERY_HARD"	
-#			format = centre
-#			alwaystransparent = yes
-#		}
-#		instantTextBoxType={
-#			position = {x = 30 y = 103 }
-#			name = "ironman_text"
-#			font = "hoi_24header"
-#			maxWidth = 370
-#			maxHeight = 16
-#			text = "FE_IRONMAN"
-#			pdx_tooltip = "FE_IRONMAN_TOOLTIP"
-#			format = left
-#			fixedsize = yes
-#		}
-#		
-#		checkboxType = {
-#			name = "ironman_cb"
-#			position = { x=530 y =101}
-#			quadTextureSprite ="GFX_generic_checkbox"	
-#			clicksound = click_checkbox
-#		}
-
+		
 		instantTextBoxType={
-			position = {x = 30 y = 148 }
-			name = "historical_text"
-			font = "cg_18b"
+			position = {x=368 y=53 }
+			name = "hard_text"
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 115
+			maxHeight = 16
+			text = "FE_DIFFICULTY_HARD"	
+			format = centre
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType={
+			position = {x=480 y=53 }
+			name = "very_hard_text"
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 115
+			maxHeight = 16
+			text = "FE_DIFFICULTY_VERY_HARD"	
+			format = centre
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType={
+			position = {x = 30 y = 103 }
+			name = "ironman_text"
+			font = "hoi_24header"
 			maxWidth = 370
 			maxHeight = 16
-			text = "FE_HISTORICAL"
-			pdx_tooltip = "FE_HISTORICAL_TOOLTIP"
+			text = "FE_IRONMAN"
+			pdx_tooltip = "FE_IRONMAN_TOOLTIP"
 			format = left
 			fixedsize = yes
 		}
 		
 		checkboxType = {
+			name = "ironman_cb"
+			position = { x=530 y =101}
+			quadTextureSprite ="GFX_generic_checkbox"	
+			clicksound = click_checkbox
+		}
+		
+		instantTextBoxType={
+			position = {x = 30 y = 148 }
+			name = "historical_text"
+			font = "hoi_24header"
+			maxWidth = 370
+			maxHeight = 16
+			text = "FE_HISTORICAL"
+			pdx_tooltip = "FE_HISTORICAL_TOOLTIP"
+			format = left
+			fixedsize = yes			
+		}
+		
+		checkboxType = {
 			name = "historical_cb"
-			position = { x=530 y =145 }
+			position = { x=530 y =145}
 			quadTextureSprite ="GFX_generic_checkbox"
 			clicksound = click_checkbox
 		}
 	}
-
+	
 	containerWindowType = {
 		name ="loading_history"
-		position = { x=0 y =0 }
-		size = { width=100% height =100% }
+		position = { x=0 y =0}	
+		size = { width=100% height =100%}
 		clipping = no
-
+		
 		containerWindowType = {
 			name ="pane"
-			position = { x=-250 y =-50 }
+			position = { x=-250 y =-50}	
 			size = { width=500 height =100 }
 			clipping = no
 			orientation = CENTER
-
+		
 			background = {
-				name = "Background"
+				name = "Background"		
 				spriteType ="GFX_tiled_bg"
 			}
+			
 			instantTextBoxType = {
 				name = "label"
-				position = { x = 0 y = -5 }
+				position = { x = 0 y = 30 }
 				font = "hoi_36header"
-				borderSize = {x = -250 y = -20 }
 				text = "FE_LOADING_HISTORY"
 				maxWidth = 500
 				maxHeight = 30
 				fixedsize = yes	
-				vertical_alignment = center
-				Orientation = CENTER
+				vertical_alignment = center	
 				format = centre
 			}
-		}
+		}		
 	}
-
+	
 	containerWindowType = {
 		name ="frontendgamesetupview"
-		position = { x=0 y =0 }
-		size = { width=100% height =100% }
+		position = { x=0 y =0}	
+		size = { width=100% height =100%}
 		clipping = no
-
+		
 		containerWindowType = {
 			name ="top"
-			position = { x=0 y = -80 }
-			show_position = { x=0 y =-30 }
+			position = { x=0 y = -80}
+			show_position = { x=0 y =-30}
 			animation_type = decelerated
 			animation_time = 1000
-			size = { width=102% height =128 }
+			size = { width=102% height =128}
 			clipping = no
-
-			Background = {
+		
+			Background =
+			{
 				name ="top_bg"
 				spriteType = "GFX_tiled_frontend_upper_bar"
 				position = { x=-10 y=0 }
@@ -1799,56 +1802,56 @@ guiTypes = {
 
 			containerWindowType = {
 				name ="scenario_window"
-				position = { x=50% y = -80 }
-				show_position = { x=50% y =-30 }
+				position = { x=50% y = -80}
+				show_position = { x=50% y =-30}
 				animation_type = decelerated
 				animation_time = 1000
-				size = { width=340 height =128 }
+				size = { width=340 height =128}
 				clipping = no
 
 				iconType ={
 					name ="menu_top_date_bg"
 					spriteType = "GFX_menu_top_bg_bg"
 					position = { x= -196 y = 54 }
-				}
-
+				}	
+				
 				instantTextBoxType = {
 					name = "date"
 					position = { x = -170 y = 65 }
-					font = "cg_18b"
-					borderSize = {x = 4 y = 4 }
-					text = "Pikku Saippuakauppias Itkee!!"
+					font = "hoi_24header"
+					borderSize = {x = 4 y = 4}
+					text = "Pikku Saippuakauppias Itkee!!"	
 					maxWidth = 340
-					maxHeight = 30
+					maxHeight = 30	
 					format = centre
 				}
-
+				
 				instantTextBoxType = {
 					name = "name"
 					position = { x = -184 y = 85 }
-					font = "cg_18b"
-					borderSize = {x = 4 y = 4 }
-					text = "Pikku Saippuakauppias Itkee!!"
+					font = "hoi_24header"
+					borderSize = {x = 4 y = 4}
+					text = "Pikku Saippuakauppias Itkee!!"	
 					maxWidth = 360
-					maxHeight = 23
+					maxHeight = 23	
 					format = centre
 					fixedsize = yes
 				}
-
+				
 				ButtonType = {
 					name = "scenario_button"
-					position = { x = -155 y = 115 }
-					quadTextureSprite ="GFX_main_lobby_button"
-					buttonText = "Kommandanter`s GDU"
-					buttonFont = "hoi_30header"
+					position = { x = -136 y = 115 }
+					quadTextureSprite ="GFX_button_261x34"	
+					buttonText = "FE_CHANGE_SCENARIO"
+					buttonFont = "hoi_20b"
 					clicksound = click_ok
 					shortcut = "c"
 				}
-
+				
 				# 1st BUTTON (BIG)
 				buttonType = {
 					name = "mapmode_button_1"
-					position = { x=-50 y=160 }
+					position = { x=-50 y=160 }	
 					quadTextureSprite ="GFX_lobby_country_mapmode_strip"
 					clicksound = land_mapmode
 					shortcut = "F1"
@@ -1858,34 +1861,35 @@ guiTypes = {
 				}
 				buttonType = {
 					name = "mapmode_button_1_s"
-					position = { x=-50 y=160 }
+					position = { x=-50 y=160 }	
 					quadTextureSprite ="GFX_lobby_country_mapmode_strip_selected"
 					shortcut = "F1"
 					pdx_tooltip = "MAPMODE_DEFAULT"
 					pdx_tooltip_delayed = "MAPMODE_DEFAULT_DESCRIPTION"
-					frame = 1
+					frame = 1					
 				}
-
+				
 				# 2st BUTTON (BIG)
 				buttonType = {
 					name = "mapmode_button_2"
-					position = { x=20 y=160 }
+					position = { x=20 y=160 }	
 					quadTextureSprite ="GFX_lobby_country_mapmode_strip"
 					clicksound = land_mapmode
 					shortcut = "F2"
 					pdx_tooltip = "MAPMODE_PLAYERS"
-					frame = 2
+					frame = 2					
 				}
 				buttonType = {
 					name = "mapmode_button_2_s"
-					position = { x=20 y=160 }
+					position = { x=20 y=160 }	
 					quadTextureSprite ="GFX_lobby_country_mapmode_strip_selected"
 					shortcut = "F2"
 					pdx_tooltip = "MAPMODE_PLAYERS"
-					frame = 2
+					frame = 2						
 				}
 			}
 
+			
 			ButtonType = {
 				name = "interesting_countries_button"
 				position = { x = 40 y = 58 }
@@ -1906,9 +1910,9 @@ guiTypes = {
 				clicksound = click_default
 				oversound = ui_menu_over
 				scale = 0.8
-			}
+			}	
 			
-			iconType = {
+			iconType ={
 				name ="observer_button_overlay"
 				spriteType = "GFX_observer_button_overlay"
 				position = { x = 320 y = 49 }
@@ -1916,14 +1920,14 @@ guiTypes = {
 				scale = 0.8
 				alwaystransparent = yes
 			}
-
+			
 			ButtonType = {
 				position = { x= -487 y = 47 }
 				name = "player_shield"	
 				quadTextureSprite ="GFX_player_flag"
 				Orientation = "UPPER_RIGHT"
 			}
-
+			
 			iconType ={
 				name ="large_flag_frame"
 				spriteType = "GFX_large_flag_frame"
@@ -1936,14 +1940,14 @@ guiTypes = {
 				spriteType = "GFX_generic_bg"
 				position = { x= -380 y = 46 }
 				Orientation = "UPPER_RIGHT"
-			}
-
+			}			
+			
 			instantTextBoxType = {
 				name = "selected_nation_label"
 				position = { x = -365 y = 55 }
 				textureFile = ""
-				font = "vic_36s"
-				borderSize = {x = 0 y = 0 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
 				text = "FE_NO_COUNTRY_SELECTED"
 				maxWidth = 240
 				maxHeight = 40
@@ -1951,31 +1955,31 @@ guiTypes = {
 				format = centre
 				Orientation = "UPPER_RIGHT"
 			}
-
+			
 			ButtonType = {
 				position = { x= -97 y = 45 }
-				name = "extended_country_button"
+				name = "extended_country_button"	
 				quadTextureSprite ="GFX_extended_country_button"
 				Orientation = "UPPER_RIGHT"
-			}
-
+			}			
+			
 		}
-
+			
 		containerWindowType = {
 			name ="bottom"
-			position = { x=0 y =0 }
+			position = { x=0 y =0}
 			show_position = { x=0 y =-100 }
 			animation_type = decelerated
-			animation_time = 1000
-			size = { width=102% height =128 }
-			Orientation = lower_left
+			animation_time = 1000				
+			size = { width=102% height =128}
+			Orientation = lower_left	
 			
 			Background ={
 				name ="bottom_win"
 				spriteType = "GFX_tiled_frontend_lower_bar"
-				position = { x=-10 y =0 }
+				position = { x=-10 y =0}				
 			}
-
+			
 			ButtonType = {
 				name = "back_button"
 				position = { x = 20 y = 40 }
@@ -1987,7 +1991,7 @@ guiTypes = {
 				oversound = ui_menu_over
 				shortcut = "ESCAPE"
 			}
-
+			
 			ButtonType = {
 				name = "load_button"
 				position = { x = 180 y = 40 }
@@ -1999,7 +2003,7 @@ guiTypes = {
 				oversound = ui_menu_over
 				shortcut = "l"
 			}
-
+			
 			ButtonType = {
 				name = "options_button"
 				position = { x = 340 y = 40 }
@@ -2018,7 +2022,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_enabled_achievement_icons"
 				Orientation = "LOWER_RIGHT"
 			}
-
+			
 			ButtonType = {
 				name = "play_button"
 				position = { x = -300 y = -100 }
@@ -2030,7 +2034,7 @@ guiTypes = {
 				shortcut = "RETURN"
 #				frame = 1
 			}
-
+			
 			ButtonType = {
 				name = "play_button_ready"
 				position = { x = -300 y = -100 }
@@ -2041,15 +2045,16 @@ guiTypes = {
 				#clicksound = start_game_01 # Don't add this here. I intentionally removed it because otherwise the sound is played when the client clicks on Ready/Unready button. The sound should only play when the host starts the game (or when it's SP) which is done in the code.  
 				shortcut = "RETURN"
 				frame = 1
-			}
+			}	
 
 			iconType = {
 				name = "play_button_checkbox"
 				position = { x = -112 y = -85 }
 				quadTextureSprite ="GFX_generic_checkbox2"
 				Orientation = "LOWER_RIGHT"
-				allwaystransparent = yes
-			}
+				alwaystransparent = yes
+			}			
+			
 		}
 	}
 }

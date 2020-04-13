@@ -1849,11 +1849,6 @@ early_ship_hull_carrier = {
 		xp_research_cost = 50
 		xp_research_bonus = 1.50
 		research_cost = 2
-
-		xp_research_type = navy
-		xp_research_cost = 50
-		xp_research_bonus = 1.50
-
 		start_year = 1944
 		
 		folder = {

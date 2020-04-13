@@ -1404,8 +1404,6 @@ GER_industry_relocation = {
 				}
 				
 				custom_effect_tooltip = Germany_exploit_foreign_workers_tt
-				custom_effect_tooltip = GER_relocate_industry_from_poitou_tt
-				
 		}
 		
 		complete_effect = {

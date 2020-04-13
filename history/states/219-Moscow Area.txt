@@ -6,7 +6,7 @@ state={
 	
 	state_category = megalopolis
 	resources={
-		steel=28
+		steel=48
 	}
 
 	history={
@@ -29,8 +29,8 @@ state={
 		buildings = {
 			infrastructure = 8
 			arms_factory = 9
-			industrial_complex = 2
-			air_base = 10
+			industrial_complex = 1
+			air_base = 20
 			6380 ={
 				bunker = 5
 			}

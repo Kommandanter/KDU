@@ -56,10 +56,7 @@ division_template = {
 
 
 	support = {
-        recon = { x = 0 y = 0 }
 	 	engineer = { x = 0 y = 1 }
-		anti_air = { x = 0 y = 2 }
-		anti_tank = { x = 0 y = 3 }
 		artillery = { x = 0 y = 4 }
 	}
 }
@@ -81,21 +78,19 @@ division_template = {
 		mountaineers = { x = 1 y = 4 }
 
 		mountaineers = { x = 2 y = 0 }
-		mountaineers = { x = 2 y = 1 }
-		anti_tank_brigade = { x = 2 y = 2 }
-		anti_air_brigade = { x = 2 y = 3 }
-		anti_tank_brigade = { x = 2 y = 4 }
-	
+
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
 		artillery_brigade = { x = 3 y = 3 }
+		artillery_brigade = { x = 3 y = 4 }
+		artillery_brigade = { x = 3 y = 4 }
+
 	}
 	support = {
         recon = { x = 0 y = 0 }
 	 	engineer = { x = 0 y = 1 }
 		anti_air = { x = 0 y = 2 }
-		anti_tank = { x = 0 y = 3 }
 		artillery = { x = 0 y = 4 }
 	}
 }
@@ -133,7 +128,6 @@ division_template = {
         recon = { x = 0 y = 0 }
 	 	engineer = { x = 0 y = 1 }
 		anti_air = { x = 0 y = 2 }
-		anti_tank = { x = 0 y = 3 }
 		artillery = { x = 0 y = 4 }
 	}
 	priority = 2
@@ -219,7 +213,6 @@ division_template = {
         recon = { x = 0 y = 0 }
 	 	engineer = { x = 0 y = 1 }
 		anti_air = { x = 0 y = 2 }
-		anti_tank = { x = 0 y = 3 }
 		artillery = { x = 0 y = 4 }
 
 	}
@@ -254,7 +247,6 @@ division_template = {
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
 		anti_air = { x = 0 y = 2 }
 
 	}
@@ -293,8 +285,7 @@ division_template = {
 		engineer = { x = 0 y = 0 }
 		artillery = { x = 0 y = 1 }
 		recon = { x = 0 y = 2 }      # Recon Group consisted of 64 ACs/scout cars
-		anti_air = { x = 0 y = 3 }
-		
+
 	}
 }
 
@@ -585,12 +576,12 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_1
+			type = infantry_equipment_0
 			creator = "SOV"
 		}
-		requested_factories = 19
+		requested_factories = 20
 		progress = 0.1
-		efficiency = 70
+		efficiency = 100
 	}
 
 	add_equipment_production = {
@@ -617,7 +608,7 @@ instant_effect = {
 			type = anti_tank_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 5
+		requested_factories = 2
 		progress = 0.3
 		efficiency = 70
 	}
@@ -627,7 +618,7 @@ instant_effect = {
 			type = anti_air_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 2
+		requested_factories = 3
 		progress = 0.3
 		efficiency = 70
 	}
@@ -640,7 +631,7 @@ instant_effect = {
 		}
 		requested_factories = 7
 		progress = 0.4
-		efficiency = 70
+		efficiency = 20
 	}
 	add_equipment_production = {
 		equipment = {
@@ -648,9 +639,9 @@ instant_effect = {
 			version_name = "I-153"
 			creator = "SOV"
 		}
-		requested_factories = 1
+		requested_factories = 6
 		progress = 0.15
-		efficiency = 70
+		efficiency = 100
 	}
 	add_equipment_production = {
 		equipment = {
@@ -658,9 +649,9 @@ instant_effect = {
 			version_name = "Sh-1" 
 			creator = "SOV"
 		}
-		requested_factories = 7
+		requested_factories = 3
 		progress = 0.15
-		efficiency = 70
+		efficiency = 20
 	}
 
 }

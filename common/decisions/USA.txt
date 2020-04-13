@@ -1,6 +1,5 @@
 war_measures = {
 
-
 	USA_homeland_defense = {
 
 		icon = generic_prepare_civil_war
@@ -43,16 +42,14 @@ war_measures = {
 			if = {
 				limit = {
 					NOT = {
-						OR = {
-							has_idea = extensive_conscription
-							has_idea = scraping_the_barrel
-							has_idea = service_by_requirement
-							has_idea = all_adults_serve
-						}
+						has_idea = extensive_conscription
+						has_idea = scraping_the_barrel
+						has_idea = service_by_requirement
+						has_idea = all_adults_serve
 					}
 				}
-				add_ideas = extensive_conscription
 			}
+				add_ideas = extensive_conscription
 			if = {
 				limit = {
 					OR = {
@@ -62,12 +59,10 @@ war_measures = {
 						has_idea = low_economic_mobilisation
 					}
 				}
-				add_ideas = war_economy
+				add_ideas = { war_economy USA_homeland_defense }
 			}
-			add_ideas = USA_homeland_defense
 		}
 	}
-}
 
 USA_war_measures = {
 
@@ -541,11 +536,7 @@ USA_aid_britain = {
 
 		}
 	}
-
-
 }
-
-foreign_support = {
 #	USA_support_the_anti_fascist_war = {
 #
 #		icon = generic_industry
@@ -687,6 +678,4 @@ foreign_support = {
 #				}
 #			}
 #		}
-#	}
 }
-#

@@ -5,9 +5,9 @@ state={
 	manpower = 3117017
 	resources={
 		steel=16
-		aluminium=22
+		aluminium=44
 	}
-	state_category = large_city
+	state_category = metropolis
 	
 	history={
 		owner = CAN
@@ -19,7 +19,7 @@ state={
 		}
 		add_core_of = CAN
 		victory_points = {
-			3778 20 
+			3778 30 
 		}
 		victory_points = {
 			3775 10

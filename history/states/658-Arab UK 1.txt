@@ -7,24 +7,17 @@ state={
 		oil=5 # was: 6
 	}
 	
-	state_category = pastoral
-
+	state_category = town
 
 	history={
-		owner = ENG
-		buildings = { 
-			air_base = 5
-		}
+
 		victory_points = {
-			7960 1 
+			7960 1
 		}
+		owner = ENG
 		buildings = {
 			infrastructure = 2
-			7960 = {
-				naval_base = 3
-			}
 		}
-
 	}
 
 	provinces={

@@ -3,13 +3,13 @@ guiTypes = {
 	# Offset for unit counters when zoomed in, only y value used for now
 	positionType = {
 		name = "unit_counter_zoomed_in_offset"
-		position = { x = 0 y = 20 }	#MPU match counter ???
+		position = { x = 0 y = 20 }
 	}
-	
+
 	containerWindowType = {
 		name = "unit_counter"
 		position = { x=0 y=0 }
-		size = { width = 76 height = 31 }	#MPU match image size
+		size = { width = 76 height = 31 }
 		clipping = no
 
 		# Background
@@ -18,70 +18,70 @@ guiTypes = {
 			quadTextureSprite = "GFX_onmap_unit_counter"
 			position = { x=0 y=0 }
 		}
-		
+
 		### Division Colour Marker
 		iconType ={
 			name ="group_marker"
 			spriteType = "GFX_UV_group_marker"
-			position = { x=56 y=2 }	#MPU move
+			position = { x=56 y=2 }
 			allwaystransparent = yes
 		}
-		
+
 		#ideology
 		iconType = {
 			name = "counter_ideology"
 			spriteType = "GFX_onmap_unit_counter_ideology"
-			position = { x=37 y=1 }	#MPU move
+			position = { x=37 y=1 }
 			allwaystransparent = yes
-		}		
-		
+		}
+
 		# Division Icon background
 		iconType = {
 			name = "counter_overlay"
 			spriteType = "GFX_onmap_unit_counter_overlay"
-			position = { x=4 y=4 }	#MPU move
+			position = { x=4 y=4 }
 			allwaystransparent = yes
-		}	
-		
+		}
+
 		# Selected Icon
 		iconType = {
 			name = "count_selected"
 			spriteType = "GFX_onmap_unit_counter_selected"
 			position = { x=0 y=0 }
 			allwaystransparent = yes
-		}		
+		}
 
 		# Division Icon
 		iconType ={
 			name ="type"
 			spriteType = "GFX_tiled_window_transparent"
-			position = { x=4 y=3 }	#MPU
+			position = { x=4 y=3 }
 			allwaystransparent = yes
-		}		
-		
+		}
+
 		# Unit Count
 		instantTextboxType = {
 			name = "count_txt"
-			position = { x=36 y=6 }	#MPU
-			font = "Main_14"			
+			position = { x=36 y=6 }
+			font = "Main_14"
 			maxWidth = 20
 			maxHeight = 14
 			format = center	
 			alwaystransparent = yes
 		}
-		# Org
+
 		iconType = {
 			name = "bar_org"
 			spriteType = "GFX_mapicon_unit_bar_org"
-			position = { x=14 y=8 }	#MPU
+			position = { x=14 y=8 }
 			allwaystransparent = yes
 			rotation = 1.5708
 		}
-		# Str
+
 		iconType = {
 			name = "bar_str"
 			spriteType = "GFX_mapicon_unit_bar_str"
-			position = { x=14 y=12 }	#MPU
+			position = { x=14 y=12 }
 			allwaystransparent = yes
 			rotation = 1.5708
 		}
@@ -90,11 +90,11 @@ guiTypes = {
 		iconType = {
 			name = "flag"
 			spriteType = "GFX_mapicon_unit_flag_stripe"
-			position = { x=5 y=16 }	#MPU
+			position = { x=5 y=16 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
-		
+
 		### Large Flag
 		iconType = {
 			name = "large_flag"
@@ -108,38 +108,38 @@ guiTypes = {
 		iconType = {
 			name = "attrition"
 			spriteType = "GFX_unit_attrition"
-			position = { x=-4 y=-1 }	#MPU
+			position = { x=-4 y=-1 }
 		}
-		
+
 		# Red !
 		iconType = {
 			name = "no_orders"
 			spriteType = "GFX_mapicon_unit_no_orders"
-			position = { x=-10 y=9 }	#MPU
+			position = { x=-10 y=9 }
 		}
-		
+
 		# Garrison Shield
 		iconType = {
 			name = "defending_area"
 			spriteType = "GFX_mapicon_unit_area_defense"
-			position = { x=-13 y=6 }	#MPU
+			position = { x=-13 y=6 }
 			scale = 0.8
 		}
-		
+
 		# yellow !
 		iconType = {
 			name = "invalid_orders"
 			spriteType = "GFX_mapicon_unit_invalid_orders"
-			position = { x=-10 y=8 }	#MPU
+			position = { x=-10 y=8 }
 		}
 		
 		# Jerry Can
 		iconType = {
 			name = "low_supply"
 			spriteType = "GFX_mapicon_low_supply"
-			position = { x=-4 y=20 }	#MPU
+			position = { x=-4 y=20 }
 		}
-		
+
 		#Dug In Shield
 		iconType ={
 			name ="onmap_digin_icon"
@@ -168,7 +168,7 @@ guiTypes = {
 			position = { x=0 y=0 }
 			frame = 1
 		}
-		
+
 		### Division Colour Marker
 		iconType ={
 			name ="group_marker"
@@ -176,21 +176,21 @@ guiTypes = {
 			position = { x=63 y=2 }	#MPU
 			allwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "counter_ideology"
 			spriteType = "GFX_onmap_unit_counter_ideology"
 			position = { x=35 y=0 }
 			allwaystransparent = yes
-		}		
-		
+		}
+
 		# Division Icon background
 		iconType = {
 			name = "counter_overlay"
 			spriteType = "GFX_onmap_unit_counter_overlay_navy"
 			position = { x=4 y=4 }	#MPU move
 			allwaystransparent = yes
-		}	
+		}
 
 		# Selected Icon
 		iconType = {
@@ -198,41 +198,41 @@ guiTypes = {
 			spriteType = "GFX_onmap_mission_unit_counter_selected"
 			position = { x=0 y=0 }
 			allwaystransparent = yes
-		}		
+		}
 
 		# Division Icon
 		iconType = {
 			name ="type"
 			spriteType = "GFX_tiled_window_transparent"
-			position = { x=6 y=6 }	#MPU
+			position = { x=6 y=6 }
 			allwaystransparent = yes
-			#scale = 0.73	#MPU
-		}		
+			#scale = 0.73
+		}
 		
 		iconType = {
 			name = "capital_ship"
 			spriteType = "GFX_capital_ship_icon"
-			position = { x=65 y=6 }	#MPU
+			position = { x=65 y=6 }
 			allwaystransparent = yes
 		}
 
 		# Unit Count
 		instantTextboxType = {
 			name = "capital_count_txt"
-			position = { x=36 y=2.5 }	#MPU
-			font = "Arial12"	#MPU use smaller font
-			maxWidth = 34	#MPU
-			maxHeight = 13	#MPU
+			position = { x=36 y=2.5 }
+			font = "Arial12"
+			maxWidth = 34
+			maxHeight = 13
 			format = center
 			allwaystransparent = yes
 			text = "99-99"
 		}
-		
+
 		# Unit Count
 		instantTextboxType = {
 			name = "count_txt"
-			position = { x=35 y=14 }	#MPU
-			font = "Arial12"	#MPU use smaller font
+			position = { x=35 y=14 }
+			font = "Arial12"
 			maxWidth = 34
 			maxHeight = 14
 			format = center
@@ -250,20 +250,20 @@ guiTypes = {
 		containerWindowType = {
 			name = "spotting_bar_container"
 			position = { x=65 y=3 }
-			
+
 			iconType = {
 				name ="spotting_bar_bg"
 				spriteType = "GFX_spotting_bar_bg"
 				position = { x=0 y=0 }
 				Orientation = "UPPER_LEFT"
-			}	
-			
+			}
+
 			containerWindowType = {
 				name = "spotting_bar_fg_container"
 				position = { x=1 y=1 }
 				size = { width = 4 height = 27 } #size of bar fg
 				clipping = yes
-				
+
 				iconType = {
 					name ="spotting_bar_fg"
 					spriteType = "GFX_spotting_bar"
@@ -272,13 +272,13 @@ guiTypes = {
 				}
 			}
 		}
-	
-	
+
+
 		# Org
 		iconType = {
 			name = "bar_org"
 			spriteType = "GFX_mapicon_bar_org_sprite_naval"
-			position = { x=3 y=0 }	#MPU
+			position = { x=3 y=0 }
 			allwaystransparent = yes
 			rotation = 1.5708
 		}
@@ -286,7 +286,7 @@ guiTypes = {
 		iconType = {
 			name = "bar_str"
 			spriteType = "GFX_mapicon_bar_str_sprite_naval"
-			position = { x=3 y=4 }	#MPU
+			position = { x=3 y=4 }
 			allwaystransparent = yes
 			rotation = 1.5708
 		}
@@ -295,39 +295,39 @@ guiTypes = {
 		iconType = {
 			name = "flag"
 			spriteType = "GFX_mapicon_unit_flag_stripe"
-			position = { x=30 y=4 }	#MPU
+			position = { x=30 y=4 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "large_flag"
 			spriteType = "GFX_mapicon_unit_large_flag_stripe"
-			position = { x = 7 y = 10 }	#MPU
+			position = { x = 7 y = 10 }
 			allwaystransparent = yes
-			scale = 0.75	#MPU
+			scale = 0.75
 		}
 
 		# Jerry Can
 		iconType = {
 			name = "low_supply"
 			spriteType = "GFX_mapicon_low_supply"
-			position = { x=-4 y=33 }	#MPU
+			position = { x=-4 y=33 }
 		}
-		
+
 		iconType ={
 			name ="pride_of_the_fleet_icon"
 			spriteType = "GFX_NV_icon_pride_small"
-			position = { x=79 y=0 }	#MPU
+			position = { x=79 y=0 }
 			#scale = 0.55
 			alwaystransparent = yes
 		}
-		
+
 		buttonType ={
 			name ="air_base_icon"
 			quadTextureSprite = "GFX_mapicon_air_base"
-			position = { x=-25 y=3 }	#MPU
+			position = { x=-25 y=3 }
 		}
-		
+
 		gridboxtype = {
 			name = "wings_box"
 			position = { x = -36 y = 30 }
@@ -341,15 +341,15 @@ guiTypes = {
 		iconType = {
 			name = "invalid_orders"
 			spriteType = "GFX_mapicon_unit_invalid_orders"
-			position = { x=-9 y=14 }	#MPU
-			scale = 0.75	#MPU
+			position = { x=-9 y=14 }
+			scale = 0.75
 		}
 
 		# Red !
 		iconType = {
 			name = "no_orders"
 			spriteType = "GFX_mapicon_unit_no_orders"
-			position = { x=-9 y=12 }	#MPU
+			position = { x=-9 y=12 }
 		}
 
 	}
@@ -358,7 +358,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "air_wing_counter"
 		position = { x=0 y=0 }
-		size = { width = 76 height = 29 }	#MPU
+		size = { width = 76 height = 29 }
 
 		buttonType = {
 			name = "count_bg"
@@ -371,10 +371,10 @@ guiTypes = {
 		iconType ={
 			name ="group_marker"
 			spriteType = "GFX_UV_group_marker"
-			position = { x=56 y=2 }	#MPU
+			position = { x=56 y=2 }
 			allwaystransparent = yes
 		}
-		
+
 		#iconType = {
 		#	name = "counter_ideology"
 		#	spriteType = "GFX_onmap_unit_counter_ideology"
@@ -384,34 +384,34 @@ guiTypes = {
 		#
 		iconType = {
 			name = "counter_overlay"
-			spriteType = "GFX_onmap_unit_counter_overlay_air"	#MPU
-			position = { x=4 y=4 }	#MPU
+			spriteType = "GFX_onmap_unit_counter_overlay_air"
+			position = { x=4 y=4 }
 			allwaystransparent = yes
-		}	
-		
+		}
+
 		iconType = {
 			name = "count_selected"
 			spriteType = "GFX_onmap_air_unit_counter_selected"
 			position = { x=0 y=0 }
 			allwaystransparent = yes
-		}		
+		}
 
 		# Plane type Icon
 		iconType = {
 			name ="wing_type"
 			spriteType = "GFX_wing_types_map"
-			position = { x=4 y=4.5 }	#MPU
+			position = { x=4 y=4.5 }
 			allwaystransparent = yes
 			frame = 1
-		}		
-		
+		}
+
 		instantTextboxType = {
 			name = "count_txt"
-			position = { x=24 y=4 }	#MPU
-			font = "Arial12"			
-			maxWidth = 40	#MPU
+			position = { x=24 y=4 }
+			font = "Arial12"
+			maxWidth = 40
 			maxHeight = 14
-			format = center	
+			format = center
 			alwaystransparent = yes
 		}
 		#iconType = {
@@ -424,7 +424,7 @@ guiTypes = {
 		iconType = {
 			name = "bar_str"
 			spriteType = "GFX_mapicon_unit_bar_str_air"
-			position = { x=3 y=7.4 }	#MPU
+			position = { x=3 y=7.4 }
 			allwaystransparent = yes
 			rotation = 1.5708
 		}
@@ -432,7 +432,7 @@ guiTypes = {
 		iconType = {
 			name = "flag"
 			spriteType = "GFX_mapicon_unit_flag_stripe"
-			position = { x=44.96 y=20.8 }	#MPU
+			position = { x=44.96 y=20.8 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -446,43 +446,43 @@ guiTypes = {
 		iconType = {
 			name = "no_mission"
 			spriteType = "GFX_mapicon_unit_no_orders"
-			position = { x=-9 y=9 }	#MPU
-			scale = 0.75	#MPU
+			position = { x=-9 y=9 }
+			scale = 0.75
 		}
 
 		iconType = {
 			name = "no_region"
 			spriteType = "GFX_mapicon_unit_invalid_orders"
-			position = { x=-9 y=9 }	#MPU
-			scale = 0.75	#MPU
+			position = { x=-9 y=9 }
+			scale = 0.75
 		}
 		
 		iconType = {
 			name = "onmap_action_icon"
 			spriteType = "GFX_onmap_air_action_icon"
-			position = { x=56 y=10 }	#MPU
+			position = { x=56 y=10 }
 			frame = 2
-		}		
+		}
 	}
-	
+
 	#### UNIT MAP ICON
 	containerWindowType = {
 		name = "unit_mapicon"
 		position = { x=0 y=0 }
-		size = { width = 76 height = 31 }	#MPU
+		size = { width = 76 height = 31 }
 		clipping = no
 		orientation = upper_left
-		
+
 		gridboxtype = {
 			name = "units_box"
 			position = { x = 0 y = 0 }
 			size = { width = 100%% height = 100%% }
-			slotsize = { width = 76 height = 1 }	#MPU
+			slotsize = { width = 76 height = 1 }
 			format = "UPPER_LEFT"
 		}
 	}
-	
-	
+
+
 	#### VICTORY POINTS MAP ICON
 	containerWindowType = {
 		name = "victory_point_mapicon"
@@ -490,14 +490,14 @@ guiTypes = {
 		position = { x=0 y=0 }
 		size = { width=160 height=30 }
 		orientation = upper_left
-		
+
 		iconType = {
 			name ="icon"
 			spriteType = "GFX_onmap_victorypoints_strip"
 			position = { x=-5 y=0 }
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		instantTextboxType = {
 			name = "text"
 			position = { x=26 y=5 }
@@ -509,7 +509,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-	
+
 	#### CAPITAL MAP ICON
 	containerWindowType = {
 		name = "capital_mapicon"
@@ -517,14 +517,14 @@ guiTypes = {
 		position = { x=0 y=0 }
 		size = { width=160 height=30 }
 		orientation = upper_left
-		
+
 		iconType = {
 			name ="icon"
 			spriteType = "GFX_onmap_victorypoints_strip"
 			position = { x=-5 y=0 }
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		instantTextboxType = {
 			name = "text"
 			position = { x=26 y=5 }
@@ -537,7 +537,7 @@ guiTypes = {
 		}
 	}
 
-	
+
 	#### RESOURCE MAP ICON
 	containerWindowType = {
 		name = "resource_mapicon"
@@ -545,7 +545,7 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 		size = { width = 100 height = 25 }
 		orientation = upper_left
-		
+
 		instantTextboxType = {
 			name = "text"
 			position = { x = 0 y = 0 }
@@ -571,7 +571,7 @@ guiTypes = {
 		position = { x=0 y=0 }
 		size = { width=115 height=30 }
 		orientation = upper_left
-		
+
 		containerWindowType = {
 			name = "construction_info_window"
 			#backGround = ""
@@ -584,7 +584,7 @@ guiTypes = {
 				name = "Background"		
 				quadTextureSprite ="GFX_construction_province_background"
 			}
-			
+
 			instantTextboxType = {
 				name = "text"
 				position = { x=0 y=5 }
@@ -594,13 +594,13 @@ guiTypes = {
 				alwaystransparent = yes
 				format = center
 			}
-			
+
 			buttonType = {
 				name = "subject_flag"
 				quadTextureSprite ="GFX_flag_small2"
 				position = { x= 10 y = -25 }
 			}
-						
+
 			instantTextboxType = {
 				name = "infrastructure_effect"
 				position = { x=8 y=25 }
@@ -655,7 +655,7 @@ guiTypes = {
 			position = { x=0 y=0 }
 			size = { width=92 height=20 }
 			orientation = upper_left
-					
+
 			iconType = {
 				name ="Background"
 				spriteType = "GFX_conversion_mapicon"
@@ -663,14 +663,14 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
-				
+
 			buttonType = {
 				name = "industry_btn"
 				spriteType = "GFX_conversion_mapicon_industry"
 				position = { x=0 y=0 }
 				Orientation = "UPPER_LEFT"
 			}
-			
+
 			iconType = {
 				name ="industry_btn_disabled"
 				spriteType = "GFX_conversion_mapicon_industry_disabled"
@@ -678,14 +678,14 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
-			
+
 			buttonType = {
 				name = "arms_btn"
 				spriteType = "GFX_conversion_mapicon_arms"
 				position = { x=72 y=0 }
 				Orientation = "UPPER_LEFT"
 			}
-			
+
 			iconType = {
 				name ="arms_btn_disabled"
 				spriteType = "GFX_conversion_mapicon_arms_disabled"
@@ -693,7 +693,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
 			}
-			
+
 			instantTextboxType = {
 				name = "industry_count"
 				position = { x=25 y=1 }
@@ -704,7 +704,7 @@ guiTypes = {
 				#format = center
 				alwaystransparent = yes
 			}
-			
+
 			instantTextboxType = {
 				name = "arms_count"
 				position = { x=60 y=1 }
@@ -717,7 +717,7 @@ guiTypes = {
 			}
 		}
 	}
-	
+
 	#### AIR BASES MAP ICON
 	containerWindowType = {
 		name = "air_base_mapicon"
@@ -730,7 +730,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_mapicon_air_base"
 			position = { x=0 y=0 }	#MPU
 		}
-		
+
 		buttonType ={
 			name ="bg_strat_btn"
 			quadTextureSprite = "GFX_mapicon_air_base_large"
@@ -746,7 +746,7 @@ guiTypes = {
 			maxHeight = 20
 			alwaystransparent = yes
 		}
-		
+
 		iconType ={
 			name ="permission_wings_bg"
 			spriteType = "GFX_generic_box_smallest"
@@ -755,7 +755,7 @@ guiTypes = {
 			scale = 0.7
 			pdx_tooltip = "AIR_VOLUNTEERS_LIMIT"
 		}
-		
+
 		instantTextboxType = {
 			name = "permission_wings_count"
 			position = { x=32 y=21 }
@@ -766,7 +766,7 @@ guiTypes = {
 			alwaystransparent = yes
 			format = centre
 		}
-		
+
 		gridboxtype = {
 			name = "wings_box"
 			position = { x = -27 y = 30 }	#MPU
@@ -788,13 +788,13 @@ guiTypes = {
 			quadTextureSprite = "GFX_mapicon_rocket_site"
 			position = { x=0 y=0 }
 		}
-		
+
 		buttonType ={
 			name ="bg_strat_btn"
 			quadTextureSprite = "GFX_mapicon_rocket_site_large"
 			position = { x=0 y=0 }
 		}
-		
+
 		gridboxtype = {
 			name = "rockets_box"
 			position = { x = -26 y = 35 }
@@ -940,9 +940,9 @@ guiTypes = {
 		size = { width=35 height=34 } # WARNING: To make sure icon will not be misplaced, set the size to the true size of the content
 		clipping = no
 		orientation = upper_left
-		
-		
-		
+
+
+
 		iconType={
 			name ="battle_indicator_direction"
 			spriteType = "GFX_battle_indicator_direction"
@@ -965,7 +965,7 @@ guiTypes = {
 			alwaystransparent = yes
 			frame = 1
 		}
-		
+
 		instantTextboxType = {
 			name = "combat_progress"
 			position = {x=3 y=16}
@@ -975,7 +975,7 @@ guiTypes = {
 			maxHeight = 23
 			format = center
 			allwaystransparent = yes
-		}		
+		}
 		
 		iconType={
 			name ="air_superiority_icon"
@@ -1026,13 +1026,13 @@ guiTypes = {
 			position = { x=2 y=-21 }
 			frame = 1
 		}
-		
+
 		iconType = {
 			name ="bg"
 			spriteType = "GFX_mapicon_air_mission_bg"
 			position = { x=0 y=0 }
 		}
-		
+
 		instantTextboxType = {
 			name = "supply_count"
 			position = { x=-7 y=-6 }
@@ -1043,7 +1043,7 @@ guiTypes = {
 			text = "555/555"
 			alwaystransparent = yes
 		}
-		
+
 		buttonType = {
 			name ="button"
 			quadTextureSprite = "GFX_strategicair_mission_types"
@@ -1057,7 +1057,7 @@ guiTypes = {
 			maxHeight = 14
 			format = center
 		}
-		
+
 		instantTextboxType = {
 			name = "supply_count_small"
 			position = { x=-7 y=-6 }
@@ -1068,14 +1068,14 @@ guiTypes = {
 			text = "555/555"
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "naval_mission_mapicon_entry"
 		#backGround =""
 		position = { x=0 y=0 }
 		size = { width=42 height=66 } # WARNING: To make sure icon will not be misplaced, set the size to the true size of the content
 		orientation = upper_left
-		
+
 		buttonType = {
 			name ="button"
 			quadTextureSprite = "GFX_mapicon_naval_mission_patrol"
@@ -1114,7 +1114,7 @@ guiTypes = {
 			spriteType = "GFX_NV_icon_pride"
 			scale = 0.8
 		}
-		
+
 		iconType = {
 			name = "alert"
 			position = {x=0 y=35}
@@ -1128,13 +1128,13 @@ guiTypes = {
 		#backGround =""
 		position = { x=0 y=0 }
 		orientation = upper_left
-			
+
 		containerWindowType = {
 			name = "content"
 			#backGround =""
 			position = { x=0 y=0 }
 			orientation = upper_left
-			
+
 			OverlappingElementsBoxType = {
 				name = "missions_list"
 				position = { x = 0 y = 0 }
@@ -1154,7 +1154,7 @@ guiTypes = {
 				add_horizontal = no
 				format = "UPPER_LEFT"
 			}
-			
+
 			gridBoxType = {
 				name = "enemy_unit_grid"
 				position = { x = 15 y = @unit_counters_pos_y }
@@ -1164,7 +1164,7 @@ guiTypes = {
 				add_horizontal = no
 				format = "UPPER_LEFT"
 			}
-			
+
 			gridBoxType = {
 				name = "enemy_convoy_grid"
 				position = { x = 15 y = @unit_counters_pos_y }
@@ -1176,7 +1176,7 @@ guiTypes = {
 			}
 
 			@small_status_icon_pos_y = 65
-			
+
 			containerWindowType = {
 				name = "mine_status_container"
 				position = { x=3 y=@small_status_icon_pos_y }
@@ -1200,20 +1200,20 @@ guiTypes = {
 					position = { x=0 y=19 }
 				}
 			}
-			
+
 			containerWindowType = {
 				name = "ongoing_combat_container"
 				position = { x=3 y=@small_status_icon_pos_y }
 				size = { width = 28 height = 35 }
 				clipping = no
 				orientation = upper_left
-				
+
 				buttonType ={
 					name ="bg"
 					spriteType = "GFX_naval_combat_icon"
 					position = { x=0 y=0 }
 				}
-				
+
 				instantTextboxType = {
 					name = "count"
 					position = { x=0 y=10 }
@@ -1225,20 +1225,20 @@ guiTypes = {
 					text = "2"
 				}
 			}
-			
+
 			containerWindowType = {
 				name = "combat_results_container"
 				position = { x=3 y=@small_status_icon_pos_y }
 				size = { width = 28 height = 35 }
 				clipping = no
 				orientation = upper_left
-				
+
 				buttonType ={
 					name ="bg"
 					spriteType = "GFX_naval_combat_results_icon"
 					position = { x=0 y=0 }
 				}
-				
+
 				instantTextboxType = {
 					name = "count"
 					position = { x=0 y=10 }
@@ -1249,28 +1249,28 @@ guiTypes = {
 					alwaystransparent = yes
 					text = "2"
 				}
-			}	
-			
+			}
+
 			containerWindowType = {
 				name = "accidents_container"
 				position = { x=3 y=@small_status_icon_pos_y }
 				size = { width = 28 height = 35 }
 				clipping = no
 				orientation = upper_left
-				
+
 				buttonType ={
 					name ="bg"
 					spriteType = "GFX_naval_accidents_icon"
 					position = { x=0 y=0 }
 				}
-				
+
 				instantTextboxType = {
 					name = "count"
 					position = { x=0 y=10 }
 					font = "cg_18b"
 					maxWidth = 25
 					maxHeight = 14
-					format = center	
+					format = center
 					alwaystransparent = yes
 					text = "2"
 				}
@@ -1291,7 +1291,7 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_mini_bg"
 		}
-		
+
 		buttonType = {
 			name = "select_all"
 			position = { x = 0 y = -20 }
@@ -1301,18 +1301,18 @@ guiTypes = {
 			buttontext = SELECT_ALL				
 			clicksound = click_default
 		}
-		
+
 		containerWindowType = {
 			name = "naval_missions_grid_container"
 			position = { x = 0 y = 2 }
 			size = { width=335 height=151 }
 			verticalScrollbar = "right_vertical_slider"
-		
+
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_transparent"
 			}
-		
+
 			gridBoxType = {
 				name = "naval_missions_grid"
 				position = {x=6 y=6}
@@ -1343,7 +1343,7 @@ guiTypes = {
 			format = left	
 			alwaystransparent = yes
 		}
-		
+
 		iconType ={
 			name ="pride"
 			spriteType = "GFX_NV_icon_pride"
@@ -1358,7 +1358,7 @@ guiTypes = {
 		position = { x=0 y=-28 } # Pos is attached to "naval_mission_mapicon" 
 		size = { width=71 height=22 }
 		orientation = upper_left
-		
+
 		iconType ={
 			name ="icon"
 			spriteType = "GFX_naval_mine_icon"
@@ -1383,19 +1383,19 @@ guiTypes = {
 		position = { x=0 y=0 }
 		size = { width=132 height=77 } # X = 3x width of background
 		orientation = upper_left
-		
+
 		iconType ={
 			name ="bg_btn"
 			spriteType = "GFX_mapicon_supply_bg"
-			frame = 1		
+			frame = 1
 		}
-		
+
 		iconType ={
 			name ="bg_red_btn"
 			spriteType = "GFX_mapicon_supply_red_bg"
-			frame = 1			
+			frame = 1
 		}
-		
+
 		instantTextboxType = {
 			name = "supported"
 			position = {x=5 y=40}
@@ -1405,7 +1405,7 @@ guiTypes = {
 			format = center
 			alwaystransparent = yes
 		}
-		
+
 		containerWindowType = {
 			name = "infra_wnd"
 			#backGround =""
@@ -1445,7 +1445,7 @@ guiTypes = {
 				format = center
 				alwaystransparent = yes
 			}
-			
+
 			iconType = {
 				name = "air_mission_icon"
 				position = { x=-54 y=9 }	
@@ -1495,14 +1495,14 @@ guiTypes = {
 			}
 		}
 	}
-	
+
 	#### PEACE COST MAP ICON
 	containerWindowType = {
 		name = "peace_cost_mapicon"
 		position = { x=0 y=0 }
 		size = { width=100 height=24 } # X = 3x width of background
 		orientation = upper_left
-		
+
 		instantTextboxType = {
 			name = "cost"
 			position = {x= 0 y=0}
@@ -1513,7 +1513,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "adjacency_rule_mapicon"
 		position = { x=0 y=0 }
@@ -1524,7 +1524,7 @@ guiTypes = {
 			name = "province_required_rule"
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_strait_canal_onmap_icon"
-		}	
+		}
 	}
 
 	containerWindowType = {
@@ -1537,32 +1537,32 @@ guiTypes = {
 			name = "radar_mapicon"
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_radar_efficiency_icon"
-		}	
+		}
 	}
-	
+
 	containerWindowType = {
 		name = "ping_mapicon"
 		position = { x=0 y=0 }
 		size = { width=56 height=54 }
 		orientation = upper_left
-		
+
 		iconType = {
 			name = "circle"
 			position = {x=28 y=27}
 			quadTextureSprite = "GFX_worldmap_ping_circle"
 			scale = 2
-			
+
 			centerPosition = yes
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "ping_mapicon_offensive"
 			position = { x = 28 y = 27 }
 			spriteType = "GFX_worldmap_ping_offensive"
 			centerPosition = yes
-		}	
-		
+		}
+
 		iconType = {
 			name = "ping_mapicon_defensive"
 			position = { x = 28 y = 27 }
@@ -1577,7 +1577,7 @@ guiTypes = {
 		position = { x=0 y=0 }
 		size = { width=0 height=0 }
 		orientation = upper_left
-				
+
 		gridboxtype = {
 			name = "decisions_gridbox"
 			position = { x = 0 y = 0 } #Set in code
@@ -1614,7 +1614,7 @@ guiTypes = {
 			format = center
 			alwaystransparent = yes
 		}
-		
+
 		containerWindowType = {
 			name = "spotting_bar_container"
 			position = { x=57 y=3 }
@@ -1624,14 +1624,14 @@ guiTypes = {
 				spriteType = "GFX_spotting_bar_bg_small"
 				position = { x=0 y=0 }
 				Orientation = "UPPER_LEFT"
-			}	
-			
+			}
+
 			containerWindowType = {
 				name = "spotting_bar_fg_container"
 				position = { x=1 y=1 }
 				size = { width = 4 height = 12 } #size of bar fg
 				clipping = yes
-				
+
 				iconType = {
 					name ="spotting_bar_fg"
 					spriteType = "GFX_spotting_bar_small"
@@ -1649,20 +1649,20 @@ guiTypes = {
 		position = { x=0 y=0 }
 		size = { width = 40 height = 40 }
 		clipping = no
-	
 
+		
 		buttonType = {
 			name ="background_btn"
 			quadTextureSprite = "GFX_mapicon_decision_bg"
 			position = { x=0 y=0 }
 		}
-	
+
 		iconType = {
 			name ="decision_icon"
 			spriteType = "GFX_decision_unknown"
 			position = { x=19 y=19 }
 			alwaystransparent = yes
-			centerPosition = yes			
+			centerPosition = yes
 			scale = 1
 		}
 
@@ -1685,7 +1685,7 @@ guiTypes = {
 			position = { x = -9 y = 32 }
 			alwaystransparent = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "cost_text"
 			position = { x = -34 y = 37 }
@@ -1698,20 +1698,541 @@ guiTypes = {
 			format = centre
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name ="target_flag"
 			quadTextureSprite ="GFX_mapicon_unit_flag_stripe_visible"
 			position = { x=14 y=27 }
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name ="timer_icon"
 			quadTextureSprite = "GFX_decision_timer_icon_strip"
 			position = { x=-4 y=26 }
 			scale = 0.6
 			frame = 2
+		}
+	}
+
+	#### RESISTANCE COMPLIANCE MAP ICON
+	containerWindowType = {
+		name = "resistance_compliance_map_icon"
+		#backGround =""
+		position = { x = 0 y = 0 }
+		size = { width = 100 height = 25 }
+		
+		gridboxtype = {
+			name = "modifier_grid_list"
+			position = { x = -15 y = -28 }
+			size = { width = 155 height = 31 }
+			slotsize = { width = 35 height = 31 }
+			max_slots_horizontal = 5
+		}
+		
+		instantTextboxType = {
+			name = "text"
+			position = { x = 0 y = 0 }
+			font = "hoi_20bs"
+			text = "100%"
+			maxWidth = 100
+			maxHeight = 20
+			format = center
+		}
+	}
+	
+	containerWindowType = {
+		name = "resistance_compliance_map_icon_modifier_entry"
+		#backGround =""
+		position = { x = 0 y = 0 }
+		size = { width = 31 height = 31 }
+		
+		iconType = {
+			name = "current_mission_bg"
+			position = {x=-5 y=-4}
+			spriteType ="GFX_task_force_mission_bg"
+		}
+
+		iconType = {
+			name ="icon"
+			quadTextureSprite ="GFX_occupation_compliance_modifier_strip"
+			position = { x=0 y=0 }
+		}
+	}
+
+	@intel_map_mode_map_icon_box_width=300
+	containerWindowType = {
+		name = "intel_map_mode_map_icon"
+		position = { x=0 y=0 }
+		size = { width=@intel_map_mode_map_icon_box_width height=64 }
+		clipping = no
+
+		#background = {
+		#	name = "bg"
+		#	spriteType = "GFX_tiled_window_small_small"
+		#}
+
+		overlappingElementsBoxType = {
+			name = "entries"
+			position = { x=0 y=14 }
+			size = { x=@intel_map_mode_map_icon_box_width y=64 }
+			first_on_top = no
+			format = center
+		}
+	}
+
+	# entries should have roughly the same size
+	@intel_map_mode_map_icon_width=48
+	@intel_map_mode_map_icon_height=48
+	containerWindowType = {
+		name = "counterintelligence_map_icon_entry"
+		position = { x=0 y=0 }
+		size = { width=@intel_map_mode_map_icon_width height=@intel_map_mode_map_icon_height }
+
+		iconType = {
+			name = "shield_icn"
+			position = { x=0 y=0 }
+			spriteType = "GFX_mapicon_counterintelligence_rating_background"
+		}
+
+		instantTextboxType = {
+			name = "rating_txt"
+			position = { x = -2 y = 14 }
+			font = "hoi_20bs"
+			text = "999"
+			maxWidth = @intel_map_mode_map_icon_width
+			maxHeight = 20
+			format = center
+		}
+	}
+
+	containerWindowType = {
+		name = "intel_map_icon_more"
+		size = { width=68 height=@intel_map_mode_map_icon_height }
+
+		buttonType = {
+			name = "more_icon"
+			clicksound = "click_default"
+			position = { x=-5 y=-3 }
+			spriteType = "GFX_operation_button_more"
+		}
+	}
+
+	containerWindowType = {
+		name = "operation_map_icon_entry"
+		position = { x=0 y=0 }
+		size = { width=68 height=@intel_map_mode_map_icon_height }
+
+		iconType = {
+			name = "operation_icon"
+			position = { x=-20 y=-20 }
+			spriteType = "GFX_operative_mission_icons_small"
+			frame = 1
+			alwaystransparent = yes
+			scale =0.7
+		}
+
+		iconType = {
+			name = "phase_circular_progress_icon"
+			position = { x = 25 y = -8}
+			spriteType = "GFX_phase_circular_progress_pie_chart_on_map"
+		}
+
+		buttonType = {
+			name = "portrait_btn"
+			position = { x=0 y=-5 }
+			spriteType = "GFX_operations_rescue_captured_operative_map"
+		}
+
+		buttonType = {
+			name = "phase_btn"
+			position = { x=4 y=-3 }
+			scale = 0.72 # because we use same as in main view
+			spriteType = "GFX_phase_infiltration_border_small"
+		}
+
+		iconType = {
+			name = "cartouche_icon"
+			position = { x=-16 y=41 }
+			spriteType = "GFX_mapicon_intel_cartouche"
+		}
+
+		instantTextboxType = {
+			name = "operation_progress_text"
+			position = { x = -4 y = 47 }
+			font = "hoi_16mbs"
+			text = "100%"
+			maxWidth = 58
+			maxHeight = 20
+			format = center
+			fixedsize=yes
+			#alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "operation_completed_overlay"
+			position = { x=1 y=-5 }
+			spriteType = "GFX_operation_onmap_overlay_completed"
+			alwaystransparent = yes
+			frame = 1
+		}
+
+		iconType = {
+			name = "operation_completed_warning"
+			position = { x=20 y=6 }
+			spriteType = "GFX_alerts_category"
+			frame = 3
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "operation_equipment_overlay"
+			spriteType = "GFX_operation_onmap_overlay_preparation"
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "operative_map_icon_entry"
+		position = { x=0 y=0 }
+		size = { width=68 height=@intel_map_mode_map_icon_height }
+
+		iconType = {
+			name = "frame_icon_small"
+			position = { x=-20 y=-20 }
+			spriteType = "GFX_mapicon_operative_mission_background"
+			scale= 0.7
+		}
+
+		buttonType = {
+			name = "frame_btn"
+			position = { x=0 y=-5 }
+			spriteType = "GFX_mapicon_operative_mission_background"
+		}
+
+		iconType = {
+			name = "portrait_icn"
+			position = { x=4 y=-1 }
+			spriteType = "GFX_mapicon_operative_unknown"
+			alwaystransparent = yes
+			scale = 0.25
+		}
+
+		iconType = {
+			name = "frame_select_hl_icn"
+			position = { x=1 y=-4 }
+			spriteType = "GFX_mapicon_operative_mission_highlight"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "frame_warn_hl_icn"
+			position = { x=1 y=-4 }
+			spriteType = "GFX_mapicon_operative_mission_highlight_warn"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "cartouche_icn"
+			position = { x=-16 y=41 }
+			spriteType = "GFX_mapicon_intel_cartouche"
+		}
+
+		iconType = {
+			name = "leader_enroute"
+			position = { x=-8 y=45 }
+			quadTextureSprite ="GFX_leader_en_route"
+			alwaystransparent = yes
+			scale = 0.6
+		}
+
+		iconType = {
+			name = "mission_icon"
+			position = { x=-19 y=-18 }
+			spriteType = "GFX_operative_mission_icons"
+			frame = 1
+			alwaystransparent = yes
+			scale = 0.9
+		}
+
+		instantTextboxType = {
+			name = "mission_progress_text"
+			position = { x = 0 y = 47 }
+			font = "hoi_16mbs"
+			text = "100%"
+			maxWidth = 40
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "mission_status_icn"
+			position = { x=36 y=49 }
+			spriteType = "GFX_operative_mission_status_icon"
+			alwaystransparent = yes
+		}
+
+	}
+
+	containerWindowType = {
+		name = "cryptology_map_icon"
+		position = { x=0 y=0 }
+		size = { width=150 height=90 }
+		
+		#background = {
+		#	name = "crypto_on_map_bg"
+		#	spriteType = "GFX_crypto_on_map_bg"
+		#	position = {x = 8  y = 5 }
+		
+		#}
+		
+		#iconType = {
+		#	name = "frame_icon"
+		#	position = { x=6 y=8 }
+		#	spriteType = "GFX_mapicon_operative_mission_background"
+		#}
+
+		iconType = {
+			name = "flag_frame"
+			spriteType = "GFX_small_flag_frame_thin"
+			position = { x = -17 y = 0}
+			scale = 0.7
+		}
+
+		iconType = {
+			name = "large_flag"
+			spriteType = "GFX_mapicon_unit_large_flag_stripe"
+			position = { x = -15 y = 1 }
+			scale = 0.7
+		}
+		
+		iconType = {
+			name = "decrytion_bar"
+			position = { x = 30 y = 5 }
+			spriteType = "GFX_phase_circular_progress_pie_chart_on_map"
+			frame = 50
+		}
+
+		buttonType = {
+			name = "state_icon"
+			position = { x= 11 y= 10 }
+			quadTextureSprite = "GFX_crypto_map_icon_animated"
+			oversound = Spy_Agency_Cryptology_Decipher_Pointer_Over_Target
+			clicksound = Spy_Agency_Cryptology_Decipher_Select_Target_Province
+			scale = 0.65
+		}
+
+		#iconType = {
+		#	name = "decrytion_bar_bg"
+		#	position = { x = 40 y = 28 }
+		#	spriteType = "GFX_crypto_bar_small_bg"
+		#	alwaystransparent = yes
+		#}		
+		
+		iconType = {
+			name = "cartouche_icn"
+			position = { x=-11 y=52 }
+			spriteType = "GFX_mapicon_intel_cartouche"
+		}
+		
+
+		instantTextboxType = {
+			name = "percent"
+			position = { x = -15 y = 58 }
+			font = "hoi_16mbs"
+			text = "10%"
+			maxWidth = 94
+			maxHeight = 20
+			format = center
+		}
+
+	}
+	
+	
+	containerWindowType = {
+		name = "intel_ledger_naval_mission_entry"
+		position = { x=0 y=0 }
+		size = { width=42 height=66 }
+		
+		iconType = {
+			name ="icon"
+			quadTextureSprite = "GFX_mapicon_naval_mission_patrol"
+			position = { x=0 y=0 }
+		}
+
+		instantTextboxType = {
+			name = "count"
+			position = { x=7 y=33 }
+			font = "hoi_16mbs"
+			maxWidth = 32
+			maxHeight = 14
+			format = center
+			text = "1/2"
+		}
+	}
+	
+	containerWindowType = {
+		name = "intel_ledger_air_mission_entry"
+		position = { x=0 y=0 }
+		size = { width=42 height=66 }
+		
+		iconType = {
+			name ="bg"
+			spriteType = "GFX_mapicon_air_mission_bg"
+			position = { x=0 y=0 }
+		}
+		
+		iconType = {
+			name ="icon"
+			quadTextureSprite = "GFX_strategicair_mission_types"
+			position = { x=0 y=6 }
+		}
+		instantTextboxType = {
+			name = "count"
+			position = { x=2 y=34 }
+			font = "hoi_16mbs"
+			maxWidth = 45
+			maxHeight = 14
+			format = center
+		}
+	}
+	containerWindowType = {
+		name = "intel_ledger_map_icon"
+		position = { x=0 y=0 }
+		size = { width=0 height=0 }
+		
+		
+		containerWindowType = {
+			name = "civilian_ledger_view"
+			position = { x=-80 y=-42 }
+			size = { width = 160 height = 85 }
+			background = {
+				name = "Background"
+				spriteType ="GFX_mini_bg"
+			}
+			
+			iconType ={
+				name ="civilian_factory_icon"
+				spriteType = "GFX_non_available_factory_icon"
+				position = { x= 9 y = 8 } 
+				Orientation = "UPPER_LEFT"
+				scale = 0.9
+			}
+	
+			instantTextBoxType = {
+				name ="civilian_factory_count"
+				position = { x= 36 y = 8 }
+				font = "hoi_18mbs"
+				text = "999"
+				format = left
+				maxWidth = 60
+			}	
+
+			
+			iconType ={
+				name ="military_factory_icon"
+				spriteType = "GFX_military_factory_icon"
+				position = { x= 9 y = 33 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.9
+			}
+
+			instantTextBoxType = {
+				name ="military_factory_count"
+				position = { x= 36 y = 33 }
+				font = "hoi_18mbs"
+				text = "999"
+				format = left
+				maxWidth = 60
+			}
+
+			iconType ={
+				name ="dockyard_icon"
+				spriteType = "GFX_dockyard_icon"
+				position = { x= 8 y = 58 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.9
+			}
+			
+			instantTextBoxType = {
+				name ="dockyard_count"
+				position = { x= 36 y = 58 }
+				font = "hoi_18mbs"
+				text = "999"
+				format = left
+				maxWidth = 60
+			}
+			
+			iconType = {
+				name ="infra_icon"
+				spriteType = "GFX_infrastructure_texticon"
+				position = { x= 80 y = 8 }
+				Orientation = "UPPER_LEFT"
+			}		
+			
+			instantTextBoxType = {
+				name ="infra_count"
+				position = { x= 102 y = 8 }
+				font = "hoi_18mbs"
+				text = "999"
+				format = left
+				maxWidth = 60
+			}
+			
+			iconType = {
+				name ="refinery_icon"
+				spriteType = "GFX_fuel_refinery_icon"
+				position = { x= 73 y = 29 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.65
+			}		
+			
+			instantTextBoxType = {
+				name ="refinery_count"
+				position = { x= 102 y = 33 }
+				font = "hoi_18mbs"
+				text = "999"
+				format = left
+				maxWidth = 60
+			}
+			
+			iconType = {
+				name ="silo_icon"
+				spriteType = "GFX_fuel_silo_icon"
+				position = { x= 74 y = 53 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.60
+			}		
+			
+			instantTextBoxType = {
+				name ="silo_count"
+				position = { x= 102 y = 58 }
+				font = "hoi_18mbs"
+				text = "999"
+				format = left
+				maxWidth = 60
+			}
+		}
+	
+		containerWindowType = {
+			name = "air_and_navy_ledger_view"
+			position = { x=0 y=-32 }
+			size = { width = 25 height = 5 } # added to actual calculated size
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_mini_bg"
+			}
+			
+			gridboxtype = {
+				name = "missions_grid"
+				position = { x = 10 y = 8 }
+				max_slots_horizontal = 10
+				size = { width = 10 height = 10 }
+				slotsize = { width = 50 height = 60 }
+				format = "UPPER_LEFT"
+			}
 		}
 	}
 }

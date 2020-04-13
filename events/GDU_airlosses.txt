@@ -413,7 +413,5 @@ country_event = {
 	option = {
 		name = gduairlosses.4.a
 	
-	}	
+	}
 }
-
-	

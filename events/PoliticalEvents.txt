@@ -24,7 +24,7 @@ country_event = {
 			OR = {
 				NOT = { tag = CHI }
 				AND = {
-					NOT = { country_exists = PRC }
+					#NOT = { country_exists = PRC }
 					tag = CHI
 				}			
 			}
@@ -90,7 +90,7 @@ country_event = {
 		OR = {
 			NOT = { tag = CHI }
 			AND = {
-				NOT = { country_exists = PRC }
+				#NOT = { country_exists = PRC }
 				tag = CHI
 			}			
 		}
@@ -219,7 +219,7 @@ country_event = {
 		OR = {
 			NOT = { tag = CHI }
 			AND = {
-				NOT = { country_exists = PRC }
+				#NOT = { country_exists = PRC }
 				tag = CHI
 			}			
 		}
@@ -728,7 +728,7 @@ country_event = {
 			OR = {
 				NOT = { tag = CHI }
 				AND = {
-					NOT = { country_exists = PRC }
+					#NOT = { country_exists = PRC }
 					tag = CHI
 				}			
 			}

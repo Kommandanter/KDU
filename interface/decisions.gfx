@@ -544,37 +544,37 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_decision_MEX_decision_remove_zapatista_flag"
+		name = "GFX_decision_#MEX_decision_remove_zapatista_flag"
 		texturefile = "gfx/interface/decisions/decision_change_flag_mex_communist.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_decision_MEX_decision_adopt_zapatista_flag"
+		name = "GFX_decision_#MEX_decision_adopt_zapatista_flag"
 		texturefile = "gfx/interface/decisions/decision_change_flag_mex_communist_2.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_decision_MEX_decision_adopt_cristero_flag_democratic"
+		name = "GFX_decision_#MEX_decision_adopt_cristero_flag_democratic"
 		texturefile = "gfx/interface/decisions/decision_change_flag_mex_cristero.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_decision_MEX_decision_adopt_cristero_flag_fascism"
+		name = "GFX_decision_#MEX_decision_adopt_cristero_flag_fascism"
 		texturefile = "gfx/interface/decisions/decision_change_flag_mex_cristero_2.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_decision_MEX_decision_remove_cristero_flag_democratic"
+		name = "GFX_decision_#MEX_decision_remove_cristero_flag_democratic"
 		texturefile = "gfx/interface/decisions/decision_change_flag_mex_revert.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_decision_MEX_decision_remove_cristero_flag_fascism"
+		name = "GFX_decision_#MEX_decision_remove_cristero_flag_fascism"
 		texturefile = "gfx/interface/decisions/decision_change_flag_mex_revert_2.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_decision_MEX_decision_abolish_mexican_empire"
+		name = "GFX_decision_#MEX_decision_abolish_mexican_empire"
 		texturefile = "gfx/interface/decisions/decision_change_flag_mex_revert_3.dds"
 	}
 	

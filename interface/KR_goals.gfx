@@ -14,7 +14,7 @@ spriteTypes = {
 		name = "GFX_goal_ger_autarchy"
 		texturefile = "gfx/interface/goals/ger/goal_ger_autarchy.dds"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_ger_goal_air"
 		texturefile = "gfx/interface/goals/ger/ger_goal_air.dds"

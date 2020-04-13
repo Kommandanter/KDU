@@ -9,9 +9,8 @@ state={
 	impassable = yes
 	history={
 		owner = NOR
-		buildings = {
-			infrastructure = 1
-		}
+#		buildings = {
+#		}
 	}
 	buildings_max_level_factor=1.000
 }

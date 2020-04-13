@@ -10,13 +10,13 @@ state={
 		owner = FRA
 
 		victory_points = {
-			7069 10 
+			7069 8
 		}
 		buildings = {
-			infrastructure = 4
-			air_base = 10
+			infrastructure = 2
+			air_base = 5
 			7069 = {
-				naval_base = 12
+				naval_base = 8
 			}
 		}
 	}

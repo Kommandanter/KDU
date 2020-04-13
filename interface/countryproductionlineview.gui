@@ -57,7 +57,7 @@ guiTypes = {
 				scroll_wheel_factor = 100
 				verticalScrollbar = "right_vertical_slider"
 				smooth_scrolling = yes
-				vertical_scroll_step = 4
+				vertical_scroll_step = 6
 
 				background = {
 					name = "Background"
@@ -89,7 +89,7 @@ guiTypes = {
 				background = {
 					name = "Background"
 					spriteType ="GFX_production_win_top"
-				}							
+				}
 
 				containerWindowType = {
 					name = "resources"
@@ -103,7 +103,7 @@ guiTypes = {
 						frame = 1
 						#pdx_tooltip = "PRODUCTION_MATERIALS_OIL"
 					}
-					
+
 					instantTextboxType = {
 						name = "oil_value"
 						position = { x = 31 y = 5 }
@@ -116,7 +116,7 @@ guiTypes = {
 						format = left
 						#pdx_tooltip = "PRODUCTION_MATERIALS_OIL"
 					}
-					
+
 					buttonType = {
 						name = "rubber_icon"
 						position = { x=70 y=2 }
@@ -124,7 +124,7 @@ guiTypes = {
 						frame = 3
 						#pdx_tooltip = "PRODUCTION_MATERIALS_RUBBER"
 					}
-					
+
 					instantTextboxType = {
 						name = "rubber_value"
 						position = { x = 101 y = 5 }
@@ -137,7 +137,7 @@ guiTypes = {
 						format = left
 						#pdx_tooltip = "PRODUCTION_MATERIALS_RUBBER"
 					}
-					
+
 					buttonType = {
 						name = "steel_icon"
 						position = { x=140 y=2 }
@@ -145,7 +145,7 @@ guiTypes = {
 						frame = 5
 						#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
 					}
-					
+
 					instantTextboxType = {
 						name = "steel_value"
 						position = { x = 171 y = 5 }
@@ -157,8 +157,8 @@ guiTypes = {
 						maxHeight = 20
 						format = left
 						#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
-					}			
-					
+					}
+
 					buttonType = {
 						name = "aluminium_icon"
 						position = { x=210 y=2 }
@@ -166,7 +166,7 @@ guiTypes = {
 						frame = 2
 						#pdx_tooltip = "PRODUCTION_MATERIALS_ALUMINIUM"
 					}
-					
+
 					instantTextboxType = {
 						name = "aluminium_value"
 						position = { x = 241 y = 5 }
@@ -179,7 +179,7 @@ guiTypes = {
 						format = left
 						#pdx_tooltip = "PRODUCTION_MATERIALS_ALUMINIUM"
 					}
-					
+
 					buttonType = {
 						name = "tungsten_icon"
 						position = { x=280 y=2 }
@@ -187,7 +187,7 @@ guiTypes = {
 						frame = 4
 						#pdx_tooltip = "PRODUCTION_MATERIALS_TUNGSTEN"
 					}
-					
+
 					instantTextboxType = {
 						name = "tungsten_value"
 						position = { x = 309 y = 5 }
@@ -200,7 +200,7 @@ guiTypes = {
 						format = left
 						#pdx_tooltip = "PRODUCTION_MATERIALS_TUNGSTEN"
 					}
-				
+
 					buttonType = {
 						name = "chromium_icon"
 						position = { x=350 y=2 }
@@ -221,14 +221,14 @@ guiTypes = {
 						format = left
 						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
 					}
-				}				
+				}
 				#################################
 				iconType = {
 					name = "docyards_output_icon"
 					position = { x=22 y=58 }	
 					spriteType = "GFX_naval_factory_non_trasnparent_icon"
 				}
-				
+
 				instantTextboxType = {
 					name = "docyards_output_value"
 					position = { x = 50 y = 58 }
@@ -275,7 +275,7 @@ guiTypes = {
 					maxWidth = 50
 					maxHeight = 20
 					format = left
-				}				
+				}
 				#################################
 				iconType = {
 					name = "production_efficiency_loss_icon"
@@ -312,7 +312,7 @@ guiTypes = {
 					maxHeight = 20
 					format = left
 				}
-				#################################
+
 				iconType = {
 					name = "efficiency_growth_icon"
 					position = { x=366 y=58 }
@@ -329,8 +329,8 @@ guiTypes = {
 					maxWidth = 50
 					maxHeight = 20
 					format = left
-				}				
-				#################################
+				}
+
 				buttonType = {
 					name = "infantry_button"
 					position = { x=25 y=122 }
@@ -345,7 +345,7 @@ guiTypes = {
 					spriteType = "GFX_prod_new_equipment_glow"
 					alwaystransparent = yes
 				}
-				
+
 				buttonType = {
 					name = "tank_button"
 					position = { x=105 y=122 }
@@ -360,7 +360,7 @@ guiTypes = {
 					spriteType = "GFX_prod_new_equipment_glow"
 					alwaystransparent = yes
 				}
-				
+
 				buttonType = {
 					name = "aircraft_button"
 					position = { x=185 y=122 }
@@ -368,14 +368,14 @@ guiTypes = {
 					#pdx_tooltip = "PRODUCTION_AIRCRAFT_BUTTON"
 					clicksound = click_checkbox
 				}
-				
+
 				iconType = {
 					name = "aircraft_button_glow"
 					position = { x = 188 y = 123 }
 					spriteType = "GFX_prod_new_equipment_glow"
 					alwaystransparent = yes
 				}
-				
+
 				buttonType = {
 					name = "naval_button"
 					position = { x=350 y=122 }
@@ -383,7 +383,7 @@ guiTypes = {
 					#pdx_tooltip = "PRODUCTION_SHIPS_BUTTON"
 					clicksound = click_checkbox
 				}
-				
+
 				iconType = {
 					name = "naval_button_glow"
 					position = { x = 353 y = 123 }
@@ -398,35 +398,35 @@ guiTypes = {
 					clicksound = click_checkbox
 					frame = 1
 				}
-				
+
 				iconType = {
 					name = "naval_repair_button_glow"
 					position = { x = 430 y = 123 }
 					spriteType = "GFX_prod_new_equipment_glow"
 					alwaystransparent = yes
 				}
-				
+
 				iconType = {
 					name = "tutorial_glow"
 					position = { x = 20 y = 120 }
 					spriteType = "GFX_production_lines_icon_glow"
 					hide = yes
 				}
-				
+
 				iconType = {
 					name = "tutorial_glow_2"
 					position = { x = 352 y = 120 }
 					spriteType = "GFX_production_navy_icon_glow"
 					hide = yes
-				}				
+				}
 
 				iconType = {
 					name = "military_factory_icon"
 					position = { x = 25 y = 90 }
 					spriteType = "GFX_military_factory_icon"
-					pdx_tooltip = "arms_factory_desc"					
+					pdx_tooltip = "arms_factory_desc"
 				}
-				
+
 				instantTextboxType = {
 					name = "operational_factories"
 					position = { x = 55 y = 93 }
@@ -440,7 +440,7 @@ guiTypes = {
 					fixedsize = yes
 					pdx_tooltip = "arms_factory_desc"
 				}
-				
+
 				instantTextboxType = {
 					name = "operational_factories_value"
 					position = { x = 188 y = 93 }
@@ -457,9 +457,9 @@ guiTypes = {
 					name = "naval_factory_icon"
 					position = { x = 283 y = 92 }
 					spriteType = "GFX_dockyard_icon"
-					pdx_tooltip = "arms_factory_desc"					
+					pdx_tooltip = "arms_factory_desc"
 				}
-				
+
 				instantTextboxType = {
 					name = "operational_naval_factories"
 					position = { x = 315 y = 93 }
@@ -473,7 +473,7 @@ guiTypes = {
 					fixedsize = yes
 					pdx_tooltip = "dockyard_desc"
 				}
-				
+
 				instantTextboxType = {
 					name = "operational_naval_factories_value"
 					position = { x = 390 y = 93 }
@@ -486,7 +486,7 @@ guiTypes = {
 					format = center
 					pdx_tooltip = "PRODUCTION_WORKING_FACTORIES"
 				}
-				
+
 				iconType = {
 					name = "naval_factory_repair_icon"
 					position = { x = 455 y = 92 }
@@ -506,14 +506,14 @@ guiTypes = {
 					format = center
 					pdx_tooltip = "PRODUCTION_WORKING_DOCKYARDS_FOR_REPAIRS"
 				}
-				
+
 				checkBoxType = {
 					name = "show_equipment"
 					position = { x = 13 y = 179 }
 					quadTextureSprite = "GFX_inf_art_checkbox"
 					clicksound = click_checkbox
 				}
-				
+
 				instantTextboxType = {
 					name = "factories_used_equipment"
 					position = { x = 51 y = 190 }
@@ -768,7 +768,7 @@ guiTypes = {
 #				}	
 			}
 		}
-	
+
 		buttonType = {
 			name = "close_button"
 			position = { x = -43 y = 9 }
@@ -779,7 +779,7 @@ guiTypes = {
 			clicksound = click_close
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "navy_repair_window"
 		position = { x=-356 y=78}	
@@ -789,12 +789,12 @@ guiTypes = {
 		animation_time = 300
 		size = { width=444 height=600 }
 		click_to_front = yes
-		
+
 		background = {
 			name = "Background"		
 			quadTextureSprite ="GFX_tiled_plain_bg"
 		}
-		
+
 		iconType ={
 			name ="header_bg"
 			spriteType = "GFX_repair_queue_title_bg"
@@ -810,12 +810,12 @@ guiTypes = {
 			text = "PRODUCTION_NAVAL_REPAIRS_LABEL"
 			maxWidth = 340
 			maxHeight = 20
-		}		
-		
+		}
+
 		containerWindowType = {
 			name = "count_container"
 			position = { x=10 y=55 }
-				
+
 			iconType ={
 				name ="bg"
 				spriteType = "GFX_generic_box_80"
@@ -823,7 +823,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "REPAIR_ASSIGNMENT_INFO"
 			}
-			
+
 			iconType = {
 				name = "dockyards_used"
 				position = { x=3 y=5 }
@@ -831,7 +831,7 @@ guiTypes = {
 				frame = 1
 				pdx_tooltip = "REPAIR_ASSIGNMENT_INFO"
 			}
-			
+
 			instantTextboxType = {
 				name = "dockyards_used_txt"
 				position = { x=50 y=6 }
@@ -893,7 +893,7 @@ guiTypes = {
 				pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 			}
 		}
-		
+
 		checkBoxType = {
 			name = "toggle_expand_all"
 			position = { x = 135 y = 53 }
@@ -1933,52 +1933,52 @@ guiTypes = {
 			format = center
 		}
 
-		#iconType = {
-		#	name = "creator_flag"
-		#	quadTextureSprite ="GFX_flag_small"
-		#	position = { x = 245 y = 53 }
-		#}
-		#	
-		#iconType = {
-		#	name ="equipment_designer"
-		#	spriteType = "GFX_tech_idea_bg"
-		#	position = { x = 230 y = 51 }
-		#	scale = 0.6
-		#	alwaystransparent = yes
-		#}
-		#
-		#gridBoxType = {
-		#	name = "factories_grid"
-		#	position = { x = 282 y = 33 }	
-		#	size = { width = 150  height = 90 }
-		#	slotsize = { width = 29 height = 23 }
-		#	max_slots = { x = 5 y = 3 }
-		#	format = "UPPER_LEFT"
-		#}
+		iconType = {
+			name = "creator_flag"
+			quadTextureSprite ="GFX_flag_small"
+			position = { x = 245 y = 53 }
+		}
+			
+		iconType = {
+			name ="equipment_designer"
+			spriteType = "GFX_tech_idea_bg"
+			position = { x = 230 y = 51 }
+			scale = 0.6
+			alwaystransparent = yes
+		}
+		
+		gridBoxType = {
+			name = "factories_grid"
+			position = { x = 282 y = 33 }	
+			size = { width = 150  height = 90 }
+			slotsize = { width = 29 height = 23 }
+			max_slots = { x = 5 y = 3 }
+			format = "UPPER_LEFT"
+		}
 #
-		#iconType = {
-		#	name = "prod_line_glow"
-		#	position = { x = 280 y = 31 }
-		#	spriteType = "GFX_prod_line_glow"
-		#	alwaystransparent = yes
-		#}
-		#
-		#buttonType = {
-		#	name = "increase_priority"
-		#	position = { x=488 y=41 }
-		#	quadTextureSprite = "GFX_arrow_up_small"
-		#	pdx_tooltip = "PRODUCTION_INCREASE_PRIORITY_LABEL"
-		#	clicksound = click_default
-		#}
-		#
-		#buttonType = {
-		#	name = "decrease_priority"
-		#	position = { x=488 y=70	 }
-		#	quadTextureSprite = "GFX_arrow_down_small"
-		#	pdx_tooltip = "PRODUCTION_DECREASE_PRIORITY_LABEL"
-		#	pdx_tooltip_delayed = "PRODUCTION_PRIORITY_DELAYED"
-		#	clicksound = click_default
-		#}
+		iconType = {
+			name = "prod_line_glow"
+			position = { x = 280 y = 31 }
+			spriteType = "GFX_prod_line_glow"
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "increase_priority"
+			position = { x=488 y=41 }
+			quadTextureSprite = "GFX_arrow_up_small"
+			pdx_tooltip = "PRODUCTION_INCREASE_PRIORITY_LABEL"
+			clicksound = click_default
+		}
+		
+		buttonType = {
+			name = "decrease_priority"
+			position = { x=488 y=70	 }
+			quadTextureSprite = "GFX_arrow_down_small"
+			pdx_tooltip = "PRODUCTION_DECREASE_PRIORITY_LABEL"
+			pdx_tooltip_delayed = "PRODUCTION_PRIORITY_DELAYED"
+			clicksound = click_default
+		}
 		
 		buttonType = {
 			name = "close_production_line"
@@ -2192,17 +2192,17 @@ guiTypes = {
 		#	format = center
 		#}
 		
-		#iconType = {
-		#	name = "increase_priority"
-		#	position = { x=488 y=41 }
-		#	spriteType = "GFX_arrow_up_small"
-		#}
-		#
-		#iconType = {
-		#	name = "decrease_priority"
-		#	position = { x=488 y=70	 }
-		#	spriteType = "GFX_arrow_down_small"
-		#}
+		iconType = {
+			name = "increase_priority"
+			position = { x=488 y=41 }
+			spriteType = "GFX_arrow_up_small"
+		}
+		
+		iconType = {
+			name = "decrease_priority"
+			position = { x=488 y=70	 }
+			spriteType = "GFX_arrow_down_small"
+		}
 	}
 	
 	containerWindowType = {
@@ -2425,14 +2425,14 @@ guiTypes = {
 			quadTextureSprite = "GFX_prod_naval_equipment_item_large"
 			clicksound = click_default
 		}
-		
+
 		iconType = {
 			name ="outdated_equipment_overlay"
 			spriteType = "GFX_outdated_equipment_overlay"
 			position = { x=4 y=31 }
-			alwaystransparent = yes			
-		}		
-				
+			alwaystransparent = yes
+		}
+
 		iconType = {
 			name ="equipment_designer"
 			spriteType = "GFX_tech_idea_bg"
@@ -2453,7 +2453,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_flag_small"
 			position = { x = 245 y = 53 }
 		}
-		
+
 		buttonType = {
 			name = "increase_amount"
 			position = { x=282 y=26 }
@@ -2461,7 +2461,7 @@ guiTypes = {
 			pdx_tooltip = "NAVAL_SERIES_INCREASE_DESC"
 			clicksound = click_default
 		}
-		
+
 		buttonType = {
 			name = "decrease_amount"
 			position = { x=282 y=74 }
@@ -2469,7 +2469,7 @@ guiTypes = {
 			pdx_tooltip = "NAVAL_SERIES_DECREASE_DESC"
 			clicksound = click_default
 		}
-		
+
 		buttonType = {
 			name = "carrier_air_wing_composition"
 			position = { x=245 y=73 }
@@ -2486,29 +2486,28 @@ guiTypes = {
 			maxWidth = 30
 			maxHeight = 30
 			format = centre
-			pdx_tooltip = "NAVAL_SERIES_AMOUNT_DESC"			
+			pdx_tooltip = "NAVAL_SERIES_AMOUNT_DESC"
 		}
 
-		
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
 			position = { x=138 y=76 }
 			scale=0.8
 			centerposition = yes
-			alwaystransparent = yes			
+			alwaystransparent = yes
 		}
-		
+
 		gridBoxType = {
 			name = "resources_grid"
 			position = { x = 462 y = 31 }
 			size = { width = 40 height = 50 }
 			slotsize = { width = 40 height = 24 }
 			max_slots_vertical = 3
-			max_slots_horizontal = 1			
+			max_slots_horizontal = 1
 			format = "UPPER_LEFT"
 		}
-		
+
 		iconType = {
 			name ="progressbar"
 			spriteType = "GFX_prod_progress_bar2"
@@ -2525,7 +2524,7 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 		}
-		
+
 		gridBoxType = {
 			name = "factories_grid"
 			position = { x = 317 y = 33 }	
@@ -2541,7 +2540,7 @@ guiTypes = {
 			spriteType = "GFX_prod_line_glow"
 			alwaystransparent = yes
 		}
-		
+
 		#buttonType = {
 		#	name = "btn_x10"
 		#	position = { x=278 y=30	 }
@@ -2712,7 +2711,7 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			clicksound = click_default
 			buttontext = "HMS William Wallace"
-		}	
+		}
 	}
 
 
@@ -2752,21 +2751,21 @@ guiTypes = {
 			format = center
 			alwaystransparent = yes
 		}
-		
+
 		buttonType = {
 			name = "equipment_button"
 			position = { x=0 y=32 }
 			quadTextureSprite = "GFX_naval_item_collapsed"
 			clicksound = click_default
 		}
-		
+
 		iconType = {
 			name ="outdated_equipment_overlay"
 			spriteType = "GFX_outdated_naval_overlay_collapsed"
 			position = { x=3 y=36 }
-			alwaystransparent = yes			
-		}		
-				
+			alwaystransparent = yes
+		}
+
 		#iconType = {
 		#	name ="equipment_designer"
 		#	spriteType = "GFX_tech_idea_bg"
@@ -2780,7 +2779,7 @@ guiTypes = {
 		#	quadTextureSprite ="GFX_flag_small"
 		#	position = { x = 245 y = 53 }
 		#}
-		
+
 		buttonType = {
 			name = "increase_amount"
 			position = { x=326 y=32 }
@@ -3018,7 +3017,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_add_10"
 			font = "hoi_16mbs"
 			clicksound = click_default
-		}	
+		}
 	}
 	
 	containerWindowType = {
@@ -3322,7 +3321,7 @@ guiTypes = {
 			spriteType = "GFX_conveyor_group_btn_frame"
 			position = { x= 1 y = 1 }
 		}
-		
+
 		instantTextboxType = {
 			name = "priority"
 			position = { x = 2 y = 6 }
@@ -3334,14 +3333,14 @@ guiTypes = {
 			format = center
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name ="outdated_equipment_overlay"
 			spriteType = "GFX_outdated_naval_overlay_collapsed"
 			position = { x=3 y=36 }
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
@@ -3405,7 +3404,7 @@ guiTypes = {
 			spriteType = "GFX_deploy_port_fleet_icons"
 			alwaystransparent = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "deploy_name"
 			position = { x = 255 y = 4 }
@@ -3417,7 +3416,7 @@ guiTypes = {
 			fixedsize = yes
 			alwaystransparent = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "name"
 			position = { x = 55 y = 3 }
@@ -3429,7 +3428,7 @@ guiTypes = {
 			format = left
 			alwaystransparent = yes
 		}
-		
+
 		buttonType = {
 			name = "expand"
 			position = { x=28 y=4 }
@@ -3499,7 +3498,7 @@ guiTypes = {
 			clicksound = click_default
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "production_naval_new_line_entry"
 		position = { x=0 y=0 }
@@ -3516,14 +3515,14 @@ guiTypes = {
 			name ="production_line_selected"
 			spriteType = "GFX_production_line_selected"
 			position = { x= 0 y = 0 }
-		}		
-		
+		}
+
 		iconType = {
 			name = "equipment_button"
 			position = { x=1 y=27 }
 			spriteType = "GFX_prod_naval_equipment_item_large"
 		}
-		
+
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
@@ -3532,7 +3531,7 @@ guiTypes = {
 			centerposition = yes
 			alwaystransparent = yes
 		}
-		
+
 		buttonType = {
 			name = "increase_amount"
 			position = { x=282 y=26 }
@@ -3560,43 +3559,41 @@ guiTypes = {
 			pdx_tooltip = "NAVAL_SERIES_AMOUNT_DESC"			
 		}
 		
-		#iconType = {
-		#	name ="progressbar"
-		#	spriteType = "GFX_prod_progress_bar2"
-		#	position = { x= 158 y = 31 }
-		#}
-#
-		#instantTextboxType = {
-		#	name = "speed"
-		#	position = { x = 157 y = 32 }
-		#	textureFile = ""
-		#	font = "hoi_18mbs"
-		#	text = "--"
-		#	maxWidth = 120
-		#	maxHeight = 20
-		#	format = center
-		#}
-		
-		#iconType = {
-		#	name = "increase_priority"
-		#	position = { x=488 y=41 }
-		#	spriteType = "GFX_arrow_up_small"
-		#}
-		#
-		#iconType = {
-		#	name = "decrease_priority"
-		#	position = { x=488 y=70	 }
-		#	spriteType = "GFX_arrow_down_small"
-		#}
+		iconType = {
+			name ="progressbar"
+			spriteType = "GFX_prod_progress_bar2"
+			position = { x= 158 y = 31 }
+		}
+		instantTextboxType = {
+			name = "speed"
+			position = { x = 157 y = 32 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "--"
+			maxWidth = 120
+			maxHeight = 20
+			format = center
+		}
 
-		#buttonType = {
-		#	name = "deploy_location"
-		#	position = { x=200 y=-1	 }
-		#	quadTextureSprite = "GFX_naval_deploy_button"
-		#	buttonFont = "hoi_16mbs"
-		#	clicksound = click_default
-		#}	
-		
+		iconType = {
+			name = "increase_priority"
+			position = { x=488 y=41 }
+			spriteType = "GFX_arrow_up_small"
+		}
+		iconType = {
+			name = "decrease_priority"
+			position = { x=488 y=70	 }
+			spriteType = "GFX_arrow_down_small"
+		}
+
+		buttonType = {
+			name = "deploy_location"
+			position = { x=200 y=-1	 }
+			quadTextureSprite = "GFX_naval_deploy_button"
+			buttonFont = "hoi_16mbs"
+			clicksound = click_default
+		}	
+
 		instantTextboxType = {
 			name = "name"
 			position = { x = 14 y = 3 }
@@ -3607,7 +3604,7 @@ guiTypes = {
 			format = left
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "production_consumergoods_line_entry"
 		position = { x=0 y=0 }
@@ -3752,7 +3749,7 @@ guiTypes = {
 			max_slots_horizontal = 1
 			format = "UPPER_LEFT"
 		}
-		
+
 		buttonType = {
 			name = "variant"
 			position = { x=297 y=37 }
@@ -3760,14 +3757,14 @@ guiTypes = {
 			clicksound = click_default
 			frame = 1
 		}
-		
+
 		buttonType = {
 			name = "obsolete"
 			position = { x=306 y=15 }
 			spriteType = "GFX_toggle_obsolete_button"
 			clicksound = click_default
-		}		
-		
+		}
+
 		instantTextboxType = {
 			name = "production_cost"
 			position = { x = 15 y = 61 }
@@ -3785,15 +3782,14 @@ guiTypes = {
 			position = { x = 230 y = 10 }
 			alwaystransparent = yes
 		}
-
 	}
-	
+
 	containerWindowType = {
 		name = "naval_equipment_info_entry"
 		position = { x=0 y=0 }
 		size = { width=461 height= 75 }
 		clipping = no
-		
+
 		buttonType = {
 			name = "equipment_button"
 			position = { x=10 y=4 }
@@ -3815,7 +3811,7 @@ guiTypes = {
 			spriteType = "GFX_new_naval_equipment_glow"
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
@@ -3824,13 +3820,13 @@ guiTypes = {
 			scale = 0.9
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "creator_flag"
 			quadTextureSprite ="GFX_flag_small"
 			position = { x = 344 y = 10 }
 		}
-		
+
 		iconType = {
 			name ="equipment_designer"
 			spriteType = "GFX_tech_idea_bg"
@@ -4093,7 +4089,6 @@ guiTypes = {
 			maxHeight = 25
 			format = center
 		}
-
 	}
 
 	containerWindowType = {

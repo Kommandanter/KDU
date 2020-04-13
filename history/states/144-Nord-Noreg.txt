@@ -8,13 +8,13 @@ state={
 	
 	resources={
 		steel=12
-		tungsten = 88
+		tungsten = 122
 	}
 
 	history={
 		owner = NOR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			air_base = 1
 			192 = {
 				naval_base = 3
@@ -27,7 +27,7 @@ state={
 			}
 		}
 		victory_points = {
-			192 1 
+			192 3
 		}
 		add_core_of = NOR
 	}

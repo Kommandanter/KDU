@@ -3,9 +3,9 @@ state={
 	id=666
 	name="STATE_666" # Lappland
 	manpower = 1
-	resources={
-
-	}
+	#resources={
+#
+	#}
 	
 	state_category = rural
 

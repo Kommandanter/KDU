@@ -695,24 +695,24 @@ technologies = {
 			leads_to_tech = improved_medium_tank 
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 2
 		start_year = 1938
 
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = 5.5 }
+			position = { x = 0 y = 5 }
 		}
-		
+
 		sub_technologies = {
 			basic_medium_td
 			basic_medium_art
 			basic_medium_spaa
 		}
-		
+
 		ai_will_do = {
 			factor = 2
-			
+
 			modifier = {
 				factor = 2
 				is_major = yes

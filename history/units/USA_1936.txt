@@ -187,7 +187,7 @@ instant_effect = {
 		}
 		requested_factories = 3
 		progress = 0.1
-		efficiency = 50
+		efficiency = 20
 	}
 	add_equipment_production = {
 		equipment = {
@@ -196,7 +196,7 @@ instant_effect = {
 		}
 		requested_factories = 2
 		progress = 0.3
-		efficiency = 50
+		efficiency = 30
 	}
 
 	add_equipment_production = {
@@ -206,7 +206,7 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.3
-		efficiency = 50
+		efficiency = 70
 	}
 
 
@@ -218,7 +218,7 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.2
-		efficiency = 50
+		efficiency = 70
 	}
 	
 	add_equipment_production = {
@@ -228,25 +228,25 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.2
-		efficiency = 50
+		efficiency = 70
 	}
 	add_equipment_production = {
 		equipment = {
 			type = cv_nav_bomber_equipment_1
 			creator = "USA" 
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.2
-		efficiency = 50
+		efficiency = 10
 	}	
 	add_equipment_production = {
 		equipment = {
 			type = anti_air_equipment_1
 			creator = "USA"
 		}
-		requested_factories = 1
+		requested_factories = 2
 		progress = 0.3
-		efficiency = 50
+		efficiency = 40
 	}
 	# CA: Quincy (New Orleans class, Comm. 9-Jun, 1936)
 

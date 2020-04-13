@@ -8,7 +8,7 @@ state={
 
 	history={
 		#owner = SAU
-		add_core_of = SAU
+		#add_core_of = SAU
 		buildings = {
 			12702 = { naval_base = 1 }
 		}

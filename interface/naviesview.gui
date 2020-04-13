@@ -61,6 +61,14 @@ guiTypes = {
 			shortcut = "k"
 			clicksound = click_default
 		}
+
+		iconType = {
+			name = "training_will_stop_at_max_icon"
+			spriteType = "GFX_exercise_stop_at_max"
+			position = {x=15 y=48 }
+			alwaystransparent = yes
+		}
+
 #			iconType = {
 #				name = "hint_highlight_mission_7"
 #				position = {x=@nv_mission_btn_training_x y=@nv_mission_btn_training_y}
@@ -521,7 +529,7 @@ guiTypes = {
 		editBoxType = {
 			name = "fleet_name"
 			position = {x=70 y=12}
-			font = "hoi_18"
+			font = "cg_18b"
 			size = { x=212 y=23 }
 			text = "FLEET_NAME_HERE"
 		}
@@ -852,7 +860,7 @@ guiTypes = {
 		editBoxType = {
 			name = "unit_name"
 			position = {x=70 y=8}
-			font = "hoi_18"
+			font = "cg_18b"
 			size = { x=212 y=23 }
 			orientation = left
 		}
@@ -1172,7 +1180,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ship_type"
 			position = {x=210 y=20}
-			font = "hoi_18"
+			font = "cg_18b"
 			text = "test"
 			maxWidth = 200
 			maxHeight = 23

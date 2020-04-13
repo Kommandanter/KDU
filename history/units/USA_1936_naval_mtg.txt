@@ -450,7 +450,7 @@ instant_effect = {
 		}
 		name = "USS Quincy" 
 		requested_factories = 2
-		progress = 0.60
+		progress = 0.40
 		amount = 1
 	}
 	add_equipment_production = {
@@ -471,7 +471,7 @@ instant_effect = {
 			version_name = "CA2"
 		} 
 		requested_factories = 2
-		progress = 0.90
+		progress = 0.50
 		amount = 1
 	}
 	##2 Yorktowns (Yorktown, Enterprise)
@@ -482,7 +482,7 @@ instant_effect = {
 			version_name = "CV2"
 		}
 		requested_factories = 2
-		progress = 0.50
+		progress = 0.70
 		amount = 1
 	}
 	add_equipment_production = {
@@ -492,7 +492,7 @@ instant_effect = {
 			version_name = "CV2"
 		}
 		requested_factories = 2
-		progress = 0.70
+		progress = 0.80
 		amount = 1
 	}
 
@@ -649,10 +649,20 @@ instant_effect = {
 			version_name = "SS2"
 		}
 		name = "USS Tarpon" 
-		requested_factories = 1
+		requested_factories = 4
 		progress = 0.70
 		amount = 1
 	}
+	add_equipment_production = {
+		equipment = {
+			type = convoy_1
+			creator = "USA"
+		}
+		requested_factories = 5
+		progress = 0.90
+		amount = 100
+	}
+
 }
 
 #####################

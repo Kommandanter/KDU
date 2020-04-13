@@ -13,18 +13,18 @@ state=
 			10007 1 
 		}
 		buildings = {
-			infrastructure = 1
-			air_base = 1
+			infrastructure = 2
+			air_base = 2
 			10007 = {
 				naval_base = 4
 			}
 			7003 = {
-				naval_base = 1
+				naval_base = 2
 			}
 		}
 		add_core_of = GRE
 	}
-	provinces=
-	{
-7003 10007 	}
+	provinces={
+		7003 10007
+	}
 }

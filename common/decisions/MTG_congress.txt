@@ -141,7 +141,7 @@ USA_congress = {
 	}
 
 	visible = {
-	  NOT { tag = GER }
+	  NOT = { tag = GER }
 	}
 
 	remove_trigger = {

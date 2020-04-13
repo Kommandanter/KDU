@@ -154,18 +154,17 @@ country_event = {
 
 		}
 	}
-	
-	
+
 }
 
 ##Soviet 227 event
 
-country_event = { 
-	id = gduevents.5 
-	title = gduevents.5.t 
+country_event = {
+	id = gduevents.5
+	title = gduevents.5.t
 	desc = gduevents.5.d
 	picture = GFX_report_event_stalin_01
-	
+
 	is_triggered_only = yes 
 	
 	fire_only_once = yes 
@@ -297,14 +296,14 @@ country_event = {
 	title = gduevents.13.t 
 	desc = gduevents.13.d 
 	picture = GFX_report_event_japanese_officers 
-	
+
 	is_triggered_only = yes 
 	
-	option = { 
+	option = {
 		name = gduevents.13.a 
 
 	}
-	
+
 }
 
 #Germany chooses who to give Vichy fleet to
@@ -558,7 +557,6 @@ country_event = {
 	option = { 
 		name = gduevents.24.a
 		hidden_effect = { 
-
 
 
 			14 = { 
@@ -847,7 +845,7 @@ country_event = {
 	
 	option = {
 		name = gduevents.30.a
-		
+
 		POL = {
 			load_oob = "POL_GDU_SPAWN"
 		}
@@ -856,10 +854,9 @@ country_event = {
 		}
 		GRE = {
 			load_oob = "GRE_GDU_SPAWN"
-		}		
+		}
 	}
-	
-	
+
 }
 
 
@@ -981,16 +978,16 @@ country_event = {
 	picture = GFX_report_event_fall_blau
 	
 	is_triggered_only = yes
-		
+
 	fire_only_once = no 
-	
+
 	option = {
 		name = gduevents.36.a
-		
-		
+
+
 	}
-	
-}	
+
+}
 
 
 ### event telling allies France has started armistice negotiations, they have 10 days to get out of France
@@ -1023,15 +1020,14 @@ country_event = {
 	
 	is_triggered_only = yes
 		
-	fire_only_once = no 
-	
+	fire_only_once = no
+
 	option = {
 		name = gduevents.38.a
-		
-		
+
 	}
-	
-}	
+
+}
 
 ### Axis armistice news event
 
@@ -1067,9 +1063,9 @@ country_event = {
 	
 	option = {
 		name = gduevents.40.a
-		
+
 		
 	}
 	
-}	
+}
 

@@ -35,7 +35,7 @@ add_equipment_to_stockpile = {
 } 
 set_research_slots = 3
 add_timed_idea = { idea = turkish_neutrality  days = 920 }
-add_ideas = czech_set_amount_artillery 
+#add_ideas = czech_set_amount_artillery 
 			
 
 set_politics = {	
@@ -58,9 +58,6 @@ create_country_leader = {
 	picture = "Portrait_Czech_Edvard_Benes.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -69,9 +66,6 @@ create_country_leader = {
 	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
 	expire = "1965.1.1"
 	ideology = nazism
-	traits = {
-		#
-	}
 }
 
 create_country_leader = {
@@ -80,9 +74,6 @@ create_country_leader = {
 	picture = "Portrait_Czech_Klement_Gottwald.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
-	traits = {
-		#
-	}
 }
 
 create_field_marshal = {

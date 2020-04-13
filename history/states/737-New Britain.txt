@@ -3,8 +3,8 @@ state={
 	name="STATE_737"
 	
 	resources={
-		rubber=11
-		oil=13
+		rubber=30
+		oil=28
 	}
 
 	history={

@@ -648,18 +648,18 @@
  HOL_super_heavy_tank_equipment_1_short:0 "ZT-IV"
  
  #Mexican infantry vehicle
- MEX_infantry_equipment_1:0 "Mauser M1936"
- MEX_infantry_equipment_1_short:0 "Mauser M1936"
- MEX_infantry_equipment_2:0 "Mendoza SMG"
- MEX_infantry_equipment_2_short:0 "Mendoza SMG"
- MEX_infantry_equipment_3:0 "Mendoza RM-3"
- MEX_infantry_equipment_3_short:0 "Mendoza RM-3"
+ #MEX_infantry_equipment_1:0 "Mauser M1936"
+ #MEX_infantry_equipment_1_short:0 "Mauser M1936"
+ #MEX_infantry_equipment_2:0 "Mendoza SMG"
+ #MEX_infantry_equipment_2_short:0 "Mendoza SMG"
+ #MEX_infantry_equipment_3:0 "Mendoza RM-3"
+ #MEX_infantry_equipment_3_short:0 "Mendoza RM-3"
  
  #Mexican tank
- MEX_modern_tank_equipment_1:0 "VB-9"
- MEX_modern_tank_equipment_1_short:0 "VB-9"
- MEX_super_heavy_tank_equipment_1:0 "VBA-8"
- MEX_super_heavy_tank_equipment_1_short:0 "VBA-8"
+ #MEX_modern_tank_equipment_1:0 "VB-9"
+ #MEX_modern_tank_equipment_1_short:0 "VB-9"
+ #MEX_super_heavy_tank_equipment_1:0 "VBA-8"
+ #MEX_super_heavy_tank_equipment_1_short:0 "VBA-8"
  
  #Missile
  GER_guided_missile_equipment_1:0 "Vergeltungswaffe-1"

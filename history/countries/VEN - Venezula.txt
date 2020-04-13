@@ -12,9 +12,9 @@ give_resource_rights = { receiver = ENG state = 489 }
 give_resource_rights = { receiver = ENG state = 307 } 
 set_country_flag = monroe_doctrine
 set_research_slots = 0
-add_ideas = {
-latin_neutrality
-}
+#add_ideas = {
+#latin_neutrality
+#}
 
 add_opinion_modifier = { target = SPR modifier = embargo }
 add_opinion_modifier = { target = SPR modifier = sanctions_relations }

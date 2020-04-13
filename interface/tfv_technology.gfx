@@ -89,7 +89,7 @@ spriteTypes = {
  	
 	#(Mexican great war tank#
         SpriteType = {
-            name = "GFX_MEX_gwtank_medium"
+            name = "GFX_#MEX_gwtank_medium"
             texturefile = "gfx/interface/technologies/mex_gwtank.dds"
          } 
 	#)#

@@ -145,8 +145,7 @@ categories =  {
 	desert = {
 		color = { 255 127 0 }
 		movement_cost = 1.1
-		heat_attrition = 0.5
-		local_supplies = -0.2
+		attrition = 0.2
 		ai_terrain_importance_factor = 8.0
 		match_value = 8
 		sound_type = desert
@@ -263,7 +262,6 @@ categories =  {
 				movement = 0.05
 			}
 		}
-		naval_hit_chance = 0.05
 
 	}
 }

@@ -7,7 +7,7 @@ state={
 	state_category = large_town
 	
 	resources={
-		rubber=690
+		rubber=800
 		steel=32
 		tungsten=308
 		aluminium = 25
@@ -19,18 +19,18 @@ state={
 			12299 25
 		}
 		victory_points = {
-			7329 1 
+			7329 3 
 		}
 		victory_points = {
-			10297 1 
+			10297 3 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 1
-			air_base = 6
+			air_base = 8
 			12299 = {
-				naval_base = 8
-				coastal_bunker = 3
+				naval_base = 10
+				coastal_bunker = 7
 			}
 			7329 = {
 				naval_base = 3

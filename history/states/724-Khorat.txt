@@ -6,7 +6,7 @@ state={
 	state_category = rural
 	
 	resources={
-		rubber=72 # was: 70
+		rubber=90 # was: 70
 	}
 
 
@@ -16,7 +16,7 @@ state={
 			infrastructure = 4
 		}
 		victory_points = {
-			7236 1 
+			7236 5
 		}
 		add_core_of = SIA
 	}

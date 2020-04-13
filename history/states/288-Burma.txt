@@ -8,21 +8,19 @@ state={
 	
 	resources={
 		rubber=4
-		tungsten=30
 		steel=14 
 	}
 
 	history={
 		owner = RAJ
 		victory_points = {
-			1330 3 
+			1330 1
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			air_base = 5
+			air_base = 2
 			1330 = {
-				naval_base = 4
+				naval_base = 1
 			}
 		}
 

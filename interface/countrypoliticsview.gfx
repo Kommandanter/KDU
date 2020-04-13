@@ -200,17 +200,17 @@ spriteTypes = {
 #		textureFile = "gfx/interface/dismantle_faction_button.dds"
 #	}
 
-#	frameAnimatedSpriteType = {
-#		name = "GFX_idea_alert_glow"
-#		texturefile = "gfx/interface/idea_alert_glow.dds"
-#		noOfFrames = 2
-#		animation_rate_fps = 0.5
-#		looping = yes
-#		play_on_show = yes
-#		pause_on_loop = 0.0
-#		allwaystransparent = yes
-#		effectFile = "gfx/FX/buttonstate_blendframes.lua"
-#	}
+	frameAnimatedSpriteType = {
+		name = "GFX_idea_alert_glow"
+		texturefile = "gfx/interface/idea_alert_glow.dds"
+		noOfFrames = 2
+		animation_rate_fps = 0.5
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		allwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
 
 	spriteType = {
 		name = "GFX_leading_pol_party_bg"
@@ -396,6 +396,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_idea_entry_bg_3"
+		texturefile = "gfx/interface/idea_entry_bg_3.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
 		name = "GFX_pol_factions_strip"
 		texturefile = "gfx\\interface\\pol_factions_strip.tga"
 		noOfFrames = 4
@@ -409,6 +415,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_icon_manage_subjects"
 		texturefile = "gfx/interface/icon_manage_subjects.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_collaboration"
+		texturefile = "gfx/interface/occupation/collaboration_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_collaboration_and_exiles"
+		texturefile = "gfx/interface/occupation/collaboration_and_exiles_icon.dds"
 	}
 
 	spriteType = {
@@ -558,7 +573,16 @@ spriteTypes = {
 	pieChartType = {
 		name = "GFX_political_chart_small"
 		size = 26
-	}	
+	}
+
+	circularProgressBarType = {
+		name = "GFX_textured_pie_chart"
+		textureFile1 = "gfx/interface/ideas/idea_volunteer_only.dds"
+		textureFile2 = "gfx/interface/ideas/idea_extensive_conscription.dds"
+		size = 30
+		rotation = 90
+		amount = 75
+	}
 
 	spriteType = {
 		name = "GFX_pol_goal_progress_frame"

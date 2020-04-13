@@ -10,9 +10,9 @@ guiTypes = {
 		animation_time = 300
 		Orientation = center_down
 		clipping = no
-		fade_time = 300
+		fade_time = 200
 		fade_type = linear
-		#moveable = yes
+		moveable = yes
 		
 		background = {
 			name = "Background"
@@ -31,6 +31,13 @@ guiTypes = {
 				clicksound = click_battleplan
 				shortcut = "k"
 			}
+			buttonType = {
+				name = "btn_exercise_shift_dummy"
+				position = {x=-25 y=-507}	
+				spriteType = "GFX_tiled_window_transparent_transparent"
+				clicksound = click_battleplan
+				shortcut = "shift+k"
+			}
 			
 			buttonType = {
 				name = "btn_priority"
@@ -48,6 +55,13 @@ guiTypes = {
 				clicksound = click_battleplan
 				shortcut = "k"
 			}
+			iconType = {
+				name = "icn_exercise_stop_at_max"
+				spriteType = "GFX_exercise_stop_at_max"
+				position = {x=-28 y=35}	
+				alwaystransparent = yes
+			}
+
 			
 			buttonType = {
 				name = "btn_order_draw_naval_inv" 
@@ -79,7 +93,7 @@ guiTypes = {
 				spriteType ="GFX_tutorial_highlight_battleplan_btn"
 				allwaystransparent = yes
 				hide = yes
-			}	
+			}
 
 			buttonType = {
 				name = "btn_order_draw_offence"
@@ -190,7 +204,7 @@ guiTypes = {
 				#animation_time = 300
 				#Orientation = center_down
 				#clipping = yes
-				fade_time = 300
+				fade_time = 200
 				fade_type = linear
 				
 				background = {
@@ -240,13 +254,13 @@ guiTypes = {
 					pdx_tooltip = "GARRISON_CONF_AIRBASE"
 				}
 				
-#				buttonType = {
-#					name = "btn_setting_resistance" 
-#					position = {x=175 y=31}	
-#					spriteType = "GFX_garr_resistance"
-#					clicksound = click_battleplan 
-#					pdx_tooltip = "GARRISON_CONF_RESISTANCE"
-#				}
+				buttonType = {
+					name = "btn_setting_resistance" 
+					position = {x=175 y=31}	
+					spriteType = "GFX_garr_resistance"
+					clicksound = click_battleplan 
+					pdx_tooltip = "GARRISON_CONF_RESISTANCE"
+				}
 				
 				buttonType = {
 					name = "btn_setting_forts" 
@@ -272,9 +286,9 @@ guiTypes = {
 				size = { width=148 height=117 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
-				animation_time = 200
+				animation_time = 100
 				clipping = no
-				fade_time = 300
+				fade_time = 200
 				fade_type = linear
 					
 					

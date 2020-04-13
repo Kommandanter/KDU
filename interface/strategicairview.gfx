@@ -108,7 +108,7 @@ spriteTypes = {
 		name = "GFX_air_base_create_new_glow"
 		texturefile = "gfx/interface/air_base_create_new_glow.dds"
 		noOfFrames = 2
-		animation_rate_fps = 2
+		animation_rate_fps = 3
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
@@ -120,7 +120,7 @@ spriteTypes = {
 		name = "GFX_naval_base_create_new_glow"
 		texturefile = "gfx/interface/naval_base_create_new_glow.dds"
 		noOfFrames = 2
-		animation_rate_fps = 2
+		animation_rate_fps = 3
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
@@ -154,6 +154,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_air_base_copy_btn"
+		texturefile = "gfx/interface/air_base_copy_btn.dds"
+	}	
+
+	spriteType = {
 		name = "GFX_air_base_select_all_btn"
 		texturefile = "gfx/interface/air_base_select_all_btn.dds"
 	}
@@ -172,7 +177,7 @@ spriteTypes = {
 		name = "GFX_air_base_popup_glow"
 		texturefile = "gfx/interface/air_base_popup_glow.dds"
 		noOfFrames = 2
-		animation_rate_fps = 0.5
+		animation_rate_fps = 2
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
@@ -214,6 +219,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_slider_small_focus_bg"
+		texturefile = "gfx/interface/slider_small_focus_bg.dds"
+	}
+
+	spriteType = {
 		name = "GFX_slider_gdu_airsplit_bg"
 		texturefile = "gfx/interface/slider_gdu_airsplit_bg.dds"
 	}
@@ -222,7 +232,13 @@ spriteTypes = {
 		name = "GFX_wing_reinforce_btn"
 		textureFile = "gfx/interface/wing_reinforce_btn.dds"
 	}
-	
+
+	spriteType = {
+		name = "GFX_wing_prio_strip"
+		textureFile = "gfx/interface/strategicair/airwing_prio_strip.dds"
+		noOfFrames = 8
+	}
+
 	spriteType = {
 		name = "GFX_wing_reinforce_small_btn"
 		textureFile = "gfx/interface/wing_reinforce_small_btn.dds"
@@ -309,10 +325,10 @@ spriteTypes = {
 		name = "GFX_strategicair_base_bg_glow"
 		texturefile = "gfx/interface/strategicair/base_bg_glow.dds"
 		noOfFrames = 2
-		animation_rate_fps = 0.4
+		animation_rate_fps = 1
 		looping = yes
 		play_on_show = yes
-		pause_on_loop = 0.0
+		pause_on_loop = 0.2
 		allwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
@@ -441,7 +457,8 @@ spriteTypes = {
 	LineChartType = {
 		name = "GFX_strategicair_linechart"
 		size = {x=224 y=150}
-		linewidth = 1
+		linewidth = 2
+		scale = 1.5
 	}
 
 	textSpriteType = {
@@ -516,6 +533,5 @@ spriteTypes = {
 		pause_on_loop = 0.0
 		allwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
-	}		
-	
+	}
 }

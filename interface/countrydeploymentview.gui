@@ -100,7 +100,7 @@ guiTypes = {
 		clipping = no
 		
 		background = {
-			name = "Background"		
+			name = "Background"
 			quadTextureSprite ="GFX_tiled_window_1b_thin_border"
 		}
 
@@ -196,7 +196,7 @@ guiTypes = {
 			position = { x=0 y=90 }
 			size = { width=566 height=100%% }	
 			moveable = yes
-			fade_time = 500
+			fade_time = 300
 			fade_type = linear
 			verticalScrollbar = "right_vertical_slider"
 			margin = {top=9 left=0 bottom=9 right=0}	
@@ -231,7 +231,7 @@ guiTypes = {
 				position = { x=23 y=88 }
 				size = { width=566 height=1100 }
 				slotsize = { width=84 height=50 }
-				max_slots_horizontal = 6
+				max_slots_horizontal = 7
 				format = "UPPER_LEFT"
 			}
 		}
@@ -399,7 +399,13 @@ guiTypes = {
 			name = "Background"		
 			quadTextureSprite ="GFX_deploy_reinforcements_entry"
 		}
-		
+
+		iconType = {
+			name = "deploy_icon_tiled_bg"
+			quadTextureSprite = "GFX_deploy_icon_tiled_bg"
+			position = { x = 10 y = 4}
+		}
+
 		iconType = {
 			name = "reinforcements_icon"
 			position = { x=23 y=18 }
@@ -415,22 +421,40 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
 			maxWidth = 240
-			maxHeight = 20
+			maxHeight = 30
 			format = center
+		}
+
+		background = {
+			name = "deploy_priority_title_bg"
+			spriteType = "GFX_deploy_priority_title_bg"
+			alwaystransparent = no
+			position = { x = 110 y = 12 }
+			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "army_equipment"
 			spriteType = "GFX_equipment_icon"
-			position = { x=165 y=42 }		
+			position = { x=165 y=42 }
+			alwaystransparent = yes		
 		}
 		
 		iconType = {
 			name = "equipment_progressbar"
 			spriteType = "GFX_deployment_progressbar"
 			position = { x=191 y=44 }
+			alwaystransparent = yes
 		}
-		
+
+		background = {
+			name = "deploy_priority_equipment_meter_bg"
+			spriteType = "GFX_deploy_priority_equipment_meter_bg"
+			alwaystransparent = no
+			position = { x = 280 y = 10 }
+		}
+
+
 		buttonType = {
 			name = "low_prio"
 			position = { x = 420 y = 17 }
@@ -648,7 +672,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "military_deployment_conveyor_summary_view"
 		position = { x=-15 y=0 }
-		size = { width=510 height=40 }
+		size = { width=510 height=50 }
 		
 		background = {
 			name = "background"
@@ -731,7 +755,7 @@ guiTypes = {
 		dropDownBoxType = {
 			name = "division_name_dropdown"
 			position = { x = 5 y = 5 }
-			size = { width = 150 height = 30 }
+			size = { width = 150 height = 40 }
 			
 			editBoxType = {
 				name = "editbox"
@@ -756,7 +780,7 @@ guiTypes = {
 				show_position = { x = -5 y = 30 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
-				animation_time = 300
+				animation_time = 400
 				size = { width=250 height=300 }
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 7 bottom = 7 right = 6 }
@@ -846,7 +870,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "division_name_dropdown_entry"
 		position = { x=0 y=0 }
-		size = { width = 218 height = 30 }
+		size = { width = 218 height = 50 }
 		clipping = no
 		
 		background = {
@@ -916,7 +940,7 @@ guiTypes = {
 		editBoxType = {
 			name = "generic_name_edit"
 			position = { x = 100 y = 18 }
-			font = "hoi_18b"
+			font = "cg_18b"
 			size = { x=200 y=25 }
 			pdx_tooltip = "CONVEYOR_GENERIC_NAME_EDIT_DESC"
 		}
@@ -948,14 +972,14 @@ guiTypes = {
 			position = { x = 312 y = 10 }
 			quadTextureSprite = "GFX_naval_decrease_amount"
 			pdx_tooltip = "CONVEYOR_SERIES_DECREASE_DESC"
-			font = "hoi_18b"
+			font = "cg_18b"
 			clicksound = click_default
 		}
 		
 		instantTextboxType = {
 			name = "amount"
 			position = { x = 348 y = 16 }
-			font = "hoi_18b"
+			font = "cg_18b"
 			text = "INFINITY"
 			maxWidth = 33
 			maxHeight = 33
@@ -1020,7 +1044,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "add_limit"
 			position = { x = 316 y = 52 }
-			font = "hoi_18b"
+			font = "cg_18b"
 			text = "4"
 			maxWidth = 17
 			maxHeight = 33

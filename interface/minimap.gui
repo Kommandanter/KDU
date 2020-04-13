@@ -4,7 +4,7 @@ guiTypes = {
 		name = "minimap_offensive_icon"
 		spriteType = "GFX_minimap_ping_offensive"
 		position = { x=260 y=150 }	#mod
-		scale = 0.8
+		scale = 1
 		centerPosition = yes
 	}
 
@@ -12,7 +12,7 @@ guiTypes = {
 		name = "minimap_defensive_icon"
 		spriteType = "GFX_minimap_ping_defensive"
 		position = { x=260 y=150 }	#mod
-		scale = 0.8
+		scale = 1
 		centerPosition = yes
 	}
 
@@ -20,8 +20,8 @@ guiTypes = {
 		name = "mini_map_interface"
 		position = { x=-373 y=-98 }		#Komm
 		Orientation = LOWER_RIGHT
+		scale = 1.2
 
-		
 		iconType = {
 			name = "worldmap_bg"
 			quadTextureSprite = "GFX_minimap_world"
@@ -106,7 +106,7 @@ guiTypes = {
 				name = "circle"
 				position = {x=60 y=20}
 				quadTextureSprite = "GFX_minimap_ping_circle"
-				scale = 0.5
+				scale = 0.7
 				
 				centerPosition = yes
 				alwaystransparent = yes
@@ -117,7 +117,7 @@ guiTypes = {
 			name = "handle"
 			position = {x=-22 y=47}
 			spriteType = "GFX_minimap_handle_default"
-			scale = 0.8
+			scale = 1
 			shortcut = "ctrl+m"
 		}
 		
@@ -125,7 +125,7 @@ guiTypes = {
 			name = "handle_pinged"
 			position = {x=-22 y=47}
 			spriteType = "GFX_minimap_handle_pinged"
-			scale = 0.8
+			scale = 1
 			shortcut = "ctrl+m"
 		}
 		
@@ -141,14 +141,14 @@ guiTypes = {
 			name = "offensive_ping"
 			position = {x=4 y=44}
 			spriteType = "GFX_minimap_offensive_ping_btn"
-			scale = 0.8
+			scale = 1
 		}
 		
 		buttonType = {
 			name = "defensive_ping"
 			position = {x=4 y=69}
 			spriteType = "GFX_minimap_defensive_ping_btn"
-			scale = 0.8
+			scale = 1
 		}
 	}
 }

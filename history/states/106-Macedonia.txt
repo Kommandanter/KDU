@@ -7,7 +7,7 @@ state={
 	state_category = rural
 	
 	resources={
-		chromium=116
+		chromium=176
 		aluminium=32
 	}
 
@@ -15,7 +15,7 @@ state={
 		owner = YUG
 		buildings = {
 			infrastructure = 3
-			air_base = 10
+			air_base = 6
 		}
 		victory_points = {
 			3882 1 

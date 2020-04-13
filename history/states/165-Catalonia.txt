@@ -10,27 +10,13 @@ state={
 
 	history={
 		owner = SPR
-#		victory_points = {
-#			9764 15
-#		}
+		victory_points = {
+			9764 15
+		}
 		buildings = {
 			infrastructure = 7
-			
+
 		}
-		victory_points = { 854 1 }
-		victory_points = { 872 1 }
-		victory_points = { 897 1 }
-		victory_points = { 3898 1 }
-		victory_points = { 3899 1 }
-		victory_points = { 6812 1 }
-		victory_points = { 6836 1 }
-		victory_points = { 6865 1 }
-		victory_points = { 6927 1 }
-		victory_points = { 6966 1 }
-		victory_points = { 9764 1 }
-		victory_points = { 9797 1 }
-		victory_points = { 9824 1 }
-		victory_points = { 11779 1 }
 		add_core_of = SPR
 	}
 

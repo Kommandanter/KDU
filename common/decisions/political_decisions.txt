@@ -1899,7 +1899,7 @@ political_actions = {
 		icon = GFX_decision_generic_break_treaty
 
 		visible = {
-			NOT { tag = USA }
+			NOT = { tag = USA }
 			has_government = democratic
 		}
 		

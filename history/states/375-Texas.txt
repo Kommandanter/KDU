@@ -8,7 +8,7 @@ state={
 	state_category = megalopolis
 	
 	resources={
-		oil=180
+		oil=220
 		aluminium=156
 	}
 
@@ -16,14 +16,14 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 6
+			infrastructure = 7
 			industrial_complex = 10
 			air_base = 3
 			10337 = {
-				naval_base = 3
+				naval_base = 8
 			}
 			6785 = {
-				naval_base = 1
+				naval_base = 3
 			}
 		}
 		add_core_of = USA
@@ -34,7 +34,7 @@ state={
 			3960 10 
 		}
 		victory_points = {
-			12782 1 
+			12782 10
 		}
 
 	}

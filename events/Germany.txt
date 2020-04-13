@@ -430,7 +430,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 91 }
-			SOV = { add_state_core = 91 }			
+			SOV = { add_state_core = 91 }
 		}
 		if = {
 			limit = {
@@ -446,7 +446,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 97 }
-			SOV = { add_state_core = 97 }			
+			SOV = { add_state_core = 97 }
 		}
 		if = {
 			limit = {
@@ -462,7 +462,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 89 }
-			SOV = { add_state_core = 89 }			
+			SOV = { add_state_core = 89 }
 		}
 		if = {
 			limit = {
@@ -478,7 +478,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 751 }
-			SOV = { add_state_core = 751 }			
+			SOV = { add_state_core = 751 }
 		}
 		SOV = { country_event = germany.15 }
 	}

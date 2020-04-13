@@ -535,9 +535,6 @@ ideas = {
 
 			picture = generic_air_bonus
 
-			research_bonus = {
-			}
-			
 			equipment_bonus = {
 				fighter_equipment = {
 					air_agility = 0.10
@@ -658,9 +655,7 @@ ideas = {
 				war_support_factor = 0.2
 				army_attack_factor = 0.05
 				army_morale_factor = 0.05
-				stability_weekly_factor = -0.002
-				war_support_weekly_factor = -0.002
-				training_time_factor = -0.5				
+				training_time_factor = -0.5
 			}
 		}
 
@@ -1187,7 +1182,6 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascism
-					has_country_flag = GER_reinstated_nazi_leadership
 				}
 			}
 
