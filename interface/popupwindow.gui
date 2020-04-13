@@ -106,8 +106,7 @@ guiTypes = {
 			scrollbartype = "standardtext_slider"
 		}
 		
-		iconType =
-		{
+		iconType ={
 			name ="diplo_popup_bottom"
 			spriteType = "GFX_diplo_popup_bottom_large"
 			position = { x= 0 y = 218 }
@@ -2390,7 +2389,7 @@ guiTypes = {
 			maxHeight = 24
 			fixedsize = yes
 			truncate = yes
-		}
+		}																						
 
 		instantTextBoxType = {
 			name = "description"

@@ -2,9 +2,9 @@
 state={
 	id=605
 	name="STATE_605"
-	resources={
-	
-	}
+#	resources={
+#	
+#	}
 
 	history={
 		#owner = CHI

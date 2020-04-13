@@ -11,9 +11,6 @@ if = {
 set_research_slots = 5
 
 # Starting tech
-set_technology = {
-
-}
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {

@@ -395,7 +395,7 @@ air_wings = {
 	529 = {
 		# Kizarazu Kokutai -- Aichi D1A2
 		# Kanoya Kokutai -- Aichi D1A2
-		cv_fighter_equipment_1 = {
+		cv_fighter_equipment_0 = {
 			owner = "JAP" 
 			amount = 100
 		}
