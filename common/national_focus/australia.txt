@@ -2750,7 +2750,7 @@ focus_tree = {
 				}
 			}
 		}
-
+	}
 	focus = {
 		id = AST_swpa_protector
 		icon = GFX_goal_Generic_Scouts

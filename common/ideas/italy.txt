@@ -26,6 +26,7 @@ ideas = {
 				stability_factor = 0.1		
 			}
 		}
+
 		vittoria_mutilata = {			
 			
 			allowed = {
@@ -69,16 +70,16 @@ ideas = {
 							has_government = fascism
 						}
 					}
-#					AND = {
-#						has_government = communsim
-#						GER = {
-#							has_government = communsim
-#						}
-#					}
-#					AND = {
-#						has_government = democratic
-#						GER = {
-#							has_government = democratic
+					#AND = {
+					#	has_government = communsim
+					#	GER = {
+					#		has_government = communsim
+					#	}
+					#}
+					#AND = {
+					#	has_government = democratic
+					#	GER = {
+					#		has_government = democratic
 				}
 			}
 
@@ -90,7 +91,8 @@ ideas = {
 			}
 		}
 	}
-		political_advisor = {
+
+	political_advisor = {
 		
 		carlo_scorza = {
 			
@@ -662,7 +664,7 @@ ideas = {
 				}
 			}
 		}
-	
+	}
 	
 	
 	materiel_manufacturer = {
@@ -914,8 +916,7 @@ ideas = {
 			}
 			
 			traits = { military_theorist }
-	}
-	
+		}
 		giovanni_messe = {
 			ledger = army
 			allowed = {
@@ -1021,5 +1022,4 @@ ideas = {
 			traits = { rocket_scientist }
 		}
 	}
-}
 }

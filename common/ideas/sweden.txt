@@ -279,7 +279,7 @@ ideas = {
 			removal_cost = -10
 
 			modifier = {
-				encryption_factor = 0.2
+				#encryption_factor = 0.2
 			}
 		}
 		american_fighter_discount = {
@@ -940,68 +940,47 @@ ideas = {
 
 	theorist = {
 
-		alf_lysholm = {
-
-			allowed = {
-				original_tag = SWE
-			}
-			cost = 150
-
-			research_bonus = {
-				rocketry = 0.10
-			}
-			#available = { has_completed_focus = SWE_secret_weapons }
-			traits = { rocket_scientist }
-		}
-
-
-		SWE_William_Yngve_Anderson = {
-
-
-			allowed = {
-				original_tag = SWE
-			}
-
-			picture = generic_air_europe_1
-
-			research_bonus = {
-				air_doctrine = 0.1
-			}
-
-			traits = { air_warfare_theorist }
-		}
-
-		SWE_helge_jung = {
-
-
-			allowed = {
-				original_tag = SWE
-			}
-
-			picture = generic_army_europe_2
-
-			research_bonus = {
-				land_doctrine = 0.1
-			}
-
-			traits = { military_theorist }
-		}
-
-		SWE_erik_palmstierna = {
-
-
-			allowed = {
-				original_tag = SWE
-			}
-
-			picture = generic_political_advisor_europe_1
-
-			research_bonus = {
-				naval_doctrine = 0.1
-			}
-
-			traits = { naval_theorist }
-		}
+		#alf_lysholm = {
+		#	allowed = {
+		#		original_tag = SWE
+		#	}
+		#	cost = 150
+		#	research_bonus = {
+		#		rocketry = 0.10
+		#	}
+		#	#available = { has_completed_focus = SWE_secret_weapons }
+		#	traits = { rocket_scientist }
+		#}
+		#SWE_William_Yngve_Anderson = {
+		#	allowed = {
+		#		original_tag = SWE
+		#	}
+		#	picture = generic_air_europe_1
+		#	research_bonus = {
+		#		air_doctrine = 0.1
+		#	}
+		#	traits = { air_warfare_theorist }
+		#}
+		#SWE_helge_jung = {
+		#	allowed = {
+		#		original_tag = SWE
+		#	}
+		#	picture = generic_army_europe_2
+		#	research_bonus = {
+		#		land_doctrine = 0.1
+		#	}
+		#	traits = { military_theorist }
+		#}
+		#SWE_erik_palmstierna = {
+		#	allowed = {
+		#		original_tag = SWE
+		#	}
+		#	picture = generic_political_advisor_europe_1
+		#	research_bonus = {
+		#		naval_doctrine = 0.1
+		#	}
+		#	traits = { naval_theorist }
+		#}
 	}
 	# MILITARY
 	army_chief = {
@@ -1171,103 +1150,66 @@ ideas = {
 
 	high_command = {
 
-		SWE_stig_ericson = {
-
-			allowed = {
-				original_tag = SWE
-			}
-
-			picture = generic_navy_europe_3
-
-			traits = { navy_screen_1 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		SWE_torsten_rapp = {
-
-			allowed = {
-				original_tag = SWE
-			}
-
-			picture = todt
-
-			traits = { air_naval_strike_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		SWE_axel_rappe = {
-
-			picture = generic_army_europe_1
-
-			allowed = {
-				original_tag = SWE
-			}
-
-
-
-			traits = { army_artillery_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		SWE_archibald_douglas = {
-
-			picture = generic_army_europe_2
-
-			allowed = {
-				original_tag = SWE
-			}
-
-
-
-			traits = { army_infantry_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		SWE_axel_ljungdahl = {
-
-			picture = generic_air_europe_2
-
-			allowed = {
-				original_tag = SWE
-			}
-
-
-
-			traits = { air_bomber_interception_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		SWE_helge_stromback = {
-
-			picture = generic_navy_europe_2
-
-			allowed = {
-				original_tag = SWE
-			}
-
-
-
-			traits = { navy_fleet_logistics_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
+		#SWE_stig_ericson = {
+		#	allowed = {
+		#		original_tag = SWE
+		#	}
+		#	picture = generic_navy_europe_3
+		#	traits = { navy_screen_1 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+		#SWE_torsten_rapp = {
+		#	allowed = {
+		#		original_tag = SWE
+		#	}
+		#	picture = todt
+		#	traits = { air_naval_strike_2 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+		#SWE_axel_rappe = {
+		#	picture = generic_army_europe_1
+		#	allowed = {
+		#		original_tag = SWE
+		#	}
+		#	traits = { army_artillery_2 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+		#SWE_archibald_douglas = {
+		#	picture = generic_army_europe_2
+		#	allowed = {
+		#		original_tag = SWE
+		#	}
+		#	traits = { army_infantry_2 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+		#SWE_axel_ljungdahl = {
+		#	picture = generic_air_europe_2
+		#	allowed = {
+		#		original_tag = SWE
+		#	}
+		#	traits = { air_bomber_interception_2 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+		#SWE_helge_stromback = {
+		#	picture = generic_navy_europe_2
+		#	allowed = {
+		#		original_tag = SWE
+		#	}
+		#	traits = { navy_fleet_logistics_2 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
 	}
 
 	tank_manufacturer = {

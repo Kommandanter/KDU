@@ -185,10 +185,6 @@ ideas = {
 				always = yes
 			}
 			picture = generic_spy_political
-			research_bonus = {
-				decryption_tech = 0.05
-				encryption_tech = 0.05
-			}
 			modifier = {
 				decryption_factor = 0.14
 			}
@@ -509,7 +505,7 @@ ideas = {
 	high_command = {
 
 		NOR_alfred_roscher-lund = {
-			ledger - army
+			ledger = army
 			picture = generic_army_europe_2
 			
 			allowed = {

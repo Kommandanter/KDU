@@ -982,8 +982,8 @@ ideas = {
 			removal_cost = -1
 			
 			research_bonus = {
-				decryption_tech = 0.05
-				encryption_tech = 0.05
+				#decryption_tech = 0.05
+				#encryption_tech = 0.05
 			}			
 
 			modifier = {

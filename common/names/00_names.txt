@@ -1579,7 +1579,7 @@ CAN = {
 	callsigns = { }
 }
 
-#MEX = {
+MEX = {
 	male = {
 		names = { 
 			David Adrián Agustín Álvaro Anastasio Andrés Ángel Antonio Bernardo Emiliano Emilio
@@ -1599,6 +1599,7 @@ CAN = {
 		"Martínez del Río" Mejía Miramón Múzquiz Obregón Pedraza Pimentel Reyes "Rincón Gallardo" Robles
 		Ruíz Salas Sánchez "Sarmaniego del Castillo" "Vázquez de la Cadena" Villa Woll Zapata Zaragoza Zuloaga		
 	}
+}
 
 COS = {
 	male = {

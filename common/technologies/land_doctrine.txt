@@ -1077,7 +1077,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
 		#Increased Partisan effect on your land occupied by others
-		partisan_effect = 0.1 #10% more partisan effects
+		#partisan_effect = 0.1 #10% more partisan effects
 		
 		category_all_armor = {
 			max_organisation = 3
@@ -3586,7 +3586,7 @@ technologies = {
 			default_morale = 0.15
 		}
 
-		partisan_effect = 0.2
+		#partisan_effect = 0.2
 
 		enable_tactic = tactic_guerrilla_tactics
 		enable_tactic = tactic_default_guerrilla_tactics

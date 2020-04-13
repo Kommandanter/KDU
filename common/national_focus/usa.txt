@@ -611,13 +611,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = USA_black_chamber
-				bonus = 1.0
-				uses = 2
-				category = encryption_tech
-				category = decryption_tech
-			}
+			#add_tech_bonus = {
+			#	name = USA_black_chamber
+			#	bonus = 1.0
+			#	uses = 2
+			#	category = encryption_tech
+			#	category = decryption_tech
+			#}
 		}
 	}
 

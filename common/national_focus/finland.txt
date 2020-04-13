@@ -209,13 +209,13 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_tech_bonus = {
-				name = FIN_valpo
-				bonus = 1.00 
-				uses = 1
-				category = encryption_tech
-				category = decryption_tech
-			}
+			#add_tech_bonus = {
+			#	name = FIN_valpo
+			#	bonus = 1.00 
+			#	uses = 1
+			#	category = encryption_tech
+			#	category = decryption_tech
+			#}
 		}
 	}
 

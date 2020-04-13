@@ -155,35 +155,26 @@ country = {
 
 	theorist = {
 
-	TUR_mehmet_gunaltay = {
-
-		picture = generic_army_europe_2
-
-		allowed = {
-			original_tag = TUR
-		}
-
-		research_bonus = {
-			land_doctrine = 0.1
-		}
-
-		traits = { military_theorist }
-	}
-
-	TUR_refik_saydam = {
-
-		picture = generic_political_advisor_europe_1
-
-		allowed = {
-			original_tag = TUR
-		}
-
-		research_bonus = {
-			air_doctrine = 0.1
-		}
-
-		traits = { air_warfare_theorist }
-	}
+	#TUR_mehmet_gunaltay = {
+	#	picture = generic_army_europe_2
+	#	allowed = {
+	#		original_tag = TUR
+	#	}
+	#	research_bonus = {
+	#		land_doctrine = 0.1
+	#	}
+	#	traits = { military_theorist }
+	#}
+	#TUR_refik_saydam = {
+	#	picture = generic_political_advisor_europe_1
+	#	allowed = {
+	#		original_tag = TUR
+	#	}
+	#	research_bonus = {
+	#		air_doctrine = 0.1
+	#	}
+	#	traits = { air_warfare_theorist }
+	#}
 }
 
 	army_chief = {
@@ -300,70 +291,46 @@ country = {
 
 	high_command = {
 
-		TUR_sabiha_gokcen = {
-
-			picture = sabiha_gocen
-
-			allowed = {
-				original_tag = TUR
-			}
-
-
-
-			traits = { air_strategic_bombing_3 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		TUR_abdurrahman_gurman = {
-
-			picture = generic_army_europe_3
-
-			allowed = {
-				original_tag = TUR
-			}
-
-
-			traits = { army_armored_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		TUR_ali_fuat_cebesoy = {
-
-			picture = generic_navy_europe_1
-
-			allowed = {
-				original_tag = TUR
-			}
-
-
-			traits = { navy_screen_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		TUR_erkan_gataly = {
-
-			picture = generic_navy_europe_2
-
-			allowed = {
-				original_tag = TUR
-			}
-
-
-			traits = { navy_fleet_logistics_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
+		#TUR_sabiha_gokcen = {
+		#	picture = sabiha_gocen
+		#	allowed = {
+		#		original_tag = TUR
+		#	}
+		#	traits = { air_strategic_bombing_3 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+		#TUR_abdurrahman_gurman = {
+		#	picture = generic_army_europe_3
+		#	allowed = {
+		#		original_tag = TUR
+		#	}
+		#	traits = { army_armored_2 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+		#TUR_ali_fuat_cebesoy = {
+		#	picture = generic_navy_europe_1
+		#	allowed = {
+		#		original_tag = TUR
+		#	}
+		#	traits = { navy_screen_2 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+		#TUR_erkan_gataly = {
+		#	picture = generic_navy_europe_2
+		#	allowed = {
+		#		original_tag = TUR
+		#	}
+		#	traits = { navy_fleet_logistics_2 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
 	}
 
 

@@ -211,83 +211,56 @@ focus_tree = {
 						add_building_construction = {
 							type = anti_air_building
 							level = 3
-							province = 11640
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = anti_air_building
-							level = 3
-							province = 6712
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = anti_air_building
-							level = 3
-							province = 6542
-							instant_build = yes
-						}
-						add_building_construction = {
-							type = anti_air_building
-							level = 3
-							province = 3530
 							instant_build = yes
 						}
 					}
 				}
 			42 = {
 				hidden_effect = {
-				add_building_construction = {
-					type = bunker
-					level = 3
-					province = 3558
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = bunker
-					level = 3
-					province = 563
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = anti_air_building
-					level = 3
-					province = 3558
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = anti_air_building
-					level = 3
-					province = 563
-					instant_build = yes
-				}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 3558
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 563
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 3
+						province = 3558
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 3
+						instant_build = yes
+					}
 				}
 			}
 			842 = {
 				hidden_effect = {
-				add_building_construction = {
-					type = bunker
-					level = 3
-					province = 11531
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = bunker
-					level = 3
-					province = 9575
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = anti_air_building
-					level = 3
-					province = 11531
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = anti_air_building
-					level = 3
-					province = 9575
-					instant_build = yes
-				}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 11531
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9575
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = anti_air_building
+						level = 3
+						instant_build = yes
+					}
 				}
 			}
 		}

@@ -1243,6 +1243,4 @@
 #			category = engineers_tech 
 #		}
 #	}
-}
-#
-#
+#}

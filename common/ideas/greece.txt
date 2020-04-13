@@ -12,7 +12,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 
 			modifier = {
-				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.25
 				stability_factor = 0.05
 			}
 		}
@@ -100,7 +101,6 @@ ideas = {
 		}
 	}
 
-
 political_advisor = {
 
 	GRE_damaskinos = {
@@ -140,7 +140,7 @@ political_advisor = {
 theorist = {
 
 	GRE_nikolaos_plastiras = {
-
+		ledger = army
 		picture = generic_army_europe_3
 
 		allowed = {
@@ -155,7 +155,7 @@ theorist = {
 	}
 
 	GRE_eleftherios_venizelos = {
-
+		ledger = air
 		picture = generic_political_advisor_europe_1
 
 		allowed = {
@@ -284,69 +284,46 @@ theorist = {
 	}
 
 	high_command = {
-
-		GRE_aris_velouchiotis = {
-
-			allowed = {
-				original_tag = GRE
-			}
-
-			picture = generic_army_europe_1
-
-			traits = { army_artillery_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		GRE_napoleon_zervas = {
-
-
-			allowed = {
-				original_tag = GRE
-			}
-
-			picture = generic_army_europe_2
-
-			traits = { army_infantry_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		GRE_nikos_beloyannis = {
-
-
-			allowed = {
-				original_tag = GRE
-			}
-
-			picture = generic_air_europe_2
-
-			traits = { air_naval_strike_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		GRE_aristeidis_moraitinis = {
-
-
-			allowed = {
-				original_tag = GRE
-			}
-
-			picture = generic_air_europe_2
-
-			traits = { air_bomber_interception_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
+		#GRE_aris_velouchiotis = {
+		#	allowed = {
+		#		original_tag = GRE
+		#	}
+		#	picture = generic_army_europe_1
+		#	traits = { army_artillery_2 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+		#GRE_napoleon_zervas = {
+		#	allowed = {
+		#		original_tag = GRE
+		#	}
+		#	picture = generic_army_europe_2
+		#	traits = { army_infantry_2 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+		#GRE_nikos_beloyannis = {
+		#	allowed = {
+		#		original_tag = GRE
+		#	}
+		#	picture = generic_air_europe_2
+		#	traits = { air_naval_strike_2 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
+		#GRE_aristeidis_moraitinis = {
+		#	allowed = {
+		#		original_tag = GRE
+		#	}
+		#	picture = generic_air_europe_2
+		#	traits = { air_bomber_interception_2 }
+		#	ai_will_do = {
+		#		factor = 1
+		#	}
+		#}
 	}
 	aircraft_manufacturer = {
 
