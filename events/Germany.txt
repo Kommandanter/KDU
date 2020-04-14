@@ -42,7 +42,7 @@ country_event = {
 		annex_country = { target = AUS transfer_troops = yes }
 		add_political_power = 75
 		custom_effect_tooltip = anschluss_mefo_bills_tt
-		hidden_effect = { # Having it appear twice might be confusing
+		#hidden_effect = { # Having it appear twice might be confusing
 			GER_mefo_bills_level_down = yes
 			GER_mefo_bills_level_down = yes
 		}

@@ -382,7 +382,7 @@ on_actions = {
 				FROM = {
 					remove_opinion_modifier = { target = GER modifier = anti_comintern_pact_opinion }
 					remove_opinion_modifier = { target = GER modifier = tripartite_pact_opinion }
-					remove_ideas = anti_soviet_pact
+					#remove_ideas = anti_soviet_pact
 				}
 			}
 			#Germany has started a war - allies should try to contain Germany
@@ -418,7 +418,7 @@ on_actions = {
 					NOT = { FROM = { original_tag = GER } } # Don't remove it from Fascist Germany if they start the civil war
 				}
 				ROOT = {
-					GER_remove_mefo_bills = yes
+					#GER_remove_mefo_bills = yes
 					set_country_flag = mefo_bills_removed_through_war
 				}
 			}
@@ -430,7 +430,7 @@ on_actions = {
 					FROM = { GER_has_mefo_bills = yes }
 				}
 				FROM = {
-					GER_remove_mefo_bills = yes
+					#GER_remove_mefo_bills = yes
 					set_country_flag = mefo_bills_removed_through_war
 				}
 			}
