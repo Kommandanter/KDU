@@ -37,7 +37,7 @@ sort_array_by_factions = {
 
 		THIS = {
 			if = {
-				limit = { is_ching_chong = yes }
+				#limit = { is_ching_chong = yes }
 
 				#Add chinese country to array
 				add_to_array = { global.chinese_countries_array = THIS.id }
@@ -102,7 +102,7 @@ switch_country_to_ching_chong = {
 #Moves a country from their faction to the Comintern faction
 switch_country_to_comintern = {
 	if = {
-		limit = { is_ching_chong = yes }
+		#limit = { is_ching_chong = yes }
 		set_country_flag = switched_off_ching_chong_team
 	}
 	else_if = {
@@ -127,7 +127,7 @@ switch_country_to_comintern = {
 #Moves a country from their faction to the Allies faction
 switch_country_to_allies = {
 	if = {
-		limit = { is_ching_chong = yes }
+		#limit = { is_ching_chong = yes }
 		set_country_flag = switched_off_ching_chong_team
 	}
 	else_if = {
@@ -152,7 +152,7 @@ switch_country_to_allies = {
 #Moves a country from their faction to the Allies faction
 switch_country_to_axis = {
 	if = {
-		limit = { is_ching_chong = yes }
+		#limit = { is_ching_chong = yes }
 		set_country_flag = switched_off_ching_chong_team
 	}
 	else_if = {
@@ -177,7 +177,7 @@ switch_country_to_axis = {
 #Moves a country from their faction to the Neutral faction
 switch_country_to_neutral = {
 	if = {
-		limit = { is_ching_chong = yes }
+		#limit = { is_ching_chong = yes }
 		set_country_flag = switched_off_ching_chong_team
 	}
 	else_if = {

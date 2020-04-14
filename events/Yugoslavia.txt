@@ -37,7 +37,7 @@ country_event = {
 	}
 
 	immediate = {
-		hidden_effect = { remove_ideas = anti_german_military }
+		#hidden_effect = { remove_ideas = anti_german_military }
 	}
 
 	mean_time_to_happen = {
@@ -69,7 +69,7 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		hidden_effect = { remove_ideas = anti_german_military }
+		#hidden_effect = { remove_ideas = anti_german_military }
 	}
 
 	option = {
