@@ -56,7 +56,8 @@ set_technology = {
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
 		improved_secondary_battery = 1
-		basic_fire_control_system = 1	
+		basic_fire_control_system = 1
+		cruiser_submarines = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

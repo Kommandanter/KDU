@@ -25,13 +25,13 @@
 			ship = { name = "HNoMS Olaf Tryggvason" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "DD2" } } }
 			ship = { name = "HNoMS Frøya" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "Torp DD1" } } }
 			# 1st Submarine Detachment
-			ship = { name = "HNoMS A2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }
-			ship = { name = "HNoMS A3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }
-			ship = { name = "HNoMS A4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }
+			ship = { name = "HNoMS A2" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }
+			ship = { name = "HNoMS A3" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }
+			ship = { name = "HNoMS A4" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }
 			# 2nd Submarine Detachment
-			ship = { name = "HNoMS B2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }
-			ship = { name = "HNoMS B4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }
-			ship = { name = "HNoMS B5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }
+			ship = { name = "HNoMS B2" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }
+			ship = { name = "HNoMS B4" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }
+			ship = { name = "HNoMS B5" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }
 		}					
 		task_force = {					
 			name = "2. Sjøforsvarsdistrikt"				
@@ -41,7 +41,7 @@
 			ship = { name = "HNoMS Troll" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "Torp DD1" } } }
 			ship = { name = "HNoMS Garm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "Torp DD1" } } }
 			# Submarine Detachment
-			ship = { name = "HNoMS B6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }
+			ship = { name = "HNoMS B6" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }
 		}					
 		task_force = {					
 			name = "3. Sjøforsvarsdistrikt"				
@@ -49,8 +49,8 @@
 			ship = { name = "HNoMS Norge" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "CA1" } } }				
 			ship = { name = "HNoMS Eidsvold" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "CA1" } } }				
 			# Submarine Detachment
-			ship = { name = "HNoMS B1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }
-			ship = { name = "HNoMS B3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }
+			ship = { name = "HNoMS B1" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }
+			ship = { name = "HNoMS B3" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }
 		}					
 	}
 
@@ -63,11 +63,11 @@
 			location = 7361  # Copenhagen			
 			ship = { name = "HDMS Niels Iuel" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "CA1" } } }
 			ship = { name = "HDMS Peder Skram" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "CA1" } } }
-			ship = { name = "HDMS Rota" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }			
-			ship = { name = "HDMS Bellona" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }		
-			ship = { name = "HDMS Flora" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }
-			ship = { name = "HDMS Daphne" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }
-			ship = { name = "HDMS Dryaden" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "SS1" } } }
+			ship = { name = "HDMS Rota" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }			
+			ship = { name = "HDMS Bellona" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }		
+			ship = { name = "HDMS Flora" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }
+			ship = { name = "HDMS Daphne" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }
+			ship = { name = "HDMS Dryaden" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = CAN version_name = "SS1" } } }
 		}				
 	}
 

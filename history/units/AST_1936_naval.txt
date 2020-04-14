@@ -29,7 +29,7 @@
 			name = "Kraljevska Mornarica"			
 			location = 12406 # Split
 			ship = { name = "KB Dalmacija" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "CL1" } } }
-			ship = { name = "KB Dubrovnik" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AST version_name = "CA1" } } }
+			ship = { name = "KB Dubrovnik" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AST version_name = "DD2" } } }
 			# Podmornica Divizija
 			ship = { name = "KB Hrabri" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "SS2" } } }				
 			ship = { name = "KB Nebojsa" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "SS2" } } }				
@@ -50,19 +50,19 @@
 			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "CA1" } } }		
 			ship = { name = "HrMs Jacob van Heemskerck" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "CA1" } } }		
 			ship = { name = "HrMs Van Galen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "ASW DD1" } } }		
-		}				
+		}
 		task_force = {				
 			name = "Koninklijke Onderzeeboot Smaldeel"			
 			location = 12406  # Amsterdam
-			ship = { name = "HrMs O-8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
-			ship = { ordered_name = 9 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
-			ship = { ordered_name = 10 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
-			ship = { ordered_name = 11 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
-			ship = { ordered_name = 12 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
-			ship = { ordered_name = 13 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
-			ship = { ordered_name = 14 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
-			ship = { ordered_name = 15 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
-		}				
+			ship = { name = "HrMs O-8" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { ordered_name = 9 definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { ordered_name = 10 definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { ordered_name = 11 definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { ordered_name = 12 definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { ordered_name = 13 definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { ordered_name = 14 definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { ordered_name = 15 definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
+		}
 	}
 
 	### EAST INDIES SQUADRON ###
@@ -88,17 +88,17 @@
 		task_force = {				
 			name = "Nederlands-Indië Onderzeeboot Smaldeel"			
 			location = 12406  # Soerbaja
-			ship = { ordered_name = 7 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
-			ship = { ordered_name = 8 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
-			ship = { ordered_name = 10 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { ordered_name = 7 definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { ordered_name = 8 definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { ordered_name = 10 definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
 			# I Onderzeeboot Divisie
 			ship = { ordered_name = 17 definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "SS2" } } }
 			ship = { ordered_name = 18 definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "SS2" } } }
 			# II Onderzeeboot Divisie
-			ship = { ordered_name = 9 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
-			ship = { name = "HrMs K-XI" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
-			ship = { name = "HrMs K-XII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
-			ship = { name = "HrMs K-XIII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { ordered_name = 9 definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { name = "HrMs K-XI" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { name = "HrMs K-XII" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
+			ship = { name = "HrMs K-XIII" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name = "SS1" } } }
 			# III Onderzeeboot Divisie
 			ship = { ordered_name = 14 definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "SS2" } } }
 			ship = { ordered_name = 15 definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name = "SS2" } } }
@@ -128,8 +128,8 @@
 		task_force = {					
 			name = "Stolískou Ypovrychíon"				
 			location = 12406 # Athens
-			ship = { name = "RHS Katsonis" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name =  "SS1" } } }		
-			ship = { name = "RHS Papanikolis" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = AST version_name =  "SS1" } } }		
+			ship = { name = "RHS Katsonis" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name =  "SS1" } } }		
+			ship = { name = "RHS Papanikolis" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = AST version_name =  "SS1" } } }		
 			ship = { name = "RHS Protefs" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name =  "SS2" } } }		
 			ship = { name = "RHS Nirefs" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name =  "SS2" } } }		 
 			ship = { name = "RHS Triton" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AST version_name =  "SS2" } } }		
