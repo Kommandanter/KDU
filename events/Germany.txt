@@ -1662,7 +1662,6 @@ country_event = {
 			factor = 10
 		}
 		name = germany.83.a		#join
-		add_ideas = anti_soviet_pact
 		SOV = {
 			remove_opinion_modifier = { target = ROOT modifier = pact_against_us }
 			add_opinion_modifier = { target = ROOT modifier = worse_pact_against_us }
@@ -1695,10 +1694,10 @@ country_event = {
 		name = germany.84.a
 		every_other_country = {
 			limit = {
-				has_idea = anti_soviet_pact
+				#has_idea = anti_soviet_pact
 				NOT = { has_war_with = SOV }
 				any_other_country = {
-					has_idea = anti_soviet_pact
+					#has_idea = anti_soviet_pact
 					has_war_with = SOV
 				}
 			}
@@ -1708,47 +1707,47 @@ country_event = {
 }
 
 # [From.GetName] Calls Pact Members to War
-country_event = {
-	id = germany.85
-	title = germany.85.t
-	desc = germany.85.d
-	picture = GFX_report_event_soviet_tanks
-
-	is_triggered_only = yes
-
-	#immediate = {
-	#	remove_ideas = anti_soviet_pact
-	#}
-
-	option = {
-		name = germany.85.a
-		ai_chance = {
-			factor = 10
-		}
-		add_to_war = {
-			targeted_alliance = FROM
-			enemy = SOV
-		}
-	}
-
-	option = {
-		name = germany.85.b
-		ai_chance = {
-			factor = 0
-		}
-		remove_ideas = anti_soviet_pact
-		FROM = { add_opinion_modifier = { target = ROOT modifier = anti_soviet_pact_call_refused } }
-		SOV = { remove_opinion_modifier = { target = SOV modifier = worse_pact_against_us } }
-		add_timed_idea = {
-			idea = anti_soviet_pact_refused_call
-			days = 365
-		}
-		custom_effect_tooltip = germany.85.b_tt
-		hidden_effect = {
-			country_event = { id = germany.112 days = 3 }
-		}
-	}
-}
+#country_event = {
+#	id = germany.85
+#	title = germany.85.t
+#	desc = germany.85.d
+#	picture = GFX_report_event_soviet_tanks
+#
+#	is_triggered_only = yes
+#
+#	#immediate = {
+#	#	remove_ideas = anti_soviet_pact
+#	#}
+#
+#	option = {
+#		name = germany.85.a
+#		ai_chance = {
+#			factor = 10
+#		}
+#		add_to_war = {
+#			targeted_alliance = FROM
+#			enemy = SOV
+#		}
+#	}
+#
+#	option = {
+#		name = germany.85.b
+#		ai_chance = {
+#			factor = 0
+#		}
+#		#remove_ideas = anti_soviet_pact
+#		FROM = { add_opinion_modifier = { target = ROOT modifier = anti_soviet_pact_call_refused } }
+#		SOV = { remove_opinion_modifier = { target = SOV modifier = worse_pact_against_us } }
+#		add_timed_idea = {
+#			idea = anti_soviet_pact_refused_call
+#			days = 365
+#		}
+#		custom_effect_tooltip = germany.85.b_tt
+#		hidden_effect = {
+#			country_event = { id = germany.112 days = 3 }
+#		}
+#	}
+#}
 
 # Danzig or War (Poland)
 country_event = {
@@ -2375,20 +2374,20 @@ country_event = {
 }
 
 # (Hidden)
-country_event = {
-	id = germany.112
-
-	is_triggered_only = yes
-
-	hidden = yes
-
-	immediate = {
-		every_other_country = {
-			limit = { has_idea = anti_soviet_pact }
-			add_opinion_modifier = { target = FROM modifier = anti_soviet_pact_call_refused }
-		}
-	}
-}
+#country_event = {
+#	id = germany.112
+#
+#	is_triggered_only = yes
+#
+#	hidden = yes
+#
+#	immediate = {
+#		every_other_country = {
+#			limit = { has_idea = anti_soviet_pact }
+#			add_opinion_modifier = { target = FROM modifier = anti_soviet_pact_call_refused }
+#		}
+#	}
+#}
 
 
 # Danzig or War (Polish Civil War)

@@ -361,4 +361,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3193;201;impassable;-1;-1;-1;-1;-1;;GDU Finland
 3193;9147;impassable;-1;-1;-1;-1;-1;;GDU Finland
 11125;9147;impassable;-1;-1;-1;-1;-1;;GDU Finland
+12960;13331;sea;5854;-1;-1;-1;-1;;KDU Falklands
 -1;-1;;-1;-1;-1;-1;-1;-1

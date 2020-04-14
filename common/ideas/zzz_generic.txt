@@ -1037,7 +1037,7 @@ ideas = {
 				has_dlc = "La Resistance"
 				# china gets a special one via focus
 				NOT = { original_tag = CHI }
-				NOT = { is_chinese_warlord = yes }
+				#NOT = { is_chinese_warlord = yes }
 			}
 			visible = {
 				OR = {

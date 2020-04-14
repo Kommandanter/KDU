@@ -1110,20 +1110,20 @@ focus_tree = {
 				retire_country_leader = yes
 			}
 			if = {
-				limit = {
-					democratic > 0.35
-				}
-				set_politics = {
-					ruling_party = democratic
-					elections_allowed = yes
-				}
-				limit = {
-					communism > 0.35
-				}
-				set_politics = {
-					ruling_party = communism
-					elections_allowed = no
-				}
+				# limit = {
+				# 	democratic > 0.35
+				# }
+				# set_politics = {
+				# 	ruling_party = democratic
+				# 	elections_allowed = yes
+				# }
+				# limit = {
+				# 	communism > 0.35
+				# }
+				# set_politics = {
+				# 	ruling_party = communism
+				# 	elections_allowed = no
+				# }
 				limit = {
 					fascism > 0.35
 				}
