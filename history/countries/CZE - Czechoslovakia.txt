@@ -125,8 +125,8 @@ if = {
 		has_dlc = "Death or Dishonor"
 	}
 	add_ideas = {
-		CZE_skoda_works
-		CZE_divided_nation
+		#CZE_skoda_works
+		#CZE_divided_nation
 }
 
 }
@@ -136,7 +136,7 @@ if = {
 		NOT = { has_dlc = "Death or Dishonor" }
 	}
 	add_ideas = {
-		CZE_fortification_focus
+		#CZE_fortification_focus
 	}
 }
 

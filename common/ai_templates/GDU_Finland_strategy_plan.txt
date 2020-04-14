@@ -1,6 +1,5 @@
 Finland_strategy_plan = {
 	name = "I'm Finland"
-	desc = ""
 
 	enable = {
 		original_tag = FIN 
