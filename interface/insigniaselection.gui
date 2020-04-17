@@ -9,41 +9,44 @@ guiTypes = {
 		buttonType = {
 			name = "button"
 			quadTextureSprite = "GFX_tiled_window_color_picker"
-			size = { x = 25 y = 25 }
+			size = { x = 0 y = 25 }
 			position = { x=0 y =0}	
-			scale = 0.8
+			scale = 1
 		}
 	}
 	
 	containerWindowType = {
 		name = "insignia_list_entry"
-		position = { x = 0 y = 0 }	#MPU
-		size = { width = 83 height = 51 }	#MPU
+		position = { x = 10 y = 20 }	####KDU Komm####
+		size = { width = 83 height = 60 }	####KDU Komm####
 		
 		buttonType = {
 			name ="button"
 			spriteType = "GFX_theatre_army_shield"	
 			position = { x = 0 y = 0 }
+			scale = 0.9
 		}
 	}
 	
 	containerWindowType = {
 		name = "insignia_selection_window"
-		position = {x=-425 y=-430 }	#MPU
-		size = { width = 538 height = 700 }	#MPU
+		position = {x=-425 y=-430 }	####KDU Komm####
+		size = { width = 470 height = 530 }	####KDU Komm####
 		Orientation = center
 		clipping = no
 		animation_time = 400
 		moveable = yes
+		scale = 1
 		
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_army_insignia_selection_bg"
+			position = { x= -20 y= -23 }
+			quadTextureSprite ="GFX_tiled_window_w_close"
 		}
 		
 		buttonType = {
 			name = "btn_close"
-			position = { x = 503 y = 4 }	#MPU
+			position = { x = 406 y = -9 }	####KDU Komm####
 			spriteType = "GFX_NV_btn_close"
 			pdx_tooltip = "DESELECT_UNIT"
 			shortcut = "ESCAPE"
@@ -53,39 +56,42 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "header_text"
-			position = { x = 18 y = 0 }
+			position = { x = -20 y = -9 }
 			textureFile = ""
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "CHOOSE_INSIGNIA"
 			maxWidth = 470
 			maxHeight = 20
-			format = center	#MPU
+			format = center	####KDU Komm####
 		}
 
 		containerWindowType = {
 			name ="group_detail"
-			position = { x = 0 y = 38 }	#MPU
-			size = { width = 350 height = 108 }
+			position = { x = -25 y = 20 }	####KDU Komm####
+			size = { width = 900 height = 200 }
 		
 			background = {
 				name = "Background"
-				position = { x = 77 y = 8 }	#MPU
-				quadTextureSprite ="GFX_group_name_bg"
+				position = { x = 20 y = 16 }	####KDU Komm####
+				quadTextureSprite ="GFX_deploy_port_fleet_bg"
+				scale = 1
 			}
 			
 			iconType = {
 				name ="group_icon"
 				spriteType = "GFX_theatre_army_shield"	
-				position = { x = 20 y = -2 }	#MPU
+				position = { x = 370 y = 10 }	####KDU Komm####
+				format = right
+				scale = 1.75
 			}
 			
 			
 			editBoxType = {
 				name = "group_name"
-				position = { x = 87 y = 11 }	#MPU
-				size = { x = 280 y = 23 }	#MPU
-				font = "hoi_18"
+				position = { x = 60 y = 25 }	####KDU Komm####
+				size = { x = 280 y = 23 }	####KDU Komm####
+				font = "cg_16b"
 				text = ""
 				#maxWidth = 300
 				#maxHeight = 20
@@ -95,51 +101,52 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "insignia_list"
-			position = { x = 16 y = 83 }	#MPU
-			size = { width = 520 height = 456 }	#MPU
+			position = { x = -10 y = 80 }	####KDU Komm####
+			size = { width = 450 height = 600 }	####KDU Komm####
 
-			scroll_wheel_factor = 41		#MPU faster scrolling
+			scroll_wheel_factor = 41		####KDU Komm#### faster scrolling
 			verticalScrollbar = "right_vertical_slider"	
 			
-			margin = { top = 0 left = 0 bottom = 0 right = 25}
+			margin = { top = 0 left = 15 bottom = 0 right = 0 }
 			
-			background = {
-				name = "Background"
-				position = { x = -8 y = -10 }
-				quadTextureSprite ="GFX_parch_bg"
-			}
+			#background = {
+			#	name = "Background"
+			#	position = { x = -8 y = -10 }
+			#	quadTextureSprite ="GFX_parch_bg"
+			#}
 			
 			gridBoxType = {
 				name = "item_grid"
-				position = { x = 4 y = 0 } #MPU move the icon grid
-				size = { width = 500 height = 206 } #MPU resize the icon grid
-				slotsize = { width = 55 height = 38 } #MPU resize the icon slots
-				max_slots_horizontal = 9 #MPU increase the icon slots to 9
+				position = { x = -10 y = -7 } ####KDU Komm#### move the icon grid
+				size = { width = 500 height = 600 } ####KDU Komm#### resize the icon grid
+				slotsize = { width = 35 height =40 } ####KDU Komm#### resize the icon slots
+				max_slots_horizontal = 12 ####KDU Komm#### increase the icon slots to 9
 				format = "UPPER_LEFT"
 			}	
 		}
 		
 		containerWindowType = {
 			name = "color_selection_container"
-			#MPU shift the colour picker down
-			position = {x=8 y=526}
+			####KDU Komm#### shift the colour picker down
+			position = {x=0 y=480}
+			scale = 1
 			
-			#MPU overwrite presets
+			####KDU Komm#### overwrite presets
 			gridBoxType = {
 				name = "presets"
-				position = { x = 220 y = 17 }
+				position = { x =100 y = -67 }
 				size = { width = 300 height = 100 }
-				slotsize = { width = 25 height = 25 }
-				format = "UPPER_LEFT"
+				slotsize = { width = 30 height = 30 }
+				format = "CENTER"
 				
-				max_slots_horizontal = 12
-				max_slots_vertical = 5
+				max_slots_horizontal = 5
+				max_slots_vertical = 2
 			}
 			
 			iconType = {
 				name = "hue_slider_background"
 				spriteType = "GFX_hue_slider_background"
-				position = { x = 10 y = 48 }	#MPU
+				position = { x = 10 y =-79 }	####KDU Komm####
 			}
 			
 			scrollbarType = {
@@ -148,14 +155,14 @@ guiTypes = {
 				track= "listboxTrackButton"
 				leftbutton = "downButton"
 				rightbutton = "upButton"
-				size = {x =232 y =15 }
-				position = {x= -6 y = 48}	#MPU
+				size = {x =232 y =17 }
+				position = {x= -6 y = -80 }	####KDU Komm####
 				priority = 100			
-				borderSize = {x = 12 y = 12}	
-				maxValue = 1	#MPU
-				minValue = 0	#MPU
-				stepSize = 0.01	#MPU
-				startValue = 0
+				borderSize = {x = 15 y = 15 }	
+				maxValue = 1	####KDU Komm####
+				minValue = 0	####KDU Komm####
+				stepSize = 0.005	####KDU Komm####
+				startValue = 0.5
 				horizontal = 1
 
 				guiButtonType = {
@@ -188,7 +195,7 @@ guiTypes = {
 			iconType = {
 				name = "sat_slider_background"
 				spriteType = "GFX_sat_slider_background"
-				position = { x = 10 y = 72 }	#MPU
+				position = { x = 10 y = -49 }	####KDU Komm####
 			}
 			
 			scrollbarType = {
@@ -197,10 +204,10 @@ guiTypes = {
 				track= "listboxTrackButton"
 				leftbutton = "downButton"
 				rightbutton = "upButton"
-				size = { x = 232 y = 15 }	#MPU
-				position = { x = -6 y = 72 }	#MPU
+				size = { x = 232 y = 17 }	####KDU Komm####
+				position = { x = -6 y = -50 }	####KDU Komm####
 				priority = 100			
-				borderSize = {x = 12 y = 12 }	
+				borderSize = {x = 15 y = 15 }	
 				maxValue = 1
 				minValue = 0
 				stepSize = 0.01
@@ -237,7 +244,7 @@ guiTypes = {
 			iconType = {
 				name = "val_slider_background"
 				spriteType = "GFX_val_slider_background"
-				position = {x= 10 y = 96 }	#MPU
+				position = {x= 10 y = -19 }	####KDU Komm####
 			}
 			
 			scrollbarType = {
@@ -246,14 +253,14 @@ guiTypes = {
 				track= "listboxTrackButton"
 				leftbutton = "downButton"
 				rightbutton = "upButton"
-				size = {x =232 y =15 }
-				position = { x = -6 y = 96 }	#MPU
+				size = {x =232 y =17 }
+				position = { x = -6 y = -20 }	####KDU Komm####
 				priority = 100			
-				borderSize = {x = 12 y = 12}	
+				borderSize = {x = 15 y = 15 }	
 				maxValue = 1
 				minValue = 0
-				stepSize = 0.01
-				startValue = 0
+				stepSize = 0.001
+				startValue = 0.5
 				horizontal = 1
 
 				guiButtonType = {

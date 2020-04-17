@@ -144,22 +144,22 @@ guiTypes = {
 		iconType ={
 			name ="onmap_digin_icon"
 			spriteType = "GFX_onmap_digin_icon"
-			position = { x=56 y=8 }	#MPU
-			scale = 1.2 #MPU
+			position = { x=56 y=8 }	####KDU Komm####
+			scale = 1.2 ####KDU Komm####
 		}
 
 		# Move Icon
 		iconType ={
 			name ="onmap_action_icon"
 			spriteType = "GFX_onmap_action_icon"
-			position = { x=54 y=7 }	#MPU
+			position = { x=54 y=7 }	####KDU Komm####
 		}
 	}
 
 	containerWindowType = {
 		name = "unit_counter_navy"
 		position = { x=0 y=0 }
-		size = { width = 76 height = 37 }	#MPU
+		size = { width = 76 height = 37 }	####KDU Komm####
 		clipping = no
 
 		buttonType = {
@@ -172,8 +172,8 @@ guiTypes = {
 		### Division Colour Marker
 		iconType ={
 			name ="group_marker"
-			spriteType = "GFX_group_markers_naval"	#MPU
-			position = { x=63 y=2 }	#MPU
+			spriteType = "GFX_group_markers_naval"	####KDU Komm####
+			position = { x=63 y=2 }	####KDU Komm####
 			allwaystransparent = yes
 		}
 
@@ -188,7 +188,7 @@ guiTypes = {
 		iconType = {
 			name = "counter_overlay"
 			spriteType = "GFX_onmap_unit_counter_overlay_navy"
-			position = { x=4 y=4 }	#MPU move
+			position = { x=4 y=4 }	####KDU Komm#### move
 			allwaystransparent = yes
 		}
 
@@ -723,12 +723,12 @@ guiTypes = {
 		name = "air_base_mapicon"
 		#backGround =""
 		position = { x=0 y=0 }
-		size = { width=32 height=30 }	#MPU
+		size = { width=32 height=30 }	####KDU Komm####
 		orientation = upper_left
 		buttonType ={
 			name ="bg_btn"
 			quadTextureSprite = "GFX_mapicon_air_base"
-			position = { x=0 y=0 }	#MPU
+			position = { x=0 y=0 }	####KDU Komm####
 		}
 
 		buttonType ={
@@ -769,10 +769,10 @@ guiTypes = {
 
 		gridboxtype = {
 			name = "wings_box"
-			position = { x = -27 y = 30 }	#MPU
+			position = { x = -27 y = 30 }	####KDU Komm####
 			max_slots_horizontal = 1
 			size = { width = 100%% height = 100%% }
-			slotsize = { width = 76 height = 29 }	#MPU
+			slotsize = { width = 76 height = 29 }	####KDU Komm####
 			format = "UPPER_LEFT"
 		}
 	}

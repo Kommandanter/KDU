@@ -1253,13 +1253,13 @@ guiTypes = {
 		iconType = {
 			name = "bar_planes"
 			spriteType = "GFX_navieslist_bar_planes"
-			position = { x=37 y=19 }	#MPU
+			position = { x=37 y=19 }	####KDU Komm####
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "plane_icon"
 			spriteType = "GFX_NV_XS_plane_icon"
-			position = { x=43 y=22 }	#MPU
+			position = { x=43 y=22 }	####KDU Komm####
 			alwaystransparent = yes
 		}
 		iconType = {

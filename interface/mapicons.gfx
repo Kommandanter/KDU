@@ -315,17 +315,17 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_mapicon_unit_bar_org"
 		texturefile = "gfx/interface/mapicons/mapicon_bar_org_sprite.dds"
-		dx_offset = { x=0.0 y=0.0 }	#MPU
+		dx_offset = { x=0.0 y=0.0 }	####KDU Komm####
 	}
 	spriteType = {
 		name = "GFX_mapicon_unit_bar_str"
 		texturefile = "gfx/interface/mapicons/mapicon_bar_str_sprite.dds"
-		dx_offset = { x=0.0 y=0.0 } #MPU
+		dx_offset = { x=0.0 y=0.0 } ####KDU Komm####
 	}
 		spriteType = {
 		name = "GFX_mapicon_unit_bar_str_air"
 		texturefile = "gfx/interface/mapicons/mapicon_bar_str_sprite_air.dds"
-		dx_offset = { x=0.0 y=-0.5 } #MPU
+		dx_offset = { x=0.0 y=-0.5 } ####KDU Komm####
 	}
 
 	#progressbartype = {
