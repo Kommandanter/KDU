@@ -60,7 +60,7 @@ spriteTypes = {
 		name = "GFX_decisions_glow"
 		texturefile = "gfx/interface/decisionview/decisions_glow.dds"
 		noOfFrames = 2
-		animation_rate_fps = 2
+		animation_rate_fps = 1
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
@@ -239,7 +239,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_topbar_background"
-		texturefile = "gfx//interface//topbar//background.dds"
+		texturefile = "gfx/interface/topbar/background.dds"
 		transparencecheck = yes
 	}
 
