@@ -1183,18 +1183,18 @@ guiTypes = {
 		}
 	}
 	
-	#containerWindowType = {
-	#	name = "gamesetup_custom_gameplay_settings_window"
-	#	position = { x = -339 y = -360 }
-	#	show_position = { x = -150 y = -300 }
-	#	hide_position = { x = -150 y = 10 }
-	#	size = { width = 678 height = 600 }
-	#	Orientation = center
-	#	moveable = yes
-	#	fade_time = 500
-	#	fade_type = linear
-	#	clipping = no
-#
+	containerWindowType = {
+		name = "gamesetup_custom_gameplay_settings_window"
+		position = { x = -339 y = -360 }
+		show_position = { x = -150 y = -300 }
+		hide_position = { x = -150 y = 10 }
+		size = { width = 678 height = 600 }
+		Orientation = center
+		moveable = yes
+		fade_time = 500
+		fade_type = linear
+		clipping = no
+
 	#	background = {
 	#		name = "Background"
 	#		quadTextureSprite = "GFX_tiled_window2_1b_border"
@@ -1555,37 +1555,37 @@ guiTypes = {
 	#	}
 	#}
 	
-	containerWindowType = {
-		name = "game_rule_group_window"
-		size = { width = 636 height = 40 }
-
-		gridboxtype = {
-			name = "game_rule_grid"
-			position = { x = 0 y = 0 }
-			size = { width = 0 height = 0 }
-			slotsize = { width = 100%% height = 40 }
-			max_slots_horizontal = 1
-			format = "UPPER_LEFT"
-		}
-	}
-	
-	containerWindowType = {
-		name ="gamesetup_gameplay_settings_window"
-		position = { x=600 y=-775}	
-		show_position = { x=50 y =-775}
-		animation_type = decelerated
-		animation_time = 3000
-		
-		size = {width=598 height=196}
-		orientation = lower_right
-		origo = lower_right
-	
-		Background = {
-			name = "game_settings_bg"
-			quadTextureSprite = "GFX_tiled_window_w_close"
-		}
-
+	#containerWindowType = {
+	#	name = "game_rule_group_window"
+	#	size = { width = 636 height = 40 }
+#
+	#	gridboxtype = {
+	#		name = "game_rule_grid"
+	#		position = { x = 0 y = 0 }
+	#		size = { width = 0 height = 0 }
+	#		slotsize = { width = 100%% height = 40 }
+	#		max_slots_horizontal = 1
+	#		format = "UPPER_LEFT"
+	#	}
+	#}
+	#
+	#containerWindowType = {
+	#	name ="gamesetup_gameplay_settings_window"
+	#	position = { x=600 y=-775}	
+	#	show_position = { x=50 y =-775}
+	#	animation_type = decelerated
+	#	animation_time = 3000
 	#	
+	#	size = {width=598 height=196}
+	#	orientation = lower_right
+	#	origo = lower_right
+	#
+	#	Background = {
+	#		name = "game_settings_bg"
+	#		quadTextureSprite = "GFX_tiled_window_w_close"
+	#	}
+#
+	##	
 	#	buttonType = {
 	#		name = "custom_settings_btn"
 	#		position = { x = 357 y = 12 }
