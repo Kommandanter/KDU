@@ -4,13 +4,14 @@ guiTypes = {
 	containerWindowType = {
 		name = "action_bar_window"
 		position = {x=-300 y=0}
-		show_position = {x=-300 y=-230}
-		size = { width=435 height=60 }
+		show_position = {x=-200 y=-300}
+		size = { width= 550 height =40 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 0
 		Orientation = center_down
 		clipping = no
+		scale = 0.95
 
 		background = {
 			name = "Background"
@@ -29,7 +30,7 @@ guiTypes = {
 			position = {x=22 y=7}
 			font = "cg_18b"
 			maxWidth = 290
-			maxHeight = 23
+			maxHeight = 34
 			format = left
 			text = "Missions - All taskforces"
 		}
@@ -38,17 +39,17 @@ guiTypes = {
 		iconType = {
 			name = "navy_box_background"
 			quadTextureSprite = "GFX_theatre_naval_control_panel"
-			position = { x = 115 y = 70 }
+			position = { x = 0 y = -40 }
 			frame = 1
 		}
 
 		OverlappingElementsBoxType = {
 			name = "navy_box"
-			position = { x = 120 y = 77 }
-			size = { x = 254 y = 23 }
+			position = { x = 0 y = -34 }
+			size = { x = 300 y = 100 }
 			first_on_top = yes
 			format = left
-			spacing = 8.0
+			spacing = 1
 		}
 
 		@nv_mission_btn_training_x=10
@@ -168,58 +169,58 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		buttonType = {
-			name = "btn_mission5"
-			position = {x=260 y=@nv_mission_btn_y}
-			spriteType = "GFX_NV_btn_mines_planting"
-			shortcut = "b"
-			clicksound = click_default
-		}
-		iconType = {
-			name = "hint_highlight_mission_5"
-			position = {x=260 y=@nv_mission_btn_y}
-			spriteType = "GFX_naval_mission_btn_highlight"
-			alwaystransparent = yes
-			hide = yes
-		}
-		iconType = {
-			name ="btn_mission5_warn"
-			spriteType = "GFX_btn_yellow_glow"
-			position = {x=260 y=@nv_mission_btn_y}
-			alwaystransparent = yes
-		}
+		#buttonType = {
+		#	name = "btn_mission5"
+		#	position = {x=260 y=@nv_mission_btn_y}
+		#	spriteType = "GFX_NV_btn_mines_planting"
+		#	shortcut = "b"
+		#	clicksound = click_default
+		#}
+		#iconType = {
+		#	name = "hint_highlight_mission_5"
+		#	position = {x=260 y=@nv_mission_btn_y}
+		#	spriteType = "GFX_naval_mission_btn_highlight"
+		#	alwaystransparent = yes
+		#	hide = yes
+		#}
+		#iconType = {
+		#	name ="btn_mission5_warn"
+		#	spriteType = "GFX_btn_yellow_glow"
+		#	position = {x=260 y=@nv_mission_btn_y}
+		#	alwaystransparent = yes
+		#}
 
-		buttonType = {
-			name = "btn_mission6"
-			position = {x=310 y=@nv_mission_btn_y}
-			spriteType = "GFX_NV_btn_mines_sweeping"
-			shortcut = "shift+b"
-			clicksound = click_default
-		}
-		iconType = {
-			name = "hint_highlight_mission_6"
-			position = {x=310 y=@nv_mission_btn_y}
-			spriteType = "GFX_naval_mission_btn_highlight"
-			alwaystransparent = yes
-			hide = yes
-		}
-		iconType = {
-			name ="btn_mission6_warn"
-			spriteType = "GFX_btn_yellow_glow"
-			position = {x=310 y=@nv_mission_btn_y}
-			alwaystransparent = yes
-		}
+		#buttonType = {
+		#	name = "btn_mission6"
+		#	position = {x=310 y=@nv_mission_btn_y}
+		#	spriteType = "GFX_NV_btn_mines_sweeping"
+		#	shortcut = "shift+b"
+		#	clicksound = click_default
+		#}
+		#iconType = {
+		#	name = "hint_highlight_mission_6"
+		#	position = {x=310 y=@nv_mission_btn_y}
+		#	spriteType = "GFX_naval_mission_btn_highlight"
+		#	alwaystransparent = yes
+		#	hide = yes
+		#}
+		#iconType = {
+		#	name ="btn_mission6_warn"
+		#	spriteType = "GFX_btn_yellow_glow"
+		#	position = {x=310 y=@nv_mission_btn_y}
+		#	alwaystransparent = yes
+		#}
 
 		buttonType = {
 			name = "btn_mission9"
-			position = {x=360 y=@nv_mission_btn_y}
+			position = {x=260 y=@nv_mission_btn_y}
 			spriteType = "GFX_NV_btn_naval_invasion_support"
 			shortcut = "a"
 			clicksound = click_default
 		}
 		iconType = {
 			name = "hint_highlight_mission_9"
-			position = {x=360 y=@nv_mission_btn_y}
+			position = {x=260 y=@nv_mission_btn_y}
 			spriteType = "GFX_naval_mission_btn_highlight"
 			alwaystransparent = yes
 			hide = yes
@@ -227,24 +228,26 @@ guiTypes = {
 		iconType = {
 			name ="btn_mission9_warn"
 			spriteType = "GFX_btn_yellow_glow"
-			position = {x=360 y=@nv_mission_btn_y}
+			position = {x=260 y=@nv_mission_btn_y}
 			alwaystransparent = yes
 		}
 
 
 		buttonType = {
 			name = "btn_mission0"
-			position = {x=466 y=34}
+			position = {x=450 y=33}
 			spriteType = "GFX_NV_btn_hold"
 			clicksound = click_default
+			scale = 1.2
 		}
 
 		buttonType = {
 			name = "btn_remove_regions"
-			position = {x=496 y=34}
-			spriteType = "GFX_NV_btn_remove_regions"
+			position = {x=485 y=30}
+			spriteType = "GFX_NV_btn_delete"
 			clicksound = click_default
 			shortcut = "DEL"
+			scale = 1.2
 		}
 
 		# hidden shortcut button for the hold mission
@@ -267,19 +270,18 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "naviesview_window"
-		position = {x=-340 y=82}
-		show_position = {x=0 y=82}
-		size = { width=500 height=86%% }
+		position = {x=-0 y=0 }
+		show_position = {x=0 y= 80 }
+		size = { width=520 height=100%% }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 0
 		Orientation = upper_left
 		clipping = no
 
 		background = {
 			name = "Background"
-			spriteType = "GFX_tiled_window_transparent"
-			alwaystransparent = yes
+			spriteType = "GFX_tiled_window_1b_thin_border"
 		}
 
 
@@ -287,11 +289,12 @@ guiTypes = {
 		containerWindowType = {
 			name = "detailed_fleet_list"
 			position = {x=0 y=0}
-			size = {width=528 height=400} # height adapted in code
-			margin = { left=0 top=0 right=22 bottom=0 }
+			size = {width=550 height=200} # height adapted in code
+			margin = { left=2 top=2 right=22 bottom=10 }
 			verticalScrollbar = "right_vertical_slider"
 			Orientation = upper_left
 			clipping = no
+			scale = 1
 
 			background = {
 				name = "Background"
@@ -303,7 +306,7 @@ guiTypes = {
 				position = { x=0 y=0 }
 				size = { width=492 height=100%% }
 				slotsize = { width=100%% height=165 }
-				max_slots_horizontal = 1
+				max_slots_horizontal = 2
 			}
 
 		}
@@ -496,8 +499,8 @@ guiTypes = {
 	containerWindowType = {
 		name = "fleet_view_header"
 		#name = "naviesview_entry"
-		position = {x=0 y=0}
-		size = { width=492 height=166 }
+		position = {x=2 y=0}
+		size = { width=500 height=166 }
 		Orientation = upper_left
 		clipping = no
 
@@ -509,7 +512,7 @@ guiTypes = {
 		iconType = {
 			name = "background_image"
 			spriteType = "GFX_fleet_bg"
-			position = {x=-2 y=2}
+			position = {x=-10 y=2}
 			alwaystransparent = yes
 		}
 
@@ -522,13 +525,13 @@ guiTypes = {
 
 		iconType = {
 			name = "insigna"
-			position = { x=6 y=6 }
-			spriteType = "GFX_theatre_army_shield"
+			position = { x=410 y=6 }
+			spriteType = "GFX_theatre_task_force_shield"
 		}
 
 		editBoxType = {
 			name = "fleet_name"
-			position = {x=70 y=12}
+			position = {x = 20 y=12}
 			font = "cg_18b"
 			size = { x=212 y=23 }
 			text = "FLEET_NAME_HERE"
@@ -536,7 +539,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "taskforce_count"
-			position = {x=318 y=10}
+			position = {x=300 y=10}
 			font = "cg_18b"
 			maxWidth = 90
 			maxHeight = 23
@@ -555,8 +558,8 @@ guiTypes = {
 		buttonType = {
 			name = "btn_fleet_color"
 			quadTextureSprite = "GFX_group_marker3"
-			size = { x = 25 y = 25 }
-			position = { x=461 y = 45}
+			size = { x = 30 y = 30 }
+			position = { x=470 y = 45}
 			pdx_tooltip = "CHOOSE_INSIGNIA"
 			clicksound = click_default
 		}
@@ -813,7 +816,7 @@ guiTypes = {
 		iconType = {
 			name = "insigna"
 			position = { x=36 y=58 }
-			spriteType = "GFX_theatre_army_shield"
+			spriteType = "GFX_theatre_task_force_shield"
 		}
 
 		# insigna inserted by code
@@ -848,7 +851,7 @@ guiTypes = {
 		buttonType = {
 			name = "insigna"
 			position = {x=8 y=5}
-			spriteType = "GFX_theatre_army_shield"
+			spriteType = "GFX_theatre_task_force_shield"
 		}
 
 		iconType = {

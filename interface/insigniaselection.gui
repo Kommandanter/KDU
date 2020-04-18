@@ -120,7 +120,7 @@ guiTypes = {
 				position = { x = -10 y = -7 } ####KDU Komm#### move the icon grid
 				size = { width = 500 height = 600 } ####KDU Komm#### resize the icon grid
 				slotsize = { width = 35 height =40 } ####KDU Komm#### resize the icon slots
-				max_slots_horizontal = 12 ####KDU Komm#### increase the icon slots to 9
+				max_slots_horizontal = 12 ####KDU Komm#### increase to 12
 				format = "UPPER_LEFT"
 			}	
 		}
@@ -293,7 +293,7 @@ guiTypes = {
 
 		checkBoxType = {
 			name = "fleet_color_checkbox"
-			position = { x = 20 y = 400 }
+			position = { x = 20 y = 360 }
 			quadTextureSprite ="GFX_generic_checkbox"
 			Orientation = "UPPER_LEFT"
 			clicksound = click_checkbox
@@ -301,7 +301,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "fleet_color_label"
-			position = { x=60 y=404 }
+			position = { x=60 y=365 }
 			font = "cg_18b"
 			text = "USE_FLEET_COLOR"
 		}
