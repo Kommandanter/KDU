@@ -245,17 +245,17 @@ spriteTypes = {
 		noOfFrames = 3
 	}
 
-	spriteType = {
-		name = "GFX_NV_btn_mines_planting"
-		texturefile = "gfx/interface/naviesview/btn_mines_planting.dds"
-		noOfFrames = 3
-	}
-
-	spriteType = {
-		name = "GFX_NV_btn_mines_sweeping"
-		texturefile = "gfx/interface/naviesview/btn_mines_sweeping.dds"
-		noOfFrames = 3
-	}
+#	spriteType = {
+#		name = "GFX_NV_btn_mines_planting"
+#		texturefile = "gfx/interface/naviesview/btn_mines_planting.dds"
+#		noOfFrames = 3
+#	}
+#
+#	spriteType = {
+#		name = "GFX_NV_btn_mines_sweeping"
+#		texturefile = "gfx/interface/naviesview/btn_mines_sweeping.dds"
+#		noOfFrames = 3
+#	}
 	spriteType = {
 		name = "GFX_NV_btn_naval_invasion_support"
 		texturefile = "gfx/interface/naviesview/btn_invasion.dds"
@@ -497,15 +497,15 @@ spriteTypes = {
 		name = "GFX_naval_region_window_enemy_plane_icon"
 		texturefile = "gfx/interface/strategicnavy/naval_region_enemy_plane_icon.dds"
 	}
-	spriteType = {
-		name = "GFX_naval_region_window_mine_icon"
-		texturefile = "gfx/interface/strategicnavy/naval_region_mine_icon.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_naval_region_window_enemy_mine_icon"
-		texturefile = "gfx/interface/strategicnavy/naval_region_enemy_mine_icon.dds"
-	}
+#	spriteType = {
+#		name = "GFX_naval_region_window_mine_icon"
+#		texturefile = "gfx/interface/strategicnavy/naval_region_mine_icon.dds"
+#	}
+#	
+#	spriteType = {
+#		name = "GFX_naval_region_window_enemy_mine_icon"
+#		texturefile = "gfx/interface/strategicnavy/naval_region_enemy_mine_icon.dds"
+#	}
 
 	spriteType = {
 		name = "GFX_NV_moving_to_combat"

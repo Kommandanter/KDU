@@ -1,23 +1,21 @@
 guiTypes = {
 
 	containerWindowType = {
-		name ="frontend_background"
-		position = { x=0 y =0 }
+		name = "frontend_background"
+		position = { x=0 y=0 }
 		size = {
-			width = 1700
-			height = 950
-			min = { width = 100% height = 100% }
+			width = 1920
+			height = 1440
+			min = { width = 0% height = 0% }
 			preserve_aspect_ratio = yes
+			Orientation = center
+			Origo = center
+			clipping = yes
+			iconType = {
+				name = "frontend_background"
+				spriteType ="GFX_load_dod"
+			}
 		}
-		Orientation = center
-		Origo = center
-		clipping = no 
-
-		background = {
-			name = "Background"
-			quadTextureSprite ="GFX_frontend_bg"
-		}
-	}
 	### MAIN MENU PANEL (upperleft)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
@@ -39,12 +37,10 @@ guiTypes = {
 	#	size = { width = 131 height = 132}
 	#	orientation = lower_left
 	#	origo = lower_left
-	#	iconType =
-	#	{
+	#	iconType ={
 	#		name ="frontend_alpha_stamp"
 	#		spriteType = "GFX_alpha_stamp"
 	#		position = { x= 0 y = 20 }
-	#	}
 	#}
 
 	### MAIN MENU PANEL (upperright)
@@ -82,14 +78,13 @@ guiTypes = {
 	### SINGLE PLAYER MENU
 	containerWindowType = {
 		name = "mainmenu_single_player"
-		position = { x=0 y =0}
+		position = { x=0 y=0 }
 		size = { width = 320 height = 395}
 		Orientation = CENTER
 		Origo = center	
-
-		background = {
-			name = "Background"
-			quadTextureSprite ="GFX_tiled_window"
+		iconType = {
+			name = "frontend_background"
+			spriteType ="GFX_load_dod"
 		}
 
 		ButtonType = {
@@ -214,7 +209,7 @@ guiTypes = {
 			name ="version_label"
 			position = { x = 35 y = 377 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "cg_18b"
 			borderSize = {x = 0 y =10 }
 			text = "ALPHA"
 			format = centre

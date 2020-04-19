@@ -350,7 +350,7 @@ guiTypes = {
 			name = "group_name"
 			position = {x=66 y=10}
 			size = {x=135 y=23}
-			font = "hoi_18"
+			font = "cg_18b"
 			text = ""
 			#maxWidth = 300
 			#maxHeight = 20

@@ -1177,29 +1177,29 @@ guiTypes = {
 
 			@small_status_icon_pos_y = 65
 
-			containerWindowType = {
-				name = "mine_status_container"
-				position = { x=3 y=@small_status_icon_pos_y }
-				size = { width = 28 height = 35 }
-				clipping = no
-				orientation = upper_left
-				
-				iconType ={
-					name ="bg"
-					spriteType = "GFX_naval_mine_icon_bg"
-					position = { x=0 y=0 }
-				}
-				iconType ={
-					name ="progress_ours"
-					spriteType = "GFX_naval_mine_progress_our"
-					position = { x=0 y=15 }
-				}
-				iconType ={
-					name ="progress_enemies"
-					spriteType = "GFX_naval_mine_progress_enemy"
-					position = { x=0 y=19 }
-				}
-			}
+			#containerWindowType = {
+			#	name = "mine_status_container"
+			#	position = { x=3 y=@small_status_icon_pos_y }
+			#	size = { width = 28 height = 35 }
+			#	clipping = no
+			#	orientation = upper_left
+			#	
+			##	iconType ={
+			#		name ="bg"
+			#		spriteType = "GFX_naval_mine_icon_bg"
+			#		position = { x=0 y=0 }
+			#	}
+			#	iconType ={
+			#		name ="progress_ours"
+			#		spriteType = "GFX_naval_mine_progress_our"
+			#		position = { x=0 y=15 }
+			#	}
+			#	iconType ={
+			#		name ="progress_enemies"
+			#		spriteType = "GFX_naval_mine_progress_enemy"
+			#		position = { x=0 y=19 }
+			#	}
+			#}
 
 			containerWindowType = {
 				name = "ongoing_combat_container"

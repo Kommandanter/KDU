@@ -24,7 +24,7 @@ guiTypes = {
 			name ="button"
 			spriteType = "GFX_theatre_army_shield"	
 			position = { x = 0 y = 0 }
-			scale = 0.9
+			scale = 1
 		}
 	}
 	
@@ -83,7 +83,7 @@ guiTypes = {
 				spriteType = "GFX_theatre_army_shield"	
 				position = { x = 370 y = 10 }	####KDU Komm####
 				format = right
-				scale = 1.75
+				scale = 1
 			}
 			
 			
