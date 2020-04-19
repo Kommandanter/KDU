@@ -1327,7 +1327,7 @@ operation_boost_resistance = { ### 8 2/40
 					subtract_from_variable = { boost_resistance_chance = 10 }
 				}
 				FROM.FROM = {
-					add_compliance = -10
+					#add_compliance = -10
 				}
 			}
 			67 = { #normal success

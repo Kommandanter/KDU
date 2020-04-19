@@ -159,9 +159,9 @@ compliance_effect_base = {
 }
 
 compliance_effect = {
-	local_factories = 0.65
-	local_non_core_manpower = 0.18
-	local_resources = 0.60
+	# local_factories = 0.65
+	# local_non_core_manpower = 0.18
+	# local_resources = 0.60
 }
 
 # On States that are owned by a non-core country
@@ -172,9 +172,9 @@ non_core = {
 non_core_controller = {
 	local_building_slots_factor = -0.5
 	
-	local_factories = -0.75
+	#local_factories = -0.75
 	#local_manpower = -0.75
-	local_resources = -0.65
+	#local_resources = -0.65
 }
 
 lacking_consumer_goods = {
@@ -459,7 +459,7 @@ created_intelligence_agency = {
 
 # Modifiers enabled at state level when an operative is assigned to the root out resistance mission
 root_out_resistance_mission_modifier = {
-	resistance_target = -0.1
+	#resistance_target = -0.1
 }
 
 # modifiers active when an operative has the nationality of the nation it is performing a mission in.
