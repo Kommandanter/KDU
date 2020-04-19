@@ -157,45 +157,45 @@ news_event = {
 }
 
 # Plan Vert
-country_event = {
-	id = pfu.32
-	title = pfu.32.t
-	desc = pfu.32.desc
-	picture = GFX_report_event_plan_vert
-
-	is_triggered_only = yes
-
-	option = {
-		name = pfu.32.a
-		14 = {
-			damage_building = { type = air_base damage = 3 }
-			damage_building = { type = infrastructure damage = 2 }
-		}
-		15 = {
-			damage_building = { type = infrastructure damage = 2 }
-			damage_building = { type = air_base damage = 3 }
-		}
-		29 = {
-			damage_building = { type = infrastructure damage = 2 }
-			damage_building = { type = air_base damage = 3 }
-		}
-
-		remove_building = {
-			type = bunker
-			level = 2
-			province = 6449
-		}
-		remove_building = {
-			type = bunker
-			level = 2
-			province = 3552
-		}
-
-		ai_chance = {
-			factor = 100
-		}
-	}
-}
+#country_event = {
+#	id = pfu.32
+#	title = pfu.32.t
+#	desc = pfu.32.desc
+#	picture = GFX_report_event_plan_vert
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = pfu.32.a
+#		14 = {
+#			damage_building = { type = air_base damage = 3 }
+#			damage_building = { type = infrastructure damage = 2 }
+#		}
+#		15 = {
+#			damage_building = { type = infrastructure damage = 2 }
+#			damage_building = { type = air_base damage = 3 }
+#		}
+#		29 = {
+#			damage_building = { type = infrastructure damage = 2 }
+#			damage_building = { type = air_base damage = 3 }
+#		}
+#
+#		remove_building = {
+#			type = bunker
+#			level = 2
+#			province = 6449
+#		}
+#		remove_building = {
+#			type = bunker
+#			level = 2
+#			province = 3552
+#		}
+#
+#		ai_chance = {
+#			factor = 100
+#		}
+#	}
+#}
 
 # This event forces Italy into the war if they haven't already joined and fires 10 days after the Fall of France. Please see: GDU_vichy in on actions. 
 

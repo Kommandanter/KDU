@@ -101,35 +101,35 @@ country_event = {
 
 
 # Germany Agrees to Withdraw Falkenhausen
-country_event = {
-	id = japan.8
-	title = japan.8.t
-	desc = japan.8.d
-	picture = GFX_report_event_german_detained_china
-
-	is_triggered_only = yes
-
-	option = {
-		name = japan.8.a
-	}
-}
-
-# Germany Refuses to Withdraw Falkenhausen
-country_event = {
-	id = japan.9
-	title = japan.9.t
-	desc = japan.9.d
-	picture = GFX_report_event_german_advisors_remain
-
-	is_triggered_only = yes
-
-	option = {
-		name = japan.9.a
-	}
-	#option = { # Withdraw from the Anti-Comintern Pact
-	#	name = japan.9.b
-	#}
-}
+#country_event = {
+#	id = japan.8
+#	title = japan.8.t
+#	desc = japan.8.d
+#	picture = GFX_report_event_german_detained_china
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = japan.8.a
+#	}
+#}
+#
+## Germany Refuses to Withdraw Falkenhausen
+#country_event = {
+#	id = japan.9
+#	title = japan.9.t
+#	desc = japan.9.d
+#	picture = GFX_report_event_german_advisors_remain
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = japan.9.a
+#	}
+#	#option = { # Withdraw from the Anti-Comintern Pact
+#	#	name = japan.9.b
+#	#}
+#}
 
 # USA condemns our war
 country_event = {
@@ -183,13 +183,13 @@ country_event = {
 		}
 	}
 
-	option = {
-		name = japan.12.b
-		ai_chance = { factor = 0 }
-		JAP = {
-			country_event = { id = japan.14 }
-		}
-	}
+#	option = {
+#		name = japan.12.b
+#		ai_chance = { factor = 0 }
+#		JAP = {
+#			country_event = { id = japan.14 }
+#		}
+#	}
 }
 
 # Siam accepts and is puppeted
@@ -208,19 +208,19 @@ country_event = {
 }
 
 # Siam refuses, nations join faction
-country_event = {
-	id = japan.14
-	title = japan.14.t
-	desc = japan.14.d
-	picture = GFX_report_event_japanese_chinese_surrender
-
-	is_triggered_only = yes
-
-	option = {
-		name = japan.14.a
-		add_to_faction = SIA
-	}
-}
+#country_event = {
+#	id = japan.14
+#	title = japan.14.t
+#	desc = japan.14.d
+#	picture = GFX_report_event_japanese_chinese_surrender
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = japan.14.a
+#		add_to_faction = SIA
+#	}
+#}
 
 # Indian national army
 country_event = {

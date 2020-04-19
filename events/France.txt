@@ -786,9 +786,10 @@ country_event = {
         	picture = "Portrait_France_Paul_Reynaud.dds"
         	expire = "1965.1.1"
         	ideology = liberalism
-        	traits = {
-        	      }
-            }
+        #	traits = {
+        #	    # }
+        #}
         set_country_flag = daladier_resigned
       }
+	}
 }

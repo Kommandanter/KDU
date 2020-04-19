@@ -6,129 +6,129 @@ add_namespace = tfv_south_africa
 
 # SAF_secure_interests_in_africa completed
 # South-African National focus
-country_event = {
-	id = tfv_south_africa.1
-	title = tfv_south_africa.1.t	# Ask ENG for control over british South-East Africa strip. 
-	desc = tfv_south_africa.1.d		#
-	picture = GFX_report_event_saf_soldiers					#
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = tfv_south_africa.1.a	# ENG accepts the proposal
-		
-		ai_chance = {
-			base = 80
-
-		}
-		
-		effect_tooltip = {
-			SAF = {
-				transfer_state = 542
-				transfer_state = 545
-				transfer_state = 546
-				transfer_state = 547
-				transfer_state = 548
-			}
-		}
-		hidden_effect = {
-			SAF = {
-				country_event = { id = tfv_south_africa.2 }
-			}
-		}
-	}
-	
-	option = {
-		name = tfv_south_africa.1.b # ENG refuses the proposal
-		
-		ai_chance = {
-			base = 0
-		}
-		
-		hidden_effect = {
-			SAF = {
-				country_event = { id = tfv_south_africa.3 }
-			}
-		}
-	}
-}
-
-#ENG transfers colonies
-country_event = {
-	id = tfv_south_africa.2
-	title = tfv_south_africa.2.t	#
-	desc = tfv_south_africa.2.d		#
-	picture = GFX_report_event_saf_soldiers_2
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = tfv_south_africa.2.a
-
-
-
-		transfer_state = 542
-		hidden_effect = {
-			news_event = { id = news.260 hours = 6 }
-					}
-	}
-		
-	
-}
-#ENG refuses
-country_event = {
-	id = tfv_south_africa.3
-	title = tfv_south_africa.3.t	#
-	desc = tfv_south_africa.3.d		#
-	picture = GFX_report_event_saf_soldiers_3
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = tfv_south_africa.3.a
-	}
-}
-#ENG compromises
-country_event = {
-	id = tfv_south_africa.4
-	title = tfv_south_africa.4.t	#
-	desc = tfv_south_africa.4.d		#
-	picture = GFX_report_event_saf_soldiers					#
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = tfv_south_africa.4.a
-
-
-
-
-
-		SAF = { transfer_state = 542 }
-		hidden_effect = {
-			news_event = { id = news.261 hours = 6 }
-			}
-		}
-
-		
-	}
-
-
-
 #country_event = {
-#	id = tfv_south_africa.13
-#	title = tfv_south_africa.13.t
-#	desc = {
-#		text = tfv_south_africa.13.desc.a # GER denies support
-#		trigger = { NOT = { has_country_flag = GER_sent_support } }
-#	}
-#	desc = {
-#		text = tfv_south_africa.13.desc.b # GER stops support
-#		trigger = { has_country_flag = GER_sent_support }
-#	}
-#	picture = GFX_report_event_military_planning
+#	id = tfv_south_africa.1
+#	title = tfv_south_africa.1.t	# Ask ENG for control over british South-East Africa strip. 
+#	desc = tfv_south_africa.1.d		#
+#	picture = GFX_report_event_saf_soldiers					#
 #	
 #	is_triggered_only = yes
+#	
+#	option = {
+#		name = tfv_south_africa.1.a	# ENG accepts the proposal
+#		
+#		ai_chance = {
+#			base = 80
+#
+#		}
+#		
+#		effect_tooltip = {
+#			SAF = {
+#				transfer_state = 542
+#				transfer_state = 545
+#				transfer_state = 546
+#				transfer_state = 547
+#				transfer_state = 548
+#			}
+#		}
+#		hidden_effect = {
+#			SAF = {
+#				country_event = { id = tfv_south_africa.2 }
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = tfv_south_africa.1.b # ENG refuses the proposal
+#		
+#		ai_chance = {
+#			base = 0
+#		}
+#		
+#		hidden_effect = {
+#			SAF = {
+#				country_event = { id = tfv_south_africa.3 }
+#			}
+#		}
+#	}
+#}
+#
+##ENG transfers colonies
+#country_event = {
+#	id = tfv_south_africa.2
+#	title = tfv_south_africa.2.t	#
+#	desc = tfv_south_africa.2.d		#
+#	picture = GFX_report_event_saf_soldiers_2
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = tfv_south_africa.2.a
+#
+#
+#
+#		transfer_state = 542
+#		hidden_effect = {
+#			news_event = { id = news.260 hours = 6 }
+#					}
+#	}
+#		
+#	
+#}
+##ENG refuses
+#country_event = {
+#	id = tfv_south_africa.3
+#	title = tfv_south_africa.3.t	#
+#	desc = tfv_south_africa.3.d		#
+#	picture = GFX_report_event_saf_soldiers_3
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = tfv_south_africa.3.a
+#	}
+#}
+##ENG compromises
+#country_event = {
+#	id = tfv_south_africa.4
+#	title = tfv_south_africa.4.t	#
+#	desc = tfv_south_africa.4.d		#
+#	picture = GFX_report_event_saf_soldiers					#
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = tfv_south_africa.4.a
+#
+#
+#
+#
+#
+#		SAF = { transfer_state = 542 }
+#		hidden_effect = {
+#			news_event = { id = news.261 hours = 6 }
+#			}
+#		}
+#
+#		
+#	}
+#
+#
+#
+##country_event = {
+##	id = tfv_south_africa.13
+##	title = tfv_south_africa.13.t
+##	desc = {
+##		text = tfv_south_africa.13.desc.a # GER denies support
+##		trigger = { NOT = { has_country_flag = GER_sent_support } }
+##	}
+##	desc = {
+##		text = tfv_south_africa.13.desc.b # GER stops support
+##		trigger = { has_country_flag = GER_sent_support }
+##	}
+##	picture = GFX_report_event_military_planning
+##	
+##	is_triggered_only = yes
 #	
 #	option = {
 #		ai_chance = {

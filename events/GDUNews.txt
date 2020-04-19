@@ -72,7 +72,7 @@ news_event = {
 		}
 	}
 	option = { 
-		name = gdunews.1.f
+		name = gdunews.1.e
 		trigger = { tag = FRA } 
 	}
 }
@@ -184,7 +184,7 @@ country_event = {  ### The Pilecki Report   [The Holocaust]
 		}
 	}
 	option = {
-		name = gdunews.3.rom
+		name = gdunews.3.fascist
 		trigger = { 
 			tag = ROM
 		}

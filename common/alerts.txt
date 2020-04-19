@@ -6,11 +6,11 @@ alerts = {
 	}
 	
 	alert_enemy_air_superiority = {
-		category = HIGH
+		category = MEDIUM
 	}
 
 	alert_low_supply = {
-		category = MEDIUM
+		category = HIGH
 	}
 	alert_very_low_supply = {
 		category = HIGH
@@ -19,13 +19,13 @@ alerts = {
 
 
 	alert_naval_invasion = {
-		category = HIGH
+		category = MEDIUM
 	}
 	alert_dangerous_naval_invasion = {
 		category = HIGH
 	}
 	alert_base_low_supply = {
-		category = MEDIUM
+		category = HIGH
 	}
 	alert_base_very_low_supply = {
 		category = HIGH
@@ -44,7 +44,7 @@ alerts = {
 		category = HIGH
 	} 
 	alert_few_manpower  = {
-		category = HIGH
+		category = LOW
 	}
 	alert_expensive_ships_low_str  = {
 		category = HIGH
@@ -53,41 +53,41 @@ alerts = {
 		category = HIGH
 	}
 	alert_external_influences  = {
-		category = HIGH
+		category = LOW
 	}
 	alert_lack_of_resources  = {
 		category = HIGH
 	}
 	alert_resistance  = {
-		category = HIGH
+		category = LOW
 	}
 	alert_exiled_units  = {
-		category = HIGH
+		category = LOW
 	}
 	
 	alert_deployment_ready = {
-		category = LOW
+		category = HIGH
 	}
 	alert_free_civilian_factories = {
-		category = LOW
+		category = HIGH
 	}
 	alert_free_military_factories = {
-		category = LOW
+		category = HIGH
 	}
 	alert_free_naval_dockyards = {
-		category = LOW
+		category = HIGH
 	}
 	alert_pick_new_idea = {
-		category = LOW
+		category = HIGH
 	}
 	alert_select_focus = {
-		category = LOW
+		category = HIGH
 	}
 	alert_no_equipment_production  = {
-		category = LOW
+		category = HIGH
 	}
 	alert_trade_import_unfullfilled = {
-		category = LOW
+		category = HIGH
 	}
 	alert_expeditionary_force  = {
 		category = LOW
@@ -96,13 +96,13 @@ alerts = {
 		category = LOW
 	}
 	alert_battleplans_with_no_divs = {
-		category = LOW
+		category = HIGH
 	}	
 	alert_volunteer_transfer  = {
 		category = LOW
 	}
 	alert_faction_possible_invite  = {
-		category = LOW
+		category = HIGH
 	}
 	alert_faction_assume_leadership_possible  = {
 		category = LOW
@@ -111,46 +111,46 @@ alerts = {
 		category = LOW
 	}
 	alert_air_reserve_unused  = {
-		category = LOW
+		category = HIGH
 	}
 	alert_air_wings_unassigned  = {
-		category = LOW
+		category = HIGH
 	}
 	alert_blocked_national_focus  = {
 		category = LOW
 	}
 	alert_naval_battle_results  = {
-		category = LOW
+		category = HIGH
 	}
 	alert_not_training_divisions  = {
 		category = LOW
 	}
 	alert_production_no_template  = {
-		category = LOW
+		category = HIGH
 	}
 	alert_naval_convoy_raiding_results  = {
-		category = LOW
+		category = HIGH
 	}
 	alert_paused_diplomatic_actions  = {
-		category = LOW
+		category = HIGH
 	}
 	alert_self_gain_autonomy = {
-		category = HIGH
+		category = LOW
 	}
 	alert_self_lose_autonomy = {
-		category = HIGH
+		category = LOW
 	}
 	alert_subject_lose_autonomy = {
-		category = HIGH
+		category = LOW
 	}
 	alert_subject_gain_autonomy = {
-		category = HIGH
+		category = LOW
 	}
 	alert_border_conflict = {
-		category = HIGH
+		category = LOW
 	}
 	alert_ally_pulling_its_expeditionaries = {
-		category = HIGH
+		category = LOW
 	}
 	alert_enemy_crypto_is_broken = {
 		category = LOW

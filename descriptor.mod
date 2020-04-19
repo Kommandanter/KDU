@@ -6,7 +6,7 @@ tags={
 	"Graphics"
 }
 name="Kommandanter's GDU: Historical Multiplayer Balance Mod (KDU BETA 1.0.2)"
-picture="WARISHELL.jpg"
+picture="WARISHELL.png"
 replace_path="events"
 replace_path="map/strategicregions"
 replace_path="history/states"

@@ -1267,12 +1267,12 @@ country_event = {
 		add_to_faction = HUN
 		add_equipment_to_stockpile = {
 			type = light_tank_equipment_2
-			amount = 1000
+			amount = 500
 			producer = CZE
 		}
 		add_equipment_to_stockpile = {
 			type = medium_tank_equipment_1
-			amount = 500
+			amount = 200
 			producer = CZE
 		}
 		ai_chance = { 
