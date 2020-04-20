@@ -87,9 +87,7 @@ guiTypes = {
 			orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
-	}
-
-
+		
 	containerWindowType = {
 		name = "spirit_modifier_entry_small"
 		size = { width=60 height=66 }
@@ -110,7 +108,7 @@ guiTypes = {
 			orientation = "UPPER_LEFT"
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "focus_entry"
 		size = { width=60 height=80}
@@ -2036,18 +2034,18 @@ guiTypes = {
 				#	shortcut = "RETURN"
 				#}
 				#
-				ButtonType = {
-					name = "play_button_ready"
-					position = { x = -300 y = -100 }
-					spriteType ="GFX_play_button_ready"
-					buttonText = "READY"
-					buttonFont = "hoi_30header"
-					Orientation = "LOWER_RIGHT"
-					#clicksound = start_game_01 # Don't add this here. I intentionally removed it because otherwise the sound is played when the client clicks on Ready/Unready button. The sound should only play when the host starts the game (or when it's SP) which is done in the code.  
-					shortcut = "RETURN"
-					frame = 1
-				}
+			ButtonType = {
+				name = "play_button_ready"
+				position = { x = -300 y = -100 }
+				spriteType ="GFX_play_button_ready"
+				buttonText = "READY"
+				buttonFont = "hoi_30header"
+				Orientation = "LOWER_RIGHT"
+				#clicksound = start_game_01 # Don't add this here. I intentionally removed it because otherwise the sound is played when the client clicks on Ready/Unready button. The sound should only play when the host starts the game (or when it's SP) which is done in the code.  
+				shortcut = "RETURN"
+				frame = 1
 			}
 		}
 	}
 }
+	}}}}

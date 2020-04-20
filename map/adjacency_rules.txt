@@ -8,34 +8,29 @@
 
 #Name is how you refer to the rule in adjecencies.csv
 
-Suez Canal
-adjacency_rule
-{
+#Suez Canal
+adjacency_rule = {
 	name = "SUEZ_CANAL"
 
-	contested =
-	{
+	contested ={
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy ={
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend ={
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral ={
 		army = yes
 		navy = yes
 		submarine = yes
@@ -54,35 +49,29 @@ adjacency_rule
 	icon = 12049
 	offset = { 1 0 -6 }
 }
-
 #Gibraltar Strait
-adjacency_rule
-{
+adjacency_rule ={
 	name = "GIBRALTAR_STRAIT"
 
-	contested =
-	{
+	contested =	{
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy =	{
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend =	{
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral ={
 		army = yes
 		navy = yes
 		submarine = yes
@@ -96,33 +85,28 @@ adjacency_rule
 }
 
 #Øresund - (Østersøen <-> Kattegat/Skagerak/Nordsøen)
-adjacency_rule
-{
+adjacency_rule ={
 	name = "DANISH_BELTS_STRAIT"
 
-	contested =
-	{
+	contested ={
 		army = no
 		navy = no
 		submarine = yes
 		trade = no
 	}
-	enemy =
-	{
+	enemy ={
 		army = no
 		navy = no
-		submarine = no
+		submarine = yes
 		trade = no
 	}
-	friend =
-	{
+	friend ={
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral ={
 		army = yes
 		navy = yes
 		submarine = yes
@@ -136,33 +120,28 @@ adjacency_rule
 }
 
 #Panama Canal
-adjacency_rule
-{
+adjacency_rule ={
 	name = "PANAMA_CANAL"
 
-	contested =
-	{
+	contested ={
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy =	{
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend ={
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral ={
 		army = no
 		navy = no
 		submarine = no
@@ -171,46 +150,40 @@ adjacency_rule
 	
 	required_provinces = { 4624 7617 1633 }
 
-	is_disabled = {
-		OR = {
-			has_global_flag = PANAMA_CANAL_BLOCKED
-			has_country_flag = PANAMA_CANAL_BLOCKED_FOR_COUNTRY
-		}
-		tooltip = disable_canal_tt
-	}
+#	is_disabled = {
+#		OR = {
+#			has_global_flag = PANAMA_CANAL_BLOCKED
+#			has_country_flag = PANAMA_CANAL_BLOCKED_FOR_COUNTRY
+#		}
+#		tooltip = disable_canal_tt
+#	}
 		
 	icon = 7617
 	offset = { -3 0 -2 }
 }
-
 #Turkish Straits
-adjacency_rule
-{
+adjacency_rule ={
 	name = "BOSPHORUS_STRAIT"
 
-	contested =
-	{
+	contested ={
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy =	{
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend ={
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral ={
 		army = no
 		navy = no
 		submarine = no
@@ -224,33 +197,28 @@ adjacency_rule
 }
 
 #Kiel Canal
-adjacency_rule
-{
+adjacency_rule={
 	name = "KIEL_CANAL"
 
-	contested =
-	{
+	contested =	{
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy =	{
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = no
 		navy = no
 		submarine = no
@@ -264,33 +232,28 @@ adjacency_rule
 }
 
 #Gulf of Aden
-adjacency_rule
-{
+adjacency_rule = {
 	name = "ADEN_STRAIT"
 
-	contested =
-	{
+	contested = {
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	enemy =
-	{
+	enemy =	{
 		army = no
 		navy = no
 		submarine = no
 		trade = no
 	}
-	friend =
-	{
+	friend = {
 		army = yes
 		navy = yes
 		submarine = yes
 		trade = yes
 	}
-	neutral =
-	{
+	neutral = {
 		army = yes
 		navy = yes
 		submarine = yes
