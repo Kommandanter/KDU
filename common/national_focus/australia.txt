@@ -571,7 +571,6 @@ focus_tree = {
 		icon = GFX_goal_generic_build_airforce
 		x = 7
 		y = 0 
-		relative_position_id =AST_expand_the_raaf
 		cost = 5
 
 		ai_will_do = {
@@ -2717,7 +2716,7 @@ focus_tree = {
 		prerequisite = { focus = AST_rats_of_tobruk }
 		x = -1
 		y = 3
-		relative_position_id = AST_support_the_policy_of_appeasement
+		relative_position_id = AST_rats_of_tobruk
 
 		cost = 5
 
@@ -2764,7 +2763,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				NOT = { has_completed_focus = AST_the_singapore_strategy } } #ENG can defend its own stuff!
+				NOT = { has_completed_focus = AST_the_singapore_strategy } #ENG can defend its own stuff!
 				factor = 0.2
 			}
 		}
@@ -2984,8 +2983,9 @@ focus_tree = {
 				}
 			}
 		}
-
-		focus = {
+	}
+	
+	focus = {
 		id = AST_empire_air_training_scheme
 		icon = GFX_goal_generic_air_fighter2
 		prerequisite = { focus = AST_CSIR }

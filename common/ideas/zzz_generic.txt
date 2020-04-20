@@ -1094,7 +1094,7 @@ ideas = {
 				NOT = {
 					AND = {
 						OR = {
-							is_literally_china = yes
+							tag = CHI
 							tag = MAN
 						}
 						has_dlc = "Waking the Tiger"
@@ -1363,7 +1363,7 @@ ideas = {
 						has_DLC = "Waking the Tiger"
 						OR = {
 							original_tag = MAN
-							is_literally_china = yes
+							tag = CHI
 						}
 					}
 				}

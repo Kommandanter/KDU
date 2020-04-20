@@ -79,6 +79,8 @@ news_event = {
 ### Note, in order not to have to cut on loc, these news events will be country events.
 country_event = { ### Katyn Massacre 
 	id = gdunews.2002
+	title = gdunews.2.t
+	desc = gdunews.2.d
 	fire_only_once = yes 
 	trigger = {
 		date > 1940.4.2

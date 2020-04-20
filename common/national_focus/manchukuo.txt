@@ -1318,7 +1318,7 @@ focus = {
 			category = armor
 		}
 		custom_effect_tooltip = available_designer
-		show_ideas_tooltip = german_chinese_tank_designer
+		#show_ideas_tooltip = german_chinese_tank_designer
 	}
 }
 

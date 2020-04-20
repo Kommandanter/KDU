@@ -65,7 +65,6 @@ sort_array_by_factions = {
 			}
 			# If government is neutral
 			else = {
-				limit = { is_neutral = yes }
 
 				#Add neutral country to array
 				add_to_array = { global.neutral_countries_array = THIS.id }

@@ -55,18 +55,6 @@ war_measures = {
 	}
 }
 
-USA_war_measures = {
-	icon = GFX_decision_category_usa_war_department
-	allowed = {
-		original_tag = USA
-	}
-	priority = 99
-
-	visible = {
-		original_tag = USA
-	}
-}
-
 
 GER_industry_relocation = {
 
@@ -84,7 +72,6 @@ GER_industry_relocation = {
 		}
 	}
 }
-
 operations = {
 	icon = GFX_decision_category_military_operation
 

@@ -426,7 +426,7 @@ governments_in_exile = {
 			factor = 10
 		}
 	}
-}
+
 
 # category_exile_forces = {
 
