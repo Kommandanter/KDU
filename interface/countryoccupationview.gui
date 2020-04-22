@@ -203,26 +203,27 @@ guiTypes = {
 				position = { x = 102 y = 24 }
 				tooltip = "OCCUPATION_NOT_ALL_COUNTRIES_CAN_HAVE_THIS_LAW"
 			}
-			
-			buttonType = {
-				name = "resistance_tab_button"
-				position = { x = 435 y = 13 }
-				spriteType = "GFX_occupation_resistance_tab_button"
-				tooltip = "OCCUPATION_RESISTANCE_TAB_TOOLTIP"
-				clicksound = click_default
-				frame = 1
-			}
-			
-			buttonType = {
-				name = "compliance_tab_button"
-				position = { x = 480 y = 13 }
-				spriteType = "GFX_occupation_compliance_tab_button"
-				tooltip = "OCCUPATION_COMPLIANCE_TAB_TOOLTIP"
-				clicksound = click_default
-				frame = 2
-			}
+
+#			buttonType = {
+#				name = "resistance_tab_button"
+#				position = { x = 435 y = 13 }
+#				spriteType = "GFX_occupation_resistance_tab_button"
+#				tooltip = "OCCUPATION_RESISTANCE_TAB_TOOLTIP"
+#				clicksound = click_default
+#				frame = 1
+#			}
+#			
+#			buttonType = {
+#				name = "compliance_tab_button"
+#				position = { x = 480 y = 13 }
+#				spriteType = "GFX_occupation_compliance_tab_button"
+#				tooltip = "OCCUPATION_COMPLIANCE_TAB_TOOLTIP"
+#				clicksound = click_default
+#				frame = 2
+#			}
+#		}
 		}
-		
+
 		containerWindowType = {
 			name = "sort_buttons"
 			position = { x = 14 y = 128 }	

@@ -5,6 +5,7 @@ tags={
 	"Gameplay"
 	"Historical"
 }
+picture="thumbnail.png"
 name="Kommandanter's GDU: HoI IV Multiplayer"
 replace_path="events"
 replace_path="map/strategicregions"

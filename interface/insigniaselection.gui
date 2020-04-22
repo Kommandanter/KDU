@@ -82,7 +82,6 @@ guiTypes = {
 				name ="group_icon"
 				spriteType = "GFX_theatre_army_shield"	
 				position = { x = 370 y = 10 }	####KDU Komm####
-				format = right
 				scale = 1
 			}
 			
@@ -137,8 +136,6 @@ guiTypes = {
 				position = { x =100 y = -67 }
 				size = { width = 300 height = 100 }
 				slotsize = { width = 30 height = 30 }
-				format = "CENTER"
-				
 				max_slots_horizontal = 5
 				max_slots_vertical = 2
 			}

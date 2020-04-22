@@ -10,11 +10,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/unitcontrol/battleplantools_planning_bg.dds"
 	}
 
-	spriteType = {
-		name = "GFX_garr_resistance"
-		texturefile = "gfx/interface/unitcontrol/garr_resistance.dds"
-		noOfFrames = 2
-	}
+#	spriteType = {
+#		name = "GFX_garr_resistance"
+#		texturefile = "gfx/interface/unitcontrol/garr_resistance.dds"
+#		noOfFrames = 2
+#	}
 
 	spriteType = {
 		name = "GFX_garr_airbase"

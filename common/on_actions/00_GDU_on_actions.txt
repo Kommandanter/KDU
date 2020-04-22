@@ -532,766 +532,766 @@ on_declare_war = {
 
 	### USA ERNIE KING SCORING SYSTEM ###
 
-on_declare_war = { 
-	effect = { 
-		if = { 
-			limit = {  
-				FROM = { tag = USA } 
-				USA = { has_war_with = JAP }
-			}
-			every_country = {
-				limit = { 
-                    tag = USA
-                }
-				set_variable = { ernieking_score = 0 }
-				set_variable = { usa_capital_weight = 1.5 }
-				set_variable = { usa_carrier_weight = 2 }
-			}
-		} 
-	} 
-}
-
-on_daily = {
-	effect = {			
-			### from sealion score template, we won't want to clear, but instead to add it::: clear_variable = ernieking_score		
-				#reset the sealion score to re-calculate it each day
-				
-			## 81 - Coral Sea ##						
-			# Capitals  1-3 #			
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 81    	# Coral Sea	
-						size > 0			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 81   	# Coral Sea	
-						size < 4			
-					}				
-				}					
-				set_temp_variable = { avgshipcount81 = 1.5 }					
-				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount81 }					
-			}						
-						
-			if = {						
-				limit = {
-					ships_in_area = {				
-						type = carrier			
-						area = 81		# Coral Sea
-						size > 0			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 81		# Coral Sea	
-						size < 4			
-					}				
-				}					
-				set_temp_variable = { avgshipcount81 = 1.5 }					
-				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount81 }					
-			}						
-										
-			# Capitals  4-7 #												
-							
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 81    # Coral Sea			
-						size > 3			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 81    # Coral Sea			
-						size < 8			
-					}				
-				}					
-				set_temp_variable = { avgshipcount81 = 5.5 }					
-				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount81 }					
-			}												
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 81    # Coral Sea			
-						size > 3			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 81    # Coral Sea			
-						size < 8			
-					}				
-				}					
-				set_temp_variable = { avgshipcount81 = 5.5 }					
-				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount81 }					
-			}						
-							
-			# Capitals  8-10 #											
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 81    # Coral Sea			
-						size > 7			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 81    # Coral Sea			
-						size < 11			
-					}				
-				}					
-				set_temp_variable = { avgshipcount81 = 9 }					
-				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount81 }					
-			}												
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 81    # Coral Sea			
-						size > 7			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 81    # Coral Sea			
-						size < 11			
-					}				
-				}					
-				set_temp_variable = { avgshipcount81 = 9 }					
-				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount81 }					
-			}						
-							
-			# Capitals  11-15 #											
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 81    # Coral Sea			
-						size > 10			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 81    # Coral Sea			
-						size < 16			
-					}				
-				}					
-				set_temp_variable = { avgshipcount81 = 13 }					
-				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount81 }					
-			}							
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 81    # Coral Sea			
-						size > 10			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 81    # Coral Sea			
-						size < 16			
-					}				
-				}					
-				set_temp_variable = { avgshipcount81 = 13 }					
-				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount81 }					
-			}						
-									
-			# Capitals  15-20 #				
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 81    # Coral Sea			
-						size > 15			
-					}			
-				}					
-				set_temp_variable = { avgshipcount81 = 17.5 }					
-				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount81 }					
-			}						
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 81   # Coral Sea			
-						size > 15			
-					}				
-				}					
-				set_temp_variable = { avgshipcount81 = 17.5 }					
-				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount81 }					
-			}						
-
-			## 83 - Soloman Sea ##						
-			# Capitals  1-3 #			
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 83    # Soloman Sea		
-						size > 0			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 83   # Soloman Sea	
-						size < 4			
-					}				
-				}					
-				set_temp_variable = { avgshipcount83 = 1.5 }					
-				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount83 }					
-			}						
-						
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 83		# Soloman Sea	
-						size > 0			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 83		# Soloman Sea		
-						size < 4			
-					}				
-				}					
-				set_temp_variable = { avgshipcount83 = 1.5 }					
-				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount83 }					
-			}						
-										
-			# Capitals  4-7 #												
-							
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 83    # Soloman Sea			
-						size > 3			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 83    # Soloman Sea			
-						size < 8			
-					}				
-				}					
-				set_temp_variable = { avgshipcount83 = 5.5 }					
-				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount83 }					
-			}												
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 83    # Soloman Sea			
-						size > 3			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 83    # Soloman Sea			
-						size < 8			
-					}				
-				}					
-				set_temp_variable = { avgshipcount83 = 5.5 }					
-				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount83 }					
-			}						
-							
-			# Capitals  8-10 #											
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 83    # Soloman Sea			
-						size > 7			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 83    # Soloman Sea			
-						size < 11			
-					}				
-				}					
-				set_temp_variable = { avgshipcount83 = 9 }					
-				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount83 }					
-			}												
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 83    # Soloman Sea			
-						size > 7			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 83    # Soloman Sea			
-						size < 11			
-					}				
-				}					
-				set_temp_variable = { avgshipcount83 = 9 }					
-				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount83 }					
-			}						
-							
-			# Capitals  11-15 #											
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 83    # Soloman Sea			
-						size > 10			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 83    # Soloman Sea			
-						size < 16			
-					}				
-				}					
-				set_temp_variable = { avgshipcount83 = 13 }					
-				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount83 }					
-			}							
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 83    # Soloman Sea			
-						size > 10			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 83    # Soloman Sea			
-						size < 16		
-					}				
-				}					
-				set_temp_variable = { avgshipcount83 = 13 }					
-				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount83 }					
-			}						
-									
-			# Capitals  15-20 #				
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 83    # Soloman Sea			
-						size > 15			
-					}
-				}
-				set_temp_variable = { avgshipcount83 = 17.5 }					
-				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount83 }					
-			}						
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 83   # Soloman Sea			
-						size > 15			
-					}
-				}
-				set_temp_variable = { avgshipcount83 = 17.5 }					
-				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount83 }					
-			}						
-
-			## 84 - Bismark ##						
-			# Capitals  1-3 #			
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 84    	# Bismark Sea	
-						size > 0			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 84   	# Bismark Sea	
-						size < 4			
-					}				
-				}					
-				set_temp_variable = { avgshipcount84 = 1.5 }					
-				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount84 }					
-			}						
-						
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 84		# Bismark Sea
-						size > 0			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 84		# Bismark Sea	
-						size < 4			
-					}				
-				}					
-				set_temp_variable = { avgshipcount84 = 1.5 }					
-				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount84 }					
-			}						
-										
-			# Capitals  4-7 #												
-							
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 84    # Bismark Sea			
-						size > 3			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 84    # Bismark Sea			
-						size < 8			
-					}				
-				}					
-				set_temp_variable = { avgshipcount84 = 5.5 }					
-				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount84 }					
-			}												
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 84    # Bismark Sea			
-						size > 3			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 84    # Bismark Sea			
-						size < 8			
-					}				
-				}					
-				set_temp_variable = { avgshipcount84 = 5.5 }					
-				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount84 }					
-			}						
-							
-			# Capitals  8-10 #											
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 84    # Bismark Sea			
-						size > 7			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 84    # Bismark Sea			
-						size < 11			
-					}				
-				}					
-				set_temp_variable = { avgshipcount84 = 9 }					
-				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount84 }					
-			}												
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 84    # Bismark Sea			
-						size > 7			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 84    # Bismark Sea			
-						size < 11			
-					}				
-				}					
-				set_temp_variable = { avgshipcount84 = 9 }					
-				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount84 }					
-			}						
-							
-			# Capitals  11-15 #											
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 84    # Bismark Sea			
-						size > 10			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 84    # Bismark Sea			
-						size < 16			
-					}				
-				}					
-				set_temp_variable = { avgshipcount84 = 13 }					
-				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount84 }					
-			}							
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 84    # Bismark Sea			
-						size > 10			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 84    # Bismark Sea			
-						size < 16			
-					}				
-				}					
-				set_temp_variable = { avgshipcount84 = 13 }					
-				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount84 }					
-			}						
-									
-			# Capitals  15-20 #				
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 84    # Bismark Sea			
-						size > 15			
-					}								
-				}					
-				set_temp_variable = { avgshipcount84 = 17.5 }					
-				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount84 }					
-			}						
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 84   # Bismark Sea			
-						size > 15			
-					}								
-				}					
-				set_temp_variable = { avgshipcount84 = 17.5 }					
-				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount84 }					
-			}
-
-			## 93 - Java Sea ##						
-			# Capitals  1-3 #			
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 93    	# Java Sea	
-						size > 0			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 93   	# Java Sea	
-						size < 4			
-					}				
-				}					
-				set_temp_variable = { avgshipcount93 = 1.5 }					
-				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount93 }					
-			}						
-						
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 93		# Java Sea
-						size > 0			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 93		# Java Sea	
-						size < 4			
-					}				
-				}					
-				set_temp_variable = { avgshipcount93 = 1.5 }					
-				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount93 }					
-			}						
-										
-			# Capitals  4-7 #												
-							
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 93    # Java Sea			
-						size > 3			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 93    # Java Sea			
-						size < 8			
-					}				
-				}					
-				set_temp_variable = { avgshipcount93 = 5.5 }					
-				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount93 }					
-			}												
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 93    # Java Sea			
-						size > 3			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 93    # Java Sea			
-						size < 8			
-					}				
-				}					
-				set_temp_variable = { avgshipcount93 = 5.5 }					
-				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount93 }					
-			}						
-							
-			# Capitals  8-10 #											
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 93    # Java Sea			
-						size > 7			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 93    # Java Sea			
-						size < 11			
-					}				
-				}					
-				set_temp_variable = { avgshipcount93 = 9 }					
-				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount93 }					
-			}												
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 93    # Java Sea			
-						size > 7			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 93    # Java Sea			
-						size < 11			
-					}				
-				}					
-				set_temp_variable = { avgshipcount93 = 9 }					
-				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount93 }					
-			}						
-							
-			# Capitals  11-15 #											
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 93    # Java Sea			
-						size > 10			
-					}				
-					ships_in_area = {				
-						type = capital_ship			
-						area = 93    # Java Sea			
-						size < 16			
-					}				
-				}					
-				set_temp_variable = { avgshipcount93 = 13 }					
-				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount93 }					
-			}							
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 93    # Java Sea			
-						size > 10			
-					}				
-					ships_in_area = {				
-						type = carrier 			
-						area = 93    # Java Sea			
-						size < 16			
-					}				
-				}					
-				set_temp_variable = { avgshipcount93 = 13 }					
-				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount93 }					
-			}						
-									
-			# Capitals  15-20 #				
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = capital_ship			
-						area = 93    # Java Sea			
-						size > 15			
-					}								
-				}					
-				set_temp_variable = { avgshipcount93 = 17.5 }					
-				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
-				add_to_variable = { ernieking_score = avgshipcount93 }					
-			}						
-									
-			if = {						
-				limit = {					
-					ships_in_area = {				
-						type = carrier			
-						area = 93   # Java Sea			
-						size > 15			
-					}								
-				}					
-				set_temp_variable = { avgshipcount93 = 17.5 }					
-				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
-				add_to_variable = { ernieking_score = avgshipcount93 }					
-			}
-			
-			# divide the ErnieKing_score by a normalizing value
-
-			#set_temp_variable = { tempking = ernieking_score }
-			#divide_temp_variable = { tempking = 13.33 }
-
-			#set_variable = { ernieking_score = tempking }
-
-			#clamp_variable = {
-			#	var = ernieking_score
-			#	min = 0
-			#	max = 200
-			#}
-			#round_variable = ernieking_score
-
-	}
-}
+#on_declare_war = { 
+#	effect = { 
+#		if = { 
+#			limit = {  
+#				FROM = { tag = USA } 
+#				USA = { has_war_with = JAP }
+#			}
+#			every_country = {
+#				limit = { 
+#                    tag = USA
+#                }
+#				set_variable = { ernieking_score = 0 }
+#				set_variable = { usa_capital_weight = 1.5 }
+#				set_variable = { usa_carrier_weight = 2 }
+#			}
+#		} 
+#	} 
+#}
+#
+#on_daily = {
+#	effect = {			
+#			### from sealion score template, we won't want to clear, but instead to add it::: clear_variable = ernieking_score		
+#				#reset the sealion score to re-calculate it each day
+#				
+#			## 81 - Coral Sea ##						
+#			# Capitals  1-3 #			
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 81    	# Coral Sea	
+#						size > 0			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 81   	# Coral Sea	
+#						size < 4			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount81 = 1.5 }					
+#				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount81 }					
+#			}						
+#						
+#			if = {						
+#				limit = {
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 81		# Coral Sea
+#						size > 0			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 81		# Coral Sea	
+#						size < 4			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount81 = 1.5 }					
+#				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount81 }					
+#			}						
+#										
+#			# Capitals  4-7 #												
+#							
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 81    # Coral Sea			
+#						size > 3			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 81    # Coral Sea			
+#						size < 8			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount81 = 5.5 }					
+#				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount81 }					
+#			}												
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 81    # Coral Sea			
+#						size > 3			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 81    # Coral Sea			
+#						size < 8			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount81 = 5.5 }					
+#				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount81 }					
+#			}						
+#							
+#			# Capitals  8-10 #											
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 81    # Coral Sea			
+#						size > 7			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 81    # Coral Sea			
+#						size < 11			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount81 = 9 }					
+#				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount81 }					
+#			}												
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 81    # Coral Sea			
+#						size > 7			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 81    # Coral Sea			
+#						size < 11			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount81 = 9 }					
+#				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount81 }					
+#			}						
+#							
+#			# Capitals  11-15 #											
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 81    # Coral Sea			
+#						size > 10			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 81    # Coral Sea			
+#						size < 16			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount81 = 13 }					
+#				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount81 }					
+#			}							
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 81    # Coral Sea			
+#						size > 10			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 81    # Coral Sea			
+#						size < 16			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount81 = 13 }					
+#				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount81 }					
+#			}						
+#									
+#			# Capitals  15-20 #				
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 81    # Coral Sea			
+#						size > 15			
+#					}			
+#				}					
+#				set_temp_variable = { avgshipcount81 = 17.5 }					
+#				multiply_temp_variable = { avgshipcount81 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount81 }					
+#			}						
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 81   # Coral Sea			
+#						size > 15			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount81 = 17.5 }					
+#				multiply_temp_variable = { avgshipcount81 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount81 }					
+#			}						
+#
+#			## 83 - Soloman Sea ##						
+#			# Capitals  1-3 #			
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 83    # Soloman Sea		
+#						size > 0			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 83   # Soloman Sea	
+#						size < 4			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount83 = 1.5 }					
+#				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount83 }					
+#			}						
+#						
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 83		# Soloman Sea	
+#						size > 0			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 83		# Soloman Sea		
+#						size < 4			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount83 = 1.5 }					
+#				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount83 }					
+#			}						
+#										
+#			# Capitals  4-7 #												
+#							
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 83    # Soloman Sea			
+#						size > 3			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 83    # Soloman Sea			
+#						size < 8			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount83 = 5.5 }					
+#				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount83 }					
+#			}												
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 83    # Soloman Sea			
+#						size > 3			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 83    # Soloman Sea			
+#						size < 8			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount83 = 5.5 }					
+#				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount83 }					
+#			}						
+#							
+#			# Capitals  8-10 #											
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 83    # Soloman Sea			
+#						size > 7			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 83    # Soloman Sea			
+#						size < 11			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount83 = 9 }					
+#				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount83 }					
+#			}												
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 83    # Soloman Sea			
+#						size > 7			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 83    # Soloman Sea			
+#						size < 11			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount83 = 9 }					
+#				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount83 }					
+#			}						
+#							
+#			# Capitals  11-15 #											
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 83    # Soloman Sea			
+#						size > 10			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 83    # Soloman Sea			
+#						size < 16			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount83 = 13 }					
+#				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount83 }					
+#			}							
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 83    # Soloman Sea			
+#						size > 10			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 83    # Soloman Sea			
+#						size < 16		
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount83 = 13 }					
+#				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount83 }					
+#			}						
+#									
+#			# Capitals  15-20 #				
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 83    # Soloman Sea			
+#						size > 15			
+#					}
+#				}
+#				set_temp_variable = { avgshipcount83 = 17.5 }					
+#				multiply_temp_variable = { avgshipcount83 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount83 }					
+#			}						
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 83   # Soloman Sea			
+#						size > 15			
+#					}
+#				}
+#				set_temp_variable = { avgshipcount83 = 17.5 }					
+#				multiply_temp_variable = { avgshipcount83 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount83 }					
+#			}						
+#
+#			## 84 - Bismark ##						
+#			# Capitals  1-3 #			
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 84    	# Bismark Sea	
+#						size > 0			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 84   	# Bismark Sea	
+#						size < 4			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount84 = 1.5 }					
+#				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount84 }					
+#			}						
+#						
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 84		# Bismark Sea
+#						size > 0			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 84		# Bismark Sea	
+#						size < 4			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount84 = 1.5 }					
+#				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount84 }					
+#			}						
+#										
+#			# Capitals  4-7 #												
+#							
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 84    # Bismark Sea			
+#						size > 3			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 84    # Bismark Sea			
+#						size < 8			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount84 = 5.5 }					
+#				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount84 }					
+#			}												
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 84    # Bismark Sea			
+#						size > 3			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 84    # Bismark Sea			
+#						size < 8			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount84 = 5.5 }					
+#				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount84 }					
+#			}						
+#							
+#			# Capitals  8-10 #											
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 84    # Bismark Sea			
+#						size > 7			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 84    # Bismark Sea			
+#						size < 11			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount84 = 9 }					
+#				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount84 }					
+#			}												
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 84    # Bismark Sea			
+#						size > 7			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 84    # Bismark Sea			
+#						size < 11			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount84 = 9 }					
+#				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount84 }					
+#			}						
+#							
+#			# Capitals  11-15 #											
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 84    # Bismark Sea			
+#						size > 10			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 84    # Bismark Sea			
+#						size < 16			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount84 = 13 }					
+#				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount84 }					
+#			}							
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 84    # Bismark Sea			
+#						size > 10			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 84    # Bismark Sea			
+#						size < 16			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount84 = 13 }					
+#				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount84 }					
+#			}						
+#									
+#			# Capitals  15-20 #				
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 84    # Bismark Sea			
+#						size > 15			
+#					}								
+#				}					
+#				set_temp_variable = { avgshipcount84 = 17.5 }					
+#				multiply_temp_variable = { avgshipcount84 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount84 }					
+#			}						
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 84   # Bismark Sea			
+#						size > 15			
+#					}								
+#				}					
+#				set_temp_variable = { avgshipcount84 = 17.5 }					
+#				multiply_temp_variable = { avgshipcount84 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount84 }					
+#			}
+#
+#			## 93 - Java Sea ##						
+#			# Capitals  1-3 #			
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 93    	# Java Sea	
+#						size > 0			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 93   	# Java Sea	
+#						size < 4			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount93 = 1.5 }					
+#				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount93 }					
+#			}						
+#						
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 93		# Java Sea
+#						size > 0			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 93		# Java Sea	
+#						size < 4			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount93 = 1.5 }					
+#				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount93 }					
+#			}						
+#										
+#			# Capitals  4-7 #												
+#							
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 93    # Java Sea			
+#						size > 3			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 93    # Java Sea			
+#						size < 8			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount93 = 5.5 }					
+#				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount93 }					
+#			}												
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 93    # Java Sea			
+#						size > 3			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 93    # Java Sea			
+#						size < 8			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount93 = 5.5 }					
+#				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount93 }					
+#			}						
+#							
+#			# Capitals  8-10 #											
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 93    # Java Sea			
+#						size > 7			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 93    # Java Sea			
+#						size < 11			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount93 = 9 }					
+#				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount93 }					
+#			}												
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 93    # Java Sea			
+#						size > 7			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 93    # Java Sea			
+#						size < 11			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount93 = 9 }					
+#				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount93 }					
+#			}						
+#							
+#			# Capitals  11-15 #											
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 93    # Java Sea			
+#						size > 10			
+#					}				
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 93    # Java Sea			
+#						size < 16			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount93 = 13 }					
+#				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount93 }					
+#			}							
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 93    # Java Sea			
+#						size > 10			
+#					}				
+#					ships_in_area = {				
+#						type = carrier 			
+#						area = 93    # Java Sea			
+#						size < 16			
+#					}				
+#				}					
+#				set_temp_variable = { avgshipcount93 = 13 }					
+#				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount93 }					
+#			}						
+#									
+#			# Capitals  15-20 #				
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = capital_ship			
+#						area = 93    # Java Sea			
+#						size > 15			
+#					}								
+#				}					
+#				set_temp_variable = { avgshipcount93 = 17.5 }					
+#				multiply_temp_variable = { avgshipcount93 = usa_capital_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount93 }					
+#			}						
+#									
+#			if = {						
+#				limit = {					
+#					ships_in_area = {				
+#						type = carrier			
+#						area = 93   # Java Sea			
+#						size > 15			
+#					}								
+#				}					
+#				set_temp_variable = { avgshipcount93 = 17.5 }					
+#				multiply_temp_variable = { avgshipcount93 = usa_carrier_weight }					
+#				add_to_variable = { ernieking_score = avgshipcount93 }					
+#			}
+#			
+#			# divide the ErnieKing_score by a normalizing value
+#
+#			#set_temp_variable = { tempking = ernieking_score }
+#			#divide_temp_variable = { tempking = 13.33 }
+#
+#			#set_variable = { ernieking_score = tempking }
+#
+#			#clamp_variable = {
+#			#	var = ernieking_score
+#			#	min = 0
+#			#	max = 200
+#			#}
+#			#round_variable = ernieking_score
+#
+#	}
+#}
 
 
 	#THIS PREVENTS USA FROM JOINING THE ALLIES UNTIL IT IS EITHER 1941 OR UNLESS A SEALION HAS TAKEN AT LEAST 1 STATE IN THE UK. This prevents various cheesy stuff that is possible with pre-war military access/docking rights
