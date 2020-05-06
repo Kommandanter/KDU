@@ -6,7 +6,7 @@ tags={
 	"Historical"
 }
 picture="thumbnail.png"
-name=Kommandanter`s GDU: Historical Multiplayer Balance Mod (KDU BETA 1.1)
+name="Kommandanter`s GDU: Historical Multiplayer Balance Mod (KDU)"
 replace_path="events"
 replace_path="map/strategicregions"
 replace_path="history/states"
@@ -27,3 +27,4 @@ replace_path="common/national_focus"
 replace_path="common/scripted_effects"
 replace_path="common/units/names_divisions"
 supported_version="1.9.1"
+remote_file_id="2086660551"
