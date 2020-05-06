@@ -150,7 +150,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "leader_attacker_name"
 				position = {x=24 y=168}
-				font = "hoi_18mbs"
+				font = "cg_18b"
 				text = "Supreme Leader"
 				maxWidth = 200
 				maxHeight = 25
@@ -160,7 +160,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "leader_defender_name"
 				position = {x=-216 y=168}
-				font = "hoi_18mbs"
+				font = "cg_18b"
 				text = "Supreme Leader"
 				maxWidth = 200
 				maxHeight = 25
@@ -171,7 +171,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "leader_attacker_ships_count"
 				position = {x=21 y=162}
-				font = "hoi_18mbs"
+				font = "cg_18b"
 				maxWidth = 86
 				maxHeight = 23
 				format = center
@@ -180,7 +180,7 @@ guiTypes = {
 				name = "leader_defender_ships_count"
 				position = {x=-100 y=162}
 				Orientation = "UPPER_RIGHT"
-				font = "hoi_18mbs"
+				font = "cg_18b"
 				maxWidth = 86
 				maxHeight = 23
 				format = center
@@ -213,7 +213,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "leader_stat_attack_text"
 					position = {x=0 y=25}
-					font = "hoi_16mbs"
+					font = "cg_16b"
 					maxWidth = 30
 					maxHeight = 23
 					format = center
@@ -229,7 +229,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "leader_stat_defense_text"
 					position = {x=20 y=25}
-					font = "hoi_16mbs"
+					font = "cg_16b"
 					maxWidth = 30
 					maxHeight = 23
 					format = center
@@ -245,7 +245,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "leader_stat_maneuvering_text"
 					position = {x=40 y=25}
-					font = "hoi_16mbs"
+					font = "cg_16b"
 					maxWidth = 30
 					maxHeight = 23
 					format = center
@@ -261,7 +261,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "leader_stat_coordination_text"
 					position = {x=60 y=25}
-					font = "hoi_16mbs"
+					font = "cg_16b"
 					maxWidth = 30
 					maxHeight = 23
 					format = center
@@ -286,7 +286,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "leader_stat_attack_text"
 					position = {x=52 y=25}
-					font = "hoi_16mbs"
+					font = "cg_16b"
 					maxWidth = 30
 					maxHeight = 23
 					format = center
@@ -302,7 +302,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "leader_stat_defense_text"
 					position = {x=32 y=25}
-					font = "hoi_16mbs"
+					font = "cg_16b"
 					maxWidth = 30
 					maxHeight = 23
 					format = center
@@ -318,7 +318,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "leader_stat_maneuvering_text"
 					position = {x=12 y=25}
-					font = "hoi_16mbs"
+					font = "cg_16b"
 					maxWidth = 30
 					maxHeight = 23
 					format = center
@@ -334,7 +334,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "leader_stat_coordination_text"
 					position = {x=-10 y=25}
-					font = "hoi_16mbs"
+					font = "cg_16b"
 					maxWidth = 30
 					maxHeight = 23
 					format = center
@@ -374,7 +374,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="stat_depth_charges"
 					position = { x= -6 y = 36 }
-					font = "hoi_18mbs"
+					font = "cg_18b"
 					text = "123"
 					format = center
 					maxWidth = 46
@@ -393,7 +393,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="stat_anti_air"
 					position = { x= 34 y = 36 }
-					font = "hoi_18mbs"
+					font = "cg_18b"
 					text = "123"
 					format = center
 					maxWidth = 46
@@ -412,7 +412,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="stat_torpedo"
 					position = { x= 74 y = 36 }
-					font = "hoi_18mbs"
+					font = "cg_18b"
 					text = "123"
 					format = center
 					maxWidth = 46
@@ -431,7 +431,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="stat_heavy_gun"
 					position = { x= 113 y = 36 }
-					font = "hoi_18mbs"
+					font = "cg_18b"
 					text = "123"
 					format = center
 					maxWidth = 46
@@ -450,7 +450,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="stat_light_gun"
 					position = { x= 153 y = 36 }
-					font = "hoi_18mbs"
+					font = "cg_18b"
 					text = "123"
 					format = center
 					maxWidth = 46
@@ -469,7 +469,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="stat_positioning"
 					position = { x= 197 y = 36 }
-					font = "hoi_18mbs"
+					font = "cg_18b"
 					text = "123"
 					format = center
 					maxWidth = 46
@@ -496,7 +496,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="stat_depth_charges"
 					position = { x= 729 y = 36 }
-					font = "hoi_18mbs"
+					font = "cg_18b"
 					text = "123"
 					format = center
 					maxWidth = 46
@@ -515,7 +515,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="stat_anti_air"
 					position = { x= 688 y = 36 }
-					font = "hoi_18mbs"
+					font = "cg_18b"
 					text = "123"
 					format = center
 					maxWidth = 46
@@ -534,7 +534,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="stat_torpedo"
 					position = { x= 648 y = 36 }
-					font = "hoi_18mbs"
+					font = "cg_18b"
 					text = "123"
 					format = center
 					maxWidth = 46
@@ -553,7 +553,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="stat_heavy_gun"
 					position = { x= 608 y = 36 }
-					font = "hoi_18mbs"
+					font = "cg_18b"
 					text = "123"
 					format = center
 					maxWidth = 46
@@ -572,7 +572,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="stat_light_gun"
 					position = { x= 569 y = 36 }
-					font = "hoi_18mbs"
+					font = "cg_18b"
 					text = "123"
 					format = center
 					maxWidth = 46
@@ -591,7 +591,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name ="stat_positioning"
 					position = { x= 525 y = 36 }
-					font = "hoi_18mbs"
+					font = "cg_18b"
 					text = "123"
 					format = center
 					maxWidth = 46
@@ -951,7 +951,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="left_wnd_capital_screening_efficiency"
 			position = { x= 375 y = 240 }
-			font = "hoi_18mbs"
+			font = "cg_18b"
 			text = "100%"
 			format = center
 			maxWidth = 46
@@ -970,7 +970,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="left_wnd_carrier_screening_efficiency"
 			position = { x= 230 y = 240 }
-			font = "hoi_18mbs"
+			font = "cg_18b"
 			text = "100%"
 			format = center
 			maxWidth = 46
@@ -990,7 +990,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="right_wnd_capital_screening_efficiency"
 			position = { x= 634 y = 240 }
-			font = "hoi_18mbs"
+			font = "cg_18b"
 			text = "100%"
 			format = center
 			maxWidth = 46
@@ -1010,7 +1010,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="right_wnd_carrier_screening_efficiency"
 			position = { x= 779 y = 240 }
-			font = "hoi_18mbs"
+			font = "cg_18b"
 			text = "100%"
 			format = center
 			maxWidth = 46
@@ -1050,7 +1050,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "desc_left"   # text set in code to either "flag" or "number"
 			position = {x=-8 y=0}
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			maxWidth = 105
 			maxHeight = 14
 			format = left
@@ -1060,7 +1060,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "desc_right"  # text set in code to either "flag" or "number"
 			position = {x=8 y=0} # x calculated in code
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			maxWidth = 105
 			maxHeight = 14
 			format = right

@@ -6,7 +6,7 @@ tags={
 	"Historical"
 }
 picture="thumbnail.png"
-name="Kommandanter's GDU: HoI IV Multiplayer"
+name=Kommandanter`s GDU: Historical Multiplayer Balance Mod (KDU BETA 1.1)
 replace_path="events"
 replace_path="map/strategicregions"
 replace_path="history/states"

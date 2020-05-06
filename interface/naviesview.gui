@@ -526,7 +526,7 @@ guiTypes = {
 		iconType = {
 			name = "insigna"
 			position = { x=410 y=6 }
-			spriteType = "GFX_theatre_task_force_shield"
+			spriteType = "GFX_theatre_army_shield"
 		}
 
 		editBoxType = {
@@ -594,7 +594,7 @@ guiTypes = {
 #		instantTextboxType = {
 #			name = "home_base"
 #			position = {x=108 y=135}
-#			font = "hoi_18b"
+#			font = "cg_18b"
 #			maxWidth = 181
 #			maxHeight = 23
 #			format = left
@@ -1227,7 +1227,7 @@ guiTypes = {
 		# NOTE: placeholder, replaced in code
 		buttonType = {
 			name = "task_force_insignia"
-			quadTextureSprite = "GFX_theatre_army_shield"
+			quadTextureSprite = "GFX_theatre_task_force_shield"
 			position = { x=450 y=8 }
 			orientation = "UPPER_LEFT"
 			frame = 6
@@ -1901,7 +1901,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 180 y = 8 }
-			font = "hoi4_typewriter16"
+			font = "cg_18b"
 			text = "USS Enterprise"
 			maxWidth = 250
 			maxHeight = 20
@@ -1912,27 +1912,25 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "navy_theater_fleet_item_small"
-		position = { x=100 y=0 }
-		size = { width=31 height=31 }
+		position = { x=0 y=0 }
+		size = { width=33 height=32 }
 
 		iconType = {
 			name = "navy_item_btn"
 			spriteType = "GFX_NV_btn_base"
-			position = { x=0 y=-2 }
+			position = { x=3 y=1 }
 		}
 
 		buttonType = {
 			name ="navy_item_bg"
-			quadTextureSprite = "GFX_theatre_army_shield"
-			position = { x = 3 y = 1 }
-			scale = 0.72
+			quadTextureSprite = "GFX_theatre_task_force_shield"
+			position = { x = 0 y = 0 }
 		}
 
 		iconType = {
 			name ="navy_item_frame"
 			quadTextureSprite = "GFX_theatre_army_shield_selected"
 			position = { x = 3 y = 1 }
-			scale = 0.72
 			alwaystransparent = yes
 		}
 
@@ -2060,7 +2058,7 @@ guiTypes = {
 			name = "outdated_equipment_label"
 			position = { x = -315 y = 19 }
 			textureFile = ""
-			font = "hoi_20b"
+			font = "cg_18b"
 			borderSize = {x = 0 y = 0}
 			text = "OUTDATED_EQ"
 			maxWidth = 200
@@ -2074,7 +2072,7 @@ guiTypes = {
 			name = "description"
 			position = { x = 20 y = 50 }
 			textureFile = ""
-			font = "hoi_20b"
+			font = "cg_18b"
 			borderSize = {x = 0 y = 0}
 			text = "REFIT_DESCRIPTION"
 			maxWidth = 455
@@ -2088,7 +2086,7 @@ guiTypes = {
 			name = "no_matches"
 			position = { x = 95 y = 100 }
 			textureFile = ""
-			font = "hoi_20b"
+			font = "cg_18b"
 			borderSize = {x = 0 y = 0}
 			text = "REFIT_NO_SHARED_MATCHES"
 			maxWidth = 301

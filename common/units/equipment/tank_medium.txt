@@ -52,7 +52,7 @@ equipments = {
 	medium_tank_equipment_1 = {
 		year = 1939
 
-		is_archetype = yes
+		archetype = medium_tank_equipment
 		priority = 50
 		is_convertable = yes
 	}
@@ -93,8 +93,8 @@ equipments = {
 	medium_tank_equipment_3 = {
 		year = 1943
 
-		is_archetype = yes
-		family = medium_tank_equipment_3
+		archetype = medium_tank_equipment
+		parent = medium_tank_equipment_2
 		priority = 50
 		is_convertable = yes
 		

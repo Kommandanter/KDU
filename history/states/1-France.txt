@@ -1,5 +1,5 @@
 
-state={
+state= {
 	id=1
 	name="STATE_1" # Corsica
 	manpower = 322900
@@ -20,7 +20,7 @@ state={
 		add_core_of = FRA
 	}
 
-	provinces={
+	provinces= {
 		3838 9851 11804
 	}
 }

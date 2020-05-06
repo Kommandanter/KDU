@@ -134,7 +134,7 @@
  turn_news_off_gduguides_decisions:0 "GDU Guides - OFF"
  
  # News Events Themselves
- gdunews.1.t:0 "WAR!\n\GERMAN TROOPS INVADE POLAND -WARSAW BOMBED."
+ gdunews.1.t:0 "WAR! GERMAN TROOPS INVADE POLAND -WARSAW BOMBED."
  gdunews.1.d:0 "After the Great War, French Marshal Ferdinand Foch remarked that the Treaty of Versailles was not a peace, but an armistice for twenty years.\n\nAlthough he didn't live to see it, he was right. Hitler's German Reich has invaded Poland to allegedly reclaim Danzig, an aggressive move quickly responded to by declarations of war on Germany by France, the United Kingdom, and its Commonwealth in Poland's defense.\n\nMartial law has been declared in France, civilian planes in Germany are grounded, and children in London are being evacuated to the countryside. Once more, the world ignites."
  gdunews.1.a:0 "They'll pay for humiliating us!"
  gdunews.1.b:0 "No more appeasement! This insanity must stop!"

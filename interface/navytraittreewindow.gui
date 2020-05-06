@@ -44,7 +44,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 119 y = 69 }
-			font = "hoi_20b"
+			font = "Arial_14_No_boundary_Bold_inverted"
 			text_color_code = b
 			text = "General"
 			maxWidth = 150
@@ -55,7 +55,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 119 y = 85 }
-			font = "hoi4_typewriter16"
+			font = "Arial_14_No_boundary_Bold_inverted"
 			text = "Engin Mercan"
 			maxWidth = 150
 			maxHeight = 20
@@ -82,7 +82,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "skill"
 			position = { x = 76 y = 80 }
-			font = "hoi_30header"
+			font = "hoi_36header"
 			text = "5"
 			maxWidth = 50
 			maxHeight = 18
@@ -100,7 +100,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_stat_attack"
 			position = {x=141 y=125}
-			font = "cg_18b"
+			font = "Arial_14_No_boundary_Bold_inverted"
 			maxWidth = 30
 			maxHeight = 26
 			format = center
@@ -118,7 +118,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_stat_defense"
 			position = {x=166 y=125}
-			font = "cg_18b"
+			font = "Arial_14_No_boundary_Bold_inverted"
 			maxWidth = 30
 			maxHeight = 26
 			format = center
@@ -136,7 +136,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_stat_maneuvering"
 			position = {x=192 y=125}
-			font = "cg_18b"
+			font = "Arial_14_No_boundary_Bold_inverted"
 			maxWidth = 30
 			maxHeight = 26
 			format = center
@@ -154,7 +154,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_stat_coordination"
 			position = {x=217 y=125}
-			font = "cg_18b"
+			font = "Arial_14_No_boundary_Bold_inverted"
 			maxWidth = 30
 			maxHeight = 26
 			format = center
@@ -206,7 +206,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "personal_traits_text"
 					position = { x = -16 y = -6 }
-					font = "hoi_20b"
+					font = "Arial_14_No_boundary_Bold_inverted"
 					text_color_code = b
 					text = "background"
 					maxWidth = 272
@@ -230,7 +230,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "traits_title_text"
 					position = { x = -16 y = -8 }
-					font = "hoi_20b"
+					font = "Arial_16"
 					text_color_code = b
 					text = "traits"
 					maxWidth = 272
@@ -255,7 +255,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = {x=35 y=4}
-					font = "hoi_20b"
+					font = "cg_18b"
 					text_color_code = b
 					maxWidth = 175
 					maxHeight = 20
@@ -280,7 +280,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = {x=35 y=4}
-					font = "hoi_20b"
+					font = "cg_18b"
 					text_color_code = b
 					maxWidth = 175
 					maxHeight = 20
@@ -306,7 +306,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = {x=35 y=4}
-					font = "hoi_20b"
+					font = "cg_18b"
 					text_color_code = b
 					maxWidth = 175
 					maxHeight = 20
@@ -331,7 +331,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = {x=35 y=4}
-					font = "hoi_20b"
+					font = "cg_18b"
 					text_color_code = b
 					maxWidth = 175
 					maxHeight = 20

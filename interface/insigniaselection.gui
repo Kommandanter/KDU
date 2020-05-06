@@ -118,7 +118,7 @@ guiTypes = {
 				name = "item_grid"
 				position = { x = -10 y = -7 } ####KDU Komm#### move the icon grid
 				size = { width = 500 height = 600 } ####KDU Komm#### resize the icon grid
-				slotsize = { width = 35 height =40 } ####KDU Komm#### resize the icon slots
+				slotsize = { width = 35 height= 40 } ####KDU Komm#### resize the icon slots
 				max_slots_horizontal = 12 ####KDU Komm#### increase to 12
 				format = "UPPER_LEFT"
 			}	

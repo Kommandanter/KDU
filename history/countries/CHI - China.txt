@@ -12,7 +12,7 @@ if = {
 	}
 }
 add_ideas = {
-	turkish_neutrality
+#	turkish_neutrality
 	free_trade
 }
 # Starting tech
@@ -48,10 +48,10 @@ if = {
 	}
 }
 
-add_ideas = {
-	german_advisors
-	CHI_primitive_shipindustry
-}
+#add_ideas = {
+#	german_advisors
+#	CHI_primitive_shipindustry
+#}
 
 save_global_event_target_as = WTT_current_china_leader
 set_convoys = 80
@@ -61,11 +61,11 @@ if = {
 		has_dlc = "Waking the Tiger"
 	}		
 	add_ideas = {
-		CHI_army_corruption_1
-		CHI_ineffective_bureaucracy
-		CHI_incompetent_officers
+#		CHI_army_corruption_1
+#		CHI_ineffective_bureaucracy
+#		CHI_incompetent_officers
 		free_trade
-		CHI_hyper_inflation_1
+#		CHI_hyper_inflation_1
 	}
 }
 save_global_event_target_as = WTT_current_china_leader

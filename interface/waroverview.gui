@@ -503,7 +503,7 @@ guiTypes = {
 			position = { x= 400 y = 3 }
 			quadTextureSprite = "GFX_button_123x34"
 			font = "cg_18b"
-			buttonText = "CALL"
+			buttonText = "Call Allies"
 							
 		}
 	}

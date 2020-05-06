@@ -1,0 +1,332 @@
+bitmapfonts = {
+
+	bitmapfont_override = { #Unknown
+		name = "ToolTip_Font"
+		fontfiles = { 
+			"gfx/fonts/Arial_14"	
+		}
+	languages = { "l_english" } 
+	}	
+	
+	bitmapfont_override = { #Unknown
+		name = "mapfont_small"
+		fontfiles = { 
+			"gfx/fonts/Arial_18"	
+		}
+	languages = { "l_english" } 
+	}	
+		
+	bitmapfont_override = { #Unknown
+		name = "AnimatedMapText"
+		fontfiles = { 
+			"gfx/fonts/Arial_16"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = { #Unknown
+		name = "Main_24"
+		fontfiles = { 
+			"gfx/fonts/Arial_20"	
+		}
+	languages = { "l_english" }
+	}
+	
+	bitmapfont_override = { #Unknown
+		name = "messagelog"
+		fontfiles = { 
+			"gfx/fonts/Arial_12"	
+		}
+	languages = { "l_english" } 
+	}		
+		
+	bitmapfont_override = { #Unknown
+		name = "Main_16"
+		fontfiles = { 
+			"gfx/fonts/Arial_14"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = { #Font for Counting number of army and navy
+		name = "Main_14"
+		fontfiles = { 
+			"gfx/fonts/Arial_14"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = { #Unknown
+		name = "Main_14_black"
+		fontfiles = { 
+			"gfx/fonts/Arial_14"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = { #Unknown
+		name = "Main_14_bold"
+		fontfiles = { 
+			"gfx/fonts/Arial_14"	
+		}		
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = { #Unknown
+		name = "Main_14_eu"
+		fontfiles = { 
+			"gfx/fonts/Arial_14"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = { #Unknown
+		name = "vic_18"
+		fontfiles = { 
+			"gfx/fonts/Arial_14"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = { #Unknown
+		name = "vic_18s"
+		fontfiles = { 
+			"gfx/fonts/Arial_14"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = { #Unknown
+		name = "vic_22"
+		fontfiles = { 
+			"gfx/fonts/Arial_16"	
+		}
+	languages = { "l_english" } 
+	}
+			
+	bitmapfont_override = { #Unknown
+		name = "vic_36"
+		fontfiles = { 
+			"gfx/fonts/Arial_24"		
+		}		
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = { #Font for buttons and historical character name and description
+		name = "hoi_16mbs"
+		fontfiles = { 
+			"gfx/fonts/Arial_14"
+		}		
+	languages = { "l_english" } 
+	}			
+	
+	bitmapfont_override = { #Font for army division and navy type ship name
+		name = "hoi_18"
+		fontfiles = { 
+			"gfx/fonts/Arial_14"	
+		}	
+	languages = { "l_english" } 
+	}			
+	
+	bitmapfont_override = { #Font for version of Hoi4 and Number of consumer factory
+		name = "hoi_18b"
+		fontfiles = { 
+			"gfx/fonts/Arial_14"		
+		}			
+	languages = { "l_english" } 
+	}			
+	
+	bitmapfont_override = { #Font for button on main page, topbar number and ship name
+		name = "hoi_18mbs"
+		fontfiles = { 
+			"gfx/fonts/Arial_14_No_boundary"	
+		}	
+	languages = { "l_english" } 
+	}			
+	
+	bitmapfont_override = { #Font for countries name, title on main page and header of general's skill
+		name = "hoi_20b"
+		fontfiles = { 
+			"gfx/fonts/Arial_16_No_boundary"	
+		}		
+	languages = { "l_english" } 
+	}		
+		
+	bitmapfont_override = { #Font for individual country description on country selection page
+		name = "hoi_20bs"
+		fontfiles = { 	
+			"gfx/fonts/Arial_16"	
+		}		
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = { #Font for scenario description on main page, Intelligence
+		name = "hoi4_typewriter16"
+		fontfiles = { 	
+			"gfx/fonts/Arial_14_No_boundary"	
+		}		
+	languages = { "l_english" } 
+	}			
+
+	bitmapfont_override = { #Font for tech value, unit's statistic value
+		name = "hoi4_typewriter16_inverted"
+		fontfiles = { 	
+			"gfx/fonts/Arial_14_No_boundary_Bold_inverted"	
+		}		
+	languages = { "l_english" } 
+	}
+
+	bitmapfont_override = { #Font for title of scenario description, Unit statistic's title
+		name = "hoi4_typewriter22"
+		fontfiles = { 
+			"gfx/fonts/Arial_16_No_boundary"	
+		}		
+	languages = { "l_english" } 
+	}	
+			
+	bitmapfont_override = { #Font for main page button
+		name = "hoi_24header"
+		fontfiles = { 	
+			"gfx/fonts/Arial_16"	
+		}		
+	languages = { "l_english" } 
+	}			
+	
+	bitmapfont_override = { #Font for general's skill level
+		name = "hoi_30header"
+		fontfiles = { 
+			"gfx/fonts/Arial_22"	
+		}		
+	languages = { "l_english" } 
+	}			
+	
+	bitmapfont_override = { #Font for policy header, province's name and tech year
+		name = "hoi_36header"
+		fontfiles = { 
+			"gfx/fonts/Arial_24"	
+		}	
+	languages = { "l_english" } 
+	}	
+	
+	bitmapfont_override = { #Font for tech header
+		name = "hoi_22tech"
+		fontfiles = { 	
+			"gfx/fonts/Arial_20"	
+		}		
+	languages = { "l_english" } 
+	}	
+	
+	bitmapfont_override = { #Font for tech header
+		name = "hoi_33"
+		fontfiles = { 
+			"gfx/fonts/Arial_24"		
+		}		
+	languages = { "l_english" } 
+	}	
+	
+	bitmapfont_override = { #Unknown
+		name = "hoi_33w"
+		fontfiles = { 
+			"gfx/fonts/Arial_26"		
+		}		
+	languages = { "l_english" } 
+	}	
+	
+	bitmapfont_override = {
+		name = "hoi_arrow_font" #Font for offensive planner
+		fontfiles = { 
+			"gfx/fonts/Arial_36"	
+		}		
+	languages = { "l_english" } 
+	}	
+	
+	bitmapfont_override = { #Unknown
+		name = "Arial12"
+		fontfiles = { 
+			"gfx/fonts/Arial_12"
+		}
+	languages = { "l_english" } 
+	}	
+	
+	bitmapfont_override = { #Unknown
+		name = "Arial14"
+		fontfiles = { 
+			"gfx/fonts/Arial_14"
+		}
+	languages = { "l_english" } 
+	}
+
+
+	bitmapfont_override = { #Unknown
+		name = "FPS_Font"
+		fontfiles = { 
+			"gfx/fonts/Arial_12"
+		}
+	languages = { "l_english" } 
+	}	
+	
+	bitmapfont_override = { #Font for floating textbox
+		name = "cg_16b"
+		fontfiles = { 
+			"gfx/fonts/cg_16b"					
+		}			
+	languages = { "l_english" } 
+	}
+
+	bitmapfont_override = {
+		name = "loadscreen_header"
+		fontfiles = { 
+			"gfx/fonts/Arial_30"
+		}		
+	languages = { "l_english" } 
+	}
+
+	bitmapfont_override = {
+		name = "loadscreen_tip"
+		fontfiles = { 
+			"gfx/fonts/Arial_30"
+		}		
+	languages = { "l_english" } 
+	}
+
+	bitmapfont_override = {
+		name = "tahoma_60"
+		fontfiles = { 
+			"gfx/fonts/tahoma_60"		
+		}			
+	languages = { "l_english" } 
+	}
+
+	bitmapfont_override = {
+		name = "ledger"
+		fontfiles = { 
+			"gfx/fonts/Arial_12"
+		}
+	languages = { "l_english" } 
+	}
+
+	bitmapfont_override = {
+		name = "ledger_headline"
+		fontfiles = { 
+			"gfx/fonts/Arial_14"
+		}
+	languages = { "l_english" } 
+	}
+
+	bitmapfont_override = {
+		name = "garamond_12"
+		fontfiles = { 
+			"gfx/fonts/Arial_12"
+		}
+	languages = { "l_english" } 
+	}
+	
+	bitmapfont_override = { #Font for tech value, unit's statistic value
+		name = "Arial_14_No_boundary_Bold_inverted"
+		fontfiles = { 	
+			"gfx/fonts/Arial_14_No_boundary_Bold_inverted"	
+		}		
+	languages = { "l_english" } 
+	}
+
+}

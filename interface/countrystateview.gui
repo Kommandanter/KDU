@@ -47,7 +47,7 @@ guiTypes = {
 				name = "state_name"
 				position = { x = 60 y = 5 }
 				textureFile = ""
-				font = "vic_36s"
+				font = "vic_36_black"
 				text = "STATE_NAME_TEST"
 				maxWidth = 320
 				maxHeight = 30
@@ -234,7 +234,7 @@ guiTypes = {
 			# 			name = "select_law_button"
 			# 			position = { x = 0 y = 68 }
 			# 			quadTextureSprite = "GFX_occupation_state_select_law_button"
-			# 			buttonFont = "hoi_18mbs"
+			# 			buttonFont = "cg_18b"
 			# 			Orientation = "UPPER_LEFT"
 			# 		}
 
@@ -255,7 +255,7 @@ guiTypes = {
 			# 		instantTextBoxType = {
 			# 			name ="template_need_text"
 			# 			position = { x = 100 y = 75 }
-			# 			font = "hoi_16mbs"
+			# 			font = "cg_16b"
 			# 			text = "42"
 			# 			maxWidth = 57
 			# 			maxHeight = 24
@@ -441,7 +441,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "level"
 			position = { x = 45 y = 14 }
-			font = "hoi_20b"
+			font = "cg_18b"
 			maxWidth = 100
 			maxHeight = 20
 			format = center
@@ -522,7 +522,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "level"
 			position = { x = 45 y = 14 }
-			font = "hoi_20b"
+			font = "cg_18b"
 			maxWidth = 100
 			maxHeight = 100
 			format = center
@@ -559,7 +559,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "amount"
 			position = { x = 66 y = 15 }
-			font = "hoi_20b"
+			font = "cg_18b"
 			maxWidth = 37
 			maxHeight = 18
 			format = center
@@ -587,7 +587,7 @@ guiTypes = {
 	# 	instantTextBoxType = {
 	# 		name ="progress_text"
 	# 		position = { x = 4 y = 0 }
-	# 		font = "hoi_18mbs"
+	# 		font = "cg_18b"
 	# 		text = "100%"
 	# 		maxWidth = 80
 	# 		format = center
@@ -615,7 +615,7 @@ guiTypes = {
 	# 	instantTextBoxType = {
 	# 		name ="progress_text"
 	# 		position = { x = 4 y = 0 }
-	# 		font = "hoi_18mbs"
+	# 		font = "cg_18b"
 	# 		text = "100%"
 	# 		maxWidth = 80
 	# 		format = center

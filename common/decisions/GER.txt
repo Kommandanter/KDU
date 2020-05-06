@@ -29,7 +29,7 @@ GER_mefo_bills_category = {
 
 		days_remove = GER_extend_mefo_bills_days?0
 		remove_effect = {
-			GER_mefo_bills_level_up = yes
+#			GER_mefo_bills_level_up = yes
 			if = {
 				limit = {
 					check_variable = { var = GER_mefo_bill_counter value = 15 compare = less_than }
@@ -46,9 +46,9 @@ GER_mefo_bills_category = {
 		complete_effect = {
 				custom_effect_tooltip = GER_mefo_bills_mission_tt
 				custom_effect_tooltip = GER_mefo_bills_effect_in_days
-				effect_tooltip = {
-					GER_mefo_bills_level_up = yes
-				}
+#				effect_tooltip = {
+#					GER_mefo_bills_level_up = yes
+#				}
 			hidden_effect = {
 				set_variable = { GER_extend_mefo_bills_days = days_mission_timeout@GER_mefo_bills_mission }
 			}
@@ -60,7 +60,7 @@ GER_mefo_bills_category = {
 			hidden_effect = {
 				set_variable = { GER_extend_mefo_bills_days = days_mission_timeout@GER_mefo_bills_mission }
 			}
-			GER_mefo_bills_level_up = yes
+#			GER_mefo_bills_level_up = yes
 			if = {
 				limit = {
 					check_variable = { var = GER_mefo_bill_counter value = 15 compare = less_than }

@@ -2015,7 +2015,6 @@ focus_tree = {
 		id = HUN_home_defense
 		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = HUN_army_maneuvers }
-		mutually_exclusive = { focus = HUN_mobile_focus }
 		x = 2
 		y = 1
 		relative_position_id = HUN_army_maneuvers

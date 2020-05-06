@@ -1,6 +1,6 @@
 equipments = {
 
-	heavy_tank_equipment_0 = {
+	heavy_tank_equipment = {
 		year = 1934
 
 		is_archetype = yes
@@ -60,7 +60,8 @@ equipments = {
 	heavy_tank_equipment_2 = {
 		year = 1941
 
-		is_archetype = yes
+		archetype = heavy_tank_equipment
+		parent = heavy_tank_equipment_1
 		priority = 90
 		is_convertable = yes
 

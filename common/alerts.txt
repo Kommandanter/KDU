@@ -58,9 +58,9 @@ alerts = {
 	alert_lack_of_resources  = {
 		category = HIGH
 	}
-	alert_resistance  = {
-		category = LOW
-	}
+#	alert_resistance  = {
+#		category = LOW
+#	}
 	alert_exiled_units  = {
 		category = LOW
 	}
@@ -152,16 +152,16 @@ alerts = {
 	alert_ally_pulling_its_expeditionaries = {
 		category = LOW
 	}
-	alert_enemy_crypto_is_broken = {
-		category = LOW
-	}
-	alert_no_crypto_is_being_decrypted = {
-		category = LOW
-	}
-	alert_not_enough_garrison = {
-		category = HIGH
-	}
-	alert_operative_ready_to_recruit = {
-		category = MEDIUM
-	}
+#	alert_enemy_crypto_is_broken = {
+#		category = LOW
+#	}
+#	alert_no_crypto_is_being_decrypted = {
+#		category = LOW
+#	}
+#	alert_not_enough_garrison = {
+#		category = HIGH
+#	}
+#	alert_operative_ready_to_recruit = {
+#		category = MEDIUM
+#	}
 }

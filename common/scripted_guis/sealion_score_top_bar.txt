@@ -8,10 +8,7 @@ scripted_gui = {
 		visible = {
 			tag = ENG
 		}
-		
-
 	}
-    
 }
 
 #scripted_gui = {
